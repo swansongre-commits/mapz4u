@@ -1,21 +1,64 @@
 {
-  "current_phase": 1,
+  "current_phase": 2,
   "started_at": "2026-07-04",
   "mode": "MIXED",
   "embed_tier": 3,
   "maps_assets": true,
   "gates": {
-    "G0": "PASS", "G1": "PASS", "G2": null, "G3": null, "G4": null,
-    "G5": null, "G6": null, "G7": null, "G8": null
+    "G0": "PASS",
+    "G1": "PASS",
+    "G2": "PASS",
+    "G3": null,
+    "G4": null,
+    "G5": null,
+    "G6": null,
+    "G7": null,
+    "G8": null
   },
   "fallbacks_triggered": [
-    {"phase": 1, "item": "행동 엣지(recommandList)", "reason": "data4library API 미활성", "action": "SEED 규칙상 미생성, 의미 엣지만 사용"},
-    {"phase": 1, "item": "체험/행사/도서", "reason": "키 서비스 미활성", "action": "OSM Overpass(실데이터 139건) + SEED 보강"}
+    {
+      "phase": 1,
+      "item": "행동 엣지(recommandList)",
+      "reason": "data4library API 미활성",
+      "action": "SEED 규칙상 미생성, 의미 엣지만 사용"
+    },
+    {
+      "phase": 1,
+      "item": "체험/행사/도서",
+      "reason": "키 서비스 미활성",
+      "action": "OSM Overpass(실데이터 139건) + SEED 보강"
+    }
   ],
   "phases": {
-    "0": {"status": "done"},
-    "1": {"status": "done"}, "2": {"status": "pending"}, "3": {"status": "pending"},
-    "4": {"status": "pending"}, "5": {"status": "pending"}, "6": {"status": "pending"},
-    "7": {"status": "pending"}, "8": {"status": "pending"}, "9": {"status": "pending"}
+    "0": {
+      "status": "done"
+    },
+    "1": {
+      "status": "done"
+    },
+    "2": {
+      "status": "done"
+    },
+    "3": {
+      "status": "pending"
+    },
+    "4": {
+      "status": "pending"
+    },
+    "5": {
+      "status": "pending"
+    },
+    "6": {
+      "status": "pending"
+    },
+    "7": {
+      "status": "pending"
+    },
+    "8": {
+      "status": "pending"
+    },
+    "9": {
+      "status": "pending"
+    }
   }
 }

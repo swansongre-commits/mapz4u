@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>맵즈 — 검색</title>
+<link rel="stylesheet" href="/static/style.css">
+
+</head>
+<body>
+<header class="site"><div class="wrap">
+<a class="brand" href="/">맵즈<small>어린이 체험지도</small></a>
+<nav class="tabs">
+<a href="/" aria-current="page">🔍 검색</a>
+<a href="/topic/dino">🏛️ 주제관</a>
+<a href="/map">🗺️ 지도</a>
+<a href="/discover">✨ 발견</a>
+</nav></div></header>
+<main class="wrap">
+
+<p class="hint">아이가 좋아하는 걸 그대로 검색해 보세요. "쥬라기", "별", "곤충"처럼요.</p>
+<form class="searchbar" method="get" action="/" id="searchForm">
+<input type="search" name="q" value="" placeholder="무엇에 관심 있어요? (예: 쥬라기, 로봇, 나비)" aria-label="검색어">
+<button class="btn" type="submit">찾기</button>
+</form>
+<form class="chips" role="group" aria-label="부모 필터" method="get" action="/" id="filterForm">
+<input type="hidden" name="q" value="">
+<label class="chip" aria-pressed="false">
+<input type="checkbox" name="indoor" value="1" hidden  onchange="this.form.submit()">🏠 실내</label>
+<label class="chip" aria-pressed="false">
+<input type="checkbox" name="free" value="1" hidden  onchange="this.form.submit()">💰 무료</label>
+<label class="chip" aria-pressed="false">
+<input type="checkbox" name="week" value="1" hidden  onchange="this.form.submit()">📅 이번 주</label>
+<span class="chip" style="gap:6px">📍 <input type="text" name="region" value="" placeholder="지역(예: 서울)" aria-label="지역" style="border:0;background:transparent;min-width:90px;font-size:.95rem" onchange="this.form.submit()"></span>
+</form>
+<p class="section-note">관심이 있으면 깊게 검색하고, 없으면 아래 그림에서 골라 둘러봐요.</p>
+<div class="tiles">
+
+<a class="tile" data-topic="dino" href="/topic/dino"><span class="emoji">🦕</span><span class="label">공룡</span></a>
+
+<a class="tile" data-topic="space" href="/topic/space"><span class="emoji">🚀</span><span class="label">우주</span></a>
+
+<a class="tile" data-topic="animal" href="/topic/animal"><span class="emoji">🐾</span><span class="label">동물</span></a>
+
+<a class="tile" data-topic="robot" href="/topic/robot"><span class="emoji">🤖</span><span class="label">로봇</span></a>
+
+<a class="tile" data-topic="art" href="/topic/art"><span class="emoji">🎨</span><span class="label">그림</span></a>
+
+</div>
+
+<h2 class="section-title">가까운 체험처 미리보기</h2>
+<div class="cards">
+<article class="card">
+<h3>계룡산자연사박물관</h3>
+<div class="meta"><span>📍 충남 공주</span><span>💰 성인 9000원 어린이 6000원</span>
+<span>🏠 실내</span><span>🕒 09:30-18:00</span></div>
+<div class="meta"><span>예약 필요</span>
+<span class="age">권장 전연령 (참고)</span></div>
+<div class="meta"><span class="verified">최종 확인 2026-07-04</span> <span class="badge-seed">표본(검증 필요)</span></div>
+<div class="cta-row"><a class="btn" href="https://www.openstreetmap.org/?mlat=36.3389&amp;mlon=127.2069#map=17/36.3389/127.2069" target="_blank" rel="noopener">길찾기 →</a>
+<a class="btn ghost" href="/topic/dino">주제 더보기</a></div>
+</article><article class="card">
+<h3>해남공룡박물관</h3>
+<div class="meta"><span>📍 전남 해남</span><span>💰 성인 5000원 어린이 3000원</span>
+<span>🏠 실내</span><span>🕒 09:00-18:00</span></div>
+<div class="meta"><span>예약 필요</span>
+<span class="age">권장 전연령 (참고)</span></div>
+<div class="meta"><span class="verified">최종 확인 2026-07-04</span> <span class="badge-seed">표본(검증 필요)</span></div>
+<div class="cta-row"><a class="btn" href="https://www.openstreetmap.org/?mlat=34.4586&amp;mlon=126.4419#map=17/34.4586/126.4419" target="_blank" rel="noopener">길찾기 →</a>
+<a class="btn ghost" href="/topic/dino">주제 더보기</a></div>
+</article><article class="card">
+<h3>고성공룡박물관</h3>
+<div class="meta"><span>📍 경남 고성</span><span>💰 성인 3000원 어린이 1500원</span>
+<span>🏠 실내</span><span>🕒 09:00-18:00</span></div>
+<div class="meta"><span>예약 필요</span>
+<span class="age">권장 전연령 (참고)</span></div>
+<div class="meta"><span class="verified">최종 확인 2026-07-04</span> <span class="badge-seed">표본(검증 필요)</span></div>
+<div class="cta-row"><a class="btn" href="https://www.openstreetmap.org/?mlat=34.9754&amp;mlon=128.3122#map=17/34.9754/128.3122" target="_blank" rel="noopener">길찾기 →</a>
+<a class="btn ghost" href="/topic/dino">주제 더보기</a></div>
+</article><article class="card">
+<h3>서대문자연사박물관</h3>
+<div class="meta"><span>📍 서울 서대문</span><span>💰 성인 6000원 어린이 3000원</span>
+<span>🏠 실내</span><span>🕒 09:00-18:00</span></div>
+<div class="meta"><span>예약 필요</span>
+<span class="age">권장 전연령 (참고)</span></div>
+<div class="meta"><span class="verified">최종 확인 2026-07-04</span> <span class="badge-seed">표본(검증 필요)</span></div>
+<div class="cta-row"><a class="btn" href="https://www.openstreetmap.org/?mlat=37.5789&amp;mlon=126.934#map=17/37.5789/126.934" target="_blank" rel="noopener">길찾기 →</a>
+<a class="btn ghost" href="/topic/dino">주제 더보기</a></div>
+</article>
+</div>
+
+
+</main>
+<footer class="site">맵즈 — 어린이 체험지도 · 공영 중립 · 표본(검증 필요) 데이터 포함<br>
+최종 확인일 표기와 시드 배지로 정보의 신선도를 정직하게 알려요.</footer>
+</body>
+</html>
+
+
+
+
+

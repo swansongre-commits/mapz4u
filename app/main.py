@@ -34,6 +34,9 @@ load_topics()
 
 FRESH = "status='운영중' AND (period_end IS NULL OR period_end='' OR period_end >= ?)"
 
+def _plus_days(n):
+    return (datetime.date.fromisoformat(TODAY) + datetime.timedelta(days=n)).isoformat()
+
 def exp_row(r):
     return {"id": r["id"], "name": r["name"], "type": r["type"],
             "topic_tags": jl(r["topic_tags"]), "verb_tags": jl(r["verb_tags"]),
@@ -162,13 +165,23 @@ def api_discover():
 
 # ─────────────── HTML 화면 ───────────────
 @app.get("/", response_class=HTMLResponse)
-def page_search(request: Request, q: str = ""):
-    data = api_search(q=q) if q else {"results": [], "count": 0, "query": ""}
+def page_search(request: Request, q: str = "", indoor: int = 0, free: int = 0, region: str = "", week: int = 0):
+    active_filter = bool(q or indoor or free or region or week)
+    if active_filter:
+        data = api_search(q=q, indoor=indoor, free=free, region=region)
+        results = data["results"]
+        if week:  # '이번 주' = 7일 내 시작/진행 행사 우선(상설은 상시 유효)
+            results = [x for x in results if x["type"] == "상설시설"
+                       or (x["period_start"] and x["period_start"] <= _plus_days(7))]
+    else:
+        results = []
     con = db()
     preview = [exp_row(r) for r in con.execute(f"SELECT * FROM experience WHERE {FRESH} AND type='상설시설' LIMIT 4", (TODAY,))]
     con.close()
     return templates.TemplateResponse(request, "search.html", {"topics": [TOPICS[t] for t in TOPICS],
-                                                       "results": data["results"], "query": data.get("query", ""),
+                                                       "results": results, "query": q,
+                                                       "f": {"indoor": indoor, "free": free, "region": region, "week": week},
+                                                       "active_filter": active_filter,
                                                        "preview": preview, "today": TODAY, "active": "search"})
 
 @app.get("/topic/{tid}", response_class=HTMLResponse)

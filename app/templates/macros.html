@@ -21,6 +21,6 @@
 <span class="age">권장 {{ b.age_band }}세 (참고)</span></div>
 <div class="avail">🏫 소장 도서관·대출 가능 여부 조회 →</div>
 <div class="meta"><span class="verified">최종 확인 {{ b.last_verified }}</span> {{ seed_badge(b.is_seed) }}</div>
-<div class="cta-row"><a class="btn ghost" href="#">도서관 소장 조회</a></div></div>
+<div class="cta-row"><a class="btn ghost" href="https://www.nl.go.kr/NL/contents/search.do?srchTarget=total&kwd={{ b.title|urlencode }}" target="_blank" rel="noopener">도서관 소장 조회 →</a></div></div>
 </article>
 {%- endmacro %}

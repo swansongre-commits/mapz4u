@@ -1,6 +1,6 @@
 # MAPZ PROGRESS
 
-- **중단 사유(최신)**: 진행 중 (정상)
+- **중단 사유(최신)**: 정상 완료 (COMPLETE)
 - **MODE**: MIXED · **EMBED_TIER**: 3 (TF-IDF) · **MAPS_ASSETS**: TRUE
 
 ## 진행 로그
@@ -14,3 +14,5 @@
 - [2026-07-04] Phase 6 완료 — 디자인 라운드2 10/10 APPROVED(라운드1 '필독' 수정). G6 PASS.
 - [2026-07-04] Phase 7 완료 — FastAPI 4화면+6API 전부 200. G7 PASS.
 - [2026-07-04] Phase 8 완료 — pytest12 PASS, E2E 콘솔에러0, 금지어0, 커버리지96%. G8 PASS.
+- [2026-07-04] Phase 9 완료 — 페르소나 3인 전원 10/10 PASS, 헌장 5조 PASS, 성능 p95 4.6ms, FINAL_REPORT 작성.
+- **COMPLETE** (정상 완료). MVP 무인 완주 성립. 실행: `uvicorn app.main:app --port 8000`

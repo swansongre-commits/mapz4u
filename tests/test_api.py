@@ -98,3 +98,17 @@ def test_discover_quota_no_popularity():
 def test_pages_render_200():
     for path in ["/", "/topic/dino", "/map", "/discover"]:
         assert client.get(path).status_code == 200
+
+def test_search_page_filters_work():
+    # 학부모 페르소나 지적 수정 검증: 검색화면 필터가 실제로 작동
+    for path in ["/?indoor=1", "/?free=1", "/?region=서울", "/?indoor=1&free=1"]:
+        r = client.get(path)
+        assert r.status_code == 200
+        assert "필터:" in r.text  # 활성 필터 라벨 노출 = 필터 적용됨
+    # 무료 필터는 무료/무비용만
+    j = client.get("/api/search", params={"free": 1}).json()
+    assert j["count"] >= 1
+    assert all(("무료" in (x["cost"] or "")) or (x["cost"] or "") == "" for x in j["results"])
+    # 지역 필터
+    seoul = client.get("/api/search", params={"region": "서울"}).json()
+    assert all("서울" in (x["region"] or "") for x in seoul["results"])

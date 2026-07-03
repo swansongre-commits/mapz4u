@@ -69,3 +69,12 @@
 - 금지어 lint(scripts/lint_forbidden.py): 렌더 텍스트노드 대상 9페이지 **위반 0건**.
 - 커버리지: app/main.py **96%** (≥70%).
 - **G8 PASS**: 금지어 0 + 신선도 PASS + E2E 콘솔에러 0.
+
+## Phase 9 — 서비스 평가 & 최종 리포트
+
+- 페르소나 3인: 학부모 10/10(라운드1 9→필터수정→10), 아동심리 10/10, 진로 10/10 (전원 PASS).
+- 학부모 라운드1 지적(검색 필터 칩 미작동)을 실제 수정: search.html 필터 GET 폼화 + page_search 파라미터 처리 + 회귀테스트(test_search_page_filters_work). 재검증 PASS.
+- 헌장 감사: 5조 전항 PASS(reports/charter_audit.md).
+- 성능 스모크: 최대 p95 4.6ms(<500ms).
+- reports/FINAL_REPORT.md 작성 (무인 실행 회고 6항 포함).
+- **DoD 충족**: G0~G8 전 PASS + 로컬 기동 가능 + FINAL_REPORT 존재.

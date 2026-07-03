@@ -1,0 +1,802 @@
+[
+  {
+    "isbn": "978890000001",
+    "title": "공룡 대백과",
+    "author": "이융남",
+    "publisher": "웅진주니어",
+    "pub_year": 2019,
+    "kdc": "457",
+    "topic_tags": [
+      "dino"
+    ],
+    "age_band": "7-10",
+    "availability": "대출가능여부 조회 필요",
+    "source": "seed:model-knowledge",
+    "is_seed": 1,
+    "last_verified": "2026-07-04"
+  },
+  {
+    "isbn": "978890000002",
+    "title": "고 녀석 맛있겠다",
+    "author": "미야니시 타츠야",
+    "publisher": "달리",
+    "pub_year": 2004,
+    "kdc": "813",
+    "topic_tags": [
+      "dino"
+    ],
+    "age_band": "5-8",
+    "availability": "대출가능여부 조회 필요",
+    "source": "seed:model-knowledge",
+    "is_seed": 1,
+    "last_verified": "2026-07-04"
+  },
+  {
+    "isbn": "978890000003",
+    "title": "공룡이 살아있다면",
+    "author": "한스 아우구스토",
+    "publisher": "비룡소",
+    "pub_year": 2015,
+    "kdc": "457",
+    "topic_tags": [
+      "dino"
+    ],
+    "age_band": "6-9",
+    "availability": "대출가능여부 조회 필요",
+    "source": "seed:model-knowledge",
+    "is_seed": 1,
+    "last_verified": "2026-07-04"
+  },
+  {
+    "isbn": "978890000004",
+    "title": "티라노사우루스 이야기",
+    "author": "김황",
+    "publisher": "한림출판사",
+    "pub_year": 2010,
+    "kdc": "457",
+    "topic_tags": [
+      "dino"
+    ],
+    "age_band": "6-9",
+    "availability": "대출가능여부 조회 필요",
+    "source": "seed:model-knowledge",
+    "is_seed": 1,
+    "last_verified": "2026-07-04"
+  },
+  {
+    "isbn": "978890000005",
+    "title": "화석이 된 공룡",
+    "author": "이광웅",
+    "publisher": "미래엔아이세움",
+    "pub_year": 2012,
+    "kdc": "457",
+    "topic_tags": [
+      "dino"
+    ],
+    "age_band": "7-10",
+    "availability": "대출가능여부 조회 필요",
+    "source": "seed:model-knowledge",
+    "is_seed": 1,
+    "last_verified": "2026-07-04"
+  },
+  {
+    "isbn": "978890000006",
+    "title": "공룡은 왜 사라졌을까",
+    "author": "최재천",
+    "publisher": "다산어린이",
+    "pub_year": 2016,
+    "kdc": "457",
+    "topic_tags": [
+      "dino"
+    ],
+    "age_band": "8-11",
+    "availability": "대출가능여부 조회 필요",
+    "source": "seed:model-knowledge",
+    "is_seed": 1,
+    "last_verified": "2026-07-04"
+  },
+  {
+    "isbn": "978890000007",
+    "title": "메리 애닝과 공룡 화석",
+    "author": "트레이시 피들러",
+    "publisher": "봄나무",
+    "pub_year": 2018,
+    "kdc": "457",
+    "topic_tags": [
+      "dino"
+    ],
+    "age_band": "7-10",
+    "availability": "대출가능여부 조회 필요",
+    "source": "seed:model-knowledge",
+    "is_seed": 1,
+    "last_verified": "2026-07-04"
+  },
+  {
+    "isbn": "978890000008",
+    "title": "우리 땅 공룡 발자국",
+    "author": "김정률",
+    "publisher": "지성사",
+    "pub_year": 2011,
+    "kdc": "457",
+    "topic_tags": [
+      "dino"
+    ],
+    "age_band": "8-12",
+    "availability": "대출가능여부 조회 필요",
+    "source": "seed:model-knowledge",
+    "is_seed": 1,
+    "last_verified": "2026-07-04"
+  },
+  {
+    "isbn": "978890000009",
+    "title": "공룡 세계 탐험",
+    "author": "한상호",
+    "publisher": "교원",
+    "pub_year": 2014,
+    "kdc": "457",
+    "topic_tags": [
+      "dino"
+    ],
+    "age_band": "6-9",
+    "availability": "대출가능여부 조회 필요",
+    "source": "seed:model-knowledge",
+    "is_seed": 1,
+    "last_verified": "2026-07-04"
+  },
+  {
+    "isbn": "978890000010",
+    "title": "아기 공룡 둘리와 함께하는 공룡 여행",
+    "author": "김수정",
+    "publisher": "아울북",
+    "pub_year": 2013,
+    "kdc": "457",
+    "topic_tags": [
+      "dino"
+    ],
+    "age_band": "5-8",
+    "availability": "대출가능여부 조회 필요",
+    "source": "seed:model-knowledge",
+    "is_seed": 1,
+    "last_verified": "2026-07-04"
+  },
+  {
+    "isbn": "978890000011",
+    "title": "우주 대백과",
+    "author": "김충섭",
+    "publisher": "웅진주니어",
+    "pub_year": 2018,
+    "kdc": "440",
+    "topic_tags": [
+      "space"
+    ],
+    "age_band": "7-10",
+    "availability": "대출가능여부 조회 필요",
+    "source": "seed:model-knowledge",
+    "is_seed": 1,
+    "last_verified": "2026-07-04"
+  },
+  {
+    "isbn": "978890000012",
+    "title": "별자리 이야기",
+    "author": "이태형",
+    "publisher": "교학사",
+    "pub_year": 2015,
+    "kdc": "443",
+    "topic_tags": [
+      "space"
+    ],
+    "age_band": "7-11",
+    "availability": "대출가능여부 조회 필요",
+    "source": "seed:model-knowledge",
+    "is_seed": 1,
+    "last_verified": "2026-07-04"
+  },
+  {
+    "isbn": "978890000013",
+    "title": "달로 간 아이",
+    "author": "존 헤어",
+    "publisher": "보물창고",
+    "pub_year": 2019,
+    "kdc": "813",
+    "topic_tags": [
+      "space"
+    ],
+    "age_band": "5-8",
+    "availability": "대출가능여부 조회 필요",
+    "source": "seed:model-knowledge",
+    "is_seed": 1,
+    "last_verified": "2026-07-04"
+  },
+  {
+    "isbn": "978890000014",
+    "title": "우주로 간 김땅콩",
+    "author": "이지유",
+    "publisher": "웅진주니어",
+    "pub_year": 2016,
+    "kdc": "440",
+    "topic_tags": [
+      "space"
+    ],
+    "age_band": "7-10",
+    "availability": "대출가능여부 조회 필요",
+    "source": "seed:model-knowledge",
+    "is_seed": 1,
+    "last_verified": "2026-07-04"
+  },
+  {
+    "isbn": "978890000015",
+    "title": "첫 우주 여행",
+    "author": "캐서린 바",
+    "publisher": "찰리북",
+    "pub_year": 2017,
+    "kdc": "440",
+    "topic_tags": [
+      "space"
+    ],
+    "age_band": "6-9",
+    "availability": "대출가능여부 조회 필요",
+    "source": "seed:model-knowledge",
+    "is_seed": 1,
+    "last_verified": "2026-07-04"
+  },
+  {
+    "isbn": "978890000016",
+    "title": "나로호 우주로 날다",
+    "author": "정재승",
+    "publisher": "김영사",
+    "pub_year": 2013,
+    "kdc": "440",
+    "topic_tags": [
+      "space"
+    ],
+    "age_band": "8-11",
+    "availability": "대출가능여부 조회 필요",
+    "source": "seed:model-knowledge",
+    "is_seed": 1,
+    "last_verified": "2026-07-04"
+  },
+  {
+    "isbn": "978890000017",
+    "title": "밤하늘 관찰 도감",
+    "author": "이광식",
+    "publisher": "황소걸음",
+    "pub_year": 2014,
+    "kdc": "443",
+    "topic_tags": [
+      "space"
+    ],
+    "age_band": "8-12",
+    "availability": "대출가능여부 조회 필요",
+    "source": "seed:model-knowledge",
+    "is_seed": 1,
+    "last_verified": "2026-07-04"
+  },
+  {
+    "isbn": "978890000018",
+    "title": "우주는 어떻게 생겼을까",
+    "author": "이명현",
+    "publisher": "창비",
+    "pub_year": 2018,
+    "kdc": "440",
+    "topic_tags": [
+      "space"
+    ],
+    "age_band": "8-12",
+    "availability": "대출가능여부 조회 필요",
+    "source": "seed:model-knowledge",
+    "is_seed": 1,
+    "last_verified": "2026-07-04"
+  },
+  {
+    "isbn": "978890000019",
+    "title": "허블 우주망원경",
+    "author": "엘리자베스 루사",
+    "publisher": "다섯수레",
+    "pub_year": 2016,
+    "kdc": "440",
+    "topic_tags": [
+      "space"
+    ],
+    "age_band": "8-11",
+    "availability": "대출가능여부 조회 필요",
+    "source": "seed:model-knowledge",
+    "is_seed": 1,
+    "last_verified": "2026-07-04"
+  },
+  {
+    "isbn": "978890000020",
+    "title": "태양계 행성 탐험",
+    "author": "권오길",
+    "publisher": "지성사",
+    "pub_year": 2012,
+    "kdc": "440",
+    "topic_tags": [
+      "space"
+    ],
+    "age_band": "7-10",
+    "availability": "대출가능여부 조회 필요",
+    "source": "seed:model-knowledge",
+    "is_seed": 1,
+    "last_verified": "2026-07-04"
+  },
+  {
+    "isbn": "978890000021",
+    "title": "동물 백과",
+    "author": "최재천",
+    "publisher": "보리",
+    "pub_year": 2017,
+    "kdc": "490",
+    "topic_tags": [
+      "animal"
+    ],
+    "age_band": "7-11",
+    "availability": "대출가능여부 조회 필요",
+    "source": "seed:model-knowledge",
+    "is_seed": 1,
+    "last_verified": "2026-07-04"
+  },
+  {
+    "isbn": "978890000022",
+    "title": "곤충의 한살이",
+    "author": "한영식",
+    "publisher": "사계절",
+    "pub_year": 2015,
+    "kdc": "496",
+    "topic_tags": [
+      "animal"
+    ],
+    "age_band": "6-10",
+    "availability": "대출가능여부 조회 필요",
+    "source": "seed:model-knowledge",
+    "is_seed": 1,
+    "last_verified": "2026-07-04"
+  },
+  {
+    "isbn": "978890000023",
+    "title": "바다 생물 도감",
+    "author": "명정구",
+    "publisher": "보리",
+    "pub_year": 2016,
+    "kdc": "491",
+    "topic_tags": [
+      "animal"
+    ],
+    "age_band": "7-11",
+    "availability": "대출가능여부 조회 필요",
+    "source": "seed:model-knowledge",
+    "is_seed": 1,
+    "last_verified": "2026-07-04"
+  },
+  {
+    "isbn": "978890000024",
+    "title": "나비를 잡는 아버지",
+    "author": "현덕",
+    "publisher": "길벗어린이",
+    "pub_year": 2013,
+    "kdc": "813",
+    "topic_tags": [
+      "animal"
+    ],
+    "age_band": "8-11",
+    "availability": "대출가능여부 조회 필요",
+    "source": "seed:model-knowledge",
+    "is_seed": 1,
+    "last_verified": "2026-07-04"
+  },
+  {
+    "isbn": "978890000025",
+    "title": "숲속 동물들의 겨울나기",
+    "author": "이자벨 토마스",
+    "publisher": "보물창고",
+    "pub_year": 2019,
+    "kdc": "490",
+    "topic_tags": [
+      "animal"
+    ],
+    "age_band": "5-8",
+    "availability": "대출가능여부 조회 필요",
+    "source": "seed:model-knowledge",
+    "is_seed": 1,
+    "last_verified": "2026-07-04"
+  },
+  {
+    "isbn": "978890000026",
+    "title": "우리 동네 새 관찰기",
+    "author": "김성호",
+    "publisher": "현암주니어",
+    "pub_year": 2018,
+    "kdc": "491",
+    "topic_tags": [
+      "animal"
+    ],
+    "age_band": "7-10",
+    "availability": "대출가능여부 조회 필요",
+    "source": "seed:model-knowledge",
+    "is_seed": 1,
+    "last_verified": "2026-07-04"
+  },
+  {
+    "isbn": "978890000027",
+    "title": "멸종 위기 동물 이야기",
+    "author": "박병상",
+    "publisher": "현암사",
+    "pub_year": 2014,
+    "kdc": "490",
+    "topic_tags": [
+      "animal"
+    ],
+    "age_band": "8-12",
+    "availability": "대출가능여부 조회 필요",
+    "source": "seed:model-knowledge",
+    "is_seed": 1,
+    "last_verified": "2026-07-04"
+  },
+  {
+    "isbn": "978890000028",
+    "title": "개미 왕국의 비밀",
+    "author": "베르나르 베르베르 원작",
+    "publisher": "열린책들",
+    "pub_year": 2012,
+    "kdc": "496",
+    "topic_tags": [
+      "animal"
+    ],
+    "age_band": "8-12",
+    "availability": "대출가능여부 조회 필요",
+    "source": "seed:model-knowledge",
+    "is_seed": 1,
+    "last_verified": "2026-07-04"
+  },
+  {
+    "isbn": "978890000029",
+    "title": "갯벌에 사는 생물들",
+    "author": "백용해",
+    "publisher": "다른세상",
+    "pub_year": 2013,
+    "kdc": "491",
+    "topic_tags": [
+      "animal"
+    ],
+    "age_band": "7-10",
+    "availability": "대출가능여부 조회 필요",
+    "source": "seed:model-knowledge",
+    "is_seed": 1,
+    "last_verified": "2026-07-04"
+  },
+  {
+    "isbn": "978890000030",
+    "title": "동물의 언어",
+    "author": "최재천",
+    "publisher": "다산어린이",
+    "pub_year": 2020,
+    "kdc": "490",
+    "topic_tags": [
+      "animal"
+    ],
+    "age_band": "8-11",
+    "availability": "대출가능여부 조회 필요",
+    "source": "seed:model-knowledge",
+    "is_seed": 1,
+    "last_verified": "2026-07-04"
+  },
+  {
+    "isbn": "978890000031",
+    "title": "로봇 대백과",
+    "author": "이세환",
+    "publisher": "웅진주니어",
+    "pub_year": 2019,
+    "kdc": "550",
+    "topic_tags": [
+      "robot"
+    ],
+    "age_band": "7-10",
+    "availability": "대출가능여부 조회 필요",
+    "source": "seed:model-knowledge",
+    "is_seed": 1,
+    "last_verified": "2026-07-04"
+  },
+  {
+    "isbn": "978890000032",
+    "title": "코딩 첫걸음",
+    "author": "캐럴 보더만",
+    "publisher": "보림",
+    "pub_year": 2017,
+    "kdc": "005",
+    "topic_tags": [
+      "robot"
+    ],
+    "age_band": "7-11",
+    "availability": "대출가능여부 조회 필요",
+    "source": "seed:model-knowledge",
+    "is_seed": 1,
+    "last_verified": "2026-07-04"
+  },
+  {
+    "isbn": "978890000033",
+    "title": "로봇 박사 데니스 홍",
+    "author": "데니스 홍",
+    "publisher": "샘터",
+    "pub_year": 2018,
+    "kdc": "550",
+    "topic_tags": [
+      "robot"
+    ],
+    "age_band": "8-12",
+    "availability": "대출가능여부 조회 필요",
+    "source": "seed:model-knowledge",
+    "is_seed": 1,
+    "last_verified": "2026-07-04"
+  },
+  {
+    "isbn": "978890000034",
+    "title": "인공지능은 내 친구",
+    "author": "조던 D. 브라운",
+    "publisher": "다봄",
+    "pub_year": 2019,
+    "kdc": "005",
+    "topic_tags": [
+      "robot"
+    ],
+    "age_band": "8-11",
+    "availability": "대출가능여부 조회 필요",
+    "source": "seed:model-knowledge",
+    "is_seed": 1,
+    "last_verified": "2026-07-04"
+  },
+  {
+    "isbn": "978890000035",
+    "title": "스크래치로 게임 만들기",
+    "author": "한선관",
+    "publisher": "길벗",
+    "pub_year": 2016,
+    "kdc": "005",
+    "topic_tags": [
+      "robot"
+    ],
+    "age_band": "8-12",
+    "availability": "대출가능여부 조회 필요",
+    "source": "seed:model-knowledge",
+    "is_seed": 1,
+    "last_verified": "2026-07-04"
+  },
+  {
+    "isbn": "978890000036",
+    "title": "로봇이 온다",
+    "author": "이케다 유키",
+    "publisher": "길벗어린이",
+    "pub_year": 2018,
+    "kdc": "550",
+    "topic_tags": [
+      "robot"
+    ],
+    "age_band": "7-10",
+    "availability": "대출가능여부 조회 필요",
+    "source": "seed:model-knowledge",
+    "is_seed": 1,
+    "last_verified": "2026-07-04"
+  },
+  {
+    "isbn": "978890000037",
+    "title": "미래를 만드는 로봇",
+    "author": "한국로봇산업진흥원",
+    "publisher": "비룡소",
+    "pub_year": 2015,
+    "kdc": "550",
+    "topic_tags": [
+      "robot"
+    ],
+    "age_band": "7-10",
+    "availability": "대출가능여부 조회 필요",
+    "source": "seed:model-knowledge",
+    "is_seed": 1,
+    "last_verified": "2026-07-04"
+  },
+  {
+    "isbn": "978890000038",
+    "title": "드론으로 하늘을 날다",
+    "author": "김상순",
+    "publisher": "크레용하우스",
+    "pub_year": 2017,
+    "kdc": "550",
+    "topic_tags": [
+      "robot"
+    ],
+    "age_band": "8-11",
+    "availability": "대출가능여부 조회 필요",
+    "source": "seed:model-knowledge",
+    "is_seed": 1,
+    "last_verified": "2026-07-04"
+  },
+  {
+    "isbn": "978890000039",
+    "title": "컴퓨터는 어떻게 생각할까",
+    "author": "권건우",
+    "publisher": "길벗스쿨",
+    "pub_year": 2020,
+    "kdc": "005",
+    "topic_tags": [
+      "robot"
+    ],
+    "age_band": "8-12",
+    "availability": "대출가능여부 조회 필요",
+    "source": "seed:model-knowledge",
+    "is_seed": 1,
+    "last_verified": "2026-07-04"
+  },
+  {
+    "isbn": "978890000040",
+    "title": "생각하는 기계 인공지능",
+    "author": "존 손메즈 원작",
+    "publisher": "찰리북",
+    "pub_year": 2019,
+    "kdc": "005",
+    "topic_tags": [
+      "robot"
+    ],
+    "age_band": "8-12",
+    "availability": "대출가능여부 조회 필요",
+    "source": "seed:model-knowledge",
+    "is_seed": 1,
+    "last_verified": "2026-07-04"
+  },
+  {
+    "isbn": "978890000041",
+    "title": "명화 속 숨은 그림 찾기",
+    "author": "수지 호지",
+    "publisher": "미술문화",
+    "pub_year": 2016,
+    "kdc": "650",
+    "topic_tags": [
+      "art"
+    ],
+    "age_band": "6-10",
+    "availability": "대출가능여부 조회 필요",
+    "source": "seed:model-knowledge",
+    "is_seed": 1,
+    "last_verified": "2026-07-04"
+  },
+  {
+    "isbn": "978890000042",
+    "title": "점",
+    "author": "피터 레이놀즈",
+    "publisher": "문학동네",
+    "pub_year": 2003,
+    "kdc": "813",
+    "topic_tags": [
+      "art"
+    ],
+    "age_band": "5-9",
+    "availability": "대출가능여부 조회 필요",
+    "source": "seed:model-knowledge",
+    "is_seed": 1,
+    "last_verified": "2026-07-04"
+  },
+  {
+    "isbn": "978890000043",
+    "title": "나의 빨간 크레용",
+    "author": "마이클 홀",
+    "publisher": "봄봄출판사",
+    "pub_year": 2015,
+    "kdc": "813",
+    "topic_tags": [
+      "art"
+    ],
+    "age_band": "5-8",
+    "availability": "대출가능여부 조회 필요",
+    "source": "seed:model-knowledge",
+    "is_seed": 1,
+    "last_verified": "2026-07-04"
+  },
+  {
+    "isbn": "978890000044",
+    "title": "어린이 미술관",
+    "author": "이주헌",
+    "publisher": "보림",
+    "pub_year": 2014,
+    "kdc": "650",
+    "topic_tags": [
+      "art"
+    ],
+    "age_band": "7-11",
+    "availability": "대출가능여부 조회 필요",
+    "source": "seed:model-knowledge",
+    "is_seed": 1,
+    "last_verified": "2026-07-04"
+  },
+  {
+    "isbn": "978890000045",
+    "title": "색깔의 비밀",
+    "author": "힐러리 스톤",
+    "publisher": "시공주니어",
+    "pub_year": 2017,
+    "kdc": "650",
+    "topic_tags": [
+      "art"
+    ],
+    "age_band": "6-9",
+    "availability": "대출가능여부 조회 필요",
+    "source": "seed:model-knowledge",
+    "is_seed": 1,
+    "last_verified": "2026-07-04"
+  },
+  {
+    "isbn": "978890000046",
+    "title": "피카소는 왜 천재일까",
+    "author": "박연준",
+    "publisher": "다림",
+    "pub_year": 2015,
+    "kdc": "650",
+    "topic_tags": [
+      "art"
+    ],
+    "age_band": "8-11",
+    "availability": "대출가능여부 조회 필요",
+    "source": "seed:model-knowledge",
+    "is_seed": 1,
+    "last_verified": "2026-07-04"
+  },
+  {
+    "isbn": "978890000047",
+    "title": "빈센트 반 고흐",
+    "author": "엔리코 마리니",
+    "publisher": "길벗어린이",
+    "pub_year": 2013,
+    "kdc": "650",
+    "topic_tags": [
+      "art"
+    ],
+    "age_band": "7-11",
+    "availability": "대출가능여부 조회 필요",
+    "source": "seed:model-knowledge",
+    "is_seed": 1,
+    "last_verified": "2026-07-04"
+  },
+  {
+    "isbn": "978890000048",
+    "title": "우리 그림의 색과 선",
+    "author": "조정육",
+    "publisher": "봄봄",
+    "pub_year": 2016,
+    "kdc": "650",
+    "topic_tags": [
+      "art"
+    ],
+    "age_band": "8-12",
+    "availability": "대출가능여부 조회 필요",
+    "source": "seed:model-knowledge",
+    "is_seed": 1,
+    "last_verified": "2026-07-04"
+  },
+  {
+    "isbn": "978890000049",
+    "title": "만들기 좋아하는 아이",
+    "author": "김지연",
+    "publisher": "사계절",
+    "pub_year": 2018,
+    "kdc": "630",
+    "topic_tags": [
+      "art"
+    ],
+    "age_band": "6-9",
+    "availability": "대출가능여부 조회 필요",
+    "source": "seed:model-knowledge",
+    "is_seed": 1,
+    "last_verified": "2026-07-04"
+  },
+  {
+    "isbn": "978890000050",
+    "title": "김홍도, 조선을 그리다",
+    "author": "이충렬",
+    "publisher": "한겨레아이들",
+    "pub_year": 2017,
+    "kdc": "650",
+    "topic_tags": [
+      "art"
+    ],
+    "age_band": "8-12",
+    "availability": "대출가능여부 조회 필요",
+    "source": "seed:model-knowledge",
+    "is_seed": 1,
+    "last_verified": "2026-07-04"
+  }
+]

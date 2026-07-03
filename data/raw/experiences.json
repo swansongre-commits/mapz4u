@@ -1,0 +1,5819 @@
+[
+  {
+    "id": "dino-01",
+    "name": "계룡산자연사박물관",
+    "type": "상설시설",
+    "topic_tags": [
+      "dino"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "lat": 36.3389,
+    "lng": 127.2069,
+    "region": "충남 공주",
+    "period_start": null,
+    "period_end": null,
+    "hours": "09:30-18:00",
+    "age_note": "전연령",
+    "duration_min": 90,
+    "cost": "성인 9000원 어린이 6000원",
+    "reservation_url": "http://www.krnamu.or.kr",
+    "indoor": 1,
+    "parking": "가능",
+    "stroller": "가능",
+    "crowd_note": "주말 오전 한산",
+    "related_books": [
+      "공룡 대백과"
+    ],
+    "source": "seed:model-knowledge",
+    "is_seed": 1,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "dino-02",
+    "name": "해남공룡박물관",
+    "type": "상설시설",
+    "topic_tags": [
+      "dino"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "lat": 34.4586,
+    "lng": 126.4419,
+    "region": "전남 해남",
+    "period_start": null,
+    "period_end": null,
+    "hours": "09:00-18:00",
+    "age_note": "전연령",
+    "duration_min": 80,
+    "cost": "성인 5000원 어린이 3000원",
+    "reservation_url": "http://uhangridinopia.haenam.go.kr",
+    "indoor": 1,
+    "parking": "가능",
+    "stroller": "가능",
+    "crowd_note": "주말 오전 한산",
+    "related_books": [
+      "공룡 발자국의 비밀"
+    ],
+    "source": "seed:model-knowledge",
+    "is_seed": 1,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "dino-03",
+    "name": "고성공룡박물관",
+    "type": "상설시설",
+    "topic_tags": [
+      "dino"
+    ],
+    "verb_tags": [
+      "탐구하다",
+      "움직이다"
+    ],
+    "lat": 34.9754,
+    "lng": 128.3122,
+    "region": "경남 고성",
+    "period_start": null,
+    "period_end": null,
+    "hours": "09:00-18:00",
+    "age_note": "전연령",
+    "duration_min": 90,
+    "cost": "성인 3000원 어린이 1500원",
+    "reservation_url": "http://museum.goseong.go.kr",
+    "indoor": 1,
+    "parking": "가능",
+    "stroller": "가능",
+    "crowd_note": "주말 오전 한산",
+    "related_books": [
+      "한반도의 공룡"
+    ],
+    "source": "seed:model-knowledge",
+    "is_seed": 1,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "dino-04",
+    "name": "서대문자연사박물관",
+    "type": "상설시설",
+    "topic_tags": [
+      "dino",
+      "animal"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "lat": 37.5789,
+    "lng": 126.934,
+    "region": "서울 서대문",
+    "period_start": null,
+    "period_end": null,
+    "hours": "09:00-18:00",
+    "age_note": "전연령",
+    "duration_min": 70,
+    "cost": "성인 6000원 어린이 3000원",
+    "reservation_url": "https://namu.sdm.go.kr",
+    "indoor": 1,
+    "parking": "가능",
+    "stroller": "가능",
+    "crowd_note": "주말 오전 한산",
+    "related_books": [
+      "지구가 생긴 이야기"
+    ],
+    "source": "seed:model-knowledge",
+    "is_seed": 1,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "dino-05",
+    "name": "목포자연사박물관",
+    "type": "상설시설",
+    "topic_tags": [
+      "dino",
+      "animal"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "lat": 34.8118,
+    "lng": 126.376,
+    "region": "전남 목포",
+    "period_start": null,
+    "period_end": null,
+    "hours": "09:00-18:00",
+    "age_note": "전연령",
+    "duration_min": 70,
+    "cost": "성인 3000원 어린이 1000원",
+    "reservation_url": "https://museum.mokpo.go.kr",
+    "indoor": 1,
+    "parking": "가능",
+    "stroller": "가능",
+    "crowd_note": "주말 오전 한산",
+    "related_books": [
+      "화석은 무엇일까"
+    ],
+    "source": "seed:model-knowledge",
+    "is_seed": 1,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "dino-06",
+    "name": "태백고생대자연사박물관",
+    "type": "상설시설",
+    "topic_tags": [
+      "dino"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "lat": 37.1361,
+    "lng": 128.988,
+    "region": "강원 태백",
+    "period_start": null,
+    "period_end": null,
+    "hours": "09:00-18:00",
+    "age_note": "전연령",
+    "duration_min": 70,
+    "cost": "성인 2000원 어린이 1000원",
+    "reservation_url": "https://www.taebaek.go.kr/museum",
+    "indoor": 1,
+    "parking": "가능",
+    "stroller": "가능",
+    "crowd_note": "주말 오전 한산",
+    "related_books": [
+      "삼엽충을 찾아라"
+    ],
+    "source": "seed:model-knowledge",
+    "is_seed": 1,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "dino-07",
+    "name": "전곡선사박물관",
+    "type": "상설시설",
+    "topic_tags": [
+      "dino"
+    ],
+    "verb_tags": [
+      "탐구하다",
+      "만들다"
+    ],
+    "lat": 38.0166,
+    "lng": 127.0616,
+    "region": "경기 연천",
+    "period_start": null,
+    "period_end": null,
+    "hours": "10:00-18:00",
+    "age_note": "전연령",
+    "duration_min": 80,
+    "cost": "무료",
+    "reservation_url": "https://jgpm.ggcf.kr",
+    "indoor": 1,
+    "parking": "가능",
+    "stroller": "가능",
+    "crowd_note": "주말 오전 한산",
+    "related_books": [
+      "주먹도끼 이야기"
+    ],
+    "source": "seed:model-knowledge",
+    "is_seed": 1,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "dino-08",
+    "name": "경보화석박물관",
+    "type": "상설시설",
+    "topic_tags": [
+      "dino"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "lat": 36.363,
+    "lng": 129.381,
+    "region": "경북 영덕",
+    "period_start": null,
+    "period_end": null,
+    "hours": "08:30-18:00",
+    "age_note": "전연령",
+    "duration_min": 60,
+    "cost": "성인 5000원 어린이 3000원",
+    "reservation_url": "http://www.hwaseokmuseum.com",
+    "indoor": 1,
+    "parking": "가능",
+    "stroller": "가능",
+    "crowd_note": "주말 오전 한산",
+    "related_books": [
+      "돌 속의 생명 화석"
+    ],
+    "source": "seed:model-knowledge",
+    "is_seed": 1,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "space-01",
+    "name": "국립과천과학관",
+    "type": "상설시설",
+    "topic_tags": [
+      "space",
+      "robot",
+      "dino"
+    ],
+    "verb_tags": [
+      "탐구하다",
+      "움직이다"
+    ],
+    "lat": 37.437,
+    "lng": 127.0079,
+    "region": "경기 과천",
+    "period_start": null,
+    "period_end": null,
+    "hours": "09:30-17:30",
+    "age_note": "전연령",
+    "duration_min": 120,
+    "cost": "성인 4000원 어린이 무료",
+    "reservation_url": "https://www.sciencecenter.go.kr",
+    "indoor": 1,
+    "parking": "가능",
+    "stroller": "가능",
+    "crowd_note": "주말 오전 한산",
+    "related_books": [
+      "우주로 떠나는 여행"
+    ],
+    "source": "seed:model-knowledge",
+    "is_seed": 1,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "space-02",
+    "name": "국립중앙과학관",
+    "type": "상설시설",
+    "topic_tags": [
+      "space",
+      "robot"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "lat": 36.376,
+    "lng": 127.376,
+    "region": "대전 유성",
+    "period_start": null,
+    "period_end": null,
+    "hours": "09:30-17:50",
+    "age_note": "전연령",
+    "duration_min": 120,
+    "cost": "무료(특별관 별도)",
+    "reservation_url": "https://www.science.go.kr",
+    "indoor": 1,
+    "parking": "가능",
+    "stroller": "가능",
+    "crowd_note": "주말 오전 한산",
+    "related_books": [
+      "별자리 이야기"
+    ],
+    "source": "seed:model-knowledge",
+    "is_seed": 1,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "space-03",
+    "name": "대전시민천문대",
+    "type": "상설시설",
+    "topic_tags": [
+      "space"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "lat": 36.4106,
+    "lng": 127.3893,
+    "region": "대전 유성",
+    "period_start": null,
+    "period_end": null,
+    "hours": "14:00-22:00",
+    "age_note": "전연령",
+    "duration_min": 60,
+    "cost": "무료",
+    "reservation_url": "https://star.metro.daejeon.kr",
+    "indoor": 1,
+    "parking": "가능",
+    "stroller": "가능",
+    "crowd_note": "주말 오전 한산",
+    "related_books": [
+      "밤하늘 관찰 일기"
+    ],
+    "source": "seed:model-knowledge",
+    "is_seed": 1,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "space-04",
+    "name": "김해천문대",
+    "type": "상설시설",
+    "topic_tags": [
+      "space"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "lat": 35.2447,
+    "lng": 128.8,
+    "region": "경남 김해",
+    "period_start": null,
+    "period_end": null,
+    "hours": "14:00-22:00",
+    "age_note": "전연령",
+    "duration_min": 70,
+    "cost": "성인 5000원 어린이 3000원",
+    "reservation_url": "https://www.gimhaeastro.or.kr",
+    "indoor": 1,
+    "parking": "가능",
+    "stroller": "가능",
+    "crowd_note": "주말 오전 한산",
+    "related_books": [
+      "행성 여행 가이드"
+    ],
+    "source": "seed:model-knowledge",
+    "is_seed": 1,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "space-05",
+    "name": "국립청소년우주센터",
+    "type": "상설시설",
+    "topic_tags": [
+      "space",
+      "robot"
+    ],
+    "verb_tags": [
+      "탐구하다",
+      "움직이다"
+    ],
+    "lat": 34.53,
+    "lng": 127.42,
+    "region": "전남 고흥",
+    "period_start": null,
+    "period_end": null,
+    "hours": "09:00-18:00",
+    "age_note": "초등 이상",
+    "duration_min": 180,
+    "cost": "체험별 상이",
+    "reservation_url": "https://www.nyc.go.kr",
+    "indoor": 1,
+    "parking": "가능",
+    "stroller": "가능",
+    "crowd_note": "주말 오전 한산",
+    "related_books": [
+      "로켓은 어떻게 날까"
+    ],
+    "source": "seed:model-knowledge",
+    "is_seed": 1,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "space-06",
+    "name": "나로우주센터 우주과학관",
+    "type": "상설시설",
+    "topic_tags": [
+      "space"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "lat": 34.4318,
+    "lng": 127.535,
+    "region": "전남 고흥",
+    "period_start": null,
+    "period_end": null,
+    "hours": "09:30-17:30",
+    "age_note": "전연령",
+    "duration_min": 90,
+    "cost": "성인 3000원 어린이 1500원",
+    "reservation_url": "https://www.kari.re.kr/narospacecenter",
+    "indoor": 1,
+    "parking": "가능",
+    "stroller": "가능",
+    "crowd_note": "주말 오전 한산",
+    "related_books": [
+      "누리호 발사 이야기"
+    ],
+    "source": "seed:model-knowledge",
+    "is_seed": 1,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "space-07",
+    "name": "서울시립과학관",
+    "type": "상설시설",
+    "topic_tags": [
+      "space",
+      "robot",
+      "animal"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "lat": 37.6483,
+    "lng": 127.0857,
+    "region": "서울 노원",
+    "period_start": null,
+    "period_end": null,
+    "hours": "09:30-17:30",
+    "age_note": "전연령",
+    "duration_min": 100,
+    "cost": "성인 3000원 어린이 1000원",
+    "reservation_url": "https://science.seoul.go.kr",
+    "indoor": 1,
+    "parking": "가능",
+    "stroller": "가능",
+    "crowd_note": "주말 오전 한산",
+    "related_books": [
+      "과학관에서 만난 우주"
+    ],
+    "source": "seed:model-knowledge",
+    "is_seed": 1,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "space-08",
+    "name": "안성맞춤천문과학관",
+    "type": "상설시설",
+    "topic_tags": [
+      "space"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "lat": 37.009,
+    "lng": 127.279,
+    "region": "경기 안성",
+    "period_start": null,
+    "period_end": null,
+    "hours": "14:00-21:00",
+    "age_note": "전연령",
+    "duration_min": 70,
+    "cost": "성인 3000원 어린이 2000원",
+    "reservation_url": "https://www.anseong.go.kr/astronomy",
+    "indoor": 1,
+    "parking": "가능",
+    "stroller": "가능",
+    "crowd_note": "주말 오전 한산",
+    "related_books": [
+      "망원경으로 본 세상"
+    ],
+    "source": "seed:model-knowledge",
+    "is_seed": 1,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "animal-01",
+    "name": "국립생태원",
+    "type": "상설시설",
+    "topic_tags": [
+      "animal"
+    ],
+    "verb_tags": [
+      "돌보다",
+      "탐구하다"
+    ],
+    "lat": 36.049,
+    "lng": 126.713,
+    "region": "충남 서천",
+    "period_start": null,
+    "period_end": null,
+    "hours": "09:30-17:00",
+    "age_note": "전연령",
+    "duration_min": 150,
+    "cost": "성인 5000원 어린이 2000원",
+    "reservation_url": "https://www.nie.re.kr",
+    "indoor": 1,
+    "parking": "가능",
+    "stroller": "가능",
+    "crowd_note": "주말 오전 한산",
+    "related_books": [
+      "숲속 동물들의 하루"
+    ],
+    "source": "seed:model-knowledge",
+    "is_seed": 1,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "animal-02",
+    "name": "서울동물원",
+    "type": "상설시설",
+    "topic_tags": [
+      "animal"
+    ],
+    "verb_tags": [
+      "돌보다",
+      "탐구하다"
+    ],
+    "lat": 37.4269,
+    "lng": 127.0189,
+    "region": "경기 과천",
+    "period_start": null,
+    "period_end": null,
+    "hours": "09:00-18:00",
+    "age_note": "전연령",
+    "duration_min": 180,
+    "cost": "성인 5000원 어린이 3000원",
+    "reservation_url": "https://grandpark.seoul.go.kr",
+    "indoor": 0,
+    "parking": "가능",
+    "stroller": "가능",
+    "crowd_note": "주말 오후 혼잡",
+    "related_books": [
+      "동물원 친구들"
+    ],
+    "source": "seed:model-knowledge",
+    "is_seed": 1,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "animal-03",
+    "name": "국립해양생물자원관",
+    "type": "상설시설",
+    "topic_tags": [
+      "animal"
+    ],
+    "verb_tags": [
+      "탐구하다",
+      "돌보다"
+    ],
+    "lat": 36.0126,
+    "lng": 126.687,
+    "region": "충남 서천",
+    "period_start": null,
+    "period_end": null,
+    "hours": "09:30-17:30",
+    "age_note": "전연령",
+    "duration_min": 90,
+    "cost": "성인 3000원 어린이 1000원",
+    "reservation_url": "https://www.mabik.re.kr",
+    "indoor": 1,
+    "parking": "가능",
+    "stroller": "가능",
+    "crowd_note": "주말 오전 한산",
+    "related_books": [
+      "바닷속 생물 도감"
+    ],
+    "source": "seed:model-knowledge",
+    "is_seed": 1,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "animal-04",
+    "name": "함평자연생태공원",
+    "type": "상설시설",
+    "topic_tags": [
+      "animal"
+    ],
+    "verb_tags": [
+      "돌보다",
+      "탐구하다"
+    ],
+    "lat": 35.0658,
+    "lng": 126.5169,
+    "region": "전남 함평",
+    "period_start": null,
+    "period_end": null,
+    "hours": "09:00-18:00",
+    "age_note": "전연령",
+    "duration_min": 100,
+    "cost": "성인 3000원 어린이 1500원",
+    "reservation_url": "https://www.hampyeong.go.kr",
+    "indoor": 0,
+    "parking": "가능",
+    "stroller": "가능",
+    "crowd_note": "주말 오전 한산",
+    "related_books": [
+      "나비의 한살이"
+    ],
+    "source": "seed:model-knowledge",
+    "is_seed": 1,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "animal-05",
+    "name": "예천곤충생태원",
+    "type": "상설시설",
+    "topic_tags": [
+      "animal"
+    ],
+    "verb_tags": [
+      "돌보다",
+      "탐구하다"
+    ],
+    "lat": 36.6577,
+    "lng": 128.4527,
+    "region": "경북 예천",
+    "period_start": null,
+    "period_end": null,
+    "hours": "09:00-18:00",
+    "age_note": "전연령",
+    "duration_min": 80,
+    "cost": "성인 3000원 어린이 2000원",
+    "reservation_url": "https://www.ycg.kr/insect",
+    "indoor": 1,
+    "parking": "가능",
+    "stroller": "가능",
+    "crowd_note": "주말 오전 한산",
+    "related_books": [
+      "곤충의 세계"
+    ],
+    "source": "seed:model-knowledge",
+    "is_seed": 1,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "animal-06",
+    "name": "국립낙동강생물자원관",
+    "type": "상설시설",
+    "topic_tags": [
+      "animal"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "lat": 36.556,
+    "lng": 128.324,
+    "region": "경북 상주",
+    "period_start": null,
+    "period_end": null,
+    "hours": "09:30-17:30",
+    "age_note": "전연령",
+    "duration_min": 90,
+    "cost": "무료",
+    "reservation_url": "https://www.nnibr.re.kr",
+    "indoor": 1,
+    "parking": "가능",
+    "stroller": "가능",
+    "crowd_note": "주말 오전 한산",
+    "related_books": [
+      "강에 사는 생물들"
+    ],
+    "source": "seed:model-knowledge",
+    "is_seed": 1,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "animal-07",
+    "name": "아쿠아플라넷 일산",
+    "type": "상설시설",
+    "topic_tags": [
+      "animal"
+    ],
+    "verb_tags": [
+      "돌보다",
+      "탐구하다"
+    ],
+    "lat": 37.669,
+    "lng": 126.746,
+    "region": "경기 고양",
+    "period_start": null,
+    "period_end": null,
+    "hours": "10:00-19:00",
+    "age_note": "전연령",
+    "duration_min": 120,
+    "cost": "성인 29000원 어린이 25000원",
+    "reservation_url": "https://www.aquaplanet.co.kr/ilsan",
+    "indoor": 1,
+    "parking": "가능",
+    "stroller": "가능",
+    "crowd_note": "주말 혼잡",
+    "related_books": [
+      "바다 친구 물고기"
+    ],
+    "source": "seed:model-knowledge",
+    "is_seed": 1,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "animal-08",
+    "name": "국립수목원",
+    "type": "상설시설",
+    "topic_tags": [
+      "animal",
+      "art"
+    ],
+    "verb_tags": [
+      "돌보다",
+      "탐구하다"
+    ],
+    "lat": 37.748,
+    "lng": 127.172,
+    "region": "경기 포천",
+    "period_start": null,
+    "period_end": null,
+    "hours": "09:00-18:00",
+    "age_note": "전연령",
+    "duration_min": 120,
+    "cost": "성인 1000원 어린이 500원",
+    "reservation_url": "https://www.forest.go.kr/kna",
+    "indoor": 0,
+    "parking": "가능",
+    "stroller": "가능",
+    "crowd_note": "주말 오전 한산",
+    "related_books": [
+      "나무와 숲 이야기"
+    ],
+    "source": "seed:model-knowledge",
+    "is_seed": 1,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "robot-01",
+    "name": "국립부산과학관",
+    "type": "상설시설",
+    "topic_tags": [
+      "robot",
+      "space"
+    ],
+    "verb_tags": [
+      "움직이다",
+      "만들다"
+    ],
+    "lat": 35.308,
+    "lng": 129.232,
+    "region": "부산 기장",
+    "period_start": null,
+    "period_end": null,
+    "hours": "09:30-17:30",
+    "age_note": "전연령",
+    "duration_min": 120,
+    "cost": "성인 7000원 어린이 5000원",
+    "reservation_url": "https://www.sciport.or.kr",
+    "indoor": 1,
+    "parking": "가능",
+    "stroller": "가능",
+    "crowd_note": "주말 오전 한산",
+    "related_books": [
+      "로봇 친구를 만들자"
+    ],
+    "source": "seed:model-knowledge",
+    "is_seed": 1,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "robot-02",
+    "name": "국립대구과학관",
+    "type": "상설시설",
+    "topic_tags": [
+      "robot",
+      "space"
+    ],
+    "verb_tags": [
+      "움직이다",
+      "만들다"
+    ],
+    "lat": 35.828,
+    "lng": 128.44,
+    "region": "대구 달성",
+    "period_start": null,
+    "period_end": null,
+    "hours": "09:30-17:30",
+    "age_note": "전연령",
+    "duration_min": 120,
+    "cost": "성인 6000원 어린이 4000원",
+    "reservation_url": "https://www.dnsm.or.kr",
+    "indoor": 1,
+    "parking": "가능",
+    "stroller": "가능",
+    "crowd_note": "주말 오전 한산",
+    "related_books": [
+      "코딩이 뭐예요"
+    ],
+    "source": "seed:model-knowledge",
+    "is_seed": 1,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "robot-03",
+    "name": "넥슨컴퓨터박물관",
+    "type": "상설시설",
+    "topic_tags": [
+      "robot"
+    ],
+    "verb_tags": [
+      "움직이다",
+      "만들다"
+    ],
+    "lat": 33.456,
+    "lng": 126.568,
+    "region": "제주 제주시",
+    "period_start": null,
+    "period_end": null,
+    "hours": "10:00-18:00",
+    "age_note": "전연령",
+    "duration_min": 90,
+    "cost": "성인 8000원 어린이 6000원",
+    "reservation_url": "https://www.nexoncomputermuseum.org",
+    "indoor": 1,
+    "parking": "가능",
+    "stroller": "가능",
+    "crowd_note": "주말 오전 한산",
+    "related_books": [
+      "컴퓨터는 어떻게 생각할까"
+    ],
+    "source": "seed:model-knowledge",
+    "is_seed": 1,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "robot-04",
+    "name": "경남로봇랜드",
+    "type": "상설시설",
+    "topic_tags": [
+      "robot"
+    ],
+    "verb_tags": [
+      "움직이다"
+    ],
+    "lat": 35.103,
+    "lng": 128.523,
+    "region": "경남 창원",
+    "period_start": null,
+    "period_end": null,
+    "hours": "10:00-18:00",
+    "age_note": "전연령",
+    "duration_min": 150,
+    "cost": "자유이용권 상이",
+    "reservation_url": "https://www.robot-land.co.kr",
+    "indoor": 0,
+    "parking": "가능",
+    "stroller": "가능",
+    "crowd_note": "주말 혼잡",
+    "related_books": [
+      "로봇과 놀아요"
+    ],
+    "source": "seed:model-knowledge",
+    "is_seed": 1,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "robot-05",
+    "name": "국립광주과학관",
+    "type": "상설시설",
+    "topic_tags": [
+      "robot",
+      "space"
+    ],
+    "verb_tags": [
+      "움직이다",
+      "만들다"
+    ],
+    "lat": 35.228,
+    "lng": 126.843,
+    "region": "광주 북구",
+    "period_start": null,
+    "period_end": null,
+    "hours": "09:30-17:30",
+    "age_note": "전연령",
+    "duration_min": 110,
+    "cost": "성인 3000원 어린이 무료",
+    "reservation_url": "https://www.sciencecenter.or.kr",
+    "indoor": 1,
+    "parking": "가능",
+    "stroller": "가능",
+    "crowd_note": "주말 오전 한산",
+    "related_books": [
+      "미래 도시와 로봇"
+    ],
+    "source": "seed:model-knowledge",
+    "is_seed": 1,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "robot-06",
+    "name": "서울로봇인공지능과학관 체험존",
+    "type": "상설시설",
+    "topic_tags": [
+      "robot"
+    ],
+    "verb_tags": [
+      "움직이다",
+      "만들다"
+    ],
+    "lat": 37.59,
+    "lng": 127.016,
+    "region": "서울 도봉",
+    "period_start": null,
+    "period_end": null,
+    "hours": "10:00-18:00",
+    "age_note": "전연령",
+    "duration_min": 90,
+    "cost": "체험별 상이",
+    "reservation_url": "https://robot.seoul.go.kr",
+    "indoor": 1,
+    "parking": "가능",
+    "stroller": "가능",
+    "crowd_note": "주말 오전 한산",
+    "related_books": [
+      "인공지능 첫걸음"
+    ],
+    "source": "seed:model-knowledge",
+    "is_seed": 1,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "robot-07",
+    "name": "대전신세계 넥스페리움",
+    "type": "상설시설",
+    "topic_tags": [
+      "robot",
+      "space"
+    ],
+    "verb_tags": [
+      "움직이다",
+      "탐구하다"
+    ],
+    "lat": 36.376,
+    "lng": 127.388,
+    "region": "대전 유성",
+    "period_start": null,
+    "period_end": null,
+    "hours": "10:30-20:00",
+    "age_note": "전연령",
+    "duration_min": 90,
+    "cost": "성인 12000원 어린이 10000원",
+    "reservation_url": "https://www.shinsegae.com/nexperium",
+    "indoor": 1,
+    "parking": "가능",
+    "stroller": "가능",
+    "crowd_note": "주말 오전 한산",
+    "related_books": [
+      "과학관에서 만난 로봇"
+    ],
+    "source": "seed:model-knowledge",
+    "is_seed": 1,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "robot-08",
+    "name": "엔지니어링 하우스(과천과학관 첨단기술관)",
+    "type": "상설시설",
+    "topic_tags": [
+      "robot"
+    ],
+    "verb_tags": [
+      "만들다",
+      "움직이다"
+    ],
+    "lat": 37.4372,
+    "lng": 127.0081,
+    "region": "경기 과천",
+    "period_start": null,
+    "period_end": null,
+    "hours": "09:30-17:30",
+    "age_note": "전연령",
+    "duration_min": 60,
+    "cost": "과학관 입장료",
+    "reservation_url": "https://www.sciencecenter.go.kr",
+    "indoor": 1,
+    "parking": "가능",
+    "stroller": "가능",
+    "crowd_note": "주말 오전 한산",
+    "related_books": [
+      "기계는 어떻게 움직일까"
+    ],
+    "source": "seed:model-knowledge",
+    "is_seed": 1,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "art-01",
+    "name": "국립현대미술관 과천",
+    "type": "상설시설",
+    "topic_tags": [
+      "art"
+    ],
+    "verb_tags": [
+      "표현하다",
+      "만들다"
+    ],
+    "lat": 37.431,
+    "lng": 127.017,
+    "region": "경기 과천",
+    "period_start": null,
+    "period_end": null,
+    "hours": "10:00-18:00",
+    "age_note": "전연령",
+    "duration_min": 90,
+    "cost": "무료(기획전 별도)",
+    "reservation_url": "https://www.mmca.go.kr",
+    "indoor": 1,
+    "parking": "가능",
+    "stroller": "가능",
+    "crowd_note": "주말 오전 한산",
+    "related_books": [
+      "명화 속 숨은 이야기"
+    ],
+    "source": "seed:model-knowledge",
+    "is_seed": 1,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "art-02",
+    "name": "국립현대미술관 서울",
+    "type": "상설시설",
+    "topic_tags": [
+      "art"
+    ],
+    "verb_tags": [
+      "표현하다"
+    ],
+    "lat": 37.579,
+    "lng": 126.98,
+    "region": "서울 종로",
+    "period_start": null,
+    "period_end": null,
+    "hours": "10:00-18:00",
+    "age_note": "전연령",
+    "duration_min": 90,
+    "cost": "4000원(어린이 무료)",
+    "reservation_url": "https://www.mmca.go.kr",
+    "indoor": 1,
+    "parking": "가능",
+    "stroller": "가능",
+    "crowd_note": "주말 오전 한산",
+    "related_books": [
+      "현대미술이 뭐예요"
+    ],
+    "source": "seed:model-knowledge",
+    "is_seed": 1,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "art-03",
+    "name": "서울시립미술관",
+    "type": "상설시설",
+    "topic_tags": [
+      "art"
+    ],
+    "verb_tags": [
+      "표현하다"
+    ],
+    "lat": 37.564,
+    "lng": 126.973,
+    "region": "서울 중구",
+    "period_start": null,
+    "period_end": null,
+    "hours": "10:00-18:00",
+    "age_note": "전연령",
+    "duration_min": 80,
+    "cost": "무료",
+    "reservation_url": "https://sema.seoul.go.kr",
+    "indoor": 1,
+    "parking": "가능",
+    "stroller": "가능",
+    "crowd_note": "주말 오전 한산",
+    "related_books": [
+      "색깔의 마법"
+    ],
+    "source": "seed:model-knowledge",
+    "is_seed": 1,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "art-04",
+    "name": "헬로우뮤지움(어린이미술관)",
+    "type": "상설시설",
+    "topic_tags": [
+      "art"
+    ],
+    "verb_tags": [
+      "표현하다",
+      "만들다"
+    ],
+    "lat": 37.531,
+    "lng": 127.043,
+    "region": "서울 성동",
+    "period_start": null,
+    "period_end": null,
+    "hours": "10:00-18:00",
+    "age_note": "유아·초등",
+    "duration_min": 70,
+    "cost": "어린이 12000원",
+    "reservation_url": "https://www.hellomuseum.com",
+    "indoor": 1,
+    "parking": "가능",
+    "stroller": "가능",
+    "crowd_note": "주말 오전 한산",
+    "related_books": [
+      "나도 화가"
+    ],
+    "source": "seed:model-knowledge",
+    "is_seed": 1,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "art-05",
+    "name": "국립어린이박물관",
+    "type": "상설시설",
+    "topic_tags": [
+      "art",
+      "dino",
+      "animal"
+    ],
+    "verb_tags": [
+      "표현하다",
+      "만들다"
+    ],
+    "lat": 36.48,
+    "lng": 127.289,
+    "region": "세종",
+    "period_start": null,
+    "period_end": null,
+    "hours": "10:00-18:00",
+    "age_note": "유아·초등",
+    "duration_min": 90,
+    "cost": "무료(예약)",
+    "reservation_url": "https://www.nchm.go.kr",
+    "indoor": 1,
+    "parking": "가능",
+    "stroller": "가능",
+    "crowd_note": "주말 오전 한산",
+    "related_books": [
+      "박물관은 놀이터"
+    ],
+    "source": "seed:model-knowledge",
+    "is_seed": 1,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "art-06",
+    "name": "백남준아트센터",
+    "type": "상설시설",
+    "topic_tags": [
+      "art",
+      "robot"
+    ],
+    "verb_tags": [
+      "표현하다"
+    ],
+    "lat": 37.247,
+    "lng": 127.108,
+    "region": "경기 용인",
+    "period_start": null,
+    "period_end": null,
+    "hours": "10:00-18:00",
+    "age_note": "전연령",
+    "duration_min": 70,
+    "cost": "무료",
+    "reservation_url": "https://njp.ggcf.kr",
+    "indoor": 1,
+    "parking": "가능",
+    "stroller": "가능",
+    "crowd_note": "주말 오전 한산",
+    "related_books": [
+      "미디어아트 첫 만남"
+    ],
+    "source": "seed:model-knowledge",
+    "is_seed": 1,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "art-07",
+    "name": "소마미술관",
+    "type": "상설시설",
+    "topic_tags": [
+      "art"
+    ],
+    "verb_tags": [
+      "표현하다",
+      "만들다"
+    ],
+    "lat": 37.517,
+    "lng": 127.121,
+    "region": "서울 송파",
+    "period_start": null,
+    "period_end": null,
+    "hours": "10:00-18:00",
+    "age_note": "전연령",
+    "duration_min": 80,
+    "cost": "성인 3000원 어린이 2000원",
+    "reservation_url": "https://soma.kspo.or.kr",
+    "indoor": 1,
+    "parking": "가능",
+    "stroller": "가능",
+    "crowd_note": "주말 오전 한산",
+    "related_books": [
+      "조각 공원 산책"
+    ],
+    "source": "seed:model-knowledge",
+    "is_seed": 1,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "art-08",
+    "name": "경기도어린이박물관",
+    "type": "상설시설",
+    "topic_tags": [
+      "art",
+      "animal",
+      "robot"
+    ],
+    "verb_tags": [
+      "표현하다",
+      "만들다",
+      "움직이다"
+    ],
+    "lat": 37.282,
+    "lng": 127.115,
+    "region": "경기 용인",
+    "period_start": null,
+    "period_end": null,
+    "hours": "10:00-18:00",
+    "age_note": "유아·초등",
+    "duration_min": 120,
+    "cost": "어린이 6000원",
+    "reservation_url": "https://gcm.ggcf.kr",
+    "indoor": 1,
+    "parking": "가능",
+    "stroller": "가능",
+    "crowd_note": "주말 오전 한산",
+    "related_books": [
+      "오감으로 만나는 예술"
+    ],
+    "source": "seed:model-knowledge",
+    "is_seed": 1,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "osm-368632872",
+    "name": "사이버 농업 과학관",
+    "type": "상설시설",
+    "topic_tags": [
+      "robot"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "lat": 37.2739398,
+    "lng": 126.9854461,
+    "region": "",
+    "period_start": null,
+    "period_end": null,
+    "hours": "",
+    "age_note": "전연령",
+    "duration_min": 60,
+    "cost": "현장 확인",
+    "reservation_url": "",
+    "indoor": 1,
+    "parking": "확인 필요",
+    "stroller": "확인 필요",
+    "crowd_note": "",
+    "related_books": [],
+    "source": "osm:overpass",
+    "is_seed": 0,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "osm-368632876",
+    "name": "국립서울과학관",
+    "type": "상설시설",
+    "topic_tags": [
+      "robot"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "lat": 37.5821858,
+    "lng": 126.9973575,
+    "region": "",
+    "period_start": null,
+    "period_end": null,
+    "hours": "",
+    "age_note": "전연령",
+    "duration_min": 60,
+    "cost": "현장 확인",
+    "reservation_url": "",
+    "indoor": 1,
+    "parking": "확인 필요",
+    "stroller": "확인 필요",
+    "crowd_note": "",
+    "related_books": [],
+    "source": "osm:overpass",
+    "is_seed": 0,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "osm-368632888",
+    "name": "별새꽃돌자연탐사과학관",
+    "type": "상설시설",
+    "topic_tags": [
+      "space",
+      "animal",
+      "robot"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "lat": 37.185732,
+    "lng": 128.058345,
+    "region": "",
+    "period_start": null,
+    "period_end": null,
+    "hours": "",
+    "age_note": "전연령",
+    "duration_min": 60,
+    "cost": "현장 확인",
+    "reservation_url": "",
+    "indoor": 1,
+    "parking": "확인 필요",
+    "stroller": "확인 필요",
+    "crowd_note": "",
+    "related_books": [],
+    "source": "osm:overpass",
+    "is_seed": 0,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "osm-368632920",
+    "name": "홍천생명건강과학관",
+    "type": "상설시설",
+    "topic_tags": [
+      "robot"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "lat": 37.682672,
+    "lng": 127.876595,
+    "region": "",
+    "period_start": null,
+    "period_end": null,
+    "hours": "",
+    "age_note": "전연령",
+    "duration_min": 60,
+    "cost": "현장 확인",
+    "reservation_url": "",
+    "indoor": 1,
+    "parking": "확인 필요",
+    "stroller": "확인 필요",
+    "crowd_note": "",
+    "related_books": [],
+    "source": "osm:overpass",
+    "is_seed": 0,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "osm-368632926",
+    "name": "반디랜드천문과학관",
+    "type": "상설시설",
+    "topic_tags": [
+      "space",
+      "robot"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "lat": 36.012812,
+    "lng": 127.758463,
+    "region": "",
+    "period_start": null,
+    "period_end": null,
+    "hours": "",
+    "age_note": "전연령",
+    "duration_min": 60,
+    "cost": "현장 확인",
+    "reservation_url": "",
+    "indoor": 1,
+    "parking": "확인 필요",
+    "stroller": "확인 필요",
+    "crowd_note": "",
+    "related_books": [],
+    "source": "osm:overpass",
+    "is_seed": 0,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "osm-368632933",
+    "name": "충주고구려천문과학관",
+    "type": "상설시설",
+    "topic_tags": [
+      "space",
+      "robot"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "lat": 37.0402679,
+    "lng": 127.848332,
+    "region": "",
+    "period_start": null,
+    "period_end": null,
+    "hours": "",
+    "age_note": "전연령",
+    "duration_min": 60,
+    "cost": "현장 확인",
+    "reservation_url": "",
+    "indoor": 1,
+    "parking": "확인 필요",
+    "stroller": "확인 필요",
+    "crowd_note": "",
+    "related_books": [],
+    "source": "osm:overpass",
+    "is_seed": 0,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "osm-368632936",
+    "name": "국립수산과학관",
+    "type": "상설시설",
+    "topic_tags": [
+      "robot"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "lat": 35.1935404,
+    "lng": 129.2240199,
+    "region": "",
+    "period_start": null,
+    "period_end": null,
+    "hours": "",
+    "age_note": "전연령",
+    "duration_min": 60,
+    "cost": "현장 확인",
+    "reservation_url": "http://www.fsm.go.kr/",
+    "indoor": 1,
+    "parking": "확인 필요",
+    "stroller": "확인 필요",
+    "crowd_note": "",
+    "related_books": [],
+    "source": "osm:overpass",
+    "is_seed": 0,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "osm-368632944",
+    "name": "통영수산과학관",
+    "type": "상설시설",
+    "topic_tags": [
+      "robot"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "lat": 34.7642775,
+    "lng": 128.4068248,
+    "region": "",
+    "period_start": null,
+    "period_end": null,
+    "hours": "",
+    "age_note": "전연령",
+    "duration_min": 60,
+    "cost": "현장 확인",
+    "reservation_url": "",
+    "indoor": 1,
+    "parking": "확인 필요",
+    "stroller": "확인 필요",
+    "crowd_note": "",
+    "related_books": [],
+    "source": "osm:overpass",
+    "is_seed": 0,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "osm-368632946",
+    "name": "충주사과과학관",
+    "type": "상설시설",
+    "topic_tags": [
+      "robot"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "lat": 37.044557,
+    "lng": 127.928859,
+    "region": "",
+    "period_start": null,
+    "period_end": null,
+    "hours": "",
+    "age_note": "전연령",
+    "duration_min": 60,
+    "cost": "현장 확인",
+    "reservation_url": "",
+    "indoor": 1,
+    "parking": "확인 필요",
+    "stroller": "확인 필요",
+    "crowd_note": "",
+    "related_books": [],
+    "source": "osm:overpass",
+    "is_seed": 0,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "osm-368632964",
+    "name": "정남진천문과학관",
+    "type": "상설시설",
+    "topic_tags": [
+      "space",
+      "robot"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "lat": 34.658011,
+    "lng": 126.9258269,
+    "region": "",
+    "period_start": null,
+    "period_end": null,
+    "hours": "",
+    "age_note": "전연령",
+    "duration_min": 60,
+    "cost": "현장 확인",
+    "reservation_url": "",
+    "indoor": 1,
+    "parking": "확인 필요",
+    "stroller": "확인 필요",
+    "crowd_note": "",
+    "related_books": [],
+    "source": "osm:overpass",
+    "is_seed": 0,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "osm-368632971",
+    "name": "신라역사과학관",
+    "type": "상설시설",
+    "topic_tags": [
+      "robot"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "lat": 35.806896,
+    "lng": 129.311345,
+    "region": "",
+    "period_start": null,
+    "period_end": null,
+    "hours": "",
+    "age_note": "전연령",
+    "duration_min": 60,
+    "cost": "현장 확인",
+    "reservation_url": "",
+    "indoor": 1,
+    "parking": "확인 필요",
+    "stroller": "확인 필요",
+    "crowd_note": "",
+    "related_books": [],
+    "source": "osm:overpass",
+    "is_seed": 0,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "osm-368658504",
+    "name": "정읍시립미술관",
+    "type": "상설시설",
+    "topic_tags": [
+      "art"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "lat": 35.552112,
+    "lng": 126.861488,
+    "region": "",
+    "period_start": null,
+    "period_end": null,
+    "hours": "",
+    "age_note": "전연령",
+    "duration_min": 60,
+    "cost": "현장 확인",
+    "reservation_url": "",
+    "indoor": 1,
+    "parking": "확인 필요",
+    "stroller": "확인 필요",
+    "crowd_note": "",
+    "related_books": [],
+    "source": "osm:overpass",
+    "is_seed": 0,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "osm-368725368",
+    "name": "춘천미술관",
+    "type": "상설시설",
+    "topic_tags": [
+      "art"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "lat": 37.8824455,
+    "lng": 127.7312327,
+    "region": "강원특별자치도",
+    "period_start": null,
+    "period_end": null,
+    "hours": "Mo-Su 10:00-18:00",
+    "age_note": "전연령",
+    "duration_min": 60,
+    "cost": "현장 확인",
+    "reservation_url": "",
+    "indoor": 1,
+    "parking": "확인 필요",
+    "stroller": "확인 필요",
+    "crowd_note": "",
+    "related_books": [],
+    "source": "osm:overpass",
+    "is_seed": 0,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "osm-368725477",
+    "name": "사비나 미술관",
+    "type": "상설시설",
+    "topic_tags": [
+      "art"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "lat": 37.5765557,
+    "lng": 126.984592,
+    "region": "서울특별시",
+    "period_start": null,
+    "period_end": null,
+    "hours": "",
+    "age_note": "전연령",
+    "duration_min": 60,
+    "cost": "현장 확인",
+    "reservation_url": "http://www.savinamuseum.com/",
+    "indoor": 1,
+    "parking": "확인 필요",
+    "stroller": "확인 필요",
+    "crowd_note": "",
+    "related_books": [],
+    "source": "osm:overpass",
+    "is_seed": 0,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "osm-368725602",
+    "name": "백악미술관",
+    "type": "상설시설",
+    "topic_tags": [
+      "art"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "lat": 37.573589,
+    "lng": 126.984038,
+    "region": "서울특별시",
+    "period_start": null,
+    "period_end": null,
+    "hours": "",
+    "age_note": "전연령",
+    "duration_min": 60,
+    "cost": "현장 확인",
+    "reservation_url": "www.baegak.co.kr",
+    "indoor": 1,
+    "parking": "확인 필요",
+    "stroller": "확인 필요",
+    "crowd_note": "",
+    "related_books": [],
+    "source": "osm:overpass",
+    "is_seed": 0,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "osm-368725881",
+    "name": "마린갤러리",
+    "type": "상설시설",
+    "topic_tags": [
+      "art"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "lat": 35.159239,
+    "lng": 129.174774,
+    "region": "",
+    "period_start": null,
+    "period_end": null,
+    "hours": "",
+    "age_note": "전연령",
+    "duration_min": 60,
+    "cost": "현장 확인",
+    "reservation_url": "",
+    "indoor": 1,
+    "parking": "확인 필요",
+    "stroller": "확인 필요",
+    "crowd_note": "",
+    "related_books": [],
+    "source": "osm:overpass",
+    "is_seed": 0,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "osm-368725962",
+    "name": "향암미술관",
+    "type": "상설시설",
+    "topic_tags": [
+      "art"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "lat": 36.7181023,
+    "lng": 129.3546193,
+    "region": "",
+    "period_start": null,
+    "period_end": null,
+    "hours": "",
+    "age_note": "전연령",
+    "duration_min": 60,
+    "cost": "현장 확인",
+    "reservation_url": "",
+    "indoor": 1,
+    "parking": "확인 필요",
+    "stroller": "확인 필요",
+    "crowd_note": "",
+    "related_books": [],
+    "source": "osm:overpass",
+    "is_seed": 0,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "osm-368726120",
+    "name": "아르코미술관",
+    "type": "상설시설",
+    "topic_tags": [
+      "art"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "lat": 37.5803835,
+    "lng": 127.0032472,
+    "region": "서울특별시",
+    "period_start": null,
+    "period_end": null,
+    "hours": "",
+    "age_note": "전연령",
+    "duration_min": 60,
+    "cost": "현장 확인",
+    "reservation_url": "www.arkoartcenter.or.kr",
+    "indoor": 1,
+    "parking": "확인 필요",
+    "stroller": "확인 필요",
+    "crowd_note": "",
+    "related_books": [],
+    "source": "osm:overpass",
+    "is_seed": 0,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "osm-368726159",
+    "name": "경남도립미술관",
+    "type": "상설시설",
+    "topic_tags": [
+      "art"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "lat": 35.2394585,
+    "lng": 128.6909757,
+    "region": "",
+    "period_start": null,
+    "period_end": null,
+    "hours": "",
+    "age_note": "전연령",
+    "duration_min": 60,
+    "cost": "현장 확인",
+    "reservation_url": "",
+    "indoor": 1,
+    "parking": "확인 필요",
+    "stroller": "확인 필요",
+    "crowd_note": "",
+    "related_books": [],
+    "source": "osm:overpass",
+    "is_seed": 0,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "osm-368726187",
+    "name": "고운사진미술관",
+    "type": "상설시설",
+    "topic_tags": [
+      "art"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "lat": 35.1620738,
+    "lng": 129.1638947,
+    "region": "",
+    "period_start": null,
+    "period_end": null,
+    "hours": "",
+    "age_note": "전연령",
+    "duration_min": 60,
+    "cost": "현장 확인",
+    "reservation_url": "",
+    "indoor": 1,
+    "parking": "확인 필요",
+    "stroller": "확인 필요",
+    "crowd_note": "",
+    "related_books": [],
+    "source": "osm:overpass",
+    "is_seed": 0,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "osm-368726227",
+    "name": "인사동한국미술관",
+    "type": "상설시설",
+    "topic_tags": [
+      "art"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "lat": 37.5719021,
+    "lng": 126.9872964,
+    "region": "",
+    "period_start": null,
+    "period_end": null,
+    "hours": "",
+    "age_note": "전연령",
+    "duration_min": 60,
+    "cost": "현장 확인",
+    "reservation_url": "",
+    "indoor": 1,
+    "parking": "확인 필요",
+    "stroller": "확인 필요",
+    "crowd_note": "",
+    "related_books": [],
+    "source": "osm:overpass",
+    "is_seed": 0,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "osm-368727592",
+    "name": "최장호갤러리",
+    "type": "상설시설",
+    "topic_tags": [
+      "art"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "lat": 35.160975,
+    "lng": 129.172406,
+    "region": "",
+    "period_start": null,
+    "period_end": null,
+    "hours": "",
+    "age_note": "전연령",
+    "duration_min": 60,
+    "cost": "현장 확인",
+    "reservation_url": "",
+    "indoor": 1,
+    "parking": "확인 필요",
+    "stroller": "확인 필요",
+    "crowd_note": "",
+    "related_books": [],
+    "source": "osm:overpass",
+    "is_seed": 0,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "osm-368727638",
+    "name": "솔거갤러리",
+    "type": "상설시설",
+    "topic_tags": [
+      "art"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "lat": 35.161828,
+    "lng": 129.174657,
+    "region": "",
+    "period_start": null,
+    "period_end": null,
+    "hours": "",
+    "age_note": "전연령",
+    "duration_min": 60,
+    "cost": "현장 확인",
+    "reservation_url": "",
+    "indoor": 1,
+    "parking": "확인 필요",
+    "stroller": "확인 필요",
+    "crowd_note": "",
+    "related_books": [],
+    "source": "osm:overpass",
+    "is_seed": 0,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "osm-368727668",
+    "name": "임화랑",
+    "type": "상설시설",
+    "topic_tags": [
+      "art"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "lat": 35.159117,
+    "lng": 129.175321,
+    "region": "",
+    "period_start": null,
+    "period_end": null,
+    "hours": "",
+    "age_note": "전연령",
+    "duration_min": 60,
+    "cost": "현장 확인",
+    "reservation_url": "",
+    "indoor": 1,
+    "parking": "확인 필요",
+    "stroller": "확인 필요",
+    "crowd_note": "",
+    "related_books": [],
+    "source": "osm:overpass",
+    "is_seed": 0,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "osm-368733955",
+    "name": "방원공룡박물관",
+    "type": "상설시설",
+    "topic_tags": [
+      "dino"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "lat": 34.864036,
+    "lng": 127.464437,
+    "region": "",
+    "period_start": null,
+    "period_end": null,
+    "hours": "",
+    "age_note": "전연령",
+    "duration_min": 60,
+    "cost": "현장 확인",
+    "reservation_url": "",
+    "indoor": 1,
+    "parking": "확인 필요",
+    "stroller": "확인 필요",
+    "crowd_note": "",
+    "related_books": [],
+    "source": "osm:overpass",
+    "is_seed": 0,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "osm-368734122",
+    "name": "만천곤충박물관",
+    "type": "상설시설",
+    "topic_tags": [
+      "animal"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "lat": 37.519115,
+    "lng": 126.901395,
+    "region": "",
+    "period_start": null,
+    "period_end": null,
+    "hours": "",
+    "age_note": "전연령",
+    "duration_min": 60,
+    "cost": "현장 확인",
+    "reservation_url": "http://www.dryinsect.co.kr/m/index.html",
+    "indoor": 1,
+    "parking": "확인 필요",
+    "stroller": "확인 필요",
+    "crowd_note": "",
+    "related_books": [],
+    "source": "osm:overpass",
+    "is_seed": 0,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "osm-368734131",
+    "name": "영월곤충박물관",
+    "type": "상설시설",
+    "topic_tags": [
+      "animal"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "lat": 37.2113837,
+    "lng": 128.4226388,
+    "region": "",
+    "period_start": null,
+    "period_end": null,
+    "hours": "",
+    "age_note": "전연령",
+    "duration_min": 60,
+    "cost": "현장 확인",
+    "reservation_url": "",
+    "indoor": 1,
+    "parking": "확인 필요",
+    "stroller": "확인 필요",
+    "crowd_note": "",
+    "related_books": [],
+    "source": "osm:overpass",
+    "is_seed": 0,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "osm-368734213",
+    "name": "고래화석박물관",
+    "type": "상설시설",
+    "topic_tags": [
+      "dino"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "lat": 37.591145,
+    "lng": 129.089705,
+    "region": "",
+    "period_start": null,
+    "period_end": null,
+    "hours": "",
+    "age_note": "전연령",
+    "duration_min": 60,
+    "cost": "현장 확인",
+    "reservation_url": "",
+    "indoor": 1,
+    "parking": "확인 필요",
+    "stroller": "확인 필요",
+    "crowd_note": "",
+    "related_books": [],
+    "source": "osm:overpass",
+    "is_seed": 0,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "osm-368734334",
+    "name": "문경새재박물관",
+    "type": "상설시설",
+    "topic_tags": [
+      "animal"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "lat": 36.763058,
+    "lng": 128.076029,
+    "region": "",
+    "period_start": null,
+    "period_end": null,
+    "hours": "",
+    "age_note": "전연령",
+    "duration_min": 60,
+    "cost": "현장 확인",
+    "reservation_url": "",
+    "indoor": 1,
+    "parking": "확인 필요",
+    "stroller": "확인 필요",
+    "crowd_note": "",
+    "related_books": [],
+    "source": "osm:overpass",
+    "is_seed": 0,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "osm-368734354",
+    "name": "한얼테마과학박물관",
+    "type": "상설시설",
+    "topic_tags": [
+      "robot"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "lat": 37.3984329,
+    "lng": 127.609119,
+    "region": "",
+    "period_start": null,
+    "period_end": null,
+    "hours": "",
+    "age_note": "전연령",
+    "duration_min": 60,
+    "cost": "현장 확인",
+    "reservation_url": "",
+    "indoor": 1,
+    "parking": "확인 필요",
+    "stroller": "확인 필요",
+    "crowd_note": "",
+    "related_books": [],
+    "source": "osm:overpass",
+    "is_seed": 0,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "osm-368734389",
+    "name": "생명과학체험박물관",
+    "type": "상설시설",
+    "topic_tags": [
+      "robot"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "lat": 37.523919,
+    "lng": 126.871874,
+    "region": "",
+    "period_start": null,
+    "period_end": null,
+    "hours": "",
+    "age_note": "전연령",
+    "duration_min": 60,
+    "cost": "현장 확인",
+    "reservation_url": "",
+    "indoor": 1,
+    "parking": "확인 필요",
+    "stroller": "확인 필요",
+    "crowd_note": "",
+    "related_books": [],
+    "source": "osm:overpass",
+    "is_seed": 0,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "osm-368734417",
+    "name": "잠사과학박물관",
+    "type": "상설시설",
+    "topic_tags": [
+      "robot"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "lat": 37.264247,
+    "lng": 126.988022,
+    "region": "",
+    "period_start": null,
+    "period_end": null,
+    "hours": "",
+    "age_note": "전연령",
+    "duration_min": 60,
+    "cost": "현장 확인",
+    "reservation_url": "",
+    "indoor": 1,
+    "parking": "확인 필요",
+    "stroller": "확인 필요",
+    "crowd_note": "",
+    "related_books": [],
+    "source": "osm:overpass",
+    "is_seed": 0,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "osm-368734664",
+    "name": "이화여자대학교 자연사박물관",
+    "type": "상설시설",
+    "topic_tags": [
+      "dino"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "lat": 37.5605952,
+    "lng": 126.9482409,
+    "region": "",
+    "period_start": null,
+    "period_end": null,
+    "hours": "",
+    "age_note": "전연령",
+    "duration_min": 60,
+    "cost": "현장 확인",
+    "reservation_url": "",
+    "indoor": 1,
+    "parking": "확인 필요",
+    "stroller": "확인 필요",
+    "crowd_note": "",
+    "related_books": [],
+    "source": "osm:overpass",
+    "is_seed": 0,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "osm-368734919",
+    "name": "금강산자연사박물관",
+    "type": "상설시설",
+    "topic_tags": [
+      "dino"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "lat": 38.47221,
+    "lng": 128.421558,
+    "region": "",
+    "period_start": null,
+    "period_end": null,
+    "hours": "",
+    "age_note": "전연령",
+    "duration_min": 60,
+    "cost": "현장 확인",
+    "reservation_url": "",
+    "indoor": 1,
+    "parking": "확인 필요",
+    "stroller": "확인 필요",
+    "crowd_note": "",
+    "related_books": [],
+    "source": "osm:overpass",
+    "is_seed": 0,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "osm-368735133",
+    "name": "무릉고서화 미술박물관",
+    "type": "상설시설",
+    "topic_tags": [
+      "art"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "lat": 37.3253163,
+    "lng": 127.8866,
+    "region": "",
+    "period_start": null,
+    "period_end": null,
+    "hours": "",
+    "age_note": "전연령",
+    "duration_min": 60,
+    "cost": "현장 확인",
+    "reservation_url": "",
+    "indoor": 1,
+    "parking": "확인 필요",
+    "stroller": "확인 필요",
+    "crowd_note": "",
+    "related_books": [],
+    "source": "osm:overpass",
+    "is_seed": 0,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "osm-368735186",
+    "name": "곤충박물관",
+    "type": "상설시설",
+    "topic_tags": [
+      "animal"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "lat": 37.755457,
+    "lng": 126.468701,
+    "region": "",
+    "period_start": null,
+    "period_end": null,
+    "hours": "",
+    "age_note": "전연령",
+    "duration_min": 60,
+    "cost": "현장 확인",
+    "reservation_url": "",
+    "indoor": 1,
+    "parking": "확인 필요",
+    "stroller": "확인 필요",
+    "crowd_note": "",
+    "related_books": [],
+    "source": "osm:overpass",
+    "is_seed": 0,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "osm-368735446",
+    "name": "생명과학박물관",
+    "type": "상설시설",
+    "topic_tags": [
+      "robot"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "lat": 37.523901,
+    "lng": 126.871863,
+    "region": "",
+    "period_start": null,
+    "period_end": null,
+    "hours": "",
+    "age_note": "전연령",
+    "duration_min": 60,
+    "cost": "현장 확인",
+    "reservation_url": "",
+    "indoor": 1,
+    "parking": "확인 필요",
+    "stroller": "확인 필요",
+    "crowd_note": "",
+    "related_books": [],
+    "source": "osm:overpass",
+    "is_seed": 0,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "osm-368735540",
+    "name": "주천조각보박물관",
+    "type": "상설시설",
+    "topic_tags": [
+      "art"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "lat": 35.1680322,
+    "lng": 129.1664665,
+    "region": "",
+    "period_start": null,
+    "period_end": null,
+    "hours": "",
+    "age_note": "전연령",
+    "duration_min": 60,
+    "cost": "현장 확인",
+    "reservation_url": "",
+    "indoor": 1,
+    "parking": "확인 필요",
+    "stroller": "확인 필요",
+    "crowd_note": "",
+    "related_books": [],
+    "source": "osm:overpass",
+    "is_seed": 0,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "osm-368735579",
+    "name": "삽교호곤충박물관",
+    "type": "상설시설",
+    "topic_tags": [
+      "animal"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "lat": 36.889321,
+    "lng": 126.825429,
+    "region": "",
+    "period_start": null,
+    "period_end": null,
+    "hours": "",
+    "age_note": "전연령",
+    "duration_min": 60,
+    "cost": "현장 확인",
+    "reservation_url": "",
+    "indoor": 1,
+    "parking": "확인 필요",
+    "stroller": "확인 필요",
+    "crowd_note": "",
+    "related_books": [],
+    "source": "osm:overpass",
+    "is_seed": 0,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "osm-368735656",
+    "name": "반디랜드곤충박물관",
+    "type": "상설시설",
+    "topic_tags": [
+      "animal"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "lat": 36.0137742,
+    "lng": 127.7574383,
+    "region": "",
+    "period_start": null,
+    "period_end": null,
+    "hours": "",
+    "age_note": "전연령",
+    "duration_min": 60,
+    "cost": "현장 확인",
+    "reservation_url": "",
+    "indoor": 1,
+    "parking": "확인 필요",
+    "stroller": "확인 필요",
+    "crowd_note": "",
+    "related_books": [],
+    "source": "osm:overpass",
+    "is_seed": 0,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "osm-368735690",
+    "name": "강화은암자연사박물관",
+    "type": "상설시설",
+    "topic_tags": [
+      "dino"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "lat": 37.794849,
+    "lng": 126.456057,
+    "region": "",
+    "period_start": null,
+    "period_end": null,
+    "hours": "",
+    "age_note": "전연령",
+    "duration_min": 60,
+    "cost": "현장 확인",
+    "reservation_url": "",
+    "indoor": 1,
+    "parking": "확인 필요",
+    "stroller": "확인 필요",
+    "crowd_note": "",
+    "related_books": [],
+    "source": "osm:overpass",
+    "is_seed": 0,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "osm-368735711",
+    "name": "경상북도산림과학박물관",
+    "type": "상설시설",
+    "topic_tags": [
+      "robot"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "lat": 36.711686,
+    "lng": 128.822868,
+    "region": "",
+    "period_start": null,
+    "period_end": null,
+    "hours": "",
+    "age_note": "전연령",
+    "duration_min": 60,
+    "cost": "현장 확인",
+    "reservation_url": "",
+    "indoor": 1,
+    "parking": "확인 필요",
+    "stroller": "확인 필요",
+    "crowd_note": "",
+    "related_books": [],
+    "source": "osm:overpass",
+    "is_seed": 0,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "osm-368735750",
+    "name": "경북대학교자연사박물관",
+    "type": "상설시설",
+    "topic_tags": [
+      "dino"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "lat": 36.121204,
+    "lng": 128.576857,
+    "region": "",
+    "period_start": null,
+    "period_end": null,
+    "hours": "",
+    "age_note": "전연령",
+    "duration_min": 60,
+    "cost": "현장 확인",
+    "reservation_url": "",
+    "indoor": 1,
+    "parking": "확인 필요",
+    "stroller": "확인 필요",
+    "crowd_note": "",
+    "related_books": [],
+    "source": "osm:overpass",
+    "is_seed": 0,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "osm-368735768",
+    "name": "지당자연사박물관",
+    "type": "상설시설",
+    "topic_tags": [
+      "dino"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "lat": 36.327283,
+    "lng": 127.064361,
+    "region": "",
+    "period_start": null,
+    "period_end": null,
+    "hours": "",
+    "age_note": "전연령",
+    "duration_min": 60,
+    "cost": "현장 확인",
+    "reservation_url": "",
+    "indoor": 1,
+    "parking": "확인 필요",
+    "stroller": "확인 필요",
+    "crowd_note": "",
+    "related_books": [],
+    "source": "osm:overpass",
+    "is_seed": 0,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "osm-368735800",
+    "name": "창조자연사박물관",
+    "type": "상설시설",
+    "topic_tags": [
+      "dino"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "lat": 37.433699,
+    "lng": 126.786384,
+    "region": "",
+    "period_start": null,
+    "period_end": null,
+    "hours": "",
+    "age_note": "전연령",
+    "duration_min": 60,
+    "cost": "현장 확인",
+    "reservation_url": "",
+    "indoor": 1,
+    "parking": "확인 필요",
+    "stroller": "확인 필요",
+    "crowd_note": "",
+    "related_books": [],
+    "source": "osm:overpass",
+    "is_seed": 0,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "osm-368735811",
+    "name": "자연생태박물관",
+    "type": "상설시설",
+    "topic_tags": [
+      "animal"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "lat": 37.5048266,
+    "lng": 126.8165464,
+    "region": "",
+    "period_start": null,
+    "period_end": null,
+    "hours": "",
+    "age_note": "전연령",
+    "duration_min": 60,
+    "cost": "현장 확인",
+    "reservation_url": "",
+    "indoor": 1,
+    "parking": "확인 필요",
+    "stroller": "확인 필요",
+    "crowd_note": "",
+    "related_books": [],
+    "source": "osm:overpass",
+    "is_seed": 0,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "osm-368735833",
+    "name": "해남 땅끝해양자연사박물관",
+    "type": "상설시설",
+    "topic_tags": [
+      "dino"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "lat": 34.3249304,
+    "lng": 126.5671928,
+    "region": "",
+    "period_start": null,
+    "period_end": null,
+    "hours": "",
+    "age_note": "전연령",
+    "duration_min": 60,
+    "cost": "현장 확인",
+    "reservation_url": "",
+    "indoor": 1,
+    "parking": "확인 필요",
+    "stroller": "확인 필요",
+    "crowd_note": "",
+    "related_books": [],
+    "source": "osm:overpass",
+    "is_seed": 0,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "osm-368898142",
+    "name": "비단금 서울전시관",
+    "type": "상설시설",
+    "topic_tags": [
+      "art"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "lat": 37.487808,
+    "lng": 126.914893,
+    "region": "",
+    "period_start": null,
+    "period_end": null,
+    "hours": "",
+    "age_note": "전연령",
+    "duration_min": 60,
+    "cost": "현장 확인",
+    "reservation_url": "",
+    "indoor": 1,
+    "parking": "확인 필요",
+    "stroller": "확인 필요",
+    "crowd_note": "",
+    "related_books": [],
+    "source": "osm:overpass",
+    "is_seed": 0,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "osm-368898149",
+    "name": "묵선자불경전시관",
+    "type": "상설시설",
+    "topic_tags": [
+      "art"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "lat": 35.508552,
+    "lng": 129.138835,
+    "region": "",
+    "period_start": null,
+    "period_end": null,
+    "hours": "",
+    "age_note": "전연령",
+    "duration_min": 60,
+    "cost": "현장 확인",
+    "reservation_url": "",
+    "indoor": 1,
+    "parking": "확인 필요",
+    "stroller": "확인 필요",
+    "crowd_note": "",
+    "related_books": [],
+    "source": "osm:overpass",
+    "is_seed": 0,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "osm-368898160",
+    "name": "전주공예품전시관",
+    "type": "상설시설",
+    "topic_tags": [
+      "art"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "lat": 35.8147112,
+    "lng": 127.1530401,
+    "region": "",
+    "period_start": null,
+    "period_end": null,
+    "hours": "",
+    "age_note": "전연령",
+    "duration_min": 60,
+    "cost": "현장 확인",
+    "reservation_url": "",
+    "indoor": 1,
+    "parking": "확인 필요",
+    "stroller": "확인 필요",
+    "crowd_note": "",
+    "related_books": [],
+    "source": "osm:overpass",
+    "is_seed": 0,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "osm-368898162",
+    "name": "부안청자전시관",
+    "type": "상설시설",
+    "topic_tags": [
+      "art"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "lat": 35.61148,
+    "lng": 126.651715,
+    "region": "",
+    "period_start": null,
+    "period_end": null,
+    "hours": "",
+    "age_note": "전연령",
+    "duration_min": 60,
+    "cost": "현장 확인",
+    "reservation_url": "",
+    "indoor": 1,
+    "parking": "확인 필요",
+    "stroller": "확인 필요",
+    "crowd_note": "",
+    "related_books": [],
+    "source": "osm:overpass",
+    "is_seed": 0,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "osm-368898167",
+    "name": "국립해양유물전시관",
+    "type": "상설시설",
+    "topic_tags": [
+      "art"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "lat": 34.791838,
+    "lng": 126.4216562,
+    "region": "",
+    "period_start": null,
+    "period_end": null,
+    "hours": "",
+    "age_note": "전연령",
+    "duration_min": 60,
+    "cost": "현장 확인",
+    "reservation_url": "",
+    "indoor": 1,
+    "parking": "확인 필요",
+    "stroller": "확인 필요",
+    "crowd_note": "",
+    "related_books": [],
+    "source": "osm:overpass",
+    "is_seed": 0,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "osm-368898170",
+    "name": "오남공룡체험전시관",
+    "type": "상설시설",
+    "topic_tags": [
+      "dino",
+      "art"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "lat": 37.6956209,
+    "lng": 127.2517381,
+    "region": "경기도",
+    "period_start": null,
+    "period_end": null,
+    "hours": "",
+    "age_note": "전연령",
+    "duration_min": 60,
+    "cost": "현장 확인",
+    "reservation_url": "",
+    "indoor": 1,
+    "parking": "확인 필요",
+    "stroller": "확인 필요",
+    "crowd_note": "",
+    "related_books": [],
+    "source": "osm:overpass",
+    "is_seed": 0,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "osm-368898173",
+    "name": "완도군 어촌민속전시관",
+    "type": "상설시설",
+    "topic_tags": [
+      "art"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "lat": 34.311412,
+    "lng": 126.729289,
+    "region": "",
+    "period_start": null,
+    "period_end": null,
+    "hours": "",
+    "age_note": "전연령",
+    "duration_min": 60,
+    "cost": "현장 확인",
+    "reservation_url": "",
+    "indoor": 1,
+    "parking": "확인 필요",
+    "stroller": "확인 필요",
+    "crowd_note": "",
+    "related_books": [],
+    "source": "osm:overpass",
+    "is_seed": 0,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "osm-368898176",
+    "name": "궁중유물전시관",
+    "type": "상설시설",
+    "topic_tags": [
+      "art"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "lat": 37.5657429,
+    "lng": 126.9751529,
+    "region": "",
+    "period_start": null,
+    "period_end": null,
+    "hours": "",
+    "age_note": "전연령",
+    "duration_min": 60,
+    "cost": "현장 확인",
+    "reservation_url": "",
+    "indoor": 1,
+    "parking": "확인 필요",
+    "stroller": "확인 필요",
+    "crowd_note": "",
+    "related_books": [],
+    "source": "osm:overpass",
+    "is_seed": 0,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "osm-368898182",
+    "name": "농경유물전시관",
+    "type": "상설시설",
+    "topic_tags": [
+      "art"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "lat": 37.765311,
+    "lng": 126.796371,
+    "region": "",
+    "period_start": null,
+    "period_end": null,
+    "hours": "",
+    "age_note": "전연령",
+    "duration_min": 60,
+    "cost": "현장 확인",
+    "reservation_url": "",
+    "indoor": 1,
+    "parking": "확인 필요",
+    "stroller": "확인 필요",
+    "crowd_note": "",
+    "related_books": [],
+    "source": "osm:overpass",
+    "is_seed": 0,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "osm-368898206",
+    "name": "나비레 전시관",
+    "type": "상설시설",
+    "topic_tags": [
+      "animal",
+      "art"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "lat": 33.329375,
+    "lng": 126.17787,
+    "region": "",
+    "period_start": null,
+    "period_end": null,
+    "hours": "",
+    "age_note": "전연령",
+    "duration_min": 60,
+    "cost": "현장 확인",
+    "reservation_url": "",
+    "indoor": 1,
+    "parking": "확인 필요",
+    "stroller": "확인 필요",
+    "crowd_note": "",
+    "related_books": [],
+    "source": "osm:overpass",
+    "is_seed": 0,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "osm-368898208",
+    "name": "하늘정원조경전시관",
+    "type": "상설시설",
+    "topic_tags": [
+      "art"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "lat": 37.459181,
+    "lng": 127.078894,
+    "region": "",
+    "period_start": null,
+    "period_end": null,
+    "hours": "",
+    "age_note": "전연령",
+    "duration_min": 60,
+    "cost": "현장 확인",
+    "reservation_url": "",
+    "indoor": 1,
+    "parking": "확인 필요",
+    "stroller": "확인 필요",
+    "crowd_note": "",
+    "related_books": [],
+    "source": "osm:overpass",
+    "is_seed": 0,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "osm-368898214",
+    "name": "삼척 민물고기전시관",
+    "type": "상설시설",
+    "topic_tags": [
+      "animal",
+      "art"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "lat": 37.387378,
+    "lng": 129.196011,
+    "region": "",
+    "period_start": null,
+    "period_end": null,
+    "hours": "",
+    "age_note": "전연령",
+    "duration_min": 60,
+    "cost": "현장 확인",
+    "reservation_url": "",
+    "indoor": 1,
+    "parking": "확인 필요",
+    "stroller": "확인 필요",
+    "crowd_note": "",
+    "related_books": [],
+    "source": "osm:overpass",
+    "is_seed": 0,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "osm-368898230",
+    "name": "다산유물전시관",
+    "type": "상설시설",
+    "topic_tags": [
+      "art"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "lat": 34.56158,
+    "lng": 126.729489,
+    "region": "",
+    "period_start": null,
+    "period_end": null,
+    "hours": "",
+    "age_note": "전연령",
+    "duration_min": 60,
+    "cost": "현장 확인",
+    "reservation_url": "",
+    "indoor": 1,
+    "parking": "확인 필요",
+    "stroller": "확인 필요",
+    "crowd_note": "",
+    "related_books": [],
+    "source": "osm:overpass",
+    "is_seed": 0,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "osm-368898232",
+    "name": "금구원 조각전시관",
+    "type": "상설시설",
+    "topic_tags": [
+      "art"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "lat": 35.620446,
+    "lng": 126.488823,
+    "region": "",
+    "period_start": null,
+    "period_end": null,
+    "hours": "",
+    "age_note": "전연령",
+    "duration_min": 60,
+    "cost": "현장 확인",
+    "reservation_url": "",
+    "indoor": 1,
+    "parking": "확인 필요",
+    "stroller": "확인 필요",
+    "crowd_note": "",
+    "related_books": [],
+    "source": "osm:overpass",
+    "is_seed": 0,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "osm-368898235",
+    "name": "관음불교전시관",
+    "type": "상설시설",
+    "topic_tags": [
+      "art"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "lat": 37.396133,
+    "lng": 126.919704,
+    "region": "",
+    "period_start": null,
+    "period_end": null,
+    "hours": "",
+    "age_note": "전연령",
+    "duration_min": 60,
+    "cost": "현장 확인",
+    "reservation_url": "",
+    "indoor": 1,
+    "parking": "확인 필요",
+    "stroller": "확인 필요",
+    "crowd_note": "",
+    "related_books": [],
+    "source": "osm:overpass",
+    "is_seed": 0,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "osm-368898238",
+    "name": "보물섬 마늘나라 마늘전시관",
+    "type": "상설시설",
+    "topic_tags": [
+      "art"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "lat": 34.8162546,
+    "lng": 127.9228429,
+    "region": "",
+    "period_start": null,
+    "period_end": null,
+    "hours": "",
+    "age_note": "전연령",
+    "duration_min": 60,
+    "cost": "현장 확인",
+    "reservation_url": "",
+    "indoor": 1,
+    "parking": "확인 필요",
+    "stroller": "확인 필요",
+    "crowd_note": "",
+    "related_books": [],
+    "source": "osm:overpass",
+    "is_seed": 0,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "osm-368898244",
+    "name": "고가구전시관",
+    "type": "상설시설",
+    "topic_tags": [
+      "art"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "lat": 35.8144899,
+    "lng": 127.1519768,
+    "region": "",
+    "period_start": null,
+    "period_end": null,
+    "hours": "",
+    "age_note": "전연령",
+    "duration_min": 60,
+    "cost": "현장 확인",
+    "reservation_url": "",
+    "indoor": 1,
+    "parking": "확인 필요",
+    "stroller": "확인 필요",
+    "crowd_note": "",
+    "related_books": [],
+    "source": "osm:overpass",
+    "is_seed": 0,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "osm-368898247",
+    "name": "제천의병전시관",
+    "type": "상설시설",
+    "topic_tags": [
+      "art"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "lat": 37.099169,
+    "lng": 128.086226,
+    "region": "",
+    "period_start": null,
+    "period_end": null,
+    "hours": "",
+    "age_note": "전연령",
+    "duration_min": 60,
+    "cost": "현장 확인",
+    "reservation_url": "",
+    "indoor": 1,
+    "parking": "확인 필요",
+    "stroller": "확인 필요",
+    "crowd_note": "",
+    "related_books": [],
+    "source": "osm:overpass",
+    "is_seed": 0,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "osm-368898250",
+    "name": "문경도자기전시관",
+    "type": "상설시설",
+    "topic_tags": [
+      "art"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "lat": 36.7696295,
+    "lng": 128.1273565,
+    "region": "",
+    "period_start": null,
+    "period_end": null,
+    "hours": "",
+    "age_note": "전연령",
+    "duration_min": 60,
+    "cost": "현장 확인",
+    "reservation_url": "",
+    "indoor": 1,
+    "parking": "확인 필요",
+    "stroller": "확인 필요",
+    "crowd_note": "",
+    "related_books": [],
+    "source": "osm:overpass",
+    "is_seed": 0,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "osm-368898256",
+    "name": "영광 원자력발전소전시관",
+    "type": "상설시설",
+    "topic_tags": [
+      "art"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "lat": 35.407114,
+    "lng": 126.406494,
+    "region": "",
+    "period_start": null,
+    "period_end": null,
+    "hours": "",
+    "age_note": "전연령",
+    "duration_min": 60,
+    "cost": "현장 확인",
+    "reservation_url": "",
+    "indoor": 1,
+    "parking": "확인 필요",
+    "stroller": "확인 필요",
+    "crowd_note": "",
+    "related_books": [],
+    "source": "osm:overpass",
+    "is_seed": 0,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "osm-368898260",
+    "name": "한국산업도자전시관",
+    "type": "상설시설",
+    "topic_tags": [
+      "art"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "lat": 34.793509,
+    "lng": 126.419878,
+    "region": "",
+    "period_start": null,
+    "period_end": null,
+    "hours": "",
+    "age_note": "전연령",
+    "duration_min": 60,
+    "cost": "현장 확인",
+    "reservation_url": "",
+    "indoor": 1,
+    "parking": "확인 필요",
+    "stroller": "확인 필요",
+    "crowd_note": "",
+    "related_books": [],
+    "source": "osm:overpass",
+    "is_seed": 0,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "osm-368898262",
+    "name": "우봉미술전시관",
+    "type": "상설시설",
+    "topic_tags": [
+      "art"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "lat": 35.855661,
+    "lng": 128.586349,
+    "region": "",
+    "period_start": null,
+    "period_end": null,
+    "hours": "",
+    "age_note": "전연령",
+    "duration_min": 60,
+    "cost": "현장 확인",
+    "reservation_url": "",
+    "indoor": 1,
+    "parking": "확인 필요",
+    "stroller": "확인 필요",
+    "crowd_note": "",
+    "related_books": [],
+    "source": "osm:overpass",
+    "is_seed": 0,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "osm-368898269",
+    "name": "명성도예전시관",
+    "type": "상설시설",
+    "topic_tags": [
+      "art"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "lat": 37.301932,
+    "lng": 127.649791,
+    "region": "",
+    "period_start": null,
+    "period_end": null,
+    "hours": "",
+    "age_note": "전연령",
+    "duration_min": 60,
+    "cost": "현장 확인",
+    "reservation_url": "",
+    "indoor": 1,
+    "parking": "확인 필요",
+    "stroller": "확인 필요",
+    "crowd_note": "",
+    "related_books": [],
+    "source": "osm:overpass",
+    "is_seed": 0,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "osm-368898274",
+    "name": "금산인삼종합전시관",
+    "type": "상설시설",
+    "topic_tags": [
+      "art"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "lat": 36.0999807,
+    "lng": 127.5012072,
+    "region": "",
+    "period_start": null,
+    "period_end": null,
+    "hours": "",
+    "age_note": "전연령",
+    "duration_min": 60,
+    "cost": "현장 확인",
+    "reservation_url": "",
+    "indoor": 1,
+    "parking": "확인 필요",
+    "stroller": "확인 필요",
+    "crowd_note": "",
+    "related_books": [],
+    "source": "osm:overpass",
+    "is_seed": 0,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "osm-368898277",
+    "name": "안동공예문화전시관",
+    "type": "상설시설",
+    "topic_tags": [
+      "art"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "lat": 36.580373,
+    "lng": 128.761325,
+    "region": "",
+    "period_start": null,
+    "period_end": null,
+    "hours": "",
+    "age_note": "전연령",
+    "duration_min": 60,
+    "cost": "현장 확인",
+    "reservation_url": "",
+    "indoor": 1,
+    "parking": "확인 필요",
+    "stroller": "확인 필요",
+    "crowd_note": "",
+    "related_books": [],
+    "source": "osm:overpass",
+    "is_seed": 0,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "osm-368898280",
+    "name": "영동군 향토민속자료전시관",
+    "type": "상설시설",
+    "topic_tags": [
+      "art"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "lat": 36.175728,
+    "lng": 127.771375,
+    "region": "",
+    "period_start": null,
+    "period_end": null,
+    "hours": "",
+    "age_note": "전연령",
+    "duration_min": 60,
+    "cost": "현장 확인",
+    "reservation_url": "",
+    "indoor": 1,
+    "parking": "확인 필요",
+    "stroller": "확인 필요",
+    "crowd_note": "",
+    "related_books": [],
+    "source": "osm:overpass",
+    "is_seed": 0,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "osm-368898283",
+    "name": "불교전시관",
+    "type": "상설시설",
+    "topic_tags": [
+      "art"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "lat": 36.974936,
+    "lng": 127.930652,
+    "region": "",
+    "period_start": null,
+    "period_end": null,
+    "hours": "",
+    "age_note": "전연령",
+    "duration_min": 60,
+    "cost": "현장 확인",
+    "reservation_url": "",
+    "indoor": 1,
+    "parking": "확인 필요",
+    "stroller": "확인 필요",
+    "crowd_note": "",
+    "related_books": [],
+    "source": "osm:overpass",
+    "is_seed": 0,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "osm-368898286",
+    "name": "당항포 자연사전시관",
+    "type": "상설시설",
+    "topic_tags": [
+      "dino",
+      "art"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "lat": 35.0543635,
+    "lng": 128.3973345,
+    "region": "",
+    "period_start": null,
+    "period_end": null,
+    "hours": "",
+    "age_note": "전연령",
+    "duration_min": 60,
+    "cost": "현장 확인",
+    "reservation_url": "",
+    "indoor": 1,
+    "parking": "확인 필요",
+    "stroller": "확인 필요",
+    "crowd_note": "",
+    "related_books": [],
+    "source": "osm:overpass",
+    "is_seed": 0,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "osm-368898290",
+    "name": "서복전시관",
+    "type": "상설시설",
+    "topic_tags": [
+      "art"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "lat": 33.2447662,
+    "lng": 126.5706719,
+    "region": "",
+    "period_start": null,
+    "period_end": null,
+    "hours": "",
+    "age_note": "전연령",
+    "duration_min": 60,
+    "cost": "현장 확인",
+    "reservation_url": "",
+    "indoor": 1,
+    "parking": "확인 필요",
+    "stroller": "확인 필요",
+    "crowd_note": "",
+    "related_books": [],
+    "source": "osm:overpass",
+    "is_seed": 0,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "osm-368898292",
+    "name": "황토빛도자기전시관",
+    "type": "상설시설",
+    "topic_tags": [
+      "art"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "lat": 37.294867,
+    "lng": 127.412533,
+    "region": "",
+    "period_start": null,
+    "period_end": null,
+    "hours": "",
+    "age_note": "전연령",
+    "duration_min": 60,
+    "cost": "현장 확인",
+    "reservation_url": "",
+    "indoor": 1,
+    "parking": "확인 필요",
+    "stroller": "확인 필요",
+    "crowd_note": "",
+    "related_books": [],
+    "source": "osm:overpass",
+    "is_seed": 0,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "osm-368898295",
+    "name": "속초불교전시관",
+    "type": "상설시설",
+    "topic_tags": [
+      "art"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "lat": 38.20635,
+    "lng": 128.588316,
+    "region": "",
+    "period_start": null,
+    "period_end": null,
+    "hours": "",
+    "age_note": "전연령",
+    "duration_min": 60,
+    "cost": "현장 확인",
+    "reservation_url": "",
+    "indoor": 1,
+    "parking": "확인 필요",
+    "stroller": "확인 필요",
+    "crowd_note": "",
+    "related_books": [],
+    "source": "osm:overpass",
+    "is_seed": 0,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "osm-368898298",
+    "name": "성화불교전시관",
+    "type": "상설시설",
+    "topic_tags": [
+      "art"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "lat": 37.60039,
+    "lng": 127.1061221,
+    "region": "",
+    "period_start": null,
+    "period_end": null,
+    "hours": "",
+    "age_note": "전연령",
+    "duration_min": 60,
+    "cost": "현장 확인",
+    "reservation_url": "",
+    "indoor": 1,
+    "parking": "확인 필요",
+    "stroller": "확인 필요",
+    "crowd_note": "",
+    "related_books": [],
+    "source": "osm:overpass",
+    "is_seed": 0,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "osm-368898304",
+    "name": "창호종합전시관",
+    "type": "상설시설",
+    "topic_tags": [
+      "art"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "lat": 37.768351,
+    "lng": 128.907831,
+    "region": "",
+    "period_start": null,
+    "period_end": null,
+    "hours": "",
+    "age_note": "전연령",
+    "duration_min": 60,
+    "cost": "현장 확인",
+    "reservation_url": "",
+    "indoor": 1,
+    "parking": "확인 필요",
+    "stroller": "확인 필요",
+    "crowd_note": "",
+    "related_books": [],
+    "source": "osm:overpass",
+    "is_seed": 0,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "osm-368898318",
+    "name": "불교서적전시관",
+    "type": "상설시설",
+    "topic_tags": [
+      "art"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "lat": 35.1348988,
+    "lng": 129.0598412,
+    "region": "",
+    "period_start": null,
+    "period_end": null,
+    "hours": "",
+    "age_note": "전연령",
+    "duration_min": 60,
+    "cost": "현장 확인",
+    "reservation_url": "",
+    "indoor": 1,
+    "parking": "확인 필요",
+    "stroller": "확인 필요",
+    "crowd_note": "",
+    "related_books": [],
+    "source": "osm:overpass",
+    "is_seed": 0,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "osm-368898320",
+    "name": "황제불교전시관",
+    "type": "상설시설",
+    "topic_tags": [
+      "art"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "lat": 37.352974,
+    "lng": 127.946852,
+    "region": "",
+    "period_start": null,
+    "period_end": null,
+    "hours": "",
+    "age_note": "전연령",
+    "duration_min": 60,
+    "cost": "현장 확인",
+    "reservation_url": "",
+    "indoor": 1,
+    "parking": "확인 필요",
+    "stroller": "확인 필요",
+    "crowd_note": "",
+    "related_books": [],
+    "source": "osm:overpass",
+    "is_seed": 0,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "osm-368898326",
+    "name": "마산불교전시관",
+    "type": "상설시설",
+    "topic_tags": [
+      "art"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "lat": 35.221209,
+    "lng": 128.586837,
+    "region": "",
+    "period_start": null,
+    "period_end": null,
+    "hours": "",
+    "age_note": "전연령",
+    "duration_min": 60,
+    "cost": "현장 확인",
+    "reservation_url": "",
+    "indoor": 1,
+    "parking": "확인 필요",
+    "stroller": "확인 필요",
+    "crowd_note": "",
+    "related_books": [],
+    "source": "osm:overpass",
+    "is_seed": 0,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "osm-368898327",
+    "name": "해동불교전시관",
+    "type": "상설시설",
+    "topic_tags": [
+      "art"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "lat": 35.201432,
+    "lng": 128.575019,
+    "region": "",
+    "period_start": null,
+    "period_end": null,
+    "hours": "",
+    "age_note": "전연령",
+    "duration_min": 60,
+    "cost": "현장 확인",
+    "reservation_url": "",
+    "indoor": 1,
+    "parking": "확인 필요",
+    "stroller": "확인 필요",
+    "crowd_note": "",
+    "related_books": [],
+    "source": "osm:overpass",
+    "is_seed": 0,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "osm-368898332",
+    "name": "한국불교전시관",
+    "type": "상설시설",
+    "topic_tags": [
+      "art"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "lat": 35.3400756,
+    "lng": 129.0376118,
+    "region": "",
+    "period_start": null,
+    "period_end": null,
+    "hours": "",
+    "age_note": "전연령",
+    "duration_min": 60,
+    "cost": "현장 확인",
+    "reservation_url": "",
+    "indoor": 1,
+    "parking": "확인 필요",
+    "stroller": "확인 필요",
+    "crowd_note": "",
+    "related_books": [],
+    "source": "osm:overpass",
+    "is_seed": 0,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "osm-368898335",
+    "name": "통영불교전시관",
+    "type": "상설시설",
+    "topic_tags": [
+      "art"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "lat": 34.846395,
+    "lng": 128.427106,
+    "region": "",
+    "period_start": null,
+    "period_end": null,
+    "hours": "",
+    "age_note": "전연령",
+    "duration_min": 60,
+    "cost": "현장 확인",
+    "reservation_url": "",
+    "indoor": 1,
+    "parking": "확인 필요",
+    "stroller": "확인 필요",
+    "crowd_note": "",
+    "related_books": [],
+    "source": "osm:overpass",
+    "is_seed": 0,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "osm-368898340",
+    "name": "동호불교전시관",
+    "type": "상설시설",
+    "topic_tags": [
+      "art"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "lat": 36.034122,
+    "lng": 129.370412,
+    "region": "",
+    "period_start": null,
+    "period_end": null,
+    "hours": "",
+    "age_note": "전연령",
+    "duration_min": 60,
+    "cost": "현장 확인",
+    "reservation_url": "",
+    "indoor": 1,
+    "parking": "확인 필요",
+    "stroller": "확인 필요",
+    "crowd_note": "",
+    "related_books": [],
+    "source": "osm:overpass",
+    "is_seed": 0,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "osm-368898341",
+    "name": "만덕불교전시관",
+    "type": "상설시설",
+    "topic_tags": [
+      "art"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "lat": 36.034627,
+    "lng": 129.361721,
+    "region": "",
+    "period_start": null,
+    "period_end": null,
+    "hours": "",
+    "age_note": "전연령",
+    "duration_min": 60,
+    "cost": "현장 확인",
+    "reservation_url": "",
+    "indoor": 1,
+    "parking": "확인 필요",
+    "stroller": "확인 필요",
+    "crowd_note": "",
+    "related_books": [],
+    "source": "osm:overpass",
+    "is_seed": 0,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "osm-368898357",
+    "name": "연화불교전시관",
+    "type": "상설시설",
+    "topic_tags": [
+      "art"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "lat": 35.8375702,
+    "lng": 129.210113,
+    "region": "",
+    "period_start": null,
+    "period_end": null,
+    "hours": "",
+    "age_note": "전연령",
+    "duration_min": 60,
+    "cost": "현장 확인",
+    "reservation_url": "",
+    "indoor": 1,
+    "parking": "확인 필요",
+    "stroller": "확인 필요",
+    "crowd_note": "",
+    "related_books": [],
+    "source": "osm:overpass",
+    "is_seed": 0,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "osm-368898364",
+    "name": "대구불교전시관",
+    "type": "상설시설",
+    "topic_tags": [
+      "art"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "lat": 35.833783,
+    "lng": 128.556067,
+    "region": "",
+    "period_start": null,
+    "period_end": null,
+    "hours": "",
+    "age_note": "전연령",
+    "duration_min": 60,
+    "cost": "현장 확인",
+    "reservation_url": "",
+    "indoor": 1,
+    "parking": "확인 필요",
+    "stroller": "확인 필요",
+    "crowd_note": "",
+    "related_books": [],
+    "source": "osm:overpass",
+    "is_seed": 0,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "osm-368898366",
+    "name": "용은불교전시관",
+    "type": "상설시설",
+    "topic_tags": [
+      "art"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "lat": 35.887697,
+    "lng": 128.563833,
+    "region": "",
+    "period_start": null,
+    "period_end": null,
+    "hours": "",
+    "age_note": "전연령",
+    "duration_min": 60,
+    "cost": "현장 확인",
+    "reservation_url": "",
+    "indoor": 1,
+    "parking": "확인 필요",
+    "stroller": "확인 필요",
+    "crowd_note": "",
+    "related_books": [],
+    "source": "osm:overpass",
+    "is_seed": 0,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "osm-368898378",
+    "name": "대한불교전시관",
+    "type": "상설시설",
+    "topic_tags": [
+      "art"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "lat": 35.169316,
+    "lng": 129.115932,
+    "region": "",
+    "period_start": null,
+    "period_end": null,
+    "hours": "",
+    "age_note": "전연령",
+    "duration_min": 60,
+    "cost": "현장 확인",
+    "reservation_url": "",
+    "indoor": 1,
+    "parking": "확인 필요",
+    "stroller": "확인 필요",
+    "crowd_note": "",
+    "related_books": [],
+    "source": "osm:overpass",
+    "is_seed": 0,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "osm-368898380",
+    "name": "명륜불교전시관",
+    "type": "상설시설",
+    "topic_tags": [
+      "art"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "lat": 35.206725,
+    "lng": 129.003029,
+    "region": "",
+    "period_start": null,
+    "period_end": null,
+    "hours": "",
+    "age_note": "전연령",
+    "duration_min": 60,
+    "cost": "현장 확인",
+    "reservation_url": "",
+    "indoor": 1,
+    "parking": "확인 필요",
+    "stroller": "확인 필요",
+    "crowd_note": "",
+    "related_books": [],
+    "source": "osm:overpass",
+    "is_seed": 0,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "osm-368898383",
+    "name": "해인불교전시관",
+    "type": "상설시설",
+    "topic_tags": [
+      "art"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "lat": 35.1637084,
+    "lng": 129.0615405,
+    "region": "",
+    "period_start": null,
+    "period_end": null,
+    "hours": "",
+    "age_note": "전연령",
+    "duration_min": 60,
+    "cost": "현장 확인",
+    "reservation_url": "",
+    "indoor": 1,
+    "parking": "확인 필요",
+    "stroller": "확인 필요",
+    "crowd_note": "",
+    "related_books": [],
+    "source": "osm:overpass",
+    "is_seed": 0,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "osm-368898392",
+    "name": "우정불교전시관",
+    "type": "상설시설",
+    "topic_tags": [
+      "art"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "lat": 35.554518,
+    "lng": 129.312214,
+    "region": "",
+    "period_start": null,
+    "period_end": null,
+    "hours": "",
+    "age_note": "전연령",
+    "duration_min": 60,
+    "cost": "현장 확인",
+    "reservation_url": "",
+    "indoor": 1,
+    "parking": "확인 필요",
+    "stroller": "확인 필요",
+    "crowd_note": "",
+    "related_books": [],
+    "source": "osm:overpass",
+    "is_seed": 0,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "osm-368898397",
+    "name": "세명불교전시관",
+    "type": "상설시설",
+    "topic_tags": [
+      "art"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "lat": 35.541437,
+    "lng": 129.309894,
+    "region": "",
+    "period_start": null,
+    "period_end": null,
+    "hours": "",
+    "age_note": "전연령",
+    "duration_min": 60,
+    "cost": "현장 확인",
+    "reservation_url": "",
+    "indoor": 1,
+    "parking": "확인 필요",
+    "stroller": "확인 필요",
+    "crowd_note": "",
+    "related_books": [],
+    "source": "osm:overpass",
+    "is_seed": 0,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "osm-368898408",
+    "name": "한라불교전시관",
+    "type": "상설시설",
+    "topic_tags": [
+      "art"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "lat": 33.250839,
+    "lng": 126.561655,
+    "region": "",
+    "period_start": null,
+    "period_end": null,
+    "hours": "",
+    "age_note": "전연령",
+    "duration_min": 60,
+    "cost": "현장 확인",
+    "reservation_url": "",
+    "indoor": 1,
+    "parking": "확인 필요",
+    "stroller": "확인 필요",
+    "crowd_note": "",
+    "related_books": [],
+    "source": "osm:overpass",
+    "is_seed": 0,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "osm-368898414",
+    "name": "무불정사불교전시관",
+    "type": "상설시설",
+    "topic_tags": [
+      "art"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "lat": 36.357037,
+    "lng": 127.33561,
+    "region": "",
+    "period_start": null,
+    "period_end": null,
+    "hours": "",
+    "age_note": "전연령",
+    "duration_min": 60,
+    "cost": "현장 확인",
+    "reservation_url": "",
+    "indoor": 1,
+    "parking": "확인 필요",
+    "stroller": "확인 필요",
+    "crowd_note": "",
+    "related_books": [],
+    "source": "osm:overpass",
+    "is_seed": 0,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "osm-368898419",
+    "name": "쌍계제다전시관",
+    "type": "상설시설",
+    "topic_tags": [
+      "art"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "lat": 35.234225,
+    "lng": 127.640364,
+    "region": "",
+    "period_start": null,
+    "period_end": null,
+    "hours": "",
+    "age_note": "전연령",
+    "duration_min": 60,
+    "cost": "현장 확인",
+    "reservation_url": "",
+    "indoor": 1,
+    "parking": "확인 필요",
+    "stroller": "확인 필요",
+    "crowd_note": "",
+    "related_books": [],
+    "source": "osm:overpass",
+    "is_seed": 0,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "osm-368898422",
+    "name": "(주)엘지종합전시관 (Eljijonghap Exhibition Hall)",
+    "type": "상설시설",
+    "topic_tags": [
+      "art"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "lat": 35.171465,
+    "lng": 129.050045,
+    "region": "",
+    "period_start": null,
+    "period_end": null,
+    "hours": "",
+    "age_note": "전연령",
+    "duration_min": 60,
+    "cost": "현장 확인",
+    "reservation_url": "",
+    "indoor": 1,
+    "parking": "확인 필요",
+    "stroller": "확인 필요",
+    "crowd_note": "",
+    "related_books": [],
+    "source": "osm:overpass",
+    "is_seed": 0,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "osm-368898425",
+    "name": "천지불교전시관 Cheonji Buddhism Exhibition Hall",
+    "type": "상설시설",
+    "topic_tags": [
+      "art"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "lat": 35.271886,
+    "lng": 127.778082,
+    "region": "",
+    "period_start": null,
+    "period_end": null,
+    "hours": "",
+    "age_note": "전연령",
+    "duration_min": 60,
+    "cost": "현장 확인",
+    "reservation_url": "",
+    "indoor": 1,
+    "parking": "확인 필요",
+    "stroller": "확인 필요",
+    "crowd_note": "",
+    "related_books": [],
+    "source": "osm:overpass",
+    "is_seed": 0,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "osm-368898433",
+    "name": "제일불교전시관",
+    "type": "상설시설",
+    "topic_tags": [
+      "art"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "lat": 35.196996,
+    "lng": 128.083322,
+    "region": "",
+    "period_start": null,
+    "period_end": null,
+    "hours": "",
+    "age_note": "전연령",
+    "duration_min": 60,
+    "cost": "현장 확인",
+    "reservation_url": "",
+    "indoor": 1,
+    "parking": "확인 필요",
+    "stroller": "확인 필요",
+    "crowd_note": "",
+    "related_books": [],
+    "source": "osm:overpass",
+    "is_seed": 0,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "osm-368898438",
+    "name": "풍기인삼종합전시관",
+    "type": "상설시설",
+    "topic_tags": [
+      "art"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "lat": 36.876858,
+    "lng": 128.541028,
+    "region": "",
+    "period_start": null,
+    "period_end": null,
+    "hours": "",
+    "age_note": "전연령",
+    "duration_min": 60,
+    "cost": "현장 확인",
+    "reservation_url": "",
+    "indoor": 1,
+    "parking": "확인 필요",
+    "stroller": "확인 필요",
+    "crowd_note": "",
+    "related_books": [],
+    "source": "osm:overpass",
+    "is_seed": 0,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "osm-368898442",
+    "name": "지리산 빨치산 토벌전시관 Jirisan Bbalchisan Tobeol Exhibition Hall",
+    "type": "상설시설",
+    "topic_tags": [
+      "art"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "lat": 35.2912493,
+    "lng": 127.7542565,
+    "region": "",
+    "period_start": null,
+    "period_end": null,
+    "hours": "",
+    "age_note": "전연령",
+    "duration_min": 60,
+    "cost": "현장 확인",
+    "reservation_url": "",
+    "indoor": 1,
+    "parking": "확인 필요",
+    "stroller": "확인 필요",
+    "crowd_note": "",
+    "related_books": [],
+    "source": "osm:overpass",
+    "is_seed": 0,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "osm-368898448",
+    "name": "덕봉전시관",
+    "type": "상설시설",
+    "topic_tags": [
+      "art"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "lat": 35.968915,
+    "lng": 126.694212,
+    "region": "",
+    "period_start": null,
+    "period_end": null,
+    "hours": "",
+    "age_note": "전연령",
+    "duration_min": 60,
+    "cost": "현장 확인",
+    "reservation_url": "",
+    "indoor": 1,
+    "parking": "확인 필요",
+    "stroller": "확인 필요",
+    "crowd_note": "",
+    "related_books": [],
+    "source": "osm:overpass",
+    "is_seed": 0,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "osm-368898449",
+    "name": "동제미술전시관",
+    "type": "상설시설",
+    "topic_tags": [
+      "art"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "lat": 35.7892041,
+    "lng": 128.5934705,
+    "region": "",
+    "period_start": null,
+    "period_end": null,
+    "hours": "",
+    "age_note": "전연령",
+    "duration_min": 60,
+    "cost": "현장 확인",
+    "reservation_url": "",
+    "indoor": 1,
+    "parking": "확인 필요",
+    "stroller": "확인 필요",
+    "crowd_note": "",
+    "related_books": [],
+    "source": "osm:overpass",
+    "is_seed": 0,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "osm-368898453",
+    "name": "전라북도특산품전시관",
+    "type": "상설시설",
+    "topic_tags": [
+      "art"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "lat": 35.401188,
+    "lng": 127.376888,
+    "region": "",
+    "period_start": null,
+    "period_end": null,
+    "hours": "",
+    "age_note": "전연령",
+    "duration_min": 60,
+    "cost": "현장 확인",
+    "reservation_url": "",
+    "indoor": 1,
+    "parking": "확인 필요",
+    "stroller": "확인 필요",
+    "crowd_note": "",
+    "related_books": [],
+    "source": "osm:overpass",
+    "is_seed": 0,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "osm-368898457",
+    "name": "용두산미술전시관",
+    "type": "상설시설",
+    "topic_tags": [
+      "art"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "lat": 35.1009553,
+    "lng": 129.0325196,
+    "region": "",
+    "period_start": null,
+    "period_end": null,
+    "hours": "",
+    "age_note": "전연령",
+    "duration_min": 60,
+    "cost": "현장 확인",
+    "reservation_url": "",
+    "indoor": 1,
+    "parking": "확인 필요",
+    "stroller": "확인 필요",
+    "crowd_note": "",
+    "related_books": [],
+    "source": "osm:overpass",
+    "is_seed": 0,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "osm-368898458",
+    "name": "다보성고미술전시관",
+    "type": "상설시설",
+    "topic_tags": [
+      "art"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "lat": 37.5752093,
+    "lng": 126.9859772,
+    "region": "",
+    "period_start": null,
+    "period_end": null,
+    "hours": "",
+    "age_note": "전연령",
+    "duration_min": 60,
+    "cost": "현장 확인",
+    "reservation_url": "",
+    "indoor": 1,
+    "parking": "확인 필요",
+    "stroller": "확인 필요",
+    "crowd_note": "",
+    "related_books": [],
+    "source": "osm:overpass",
+    "is_seed": 0,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "osm-368898460",
+    "name": "석당수석전시관",
+    "type": "상설시설",
+    "topic_tags": [
+      "art"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "lat": 35.131591,
+    "lng": 126.903138,
+    "region": "",
+    "period_start": null,
+    "period_end": null,
+    "hours": "",
+    "age_note": "전연령",
+    "duration_min": 60,
+    "cost": "현장 확인",
+    "reservation_url": "",
+    "indoor": 1,
+    "parking": "확인 필요",
+    "stroller": "확인 필요",
+    "crowd_note": "",
+    "related_books": [],
+    "source": "osm:overpass",
+    "is_seed": 0,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "osm-368898463",
+    "name": "호남수석전시관",
+    "type": "상설시설",
+    "topic_tags": [
+      "art"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "lat": 34.933793,
+    "lng": 126.434435,
+    "region": "",
+    "period_start": null,
+    "period_end": null,
+    "hours": "",
+    "age_note": "전연령",
+    "duration_min": 60,
+    "cost": "현장 확인",
+    "reservation_url": "",
+    "indoor": 1,
+    "parking": "확인 필요",
+    "stroller": "확인 필요",
+    "crowd_note": "",
+    "related_books": [],
+    "source": "osm:overpass",
+    "is_seed": 0,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "osm-368898471",
+    "name": "당진수석전시관",
+    "type": "상설시설",
+    "topic_tags": [
+      "art"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "lat": 36.888258,
+    "lng": 126.623765,
+    "region": "",
+    "period_start": null,
+    "period_end": null,
+    "hours": "",
+    "age_note": "전연령",
+    "duration_min": 60,
+    "cost": "현장 확인",
+    "reservation_url": "",
+    "indoor": 1,
+    "parking": "확인 필요",
+    "stroller": "확인 필요",
+    "crowd_note": "",
+    "related_books": [],
+    "source": "osm:overpass",
+    "is_seed": 0,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "osm-368898472",
+    "name": "일심수석전시관",
+    "type": "상설시설",
+    "topic_tags": [
+      "art"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "lat": 37.0960196,
+    "lng": 127.7921551,
+    "region": "",
+    "period_start": null,
+    "period_end": null,
+    "hours": "",
+    "age_note": "전연령",
+    "duration_min": 60,
+    "cost": "현장 확인",
+    "reservation_url": "",
+    "indoor": 1,
+    "parking": "확인 필요",
+    "stroller": "확인 필요",
+    "crowd_note": "",
+    "related_books": [],
+    "source": "osm:overpass",
+    "is_seed": 0,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "osm-368898479",
+    "name": "호담항공우주전시관",
+    "type": "상설시설",
+    "topic_tags": [
+      "space",
+      "art"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "lat": 34.9650879,
+    "lng": 126.5158221,
+    "region": "",
+    "period_start": null,
+    "period_end": null,
+    "hours": "",
+    "age_note": "전연령",
+    "duration_min": 60,
+    "cost": "현장 확인",
+    "reservation_url": "",
+    "indoor": 1,
+    "parking": "확인 필요",
+    "stroller": "확인 필요",
+    "crowd_note": "",
+    "related_books": [],
+    "source": "osm:overpass",
+    "is_seed": 0,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "osm-368898485",
+    "name": "돌석도예전시관",
+    "type": "상설시설",
+    "topic_tags": [
+      "art"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "lat": 37.3790584,
+    "lng": 126.9045739,
+    "region": "",
+    "period_start": null,
+    "period_end": null,
+    "hours": "",
+    "age_note": "전연령",
+    "duration_min": 60,
+    "cost": "현장 확인",
+    "reservation_url": "",
+    "indoor": 1,
+    "parking": "확인 필요",
+    "stroller": "확인 필요",
+    "crowd_note": "",
+    "related_books": [],
+    "source": "osm:overpass",
+    "is_seed": 0,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "osm-368898488",
+    "name": "민속자료전시관",
+    "type": "상설시설",
+    "topic_tags": [
+      "art"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "lat": 36.806953,
+    "lng": 127.793824,
+    "region": "",
+    "period_start": null,
+    "period_end": null,
+    "hours": "",
+    "age_note": "전연령",
+    "duration_min": 60,
+    "cost": "현장 확인",
+    "reservation_url": "",
+    "indoor": 1,
+    "parking": "확인 필요",
+    "stroller": "확인 필요",
+    "crowd_note": "",
+    "related_books": [],
+    "source": "osm:overpass",
+    "is_seed": 0,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "osm-368898493",
+    "name": "새김해수석꽃판매전시관",
+    "type": "상설시설",
+    "topic_tags": [
+      "animal",
+      "art"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "lat": 35.226996,
+    "lng": 128.896721,
+    "region": "",
+    "period_start": null,
+    "period_end": null,
+    "hours": "",
+    "age_note": "전연령",
+    "duration_min": 60,
+    "cost": "현장 확인",
+    "reservation_url": "",
+    "indoor": 1,
+    "parking": "확인 필요",
+    "stroller": "확인 필요",
+    "crowd_note": "",
+    "related_books": [],
+    "source": "osm:overpass",
+    "is_seed": 0,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "osm-368898498",
+    "name": "김천민속유물전시관",
+    "type": "상설시설",
+    "topic_tags": [
+      "art"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "lat": 36.10328,
+    "lng": 128.180443,
+    "region": "",
+    "period_start": null,
+    "period_end": null,
+    "hours": "",
+    "age_note": "전연령",
+    "duration_min": 60,
+    "cost": "현장 확인",
+    "reservation_url": "",
+    "indoor": 1,
+    "parking": "확인 필요",
+    "stroller": "확인 필요",
+    "crowd_note": "",
+    "related_books": [],
+    "source": "osm:overpass",
+    "is_seed": 0,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "osm-368898507",
+    "name": "기쁨씽크공장전시관",
+    "type": "상설시설",
+    "topic_tags": [
+      "art"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "lat": 34.807924,
+    "lng": 126.376749,
+    "region": "",
+    "period_start": null,
+    "period_end": null,
+    "hours": "",
+    "age_note": "전연령",
+    "duration_min": 60,
+    "cost": "현장 확인",
+    "reservation_url": "",
+    "indoor": 1,
+    "parking": "확인 필요",
+    "stroller": "확인 필요",
+    "crowd_note": "",
+    "related_books": [],
+    "source": "osm:overpass",
+    "is_seed": 0,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "osm-368898520",
+    "name": "에스디건설주택전시관",
+    "type": "상설시설",
+    "topic_tags": [
+      "art"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "lat": 35.870071,
+    "lng": 128.603312,
+    "region": "",
+    "period_start": null,
+    "period_end": null,
+    "hours": "",
+    "age_note": "전연령",
+    "duration_min": 60,
+    "cost": "현장 확인",
+    "reservation_url": "",
+    "indoor": 1,
+    "parking": "확인 필요",
+    "stroller": "확인 필요",
+    "crowd_note": "",
+    "related_books": [],
+    "source": "osm:overpass",
+    "is_seed": 0,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "osm-368898523",
+    "name": "대우건설거제동전시관",
+    "type": "상설시설",
+    "topic_tags": [
+      "art"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "lat": 35.158595,
+    "lng": 129.144172,
+    "region": "",
+    "period_start": null,
+    "period_end": null,
+    "hours": "",
+    "age_note": "전연령",
+    "duration_min": 60,
+    "cost": "현장 확인",
+    "reservation_url": "",
+    "indoor": 1,
+    "parking": "확인 필요",
+    "stroller": "확인 필요",
+    "crowd_note": "",
+    "related_books": [],
+    "source": "osm:overpass",
+    "is_seed": 0,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "osm-368898532",
+    "name": "포스코건설주택문화전시관",
+    "type": "상설시설",
+    "topic_tags": [
+      "art"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "lat": 37.5255989,
+    "lng": 127.0532009,
+    "region": "",
+    "period_start": null,
+    "period_end": null,
+    "hours": "",
+    "age_note": "전연령",
+    "duration_min": 60,
+    "cost": "현장 확인",
+    "reservation_url": "",
+    "indoor": 1,
+    "parking": "확인 필요",
+    "stroller": "확인 필요",
+    "crowd_note": "",
+    "related_books": [],
+    "source": "osm:overpass",
+    "is_seed": 0,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "osm-368898541",
+    "name": "민속도자기종합전시관",
+    "type": "상설시설",
+    "topic_tags": [
+      "art"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "lat": 37.3076127,
+    "lng": 127.4119341,
+    "region": "",
+    "period_start": null,
+    "period_end": null,
+    "hours": "",
+    "age_note": "전연령",
+    "duration_min": 60,
+    "cost": "현장 확인",
+    "reservation_url": "",
+    "indoor": 1,
+    "parking": "확인 필요",
+    "stroller": "확인 필요",
+    "crowd_note": "",
+    "related_books": [],
+    "source": "osm:overpass",
+    "is_seed": 0,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "osm-368898545",
+    "name": "단원전시관",
+    "type": "상설시설",
+    "topic_tags": [
+      "art"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "lat": 37.318889,
+    "lng": 126.828071,
+    "region": "",
+    "period_start": null,
+    "period_end": null,
+    "hours": "",
+    "age_note": "전연령",
+    "duration_min": 60,
+    "cost": "현장 확인",
+    "reservation_url": "",
+    "indoor": 1,
+    "parking": "확인 필요",
+    "stroller": "확인 필요",
+    "crowd_note": "",
+    "related_books": [],
+    "source": "osm:overpass",
+    "is_seed": 0,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "osm-368898550",
+    "name": "선인장전시관",
+    "type": "상설시설",
+    "topic_tags": [
+      "art"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "lat": 37.6574995,
+    "lng": 126.7613113,
+    "region": "",
+    "period_start": null,
+    "period_end": null,
+    "hours": "",
+    "age_note": "전연령",
+    "duration_min": 60,
+    "cost": "현장 확인",
+    "reservation_url": "",
+    "indoor": 1,
+    "parking": "확인 필요",
+    "stroller": "확인 필요",
+    "crowd_note": "",
+    "related_books": [],
+    "source": "osm:overpass",
+    "is_seed": 0,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "osm-368898553",
+    "name": "만물전시관",
+    "type": "상설시설",
+    "topic_tags": [
+      "art"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "lat": 37.54282,
+    "lng": 126.990963,
+    "region": "",
+    "period_start": null,
+    "period_end": null,
+    "hours": "",
+    "age_note": "전연령",
+    "duration_min": 60,
+    "cost": "현장 확인",
+    "reservation_url": "",
+    "indoor": 1,
+    "parking": "확인 필요",
+    "stroller": "확인 필요",
+    "crowd_note": "",
+    "related_books": [],
+    "source": "osm:overpass",
+    "is_seed": 0,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "osm-368898557",
+    "name": "덕포진전시관",
+    "type": "상설시설",
+    "topic_tags": [
+      "art"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "lat": 37.6497123,
+    "lng": 126.5372324,
+    "region": "",
+    "period_start": null,
+    "period_end": null,
+    "hours": "",
+    "age_note": "전연령",
+    "duration_min": 60,
+    "cost": "현장 확인",
+    "reservation_url": "",
+    "indoor": 1,
+    "parking": "확인 필요",
+    "stroller": "확인 필요",
+    "crowd_note": "",
+    "related_books": [],
+    "source": "osm:overpass",
+    "is_seed": 0,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "osm-368898561",
+    "name": "고양꽃전시관",
+    "type": "상설시설",
+    "topic_tags": [
+      "art"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "lat": 37.6537928,
+    "lng": 126.7686568,
+    "region": "",
+    "period_start": null,
+    "period_end": null,
+    "hours": "",
+    "age_note": "전연령",
+    "duration_min": 60,
+    "cost": "현장 확인",
+    "reservation_url": "",
+    "indoor": 1,
+    "parking": "확인 필요",
+    "stroller": "확인 필요",
+    "crowd_note": "",
+    "related_books": [],
+    "source": "osm:overpass",
+    "is_seed": 0,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "osm-368898564",
+    "name": "창녕민속전시관",
+    "type": "상설시설",
+    "topic_tags": [
+      "art"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "lat": 35.461682,
+    "lng": 128.526405,
+    "region": "",
+    "period_start": null,
+    "period_end": null,
+    "hours": "",
+    "age_note": "전연령",
+    "duration_min": 60,
+    "cost": "현장 확인",
+    "reservation_url": "",
+    "indoor": 1,
+    "parking": "확인 필요",
+    "stroller": "확인 필요",
+    "crowd_note": "",
+    "related_books": [],
+    "source": "osm:overpass",
+    "is_seed": 0,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "evt-exp-01",
+    "name": "공룡 화석 발굴 특별전(종료)",
+    "type": "행사",
+    "topic_tags": [
+      "dino"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "lat": 37.5789,
+    "lng": 126.934,
+    "region": "서울 서대문",
+    "period_start": "2026-05-25",
+    "period_end": "2026-06-24",
+    "hours": "10:00-18:00",
+    "age_note": "전연령",
+    "duration_min": 90,
+    "cost": "무료",
+    "reservation_url": "http://x",
+    "indoor": 1,
+    "parking": "가능",
+    "stroller": "가능",
+    "crowd_note": "",
+    "related_books": [
+      "공룡 대백과"
+    ],
+    "source": "seed:model-knowledge",
+    "is_seed": 1,
+    "last_verified": "2026-07-04",
+    "status": "종료"
+  },
+  {
+    "id": "evt-exp-02",
+    "name": "봄맞이 별빛 관측회(종료)",
+    "type": "행사",
+    "topic_tags": [
+      "space"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "lat": 36.4106,
+    "lng": 127.3893,
+    "region": "대전 유성",
+    "period_start": "2026-06-04",
+    "period_end": "2026-06-29",
+    "hours": "10:00-18:00",
+    "age_note": "전연령",
+    "duration_min": 90,
+    "cost": "무료",
+    "reservation_url": "http://x",
+    "indoor": 1,
+    "parking": "가능",
+    "stroller": "가능",
+    "crowd_note": "",
+    "related_books": [
+      "별자리 이야기"
+    ],
+    "source": "seed:model-knowledge",
+    "is_seed": 1,
+    "last_verified": "2026-07-04",
+    "status": "종료"
+  },
+  {
+    "id": "evt-exp-03",
+    "name": "곤충 표본 만들기 교실(종료)",
+    "type": "행사",
+    "topic_tags": [
+      "animal"
+    ],
+    "verb_tags": [
+      "만들다"
+    ],
+    "lat": 35.0658,
+    "lng": 126.5169,
+    "region": "전남 함평",
+    "period_start": "2026-06-09",
+    "period_end": "2026-07-01",
+    "hours": "10:00-18:00",
+    "age_note": "전연령",
+    "duration_min": 90,
+    "cost": "3000원",
+    "reservation_url": "http://x",
+    "indoor": 1,
+    "parking": "가능",
+    "stroller": "가능",
+    "crowd_note": "",
+    "related_books": [
+      "곤충의 세계"
+    ],
+    "source": "seed:model-knowledge",
+    "is_seed": 1,
+    "last_verified": "2026-07-04",
+    "status": "종료"
+  },
+  {
+    "id": "evt-04",
+    "name": "여름 공룡 대탐험 기획전",
+    "type": "행사",
+    "topic_tags": [
+      "dino"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "lat": 34.9754,
+    "lng": 128.3122,
+    "region": "경남 고성",
+    "period_start": "2026-06-29",
+    "period_end": "2026-08-23",
+    "hours": "10:00-18:00",
+    "age_note": "전연령",
+    "duration_min": 90,
+    "cost": "성인 5000원",
+    "reservation_url": "http://reserve.example.kr",
+    "indoor": 1,
+    "parking": "가능",
+    "stroller": "가능",
+    "crowd_note": "",
+    "related_books": [],
+    "source": "seed:model-knowledge",
+    "is_seed": 1,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "evt-05",
+    "name": "티라노 로봇 특별전",
+    "type": "행사",
+    "topic_tags": [
+      "dino"
+    ],
+    "verb_tags": [
+      "탐구하다",
+      "움직이다"
+    ],
+    "lat": 37.437,
+    "lng": 127.0079,
+    "region": "경기 과천",
+    "period_start": "2026-07-09",
+    "period_end": "2026-08-18",
+    "hours": "10:00-18:00",
+    "age_note": "전연령",
+    "duration_min": 90,
+    "cost": "무료",
+    "reservation_url": "http://reserve.example.kr",
+    "indoor": 1,
+    "parking": "가능",
+    "stroller": "가능",
+    "crowd_note": "",
+    "related_books": [],
+    "source": "seed:model-knowledge",
+    "is_seed": 1,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "evt-06",
+    "name": "여름밤 천체 관측 캠프",
+    "type": "행사",
+    "topic_tags": [
+      "space"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "lat": 35.2447,
+    "lng": 128.8,
+    "region": "경남 김해",
+    "period_start": "2026-07-14",
+    "period_end": "2026-08-13",
+    "hours": "10:00-18:00",
+    "age_note": "전연령",
+    "duration_min": 90,
+    "cost": "5000원",
+    "reservation_url": "http://reserve.example.kr",
+    "indoor": 1,
+    "parking": "가능",
+    "stroller": "가능",
+    "crowd_note": "",
+    "related_books": [],
+    "source": "seed:model-knowledge",
+    "is_seed": 1,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "evt-07",
+    "name": "누리호 우주 과학 축제",
+    "type": "행사",
+    "topic_tags": [
+      "space"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "lat": 34.4318,
+    "lng": 127.535,
+    "region": "전남 고흥",
+    "period_start": "2026-06-26",
+    "period_end": "2026-07-24",
+    "hours": "10:00-18:00",
+    "age_note": "전연령",
+    "duration_min": 90,
+    "cost": "무료",
+    "reservation_url": "http://reserve.example.kr",
+    "indoor": 1,
+    "parking": "가능",
+    "stroller": "가능",
+    "crowd_note": "",
+    "related_books": [],
+    "source": "seed:model-knowledge",
+    "is_seed": 1,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "evt-08",
+    "name": "달 탐사 VR 체험전",
+    "type": "행사",
+    "topic_tags": [
+      "space"
+    ],
+    "verb_tags": [
+      "움직이다",
+      "탐구하다"
+    ],
+    "lat": 37.6483,
+    "lng": 127.0857,
+    "region": "서울 노원",
+    "period_start": "2026-07-04",
+    "period_end": "2026-09-02",
+    "hours": "10:00-18:00",
+    "age_note": "전연령",
+    "duration_min": 90,
+    "cost": "3000원",
+    "reservation_url": "http://reserve.example.kr",
+    "indoor": 1,
+    "parking": "가능",
+    "stroller": "가능",
+    "crowd_note": "",
+    "related_books": [],
+    "source": "seed:model-knowledge",
+    "is_seed": 1,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "evt-09",
+    "name": "반려동물과 함께하는 생태 교실",
+    "type": "행사",
+    "topic_tags": [
+      "animal"
+    ],
+    "verb_tags": [
+      "돌보다"
+    ],
+    "lat": 36.049,
+    "lng": 126.713,
+    "region": "충남 서천",
+    "period_start": "2026-07-07",
+    "period_end": "2026-08-08",
+    "hours": "10:00-18:00",
+    "age_note": "전연령",
+    "duration_min": 90,
+    "cost": "무료",
+    "reservation_url": "http://reserve.example.kr",
+    "indoor": 1,
+    "parking": "가능",
+    "stroller": "가능",
+    "crowd_note": "",
+    "related_books": [],
+    "source": "seed:model-knowledge",
+    "is_seed": 1,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "evt-10",
+    "name": "여름 곤충 페스티벌",
+    "type": "행사",
+    "topic_tags": [
+      "animal"
+    ],
+    "verb_tags": [
+      "돌보다",
+      "탐구하다"
+    ],
+    "lat": 36.6577,
+    "lng": 128.4527,
+    "region": "경북 예천",
+    "period_start": "2026-06-28",
+    "period_end": "2026-07-29",
+    "hours": "10:00-18:00",
+    "age_note": "전연령",
+    "duration_min": 90,
+    "cost": "3000원",
+    "reservation_url": "http://reserve.example.kr",
+    "indoor": 1,
+    "parking": "가능",
+    "stroller": "가능",
+    "crowd_note": "",
+    "related_books": [],
+    "source": "seed:model-knowledge",
+    "is_seed": 1,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "evt-11",
+    "name": "바다생물 특별전",
+    "type": "행사",
+    "topic_tags": [
+      "animal"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "lat": 36.0126,
+    "lng": 126.687,
+    "region": "충남 서천",
+    "period_start": "2026-07-12",
+    "period_end": "2026-08-28",
+    "hours": "10:00-18:00",
+    "age_note": "전연령",
+    "duration_min": 90,
+    "cost": "성인 3000원",
+    "reservation_url": "http://reserve.example.kr",
+    "indoor": 1,
+    "parking": "가능",
+    "stroller": "가능",
+    "crowd_note": "",
+    "related_books": [],
+    "source": "seed:model-knowledge",
+    "is_seed": 1,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "evt-12",
+    "name": "코딩 로봇 여름캠프",
+    "type": "행사",
+    "topic_tags": [
+      "robot"
+    ],
+    "verb_tags": [
+      "만들다",
+      "움직이다"
+    ],
+    "lat": 35.308,
+    "lng": 129.232,
+    "region": "부산 기장",
+    "period_start": "2026-07-16",
+    "period_end": "2026-08-15",
+    "hours": "10:00-18:00",
+    "age_note": "전연령",
+    "duration_min": 90,
+    "cost": "20000원",
+    "reservation_url": "http://reserve.example.kr",
+    "indoor": 1,
+    "parking": "가능",
+    "stroller": "가능",
+    "crowd_note": "",
+    "related_books": [],
+    "source": "seed:model-knowledge",
+    "is_seed": 1,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "evt-13",
+    "name": "AI와 미래도시 특별전",
+    "type": "행사",
+    "topic_tags": [
+      "robot"
+    ],
+    "verb_tags": [
+      "움직이다"
+    ],
+    "lat": 35.228,
+    "lng": 126.843,
+    "region": "광주 북구",
+    "period_start": "2026-06-25",
+    "period_end": "2026-08-03",
+    "hours": "10:00-18:00",
+    "age_note": "전연령",
+    "duration_min": 90,
+    "cost": "무료",
+    "reservation_url": "http://reserve.example.kr",
+    "indoor": 1,
+    "parking": "가능",
+    "stroller": "가능",
+    "crowd_note": "",
+    "related_books": [],
+    "source": "seed:model-knowledge",
+    "is_seed": 1,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "evt-14",
+    "name": "드론 조종 체험 대회",
+    "type": "행사",
+    "topic_tags": [
+      "robot"
+    ],
+    "verb_tags": [
+      "움직이다"
+    ],
+    "lat": 35.828,
+    "lng": 128.44,
+    "region": "대구 달성",
+    "period_start": "2026-07-19",
+    "period_end": "2026-08-18",
+    "hours": "10:00-18:00",
+    "age_note": "전연령",
+    "duration_min": 90,
+    "cost": "5000원",
+    "reservation_url": "http://reserve.example.kr",
+    "indoor": 1,
+    "parking": "가능",
+    "stroller": "가능",
+    "crowd_note": "",
+    "related_books": [],
+    "source": "seed:model-knowledge",
+    "is_seed": 1,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "evt-15",
+    "name": "어린이 명화 따라그리기 워크숍",
+    "type": "행사",
+    "topic_tags": [
+      "art"
+    ],
+    "verb_tags": [
+      "표현하다",
+      "만들다"
+    ],
+    "lat": 37.431,
+    "lng": 127.017,
+    "region": "경기 과천",
+    "period_start": "2026-06-27",
+    "period_end": "2026-08-01",
+    "hours": "10:00-18:00",
+    "age_note": "전연령",
+    "duration_min": 90,
+    "cost": "무료",
+    "reservation_url": "http://reserve.example.kr",
+    "indoor": 1,
+    "parking": "가능",
+    "stroller": "가능",
+    "crowd_note": "",
+    "related_books": [],
+    "source": "seed:model-knowledge",
+    "is_seed": 1,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "evt-16",
+    "name": "미디어아트 여름 특별전",
+    "type": "행사",
+    "topic_tags": [
+      "art"
+    ],
+    "verb_tags": [
+      "표현하다"
+    ],
+    "lat": 37.247,
+    "lng": 127.108,
+    "region": "경기 용인",
+    "period_start": "2026-07-10",
+    "period_end": "2026-08-31",
+    "hours": "10:00-18:00",
+    "age_note": "전연령",
+    "duration_min": 90,
+    "cost": "무료",
+    "reservation_url": "http://reserve.example.kr",
+    "indoor": 1,
+    "parking": "가능",
+    "stroller": "가능",
+    "crowd_note": "",
+    "related_books": [],
+    "source": "seed:model-knowledge",
+    "is_seed": 1,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "evt-17",
+    "name": "점토로 만드는 우리 동네",
+    "type": "행사",
+    "topic_tags": [
+      "art"
+    ],
+    "verb_tags": [
+      "만들다",
+      "표현하다"
+    ],
+    "lat": 37.531,
+    "lng": 127.043,
+    "region": "서울 성동",
+    "period_start": "2026-07-06",
+    "period_end": "2026-08-06",
+    "hours": "10:00-18:00",
+    "age_note": "전연령",
+    "duration_min": 90,
+    "cost": "12000원",
+    "reservation_url": "http://reserve.example.kr",
+    "indoor": 1,
+    "parking": "가능",
+    "stroller": "가능",
+    "crowd_note": "",
+    "related_books": [],
+    "source": "seed:model-knowledge",
+    "is_seed": 1,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "evt-18",
+    "name": "자연 재료 미술 놀이",
+    "type": "행사",
+    "topic_tags": [
+      "art"
+    ],
+    "verb_tags": [
+      "표현하다",
+      "만들다"
+    ],
+    "lat": 37.748,
+    "lng": 127.172,
+    "region": "경기 포천",
+    "period_start": "2026-06-30",
+    "period_end": "2026-08-11",
+    "hours": "10:00-18:00",
+    "age_note": "전연령",
+    "duration_min": 90,
+    "cost": "1000원",
+    "reservation_url": "http://reserve.example.kr",
+    "indoor": 1,
+    "parking": "가능",
+    "stroller": "가능",
+    "crowd_note": "",
+    "related_books": [],
+    "source": "seed:model-knowledge",
+    "is_seed": 1,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "evt-19",
+    "name": "공룡 발자국 탐사 캠프",
+    "type": "행사",
+    "topic_tags": [
+      "dino"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "lat": 34.4586,
+    "lng": 126.4419,
+    "region": "전남 해남",
+    "period_start": "2026-07-24",
+    "period_end": "2026-08-28",
+    "hours": "10:00-18:00",
+    "age_note": "전연령",
+    "duration_min": 90,
+    "cost": "5000원",
+    "reservation_url": "http://reserve.example.kr",
+    "indoor": 1,
+    "parking": "가능",
+    "stroller": "가능",
+    "crowd_note": "",
+    "related_books": [],
+    "source": "seed:model-knowledge",
+    "is_seed": 1,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  },
+  {
+    "id": "evt-20",
+    "name": "별과 우주 그림 전시",
+    "type": "행사",
+    "topic_tags": [
+      "space"
+    ],
+    "verb_tags": [
+      "표현하다",
+      "탐구하다"
+    ],
+    "lat": 36.376,
+    "lng": 127.376,
+    "region": "대전 유성",
+    "period_start": "2026-07-02",
+    "period_end": "2026-08-21",
+    "hours": "10:00-18:00",
+    "age_note": "전연령",
+    "duration_min": 90,
+    "cost": "무료",
+    "reservation_url": "http://reserve.example.kr",
+    "indoor": 1,
+    "parking": "가능",
+    "stroller": "가능",
+    "crowd_note": "",
+    "related_books": [],
+    "source": "seed:model-knowledge",
+    "is_seed": 1,
+    "last_verified": "2026-07-04",
+    "status": "운영중"
+  }
+]

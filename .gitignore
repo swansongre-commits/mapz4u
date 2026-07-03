@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+db/*.index
+*.log
+node_modules/
+.DS_Store
+# large copied MAPS raw CSVs (reproducible via manifest cp)
+data/maps_assets/raw/*.csv
+data/maps_assets/tfidf_ref/*.json

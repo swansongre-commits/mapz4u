@@ -1,0 +1,18 @@
+{
+  "current_phase": 0,
+  "started_at": "2026-07-04",
+  "mode": "MIXED",
+  "embed_tier": 3,
+  "maps_assets": true,
+  "gates": {
+    "G0": null, "G1": null, "G2": null, "G3": null, "G4": null,
+    "G5": null, "G6": null, "G7": null, "G8": null
+  },
+  "fallbacks_triggered": [],
+  "phases": {
+    "0": {"status": "in_progress"},
+    "1": {"status": "pending"}, "2": {"status": "pending"}, "3": {"status": "pending"},
+    "4": {"status": "pending"}, "5": {"status": "pending"}, "6": {"status": "pending"},
+    "7": {"status": "pending"}, "8": {"status": "pending"}, "9": {"status": "pending"}
+  }
+}

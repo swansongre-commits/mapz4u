@@ -11,3 +11,6 @@
 - [2026-07-04] Phase 3 완료 — TF-IDF 연계: 주제별 편성표(체험8/도서5/인물1/직업≤5) + 인접(우주↔로봇0.78 등) + 발견피드 쿼터. G3 PASS(빈슬롯0).
 - [2026-07-04] Phase 4 완료 — SQLite db/mapz.db (experience189/book50/person5/job25/topic5, edge125), 벡터 인덱스 sklearn 폴백(faiss 미설치). G4 PASS(행수일치+무결성).
 - [2026-07-04] Phase 5 완료 — ARCHITECTURE.md + ADR 4건 + API 1:1 대응표. G5 PASS.
+- [2026-07-04] Phase 6 완료 — 디자인 라운드2 10/10 APPROVED(라운드1 '필독' 수정). G6 PASS.
+- [2026-07-04] Phase 7 완료 — FastAPI 4화면+6API 전부 200. G7 PASS.
+- [2026-07-04] Phase 8 완료 — pytest12 PASS, E2E 콘솔에러0, 금지어0, 커버리지96%. G8 PASS.

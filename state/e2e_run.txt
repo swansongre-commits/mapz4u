@@ -1,0 +1,6 @@
+pages: [{'name': 'search', 'status': 200}, {'name': 'topic', 'status': 200}, {'name': 'map', 'status': 200}, {'name': 'discover', 'status': 200}]
+flow: [('tile->topic', True), ('nav->map', True), ('nav->discover', True)]
+page_errors(uncaught JS): []
+console_errors(all): []
+console_errors(app-only, 외부리소스 제외): []
+E2E PASS

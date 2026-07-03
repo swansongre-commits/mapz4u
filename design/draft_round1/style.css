@@ -1,0 +1,80 @@
+/* MAPZ style.css — 어린이 체험지도. 토큰: design/tokens.json 기반. 외부 이미지 무의존. */
+:root{
+  --bg:#FBFAF7; --surface:#FFFFFF; --ink:#1F2328; --ink-soft:#5A6169; --ink-faint:#8A9099;
+  --line:#E6E3DC; --primary:#2C6E63; --primary-ink:#FFFFFF; --focus:#1B5E55;
+  --seed-bg:#FFF4D6; --seed-ink:#7A5A00;
+  --t-dino:#5B8C5A; --t-space:#3A5BA0; --t-animal:#C77D3E; --t-robot:#5A5AA0; --t-art:#B0507A;
+  --r-sm:8px; --r-md:14px; --r-lg:20px; --pill:999px;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);
+  font-family:system-ui,-apple-system,'Segoe UI','Malgun Gothic','Apple SD Gothic Neo',sans-serif;
+  font-size:17px;line-height:1.6;-webkit-text-size-adjust:100%}
+a{color:var(--primary);text-underline-offset:2px}
+.wrap{max-width:960px;margin:0 auto;padding:16px}
+/* 헤더/내비 */
+header.site{position:sticky;top:0;background:var(--surface);border-bottom:1px solid var(--line);z-index:10}
+.site .wrap{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:10px 16px}
+.brand{font-weight:800;font-size:1.15rem;color:var(--ink);text-decoration:none}
+.brand small{display:block;font-weight:500;font-size:.72rem;color:var(--ink-soft)}
+nav.tabs{display:flex;gap:6px;flex-wrap:wrap}
+nav.tabs a{display:inline-flex;align-items:center;min-height:44px;padding:0 14px;border-radius:var(--pill);
+  text-decoration:none;color:var(--ink-soft);border:1px solid var(--line);background:var(--surface)}
+nav.tabs a[aria-current="page"]{background:var(--primary);color:var(--primary-ink);border-color:var(--primary)}
+/* 주제 타일 격자 (아이 진입: 그림 우선) */
+.tiles{display:grid;grid-template-columns:repeat(auto-fill,minmax(140px,1fr));gap:14px;margin:16px 0}
+.tile{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;
+  min-height:120px;padding:18px 10px;border-radius:var(--r-lg);text-decoration:none;color:var(--ink);
+  background:var(--surface);border:2px solid var(--line)}
+.tile .emoji{font-size:2.6rem;line-height:1}
+.tile .label{font-weight:700}
+.tile:focus-visible,a:focus-visible,button:focus-visible,input:focus-visible{outline:3px solid var(--focus);outline-offset:2px}
+.tile[data-topic="dino"]{border-color:var(--t-dino)} .tile[data-topic="space"]{border-color:var(--t-space)}
+.tile[data-topic="animal"]{border-color:var(--t-animal)} .tile[data-topic="robot"]{border-color:var(--t-robot)}
+.tile[data-topic="art"]{border-color:var(--t-art)}
+/* 검색 */
+.searchbar{display:flex;gap:8px;margin:14px 0}
+.searchbar input{flex:1;min-height:48px;padding:0 14px;border:2px solid var(--line);border-radius:var(--r-md);font-size:1.05rem}
+.btn{display:inline-flex;align-items:center;justify-content:center;min-height:44px;min-width:44px;padding:0 16px;
+  border-radius:var(--r-md);border:1px solid var(--primary);background:var(--primary);color:var(--primary-ink);
+  font-weight:700;text-decoration:none;cursor:pointer;font-size:1rem}
+.btn.ghost{background:var(--surface);color:var(--primary)}
+.chips{display:flex;gap:8px;flex-wrap:wrap;margin:8px 0}
+.chip{display:inline-flex;align-items:center;min-height:44px;padding:0 14px;border-radius:var(--pill);
+  border:1.5px solid var(--line);background:var(--surface);color:var(--ink-soft);cursor:pointer;font-size:.95rem}
+.chip[aria-pressed="true"]{background:#EAF3F1;border-color:var(--primary);color:var(--focus);font-weight:700}
+/* 카드 */
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:14px;margin:14px 0}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:var(--r-md);padding:14px;display:flex;flex-direction:column;gap:8px}
+.card h3{margin:0;font-size:1.08rem}
+.card .meta{font-size:.9rem;color:var(--ink-soft);display:flex;flex-wrap:wrap;gap:6px 12px}
+.card .cta-row{margin-top:auto;display:flex;gap:8px;flex-wrap:wrap}
+.age{color:var(--ink-faint);font-size:.82rem;font-weight:400}  /* 참고 표기(등급 아님) */
+.verified{font-size:.78rem;color:var(--ink-faint)}
+.badge-seed{display:inline-block;background:var(--seed-bg);color:var(--seed-ink);font-size:.72rem;font-weight:700;
+  padding:2px 8px;border-radius:var(--pill)}
+.badge-live{display:inline-block;background:#E7F3EA;color:#2C6E4A;font-size:.72rem;padding:2px 8px;border-radius:var(--pill)}
+.section-title{font-size:1.2rem;font-weight:800;margin:22px 0 6px}
+.section-note{color:var(--ink-soft);font-size:.92rem;margin:0 0 8px}
+/* 인물 카드 */
+.person{background:#FFFDF8;border:1px solid var(--line);border-left:5px solid var(--t-art);border-radius:var(--r-md);padding:16px}
+.person .who{font-weight:800;font-size:1.1rem}
+.person .anti{display:inline-block;background:#F0E9F4;color:#6A417E;font-size:.72rem;padding:2px 8px;border-radius:var(--pill);margin-left:6px}
+.person .trial{color:var(--ink-soft);margin:8px 0}
+.lineage{display:flex;flex-wrap:wrap;gap:6px}
+.lineage span{background:#F3F1EC;border-radius:var(--pill);padding:4px 10px;font-size:.85rem}
+/* 옆으로 한 칸 */
+.sidestep{display:flex;gap:10px;flex-wrap:wrap}
+.sidestep a{display:inline-flex;align-items:center;min-height:44px;gap:8px;padding:0 16px;border-radius:var(--pill);
+  background:var(--surface);border:1.5px dashed var(--primary);color:var(--focus);text-decoration:none;font-weight:600}
+/* 지도 */
+#map{height:60vh;min-height:360px;border-radius:var(--r-md);border:1px solid var(--line)}
+.map-legend{display:flex;gap:8px;flex-wrap:wrap;margin:10px 0}
+/* 발견 피드 */
+.discover-note{background:#EAF3F1;border-radius:var(--r-md);padding:10px 14px;color:var(--focus);font-size:.9rem}
+.hero{border-radius:var(--r-lg);padding:26px 18px;color:#fff;margin:12px 0}
+footer.site{color:var(--ink-faint);font-size:.82rem;text-align:center;padding:24px}
+.hint{color:var(--ink-soft);font-size:.9rem}
+.avail{font-size:.82rem;color:var(--focus)}
+.book-row{display:flex;flex-direction:column;gap:2px}
+@media (max-width:480px){.wrap{padding:12px}.tiles{grid-template-columns:repeat(2,1fr)}}

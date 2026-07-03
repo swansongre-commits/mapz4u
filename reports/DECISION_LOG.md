@@ -44,3 +44,28 @@
 - 규칙: 인기순 정렬 금지 - 쿼터 편성(인접1+먼주제1+반고정관념인물1)
 
 **G3: PASS** (빈 슬롯: 없음)
+
+## Phase 6 — 디자인 (시안→컨펌 대행→퍼블리싱)
+
+- 토큰: design/tokens.json (어린이 친화: 그림타일, 44px 터치, 고대비, 시스템폰트, 주제당 포인트 1색).
+- 시안 4종 정적 HTML(design/draft_round1/) + Playwright 스크린샷(모바일390/데스크톱1280, design/screenshots/ 8장).
+- design-reviewer 서브에이전트 채점:
+  - **라운드1: 9/10 REVISE** — 1항 금지어 "필독" 노출(topic.html '더 깊이' 문구). (design/review/round1.md)
+  - 수정: "…숙제가 아니라 이 세계를 더 볼 수 있는 책이에요."로 교체.
+  - **라운드2: 10/10 APPROVED** (design/review/round2.md).
+- 퍼블리싱 확정: app/static/style.css + app/templates/ 베이스.
+- **G6 PASS**: 승인기록(round2.md) + 금지어 0 + 스크린샷 증빙.
+
+## Phase 7 — 개발
+
+- FastAPI app/main.py + 6 API + 4 화면(Jinja2). Starlette 1.3.1 TemplateResponse(request, name, context) 시그니처 적용.
+- 신선도 불변식 구현: `status='운영중' AND (period_end IS NULL OR period_end>=today)`.
+- **G7 PASS**: uvicorn 기동 + /healthz 200 + 4화면 200 (+ API 6종 200).
+
+## Phase 8 — 테스트
+
+- pytest 단위 12종 PASS: API 스키마 5종, 동의어("쥬라기"→공룡/"별"→우주), 신선도(만료 시드 3건 全응답 미노출), 필터(실내+무료).
+- Playwright E2E: 4화면 로드 + 클릭흐름(타일→주제관→지도→발견) + **콘솔에러 0**.
+- 금지어 lint(scripts/lint_forbidden.py): 렌더 텍스트노드 대상 9페이지 **위반 0건**.
+- 커버리지: app/main.py **96%** (≥70%).
+- **G8 PASS**: 금지어 0 + 신선도 PASS + E2E 콘솔에러 0.

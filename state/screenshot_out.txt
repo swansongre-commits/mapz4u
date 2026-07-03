@@ -1,0 +1,9 @@
+SCREENSHOTS_OK
+OK search_m.png
+OK topic_m.png
+OK map_m.png
+OK discover_m.png
+OK search_d.png
+OK topic_d.png
+OK map_d.png
+OK discover_d.png

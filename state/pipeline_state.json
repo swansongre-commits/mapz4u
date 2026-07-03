@@ -1,5 +1,5 @@
 {
-  "current_phase": 5,
+  "current_phase": 8,
   "started_at": "2026-07-04",
   "mode": "MIXED",
   "embed_tier": 3,
@@ -11,9 +11,9 @@
     "G3": "PASS",
     "G4": "PASS",
     "G5": "PASS",
-    "G6": null,
-    "G7": null,
-    "G8": null
+    "G6": "PASS",
+    "G7": "PASS",
+    "G8": "PASS"
   },
   "fallbacks_triggered": [
     {
@@ -27,6 +27,12 @@
       "item": "체험/행사/도서",
       "reason": "키 서비스 미활성",
       "action": "OSM Overpass(실데이터 139건) + SEED 보강"
+    },
+    {
+      "phase": 6,
+      "item": "디자인 리뷰",
+      "reason": "라운드1 금지어 '필독' 1건 FAIL",
+      "action": "문구 교체 후 라운드2 재리뷰 10/10 APPROVED"
     }
   ],
   "phases": {
@@ -49,13 +55,13 @@
       "status": "done"
     },
     "6": {
-      "status": "pending"
+      "status": "done"
     },
     "7": {
-      "status": "pending"
+      "status": "done"
     },
     "8": {
-      "status": "pending"
+      "status": "done"
     },
     "9": {
       "status": "pending"

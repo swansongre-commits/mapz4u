@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>맵즈 — {% block title %}어린이 체험지도{% endblock %}</title>
+<link rel="stylesheet" href="/static/style.css">
+{% block head %}{% endblock %}
+</head>
+<body>
+<header class="site"><div class="wrap">
+<a class="brand" href="/">맵즈<small>어린이 체험지도</small></a>
+<nav class="tabs">
+<a href="/"{% if active=='search' %} aria-current="page"{% endif %}>🔍 검색</a>
+<a href="/topic/dino"{% if active=='topic' %} aria-current="page"{% endif %}>🏛️ 주제관</a>
+<a href="/map"{% if active=='map' %} aria-current="page"{% endif %}>🗺️ 지도</a>
+<a href="/discover"{% if active=='discover' %} aria-current="page"{% endif %}>✨ 발견</a>
+</nav></div></header>
+<main class="wrap">
+{% block content %}{% endblock %}
+</main>
+<footer class="site">맵즈 — 어린이 체험지도 · 공영 중립 · 표본(검증 필요) 데이터 포함<br>
+최종 확인일 표기와 시드 배지로 정보의 신선도를 정직하게 알려요.</footer>
+</body>
+</html>
+
+{% macro seed_badge(is_seed) -%}
+{% if is_seed %}<span class="badge-seed">표본(검증 필요)</span>{% else %}<span class="badge-live">실데이터</span>{% endif %}
+{%- endmacro %}
+
+{% macro exp_card(x, today) -%}
+<article class="card">
+<h3>{{ x.name }}</h3>
+<div class="meta"><span>📍 {{ x.region }}</span><span>💰 {{ x.cost or '현장 확인' }}</span>
+<span>{{ '🏠 실내' if x.indoor else '🌳 야외' }}</span><span>🕒 {{ x.hours or '운영시간 확인' }}</span></div>
+<div class="meta"><span>{{ '예약 필요' if x.reservation_url else '자유 관람' }}</span>
+<span class="age">권장 {{ x.age_note or '전연령' }} (참고)</span></div>
+<div class="meta"><span class="verified">최종 확인 {{ x.last_verified }}</span> {{ seed_badge(x.is_seed) }}</div>
+<div class="cta-row"><a class="btn" href="{{ x.maplink }}" target="_blank" rel="noopener">길찾기 →</a>
+<a class="btn ghost" href="/topic/{{ x.topic_tags[0] }}">주제 더보기</a></div>
+</article>
+{%- endmacro %}
+
+{% macro book_card(b) -%}
+<article class="card"><div class="book-row"><h3>📖 {{ b.title }}</h3>
+<div class="meta"><span>{{ b.author }}</span><span>{{ b.publisher }}</span>
+<span class="age">권장 {{ b.age_band }}세 (참고)</span></div>
+<div class="avail">🏫 소장 도서관·대출 가능 여부 조회 →</div>
+<div class="meta"><span class="verified">최종 확인 {{ b.last_verified }}</span> {{ seed_badge(b.is_seed) }}</div>
+<div class="cta-row"><a class="btn ghost" href="#">도서관 소장 조회</a></div></div>
+</article>
+{%- endmacro %}

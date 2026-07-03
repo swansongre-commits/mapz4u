@@ -1,0 +1,1 @@
+시안 4종 생성: ['search.html', 'topic.html', 'map.html', 'discover.html']

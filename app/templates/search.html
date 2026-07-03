@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+{% import "macros.html" as m %}
+{% block title %}검색{% endblock %}
+{% block content %}
+<p class="hint">아이가 좋아하는 걸 그대로 검색해 보세요. "쥬라기", "별", "곤충"처럼요.</p>
+<form class="searchbar" method="get" action="/">
+<input type="search" name="q" value="{{ query }}" placeholder="무엇에 관심 있어요? (예: 쥬라기, 로봇, 나비)" aria-label="검색어">
+<button class="btn" type="submit">찾기</button>
+</form>
+<div class="chips" role="group" aria-label="부모 필터">
+<button type="button" class="chip" aria-pressed="false" data-f="indoor">🏠 실내</button>
+<button type="button" class="chip" aria-pressed="false" data-f="free">💰 무료</button>
+<button type="button" class="chip" aria-pressed="false" data-f="region">📍 우리 지역</button>
+<button type="button" class="chip" aria-pressed="false" data-f="week">📅 이번 주</button>
+</div>
+<p class="section-note">관심이 있으면 깊게 검색하고, 없으면 아래 그림에서 골라 둘러봐요.</p>
+<div class="tiles">
+{% for t in topics %}
+<a class="tile" data-topic="{{ t.id }}" href="/topic/{{ t.id }}"><span class="emoji">{{ t.emoji }}</span><span class="label">{{ t.name }}</span></a>
+{% endfor %}
+</div>
+{% if query %}
+<h2 class="section-title">"{{ query }}" 검색 결과 ({{ results|length }}건)</h2>
+<div class="cards">
+{% for x in results %}{{ m.exp_card(x) }}{% endfor %}
+{% if results|length == 0 %}<p class="hint">딱 맞는 곳이 없어요. 위 그림 타일에서 둘러보는 건 어때요?</p>{% endif %}
+</div>
+{% else %}
+<h2 class="section-title">가까운 체험처 미리보기</h2>
+<div class="cards">
+{% for x in preview %}{{ m.exp_card(x) }}{% endfor %}
+</div>
+{% endif %}
+{% endblock %}

@@ -1,0 +1,693 @@
+{
+  "generated": "2026-07-04",
+  "embed": "tfidf-char24",
+  "topics": {
+    "dino": {
+      "name": "공룡",
+      "experiences": [
+        {
+          "id": "osm-368898286",
+          "name": "당항포 자연사전시관",
+          "type": "상설시설",
+          "score": 0.172
+        },
+        {
+          "id": "osm-368735768",
+          "name": "지당자연사박물관",
+          "type": "상설시설",
+          "score": 0.1523
+        },
+        {
+          "id": "osm-368734664",
+          "name": "이화여자대학교 자연사박물관",
+          "type": "상설시설",
+          "score": 0.1465
+        },
+        {
+          "id": "osm-368735800",
+          "name": "창조자연사박물관",
+          "type": "상설시설",
+          "score": 0.1346
+        },
+        {
+          "id": "osm-368734919",
+          "name": "금강산자연사박물관",
+          "type": "상설시설",
+          "score": 0.1248
+        },
+        {
+          "id": "osm-368734213",
+          "name": "고래화석박물관",
+          "type": "상설시설",
+          "score": 0.1229
+        },
+        {
+          "id": "dino-01",
+          "name": "계룡산자연사박물관",
+          "type": "상설시설",
+          "score": 0.1149
+        },
+        {
+          "id": "osm-368735690",
+          "name": "강화은암자연사박물관",
+          "type": "상설시설",
+          "score": 0.1149
+        }
+      ],
+      "books": [
+        {
+          "isbn": "978890000005",
+          "title": "화석이 된 공룡",
+          "score": 0.1996
+        },
+        {
+          "isbn": "978890000007",
+          "title": "메리 애닝과 공룡 화석",
+          "score": 0.193
+        },
+        {
+          "isbn": "978890000004",
+          "title": "티라노사우루스 이야기",
+          "score": 0.1835
+        },
+        {
+          "isbn": "978890000001",
+          "title": "공룡 대백과",
+          "score": 0.1699
+        },
+        {
+          "isbn": "978890000010",
+          "title": "아기 공룡 둘리와 함께하는 공룡 여행",
+          "score": 0.1676
+        }
+      ],
+      "person": {
+        "id": "person-dino",
+        "name": "메리 애닝",
+        "anti_stereotype": 1
+      },
+      "jobs": [
+        {
+          "id": "job-dino-01",
+          "name": "화석을 연구하는 사람",
+          "layer": "B"
+        },
+        {
+          "id": "job-dino-02",
+          "name": "지질학연구원",
+          "layer": "hidden"
+        },
+        {
+          "id": "job-dino-03",
+          "name": "자연사박물관에서 일하는 사람",
+          "layer": "hidden"
+        },
+        {
+          "id": "job-dino-05",
+          "name": "공룡 분야에서 일하는 사람 2",
+          "layer": "hidden"
+        },
+        {
+          "id": "job-dino-04",
+          "name": "공룡 분야에서 일하는 사람 1",
+          "layer": "hidden"
+        }
+      ],
+      "layerB_card": "job-dino-01"
+    },
+    "space": {
+      "name": "우주",
+      "experiences": [
+        {
+          "id": "space-06",
+          "name": "나로우주센터 우주과학관",
+          "type": "상설시설",
+          "score": 0.1214
+        },
+        {
+          "id": "osm-368632964",
+          "name": "정남진천문과학관",
+          "type": "상설시설",
+          "score": 0.1182
+        },
+        {
+          "id": "osm-368632926",
+          "name": "반디랜드천문과학관",
+          "type": "상설시설",
+          "score": 0.1136
+        },
+        {
+          "id": "space-03",
+          "name": "대전시민천문대",
+          "type": "상설시설",
+          "score": 0.1061
+        },
+        {
+          "id": "robot-02",
+          "name": "국립대구과학관",
+          "type": "상설시설",
+          "score": 0.1057
+        },
+        {
+          "id": "osm-368632933",
+          "name": "충주고구려천문과학관",
+          "type": "상설시설",
+          "score": 0.1052
+        },
+        {
+          "id": "space-02",
+          "name": "국립중앙과학관",
+          "type": "상설시설",
+          "score": 0.1047
+        },
+        {
+          "id": "osm-368898479",
+          "name": "호담항공우주전시관",
+          "type": "상설시설",
+          "score": 0.1035
+        }
+      ],
+      "books": [
+        {
+          "isbn": "978890000019",
+          "title": "허블 우주망원경",
+          "score": 0.216
+        },
+        {
+          "isbn": "978890000020",
+          "title": "태양계 행성 탐험",
+          "score": 0.2111
+        },
+        {
+          "isbn": "978890000011",
+          "title": "우주 대백과",
+          "score": 0.1904
+        },
+        {
+          "isbn": "978890000015",
+          "title": "첫 우주 여행",
+          "score": 0.1719
+        },
+        {
+          "isbn": "978890000014",
+          "title": "우주로 간 김땅콩",
+          "score": 0.1223
+        }
+      ],
+      "person": {
+        "id": "person-space",
+        "name": "이원철",
+        "anti_stereotype": 0
+      },
+      "jobs": [
+        {
+          "id": "job-space-01",
+          "name": "별을 관측하는 사람",
+          "layer": "B"
+        },
+        {
+          "id": "job-space-02",
+          "name": "우주전파예보관",
+          "layer": "hidden"
+        },
+        {
+          "id": "job-space-03",
+          "name": "통역가",
+          "layer": "hidden"
+        },
+        {
+          "id": "job-space-04",
+          "name": "우편물집배원",
+          "layer": "hidden"
+        },
+        {
+          "id": "job-space-05",
+          "name": "학습장애간호사",
+          "layer": "hidden"
+        }
+      ],
+      "layerB_card": "job-space-01"
+    },
+    "animal": {
+      "name": "동물",
+      "experiences": [
+        {
+          "id": "osm-368735186",
+          "name": "곤충박물관",
+          "type": "상설시설",
+          "score": 0.2162
+        },
+        {
+          "id": "osm-368898206",
+          "name": "나비레 전시관",
+          "type": "상설시설",
+          "score": 0.1942
+        },
+        {
+          "id": "osm-368898214",
+          "name": "삼척 민물고기전시관",
+          "type": "상설시설",
+          "score": 0.1609
+        },
+        {
+          "id": "osm-368734122",
+          "name": "만천곤충박물관",
+          "type": "상설시설",
+          "score": 0.1252
+        },
+        {
+          "id": "osm-368735811",
+          "name": "자연생태박물관",
+          "type": "상설시설",
+          "score": 0.1249
+        },
+        {
+          "id": "osm-368734131",
+          "name": "영월곤충박물관",
+          "type": "상설시설",
+          "score": 0.1225
+        },
+        {
+          "id": "osm-368735579",
+          "name": "삽교호곤충박물관",
+          "type": "상설시설",
+          "score": 0.1116
+        },
+        {
+          "id": "osm-368735656",
+          "name": "반디랜드곤충박물관",
+          "type": "상설시설",
+          "score": 0.1074
+        }
+      ],
+      "books": [
+        {
+          "isbn": "978890000023",
+          "title": "바다 생물 도감",
+          "score": 0.3126
+        },
+        {
+          "isbn": "978890000021",
+          "title": "동물 백과",
+          "score": 0.2035
+        },
+        {
+          "isbn": "978890000027",
+          "title": "멸종 위기 동물 이야기",
+          "score": 0.1619
+        },
+        {
+          "isbn": "978890000026",
+          "title": "우리 동네 새 관찰기",
+          "score": 0.1586
+        },
+        {
+          "isbn": "978890000029",
+          "title": "갯벌에 사는 생물들",
+          "score": 0.1382
+        }
+      ],
+      "person": {
+        "id": "person-animal",
+        "name": "제인 구달",
+        "anti_stereotype": 1
+      },
+      "jobs": [
+        {
+          "id": "job-animal-01",
+          "name": "동물을 돌보는 사람",
+          "layer": "B"
+        },
+        {
+          "id": "job-animal-05",
+          "name": "생물학연구원",
+          "layer": "hidden"
+        },
+        {
+          "id": "job-animal-04",
+          "name": "원예기술자",
+          "layer": "hidden"
+        },
+        {
+          "id": "job-animal-02",
+          "name": "유전자 재조합 식품 전문가",
+          "layer": "hidden"
+        },
+        {
+          "id": "job-animal-03",
+          "name": "애견테라피스트",
+          "layer": "hidden"
+        }
+      ],
+      "layerB_card": "job-animal-01"
+    },
+    "robot": {
+      "name": "로봇",
+      "experiences": [
+        {
+          "id": "robot-06",
+          "name": "서울로봇인공지능과학관 체험존",
+          "type": "상설시설",
+          "score": 0.1326
+        },
+        {
+          "id": "osm-368632872",
+          "name": "사이버 농업 과학관",
+          "type": "상설시설",
+          "score": 0.1263
+        },
+        {
+          "id": "osm-368735446",
+          "name": "생명과학박물관",
+          "type": "상설시설",
+          "score": 0.1032
+        },
+        {
+          "id": "robot-03",
+          "name": "넥슨컴퓨터박물관",
+          "type": "상설시설",
+          "score": 0.1018
+        },
+        {
+          "id": "osm-368632936",
+          "name": "국립수산과학관",
+          "type": "상설시설",
+          "score": 0.0999
+        },
+        {
+          "id": "osm-368734417",
+          "name": "잠사과학박물관",
+          "type": "상설시설",
+          "score": 0.0991
+        },
+        {
+          "id": "osm-368632876",
+          "name": "국립서울과학관",
+          "type": "상설시설",
+          "score": 0.097
+        },
+        {
+          "id": "osm-368632944",
+          "name": "통영수산과학관",
+          "type": "상설시설",
+          "score": 0.0949
+        }
+      ],
+      "books": [
+        {
+          "isbn": "978890000040",
+          "title": "생각하는 기계 인공지능",
+          "score": 0.323
+        },
+        {
+          "isbn": "978890000032",
+          "title": "코딩 첫걸음",
+          "score": 0.1888
+        },
+        {
+          "isbn": "978890000034",
+          "title": "인공지능은 내 친구",
+          "score": 0.1734
+        },
+        {
+          "isbn": "978890000039",
+          "title": "컴퓨터는 어떻게 생각할까",
+          "score": 0.1715
+        },
+        {
+          "isbn": "978890000031",
+          "title": "로봇 대백과",
+          "score": 0.159
+        }
+      ],
+      "person": {
+        "id": "person-robot",
+        "name": "장영실",
+        "anti_stereotype": 1
+      },
+      "jobs": [
+        {
+          "id": "job-robot-01",
+          "name": "로봇을 만드는 사람",
+          "layer": "B"
+        },
+        {
+          "id": "job-robot-03",
+          "name": "인공지능 엔지니어",
+          "layer": "hidden"
+        },
+        {
+          "id": "job-robot-05",
+          "name": "스마트공장 기술자",
+          "layer": "hidden"
+        },
+        {
+          "id": "job-robot-02",
+          "name": "지능형 로봇개발자",
+          "layer": "hidden"
+        },
+        {
+          "id": "job-robot-04",
+          "name": "데이터 라벨러",
+          "layer": "hidden"
+        }
+      ],
+      "layerB_card": "job-robot-01"
+    },
+    "art": {
+      "name": "그림",
+      "experiences": [
+        {
+          "id": "osm-368898232",
+          "name": "금구원 조각전시관",
+          "type": "상설시설",
+          "score": 0.1255
+        },
+        {
+          "id": "osm-368735133",
+          "name": "무릉고서화 미술박물관",
+          "type": "상설시설",
+          "score": 0.0995
+        },
+        {
+          "id": "osm-368725477",
+          "name": "사비나 미술관",
+          "type": "상설시설",
+          "score": 0.096
+        },
+        {
+          "id": "osm-368898206",
+          "name": "나비레 전시관",
+          "type": "상설시설",
+          "score": 0.0951
+        },
+        {
+          "id": "osm-368898160",
+          "name": "전주공예품전시관",
+          "type": "상설시설",
+          "score": 0.0832
+        },
+        {
+          "id": "osm-368898380",
+          "name": "명륜불교전시관",
+          "type": "상설시설",
+          "score": 0.079
+        },
+        {
+          "id": "osm-368898553",
+          "name": "만물전시관",
+          "type": "상설시설",
+          "score": 0.0766
+        },
+        {
+          "id": "art-08",
+          "name": "경기도어린이박물관",
+          "type": "상설시설",
+          "score": 0.0718
+        }
+      ],
+      "books": [
+        {
+          "isbn": "978890000041",
+          "title": "명화 속 숨은 그림 찾기",
+          "score": 0.1888
+        },
+        {
+          "isbn": "978890000049",
+          "title": "만들기 좋아하는 아이",
+          "score": 0.1794
+        },
+        {
+          "isbn": "978890000044",
+          "title": "어린이 미술관",
+          "score": 0.0864
+        },
+        {
+          "isbn": "978890000048",
+          "title": "우리 그림의 색과 선",
+          "score": 0.0659
+        },
+        {
+          "isbn": "978890000050",
+          "title": "김홍도, 조선을 그리다",
+          "score": 0.0477
+        }
+      ],
+      "person": {
+        "id": "person-art",
+        "name": "신사임당",
+        "anti_stereotype": 1
+      },
+      "jobs": [
+        {
+          "id": "job-art-01",
+          "name": "그림 그리는 사람",
+          "layer": "B"
+        },
+        {
+          "id": "job-art-03",
+          "name": "평론가",
+          "layer": "hidden"
+        },
+        {
+          "id": "job-art-05",
+          "name": "만화가",
+          "layer": "hidden"
+        },
+        {
+          "id": "job-art-02",
+          "name": "행사기획자",
+          "layer": "hidden"
+        },
+        {
+          "id": "job-art-04",
+          "name": "다문화코디네이터",
+          "layer": "hidden"
+        }
+      ],
+      "layerB_card": "job-art-01"
+    }
+  },
+  "adjacency": {
+    "dino": [
+      {
+        "topic": "animal",
+        "name": "동물",
+        "score": 0.4358
+      },
+      {
+        "topic": "art",
+        "name": "그림",
+        "score": 0.2987
+      }
+    ],
+    "space": [
+      {
+        "topic": "robot",
+        "name": "로봇",
+        "score": 0.7828
+      },
+      {
+        "topic": "animal",
+        "name": "동물",
+        "score": 0.2947
+      }
+    ],
+    "animal": [
+      {
+        "topic": "dino",
+        "name": "공룡",
+        "score": 0.4358
+      },
+      {
+        "topic": "art",
+        "name": "그림",
+        "score": 0.3922
+      }
+    ],
+    "robot": [
+      {
+        "topic": "space",
+        "name": "우주",
+        "score": 0.7828
+      },
+      {
+        "topic": "animal",
+        "name": "동물",
+        "score": 0.3556
+      }
+    ],
+    "art": [
+      {
+        "topic": "animal",
+        "name": "동물",
+        "score": 0.3922
+      },
+      {
+        "topic": "dino",
+        "name": "공룡",
+        "score": 0.2987
+      }
+    ]
+  },
+  "adjacency_matrix": {
+    "dino": {
+      "space": 0.2119,
+      "animal": 0.4358,
+      "robot": 0.2781,
+      "art": 0.2987
+    },
+    "space": {
+      "dino": 0.2119,
+      "animal": 0.2947,
+      "robot": 0.7828,
+      "art": 0.2355
+    },
+    "animal": {
+      "dino": 0.4358,
+      "space": 0.2947,
+      "robot": 0.3556,
+      "art": 0.3922
+    },
+    "robot": {
+      "dino": 0.2781,
+      "space": 0.7828,
+      "animal": 0.3556,
+      "art": 0.2623
+    },
+    "art": {
+      "dino": 0.2987,
+      "space": 0.2355,
+      "animal": 0.3922,
+      "robot": 0.2623
+    }
+  },
+  "discover_quota": {
+    "recent_topic": "dino",
+    "near": {
+      "topic": "animal",
+      "name": "동물",
+      "sample_exp": {
+        "id": "osm-368735186",
+        "name": "곤충박물관",
+        "type": "상설시설",
+        "score": 0.2162
+      }
+    },
+    "far": {
+      "topic": "space",
+      "name": "우주",
+      "sample_exp": {
+        "id": "space-06",
+        "name": "나로우주센터 우주과학관",
+        "type": "상설시설",
+        "score": 0.1214
+      }
+    },
+    "anti_stereotype_person": {
+      "id": "person-dino",
+      "name": "메리 애닝"
+    },
+    "rule": "인기순 정렬 금지 - 쿼터 편성(인접1+먼주제1+반고정관념인물1)"
+  }
+}

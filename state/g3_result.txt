@@ -1,0 +1,2 @@
+G3 PASS empties=[]
+adj_dino=[{'topic': 'animal', 'name': '동물', 'score': 0.4358}, {'topic': 'art', 'name': '그림', 'score': 0.2987}]

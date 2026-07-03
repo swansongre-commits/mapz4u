@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>맵즈 — {% block title %}어린이 체험지도{% endblock %}</title>
+<link rel="stylesheet" href="/static/style.css">
+{% block head %}{% endblock %}
+</head>
+<body>
+<header class="site"><div class="wrap">
+<a class="brand" href="/">맵즈<small>어린이 체험지도 · 운영</small></a>
+<nav class="tabs">
+<a href="/"{% if active=='search' %} aria-current="page"{% endif %}>🔍 검색</a>
+<a href="/topic/{{ (topics_all and (topics_all.keys()|list)[0]) or (topics and topics[0].id) or 'art' }}"{% if active=='topic' %} aria-current="page"{% endif %}>🏛️ 주제관</a>
+<a href="/map"{% if active=='map' %} aria-current="page"{% endif %}>🗺️ 지도</a>
+<a href="/discover"{% if active=='discover' %} aria-current="page"{% endif %}>✨ 발견</a>
+</nav></div></header>
+<main class="wrap">
+{% block content %}{% endblock %}
+</main>
+<footer class="site">
+맵즈 — 어린이 체험지도 (운영버전) · 공영 중립 · 도서관 대출 우선<br>
+<b>출처</b>: 체험·행사 = 한국관광공사 국문관광정보(TourAPI, 공공누리 제1유형) · 도서 = 국립중앙도서관 정보나루 인기대출(BY) · 지도 = OpenStreetMap<br>
+표본(검증 필요) 데이터는 배지로 표시하며, 최종 확인일로 신선도를 정직하게 알려요.
+</footer>
+</body>
+</html>

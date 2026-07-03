@@ -1,0 +1,354 @@
+{
+  "generated": "2026-07-04",
+  "demand_source": "data4library:file(연령대별 인기대출 실데이터)",
+  "connection_source": "tourapi:문화시설 실데이터",
+  "count": 12,
+  "topics": [
+    {
+      "id": "art",
+      "name": "그림",
+      "synonyms": [
+        "그림",
+        "미술",
+        "명화",
+        "화가",
+        "색칠",
+        "드로잉",
+        "만화"
+      ],
+      "emoji": "🎨",
+      "kdc": [
+        "650",
+        "653",
+        "65"
+      ],
+      "demand_score": 9.56,
+      "connection_score": 10.0,
+      "osm_facility_matches": 201,
+      "matched_books": 551,
+      "age_profile": {
+        "pre": 0.29,
+        "low": 0.273,
+        "mid1": 0.283,
+        "mid2": 0.155
+      },
+      "quadrant": "수요高·연결高"
+    },
+    {
+      "id": "history",
+      "name": "역사와위인",
+      "synonyms": [
+        "역사",
+        "위인",
+        "한국사",
+        "세계사",
+        "이순신",
+        "세종",
+        "전기"
+      ],
+      "emoji": "🏯",
+      "kdc": [
+        "900",
+        "990",
+        "910",
+        "99",
+        "91"
+      ],
+      "demand_score": 8.8,
+      "connection_score": 5.42,
+      "osm_facility_matches": 109,
+      "matched_books": 411,
+      "age_profile": {
+        "pre": 0.035,
+        "low": 0.36,
+        "mid1": 0.396,
+        "mid2": 0.209
+      },
+      "quadrant": "수요高·연결高"
+    },
+    {
+      "id": "science",
+      "name": "과학실험",
+      "synonyms": [
+        "과학",
+        "실험",
+        "발명",
+        "원리",
+        "호기심"
+      ],
+      "emoji": "🔬",
+      "kdc": [
+        "400",
+        "404",
+        "42",
+        "43"
+      ],
+      "demand_score": 10.0,
+      "connection_score": 3.38,
+      "osm_facility_matches": 68,
+      "matched_books": 414,
+      "age_profile": {
+        "pre": 0.075,
+        "low": 0.338,
+        "mid1": 0.396,
+        "mid2": 0.191
+      },
+      "quadrant": "수요高·연결高"
+    },
+    {
+      "id": "animal",
+      "name": "동물",
+      "synonyms": [
+        "동물",
+        "포유류",
+        "야생동물",
+        "반려동물",
+        "강아지",
+        "고양이",
+        "사파리"
+      ],
+      "emoji": "🐾",
+      "kdc": [
+        "490",
+        "49"
+      ],
+      "demand_score": 3.7,
+      "connection_score": 0.05,
+      "osm_facility_matches": 1,
+      "matched_books": 152,
+      "age_profile": {
+        "pre": 0.186,
+        "low": 0.407,
+        "mid1": 0.307,
+        "mid2": 0.101
+      },
+      "quadrant": "수요高·연결低"
+    },
+    {
+      "id": "body",
+      "name": "몸과건강",
+      "synonyms": [
+        "몸",
+        "인체",
+        "건강",
+        "뼈",
+        "이빨",
+        "감염",
+        "바이러스"
+      ],
+      "emoji": "🫀",
+      "kdc": [
+        "510",
+        "51"
+      ],
+      "demand_score": 3.37,
+      "connection_score": 0.2,
+      "osm_facility_matches": 4,
+      "matched_books": 152,
+      "age_profile": {
+        "pre": 0.057,
+        "low": 0.311,
+        "mid1": 0.45,
+        "mid2": 0.181
+      },
+      "quadrant": "수요高·연결低"
+    },
+    {
+      "id": "space",
+      "name": "우주",
+      "synonyms": [
+        "우주",
+        "천문",
+        "행성",
+        "로켓",
+        "은하",
+        "블랙홀",
+        "태양계"
+      ],
+      "emoji": "🚀",
+      "kdc": [
+        "440",
+        "44"
+      ],
+      "demand_score": 0.14,
+      "connection_score": 2.69,
+      "osm_facility_matches": 54,
+      "matched_books": 10,
+      "age_profile": {
+        "pre": 0.376,
+        "low": 0.263,
+        "mid1": 0.158,
+        "mid2": 0.203
+      },
+      "quadrant": "수요低·연결高"
+    },
+    {
+      "id": "plant",
+      "name": "식물",
+      "synonyms": [
+        "식물",
+        "꽃",
+        "나무",
+        "숲",
+        "씨앗",
+        "텃밭"
+      ],
+      "emoji": "🌱",
+      "kdc": [
+        "480",
+        "48"
+      ],
+      "demand_score": 0.82,
+      "connection_score": 1.94,
+      "osm_facility_matches": 39,
+      "matched_books": 43,
+      "age_profile": {
+        "pre": 0.358,
+        "low": 0.305,
+        "mid1": 0.219,
+        "mid2": 0.117
+      },
+      "quadrant": "수요高·연결高"
+    },
+    {
+      "id": "sealife",
+      "name": "바다생물",
+      "synonyms": [
+        "바다",
+        "물고기",
+        "해양",
+        "상어",
+        "고래",
+        "펭귄",
+        "수족관"
+      ],
+      "emoji": "🐠",
+      "kdc": [
+        "491",
+        "49"
+      ],
+      "demand_score": 0.84,
+      "connection_score": 1.64,
+      "osm_facility_matches": 33,
+      "matched_books": 51,
+      "age_profile": {
+        "pre": 0.39,
+        "low": 0.461,
+        "mid1": 0.086,
+        "mid2": 0.062
+      },
+      "quadrant": "수요高·연결高"
+    },
+    {
+      "id": "sports",
+      "name": "운동",
+      "synonyms": [
+        "운동",
+        "축구",
+        "야구",
+        "태권도",
+        "수영",
+        "스포츠"
+      ],
+      "emoji": "⚽",
+      "kdc": [
+        "690",
+        "692",
+        "69"
+      ],
+      "demand_score": 1.27,
+      "connection_score": 1.04,
+      "osm_facility_matches": 21,
+      "matched_books": 51,
+      "age_profile": {
+        "pre": 0.249,
+        "low": 0.428,
+        "mid1": 0.252,
+        "mid2": 0.072
+      },
+      "quadrant": "수요高·연결高"
+    },
+    {
+      "id": "cooking",
+      "name": "요리",
+      "synonyms": [
+        "요리",
+        "음식",
+        "베이킹",
+        "쿠킹",
+        "레시피",
+        "빵"
+      ],
+      "emoji": "🍳",
+      "kdc": [
+        "594",
+        "59"
+      ],
+      "demand_score": 1.38,
+      "connection_score": 0.15,
+      "osm_facility_matches": 3,
+      "matched_books": 73,
+      "age_profile": {
+        "pre": 0.289,
+        "low": 0.304,
+        "mid1": 0.286,
+        "mid2": 0.121
+      },
+      "quadrant": "수요高·연결低"
+    },
+    {
+      "id": "insect",
+      "name": "곤충",
+      "synonyms": [
+        "곤충",
+        "벌레",
+        "나비",
+        "개미",
+        "딱정벌레",
+        "사슴벌레"
+      ],
+      "emoji": "🐛",
+      "kdc": [
+        "496"
+      ],
+      "demand_score": 0.37,
+      "connection_score": 0.9,
+      "osm_facility_matches": 18,
+      "matched_books": 22,
+      "age_profile": {
+        "pre": 0.306,
+        "low": 0.642,
+        "mid1": 0.0,
+        "mid2": 0.052
+      },
+      "quadrant": "수요低·연결高"
+    },
+    {
+      "id": "music",
+      "name": "음악",
+      "synonyms": [
+        "음악",
+        "악기",
+        "피아노",
+        "노래",
+        "오케스트라"
+      ],
+      "emoji": "🎵",
+      "kdc": [
+        "670",
+        "67"
+      ],
+      "demand_score": 0.1,
+      "connection_score": 1.0,
+      "osm_facility_matches": 20,
+      "matched_books": 5,
+      "age_profile": {
+        "pre": 0.094,
+        "low": 0.0,
+        "mid1": 0.591,
+        "mid2": 0.314
+      },
+      "quadrant": "수요低·연결高"
+    }
+  ]
+}

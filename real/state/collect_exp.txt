@@ -1,0 +1,2 @@
+total=1568 real=1568 seed=0
+perm={'art': 480, 'history': 787, 'animal': 54, 'sealife': 52, 'sports': 46, 'cooking': 5, 'science': 76, 'space': 54, 'music': 48, 'body': 13, 'plant': 57, 'insect': 32}

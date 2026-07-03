@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+db/*.pkl
+db/*.db
+*.log
+state/*.log
+# 대용량 원본 (재수집 가능)
+data/raw/tourapi_*.json
+data/raw/data4library/*.csv
+data/maps_assets/*.json
+.env

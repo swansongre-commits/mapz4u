@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+{% import "macros.html" as m %}
+{% block title %}지도 둘러보기{% endblock %}
+{% block head %}<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">{% endblock %}
+{% block content %}
+<h1 class="section-title">지도 둘러보기</h1>
+<p class="section-note">운영 중인 곳만 표시해요. 지난 행사는 지도에 나오지 않아요(신선도). 전국 {{ markers|length }}곳.</p>
+<div class="map-legend chips">
+{% for t in topics %}<button type="button" class="chip topic-toggle" aria-pressed="true" data-topic="{{ t.id }}" style="border-color:{{ t.color }}">{{ t.emoji }} {{ t.name }}</button>{% endfor %}
+</div>
+<div id="map" role="application" aria-label="체험처 지도"></div>
+<p class="hint" id="map-fallback" style="display:none">지도를 불러오지 못했어요. 아래 목록의 길찾기 링크를 이용하세요.</p>
+<h2 class="section-title">운영 중 체험처 (일부)</h2>
+<div class="cards">
+{% for x in markers[:6] %}
+<article class="card"><h3>{{ x.name }}</h3>
+<div class="meta"><span>📍 {{ x.region }}</span><span>{{ x.type }}</span></div>
+<div class="meta"><span class="verified">최종 확인 {{ x.last_verified }}</span> {{ m.seed_badge(x.is_seed) }}</div>
+<div class="cta-row"><a class="btn" href="{{ x.maplink }}" target="_blank" rel="noopener">길찾기 →</a></div></article>
+{% endfor %}
+</div>
+<script>
+var MARKERS = {{ markers|tojson }};
+var COLORS = {{ topic_colors|tojson if topic_colors else '{}' }};
+(function(){var s=document.createElement('script');s.src='https://unpkg.com/leaflet@1.9.4/dist/leaflet.js';
+ s.onload=initMap;s.onerror=function(){document.getElementById('map-fallback').style.display='block';};document.head.appendChild(s);})();
+var active={}; document.querySelectorAll('.topic-toggle').forEach(function(b){active[b.dataset.topic]=true;});
+var map,layer;
+function initMap(){map=L.map('map').setView([36.5,127.8],7);
+ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:18,attribution:'© OpenStreetMap'}).addTo(map);
+ layer=L.layerGroup().addTo(map);draw();
+ document.querySelectorAll('.topic-toggle').forEach(function(b){b.addEventListener('click',function(){
+   var t=b.dataset.topic;active[t]=!active[t];b.setAttribute('aria-pressed',active[t]?'true':'false');draw();});});}
+function draw(){layer.clearLayers();MARKERS.forEach(function(x){
+ if(!x.topic_tags.some(function(t){return active[t];}))return;
+ var c=COLORS[x.topic_tags[0]]||'#2C6E63';
+ var mk=L.circleMarker([x.lat,x.lng],{radius:6,color:c,fillColor:c,fillOpacity:.8,weight:2});
+ mk.bindPopup('<b>'+x.name+'</b><br>'+(x.region||'')+'<br><a href="'+x.maplink+'" target="_blank" rel="noopener">길찾기 →</a>');
+ layer.addLayer(mk);});}
+</script>
+{% endblock %}

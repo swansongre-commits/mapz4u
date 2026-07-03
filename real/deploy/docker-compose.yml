@@ -1,0 +1,28 @@
+services:
+  mapz:
+    build:
+      context: ..
+      dockerfile: deploy/Dockerfile
+    container_name: mapz-real
+    restart: unless-stopped
+    environment:
+      - MAPZ_RATE_LIMIT=180
+    volumes:
+      # DB는 볼륨 마운트 (배치 갱신이 컨테이너 외부에 영속)
+      - ../db:/app/db
+      - ../data:/app/data
+    expose:
+      - "8000"
+
+  nginx:
+    image: nginx:1.27-alpine
+    container_name: mapz-nginx
+    restart: unless-stopped
+    depends_on:
+      - mapz
+    ports:
+      - "80:80"
+      # - "443:443"   # TLS 붙일 때 활성화 (Let's Encrypt 인증서 마운트)
+    volumes:
+      - ./nginx.conf:/etc/nginx/conf.d/default.conf:ro
+      - ../app/static:/srv/static:ro

@@ -1,0 +1,10 @@
+**/__pycache__/
+**/*.pyc
+.venv/
+state/
+tests/
+design/screenshots/
+reports/
+data/raw/
+data/maps_assets/
+*.log

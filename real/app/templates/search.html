@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+{% import "macros.html" as m %}
+{% block title %}검색{% endblock %}
+{% block content %}
+<p class="hint">아이가 좋아하는 걸 그대로 검색해 보세요. "공룡", "별", "곤충"처럼요.</p>
+<form class="searchbar" method="get" action="/">
+<input type="search" name="q" value="{{ query }}" placeholder="무엇에 관심 있어요? (예: 우주, 그림, 곤충)" aria-label="검색어">
+<button class="btn" type="submit">찾기</button>
+</form>
+<form class="chips" role="group" aria-label="부모 필터" method="get" action="/">
+<input type="hidden" name="q" value="{{ query }}">
+<label class="chip" aria-pressed="{{ 'true' if f.indoor else 'false' }}"><input type="checkbox" name="indoor" value="1" hidden {{ 'checked' if f.indoor }} onchange="this.form.submit()">🏠 실내</label>
+<label class="chip" aria-pressed="{{ 'true' if f.free else 'false' }}"><input type="checkbox" name="free" value="1" hidden {{ 'checked' if f.free }} onchange="this.form.submit()">💰 무료</label>
+<label class="chip" aria-pressed="{{ 'true' if f.week else 'false' }}"><input type="checkbox" name="week" value="1" hidden {{ 'checked' if f.week }} onchange="this.form.submit()">📅 이번 주</label>
+<span class="chip" style="gap:6px">📍 <input type="text" name="region" value="{{ f.region }}" placeholder="지역(예: 서울)" aria-label="지역" style="border:0;background:transparent;min-width:90px;font-size:.95rem" onchange="this.form.submit()"></span>
+</form>
+<p class="section-note">관심이 있으면 깊게 검색하고, 없으면 아래 그림에서 골라 둘러봐요. (실수요로 뽑은 {{ topics|length }}개 세계)</p>
+<div class="tiles">
+{% for t in topics %}
+<a class="tile" href="/topic/{{ t.id }}" style="border-color:{{ t.color }}"><span class="emoji">{{ t.emoji }}</span><span class="label">{{ t.name }}</span></a>
+{% endfor %}
+</div>
+{% if active_filter %}
+<h2 class="section-title">{% if query %}"{{ query }}" {% endif %}검색 결과 ({{ results|length }}건)
+{% if f.indoor or f.free or f.week or f.region %}<span class="age"> · 필터: {{ '실내 ' if f.indoor }}{{ '무료 ' if f.free }}{{ '이번주 ' if f.week }}{{ f.region }}</span>{% endif %}</h2>
+<div class="cards">
+{% for x in results %}{{ m.exp_card(x) }}{% endfor %}
+{% if results|length == 0 %}<p class="hint">딱 맞는 곳이 없어요. 위 그림 타일에서 둘러보는 건 어때요?</p>{% endif %}
+</div>
+{% else %}
+<h2 class="section-title">가까운 체험처 미리보기</h2>
+<div class="cards">{% for x in preview %}{{ m.exp_card(x) }}{% endfor %}</div>
+{% endif %}
+{% endblock %}

@@ -1,0 +1,1667 @@
+{
+  "generated": "2026-07-04",
+  "embed": "tfidf-char24",
+  "topics": {
+    "art": {
+      "name": "그림",
+      "experiences": [
+        {
+          "id": "tour-3085026",
+          "name": "김현관 북촌펜드로잉",
+          "type": "상설시설",
+          "score": 0.2175
+        },
+        {
+          "id": "tour-2713397",
+          "name": "갤러리 더 화",
+          "type": "상설시설",
+          "score": 0.1395
+        },
+        {
+          "id": "tour-2798046",
+          "name": "김택화 미술관",
+          "type": "상설시설",
+          "score": 0.1318
+        },
+        {
+          "id": "tour-129937",
+          "name": "미술관 솔",
+          "type": "상설시설",
+          "score": 0.1139
+        },
+        {
+          "id": "tour-130692",
+          "name": "전혁림 미술관",
+          "type": "상설시설",
+          "score": 0.1067
+        },
+        {
+          "id": "tour-3056560",
+          "name": "교동 미술관",
+          "type": "상설시설",
+          "score": 0.1041
+        },
+        {
+          "id": "tour-130714",
+          "name": "조각가 박시동 미술관",
+          "type": "상설시설",
+          "score": 0.0982
+        },
+        {
+          "id": "tour-2569502",
+          "name": "블루메 미술관",
+          "type": "상설시설",
+          "score": 0.0974
+        }
+      ],
+      "books": [
+        {
+          "isbn": "9791130698434",
+          "title": "만화 한국 신화 :어린이를 위한 우리 인문학",
+          "score": 0.1309
+        },
+        {
+          "isbn": "9791164135790",
+          "title": "내일은 실험왕 :본격 대결 과학실험 만화",
+          "score": 0.1003
+        },
+        {
+          "isbn": "9791168412637",
+          "title": "내일은 발명왕 :본격 대결 과학발명 만화",
+          "score": 0.0984
+        },
+        {
+          "isbn": "9791168440258",
+          "title": "곤충보다 작아진 정브르 :생물 학습 만화",
+          "score": 0.0904
+        },
+        {
+          "isbn": "9791168411784",
+          "title": "에그박사의 채집 일기 :스티커로 채집하는 자연 생물 관찰 만화",
+          "score": 0.0847
+        }
+      ],
+      "person": {
+        "id": "person-art",
+        "name": "신사임당",
+        "anti_stereotype": 1
+      },
+      "jobs": [
+        {
+          "id": "job-art-01",
+          "name": "그림 그리는 사람",
+          "layer": "B"
+        },
+        {
+          "id": "job-art-02",
+          "name": "평론가",
+          "layer": "hidden"
+        },
+        {
+          "id": "job-art-04",
+          "name": "만화가",
+          "layer": "hidden"
+        },
+        {
+          "id": "job-art-05",
+          "name": "철학연구원",
+          "layer": "hidden"
+        },
+        {
+          "id": "job-art-03",
+          "name": "다문화코디네이터",
+          "layer": "hidden"
+        }
+      ],
+      "layerB_card": "job-art-01"
+    },
+    "history": {
+      "name": "역사와위인",
+      "experiences": [
+        {
+          "id": "tour-2606761",
+          "name": "이순신영상관",
+          "type": "상설시설",
+          "score": 0.2075
+        },
+        {
+          "id": "tour-2778041",
+          "name": "이순신대교홍보관",
+          "type": "상설시설",
+          "score": 0.1786
+        },
+        {
+          "id": "tour-129968",
+          "name": "세종문화원",
+          "type": "상설시설",
+          "score": 0.1604
+        },
+        {
+          "id": "tour-130951",
+          "name": "전기박물관",
+          "type": "상설시설",
+          "score": 0.1495
+        },
+        {
+          "id": "tour-129912",
+          "name": "세종호텔 세종갤러리",
+          "type": "상설시설",
+          "score": 0.1457
+        },
+        {
+          "id": "tour-1755029",
+          "name": "세종문화예술회관",
+          "type": "상설시설",
+          "score": 0.1416
+        },
+        {
+          "id": "tour-4061726",
+          "name": "이순신관광체험센터 여해나루",
+          "type": "상설시설",
+          "score": 0.1398
+        },
+        {
+          "id": "tour-1951646",
+          "name": "세종시립민속박물관",
+          "type": "상설시설",
+          "score": 0.1391
+        }
+      ],
+      "books": [
+        {
+          "isbn": "9788950900830",
+          "title": "벌거벗은 세계사",
+          "score": 0.2153
+        },
+        {
+          "isbn": "9791173571442",
+          "title": "무적 이순신",
+          "score": 0.2111
+        },
+        {
+          "isbn": "9791130651446",
+          "title": "(최태성의) 한능검 한국사",
+          "score": 0.1778
+        },
+        {
+          "isbn": "9791193031902",
+          "title": "설민석의 세계사 대모험",
+          "score": 0.1681
+        },
+        {
+          "isbn": "9788934941330",
+          "title": "(흔한 남매) 세계사 탐험대",
+          "score": 0.1649
+        }
+      ],
+      "person": {
+        "id": "person-history",
+        "name": "유관순",
+        "anti_stereotype": 1
+      },
+      "jobs": [
+        {
+          "id": "job-history-01",
+          "name": "옛이야기를 밝히는 사람",
+          "layer": "B"
+        },
+        {
+          "id": "job-history-05",
+          "name": "트럭운전기사",
+          "layer": "hidden"
+        },
+        {
+          "id": "job-history-04",
+          "name": "가스ㆍ수도ㆍ전기 계기 검침원 및 안전점검원",
+          "layer": "hidden"
+        },
+        {
+          "id": "job-history-02",
+          "name": "개인형 이동수단 개발자",
+          "layer": "hidden"
+        },
+        {
+          "id": "job-history-03",
+          "name": "태양광발전연구 및 개발자",
+          "layer": "hidden"
+        }
+      ],
+      "layerB_card": "job-history-01"
+    },
+    "science": {
+      "name": "과학실험",
+      "experiences": [
+        {
+          "id": "tour-3369859",
+          "name": "의정부 과학도서관",
+          "type": "상설시설",
+          "score": 0.2517
+        },
+        {
+          "id": "tour-3080852",
+          "name": "한생연 실험누리과학관",
+          "type": "상설시설",
+          "score": 0.2516
+        },
+        {
+          "id": "tour-2736727",
+          "name": "구미과학관",
+          "type": "상설시설",
+          "score": 0.2427
+        },
+        {
+          "id": "tour-130712",
+          "name": "농업과학관",
+          "type": "상설시설",
+          "score": 0.2311
+        },
+        {
+          "id": "tour-2989541",
+          "name": "서울시립과학관",
+          "type": "상설시설",
+          "score": 0.2307
+        },
+        {
+          "id": "tour-2778182",
+          "name": "울산과학관",
+          "type": "상설시설",
+          "score": 0.2206
+        },
+        {
+          "id": "tour-1838602",
+          "name": "최무선과학관",
+          "type": "상설시설",
+          "score": 0.2195
+        },
+        {
+          "id": "tour-2545920",
+          "name": "국립어린이과학관",
+          "type": "상설시설",
+          "score": 0.2167
+        }
+      ],
+      "books": [
+        {
+          "isbn": "9791168415409",
+          "title": "흔한남매의 흔한 호기심 :일상에서 만나는 과학 상식",
+          "score": 0.2865
+        },
+        {
+          "isbn": "9791164135790",
+          "title": "내일은 실험왕 :본격 대결 과학실험 만화",
+          "score": 0.2384
+        },
+        {
+          "isbn": "9791168412637",
+          "title": "내일은 발명왕 :본격 대결 과학발명 만화",
+          "score": 0.2325
+        },
+        {
+          "isbn": "9791168415188",
+          "title": "슈뻘맨의 숨은 과학 찾기 :엉뚱 도전 속에 숨은 과학 상식",
+          "score": 0.2138
+        },
+        {
+          "isbn": "9791173321610",
+          "title": "흔한남매 과학 탐험대",
+          "score": 0.1987
+        }
+      ],
+      "person": {
+        "id": "person-science",
+        "name": "마리 퀴리",
+        "anti_stereotype": 1
+      },
+      "jobs": [
+        {
+          "id": "job-science-01",
+          "name": "실험하는 사람",
+          "layer": "B"
+        },
+        {
+          "id": "job-science-05",
+          "name": "발명가",
+          "layer": "hidden"
+        },
+        {
+          "id": "job-science-04",
+          "name": "심리학연구원",
+          "layer": "hidden"
+        },
+        {
+          "id": "job-science-03",
+          "name": "언어학연구원",
+          "layer": "hidden"
+        },
+        {
+          "id": "job-science-02",
+          "name": "범죄과학수사관",
+          "layer": "hidden"
+        }
+      ],
+      "layerB_card": "job-science-01"
+    },
+    "animal": {
+      "name": "동물",
+      "experiences": [
+        {
+          "id": "tour-130256",
+          "name": "고성자연사박물관",
+          "type": "상설시설",
+          "score": 0.1634
+        },
+        {
+          "id": "tour-2663316",
+          "name": "고성생태학습관",
+          "type": "상설시설",
+          "score": 0.1552
+        },
+        {
+          "id": "tour-2751843",
+          "name": "제주해양동물박물관",
+          "type": "상설시설",
+          "score": 0.1551
+        },
+        {
+          "id": "tour-1937095",
+          "name": "영월 동굴생태관",
+          "type": "상설시설",
+          "score": 0.1528
+        },
+        {
+          "id": "tour-130743",
+          "name": "창조자연사박물관",
+          "type": "상설시설",
+          "score": 0.1527
+        },
+        {
+          "id": "tour-130560",
+          "name": "한국자연사박물관",
+          "type": "상설시설",
+          "score": 0.1517
+        },
+        {
+          "id": "tour-2736386",
+          "name": "덕소자연사박물관",
+          "type": "상설시설",
+          "score": 0.1513
+        },
+        {
+          "id": "tour-2523291",
+          "name": "강화자연사박물관",
+          "type": "상설시설",
+          "score": 0.1506
+        }
+      ],
+      "books": [
+        {
+          "isbn": "9788934991991",
+          "title": "내 멋대로 반려동물 뽑기",
+          "score": 0.2799
+        },
+        {
+          "isbn": "9788957072394",
+          "title": "시간 고양이",
+          "score": 0.2522
+        },
+        {
+          "isbn": "9791130679990",
+          "title": "낭만 강아지 봉봉",
+          "score": 0.2449
+        },
+        {
+          "isbn": "9788936447694",
+          "title": "고양이 해결사 깜냥",
+          "score": 0.2282
+        },
+        {
+          "isbn": "9791164384808",
+          "title": "(비마이펫) 멍냥연구소 :온 세상 반려가족 필수 반려동물 교양만화",
+          "score": 0.1972
+        }
+      ],
+      "person": {
+        "id": "person-animal",
+        "name": "제인 구달",
+        "anti_stereotype": 1
+      },
+      "jobs": [
+        {
+          "id": "job-animal-01",
+          "name": "동물을 돌보는 사람",
+          "layer": "B"
+        },
+        {
+          "id": "job-animal-05",
+          "name": "동물조련사",
+          "layer": "hidden"
+        },
+        {
+          "id": "job-animal-02",
+          "name": "애견테라피스트",
+          "layer": "hidden"
+        },
+        {
+          "id": "job-animal-03",
+          "name": "동물랭글러",
+          "layer": "hidden"
+        },
+        {
+          "id": "job-animal-04",
+          "name": "해부학연구원",
+          "layer": "hidden"
+        }
+      ],
+      "layerB_card": "job-animal-01"
+    },
+    "body": {
+      "name": "몸과건강",
+      "experiences": [
+        {
+          "id": "tour-1186650",
+          "name": "대나무 건강나라",
+          "type": "상설시설",
+          "score": 0.2652
+        },
+        {
+          "id": "tour-130853",
+          "name": "건강과 성 박물관(제주)",
+          "type": "상설시설",
+          "score": 0.2382
+        },
+        {
+          "id": "tour-2613272",
+          "name": "생명건강과학관",
+          "type": "상설시설",
+          "score": 0.232
+        },
+        {
+          "id": "tour-770557",
+          "name": "산청한의학박물관",
+          "type": "상설시설",
+          "score": 0.2257
+        },
+        {
+          "id": "tour-130934",
+          "name": "서울대학교 치의학박물관",
+          "type": "상설시설",
+          "score": 0.2201
+        },
+        {
+          "id": "tour-1279232",
+          "name": "축제극장몸짓",
+          "type": "상설시설",
+          "score": 0.2184
+        },
+        {
+          "id": "tour-774640",
+          "name": "춘원당한의약박물관",
+          "type": "상설시설",
+          "score": 0.2118
+        },
+        {
+          "id": "tour-2733126",
+          "name": "거창근대의료박물관",
+          "type": "상설시설",
+          "score": 0.208
+        }
+      ],
+      "books": [
+        {
+          "isbn": "9791171712465",
+          "title": "소맥거핀의 인체 친구들",
+          "score": 0.211
+        },
+        {
+          "isbn": "9791162336069",
+          "title": "뼈뼈 사우루스",
+          "score": 0.1921
+        },
+        {
+          "isbn": "9791193074626",
+          "title": "빠진 이 삽니다 :이빨 요정 주식회사",
+          "score": 0.1673
+        },
+        {
+          "isbn": "9791168091535",
+          "title": "의사 어벤저스 :어린이 의학 동화",
+          "score": 0.1499
+        },
+        {
+          "isbn": "9791130677712",
+          "title": "(나의 몸과 마음을 이해하고 더 멋진 내가 되는) 우리들의 사춘기",
+          "score": 0.142
+        }
+      ],
+      "person": {
+        "id": "person-body",
+        "name": "이태석",
+        "anti_stereotype": 0
+      },
+      "jobs": [
+        {
+          "id": "job-body-01",
+          "name": "몸을 살피는 사람",
+          "layer": "B"
+        },
+        {
+          "id": "job-body-04",
+          "name": "임상심리사",
+          "layer": "hidden"
+        },
+        {
+          "id": "job-body-02",
+          "name": "애견테라피스트",
+          "layer": "hidden"
+        },
+        {
+          "id": "job-body-03",
+          "name": "스포츠트레이너",
+          "layer": "hidden"
+        },
+        {
+          "id": "job-body-05",
+          "name": "개그맨",
+          "layer": "hidden"
+        }
+      ],
+      "layerB_card": "job-body-01"
+    },
+    "space": {
+      "name": "우주",
+      "experiences": [
+        {
+          "id": "tour-3401161",
+          "name": "우주미술관",
+          "type": "상설시설",
+          "score": 0.2156
+        },
+        {
+          "id": "tour-4076758",
+          "name": "우주드림",
+          "type": "상설시설",
+          "score": 0.195
+        },
+        {
+          "id": "tour-129708",
+          "name": "이천문화원",
+          "type": "상설시설",
+          "score": 0.1775
+        },
+        {
+          "id": "tour-129857",
+          "name": "부천문화원",
+          "type": "상설시설",
+          "score": 0.1755
+        },
+        {
+          "id": "tour-129866",
+          "name": "과천문화원",
+          "type": "상설시설",
+          "score": 0.1725
+        },
+        {
+          "id": "tour-130215",
+          "name": "양천문화원",
+          "type": "상설시설",
+          "score": 0.1707
+        },
+        {
+          "id": "tour-129879",
+          "name": "연천문화원",
+          "type": "상설시설",
+          "score": 0.1697
+        },
+        {
+          "id": "tour-130377",
+          "name": "금천문화원",
+          "type": "상설시설",
+          "score": 0.1657
+        }
+      ],
+      "books": [
+        {
+          "isbn": "9788931341430",
+          "title": "수박 행성",
+          "score": 0.2297
+        },
+        {
+          "isbn": "9788962680942",
+          "title": "우주 호텔",
+          "score": 0.1862
+        },
+        {
+          "isbn": "9791158682538",
+          "title": "(읽으면서 바로 써먹는) 어린이 맞춤법 행성",
+          "score": 0.1539
+        },
+        {
+          "isbn": "9788965463108",
+          "title": "안녕, 우주",
+          "score": 0.1395
+        },
+        {
+          "isbn": "9791159950391",
+          "title": "로켓아이 :김민우 그림책",
+          "score": 0.1297
+        }
+      ],
+      "person": {
+        "id": "person-space",
+        "name": "이소연",
+        "anti_stereotype": 1
+      },
+      "jobs": [
+        {
+          "id": "job-space-01",
+          "name": "별을 관측하는 사람",
+          "layer": "B"
+        },
+        {
+          "id": "job-space-02",
+          "name": "우주전파예보관",
+          "layer": "hidden"
+        },
+        {
+          "id": "job-space-04",
+          "name": "천문학연구원",
+          "layer": "hidden"
+        },
+        {
+          "id": "job-space-05",
+          "name": "인공위성개발원",
+          "layer": "hidden"
+        },
+        {
+          "id": "job-space-03",
+          "name": "항공우주공학기술자",
+          "layer": "hidden"
+        }
+      ],
+      "layerB_card": "job-space-01"
+    },
+    "plant": {
+      "name": "식물",
+      "experiences": [
+        {
+          "id": "tour-2609320",
+          "name": "지혜의 숲",
+          "type": "상설시설",
+          "score": 0.3023
+        },
+        {
+          "id": "tour-2650448",
+          "name": "농부네 텃밭도서관",
+          "type": "상설시설",
+          "score": 0.2282
+        },
+        {
+          "id": "tour-3056730",
+          "name": "민병갈 식물도서관",
+          "type": "상설시설",
+          "score": 0.1973
+        },
+        {
+          "id": "tour-1255726",
+          "name": "꿈의숲 아트센터",
+          "type": "상설시설",
+          "score": 0.1911
+        },
+        {
+          "id": "tour-3072018",
+          "name": "숲속책방",
+          "type": "상설시설",
+          "score": 0.1904
+        },
+        {
+          "id": "tour-2613675",
+          "name": "미술관 자작나무숲",
+          "type": "상설시설",
+          "score": 0.1888
+        },
+        {
+          "id": "tour-1186650",
+          "name": "대나무 건강나라",
+          "type": "상설시설",
+          "score": 0.1861
+        },
+        {
+          "id": "tour-1799099",
+          "name": "순천시립 뿌리깊은나무 박물관",
+          "type": "상설시설",
+          "score": 0.1709
+        }
+      ],
+      "books": [
+        {
+          "isbn": "9791165703639",
+          "title": "나무 이발사 :정네모 그림책",
+          "score": 0.1869
+        },
+        {
+          "isbn": "9791158360337",
+          "title": "꽃에서 나온 코끼리",
+          "score": 0.1623
+        },
+        {
+          "isbn": "9791190337427",
+          "title": "햇빛초 대나무 숲에 새 글이 올라왔습니다",
+          "score": 0.1395
+        },
+        {
+          "isbn": "9791168341753",
+          "title": "벚꽃 수영장",
+          "score": 0.1367
+        },
+        {
+          "isbn": "9791167552006",
+          "title": "햇빛초 대나무 숲의 모든 글이 삭제되었습니다",
+          "score": 0.1337
+        }
+      ],
+      "person": {
+        "id": "person-plant",
+        "name": "우장춘",
+        "anti_stereotype": 0
+      },
+      "jobs": [
+        {
+          "id": "job-plant-01",
+          "name": "식물을 기르는 사람",
+          "layer": "B"
+        },
+        {
+          "id": "job-plant-02",
+          "name": "조림 영림 및 벌목원",
+          "layer": "hidden"
+        },
+        {
+          "id": "job-plant-03",
+          "name": "펄프 및 종이 생산직",
+          "layer": "hidden"
+        },
+        {
+          "id": "job-plant-05",
+          "name": "조경원",
+          "layer": "hidden"
+        },
+        {
+          "id": "job-plant-04",
+          "name": "플로리스트",
+          "layer": "hidden"
+        }
+      ],
+      "layerB_card": "job-plant-01"
+    },
+    "sealife": {
+      "name": "바다생물",
+      "experiences": [
+        {
+          "id": "tour-2782914",
+          "name": "고래책방",
+          "type": "상설시설",
+          "score": 0.2351
+        },
+        {
+          "id": "tour-1687039",
+          "name": "충주 민물고기전시관",
+          "type": "상설시설",
+          "score": 0.2027
+        },
+        {
+          "id": "tour-130649",
+          "name": "장생포 고래박물관",
+          "type": "상설시설",
+          "score": 0.2003
+        },
+        {
+          "id": "tour-130677",
+          "name": "삼척 민물고기전시관",
+          "type": "상설시설",
+          "score": 0.1995
+        },
+        {
+          "id": "tour-130696",
+          "name": "민물고기생태체험관",
+          "type": "상설시설",
+          "score": 0.198
+        },
+        {
+          "id": "tour-3569581",
+          "name": "시흥 해양생태과학관",
+          "type": "상설시설",
+          "score": 0.1795
+        },
+        {
+          "id": "tour-2754480",
+          "name": "장생포 고래생태체험관",
+          "type": "상설시설",
+          "score": 0.1775
+        },
+        {
+          "id": "tour-2720650",
+          "name": "피아크",
+          "type": "상설시설",
+          "score": 0.1753
+        }
+      ],
+      "books": [
+        {
+          "isbn": "9791168343146",
+          "title": "진실한 동물도감",
+          "score": 0.0998
+        },
+        {
+          "isbn": "9791168440258",
+          "title": "곤충보다 작아진 정브르 :생물 학습 만화",
+          "score": 0.0947
+        },
+        {
+          "isbn": "9791168412705",
+          "title": "에그박사의 이건 누구 똥?!",
+          "score": 0.0804
+        },
+        {
+          "isbn": "9788927748212",
+          "title": "에그박사의 어쩌면 사라질 사파리 :멸/종/위/기 생물도감",
+          "score": 0.0781
+        },
+        {
+          "isbn": "9788927747581",
+          "title": "에그박사의 닮은꼴 사파리 :전격비교관찰 생물도감",
+          "score": 0.0741
+        }
+      ],
+      "person": {
+        "id": "person-sealife",
+        "name": "자크 쿠스토",
+        "anti_stereotype": 0
+      },
+      "jobs": [
+        {
+          "id": "job-sealife-01",
+          "name": "바다생물을 연구하는 사람",
+          "layer": "B"
+        },
+        {
+          "id": "job-sealife-03",
+          "name": "아쿠아리스트",
+          "layer": "hidden"
+        },
+        {
+          "id": "job-sealife-05",
+          "name": "해양학연구원",
+          "layer": "hidden"
+        },
+        {
+          "id": "job-sealife-04",
+          "name": "해양환경기사",
+          "layer": "hidden"
+        },
+        {
+          "id": "job-sealife-02",
+          "name": "원양어부",
+          "layer": "hidden"
+        }
+      ],
+      "layerB_card": "job-sealife-01"
+    },
+    "sports": {
+      "name": "운동",
+      "experiences": [
+        {
+          "id": "tour-1904335",
+          "name": "태권도원",
+          "type": "상설시설",
+          "score": 0.363
+        },
+        {
+          "id": "tour-2825248",
+          "name": "이스포츠 명예의 전당",
+          "type": "상설시설",
+          "score": 0.2706
+        },
+        {
+          "id": "tour-3351028",
+          "name": "수원 월드컵경기장 축구박물관",
+          "type": "상설시설",
+          "score": 0.1972
+        },
+        {
+          "id": "tour-130203",
+          "name": "수영민속예술관",
+          "type": "상설시설",
+          "score": 0.1942
+        },
+        {
+          "id": "tour-130568",
+          "name": "갤러리 미즈",
+          "type": "상설시설",
+          "score": 0.1803
+        },
+        {
+          "id": "tour-3057862",
+          "name": "김수영문학관",
+          "type": "상설시설",
+          "score": 0.1747
+        },
+        {
+          "id": "tour-596511",
+          "name": "국기원(세계태권도본부)",
+          "type": "상설시설",
+          "score": 0.1714
+        },
+        {
+          "id": "tour-3416331",
+          "name": "도모헌",
+          "type": "상설시설",
+          "score": 0.1706
+        }
+      ],
+      "books": [
+        {
+          "isbn": "9791168341180",
+          "title": "야옹이 수영 교실",
+          "score": 0.2269
+        },
+        {
+          "isbn": "9791168342491",
+          "title": "불꽃 수영 대회",
+          "score": 0.2145
+        },
+        {
+          "isbn": "9791158364595",
+          "title": "질투는 아웃, 야구 장갑! :유설화 그림책",
+          "score": 0.186
+        },
+        {
+          "isbn": "9791168341753",
+          "title": "벚꽃 수영장",
+          "score": 0.1564
+        },
+        {
+          "isbn": "9791168343252",
+          "title": "모두의 수영장",
+          "score": 0.155
+        }
+      ],
+      "person": {
+        "id": "person-sports",
+        "name": "손기정",
+        "anti_stereotype": 0
+      },
+      "jobs": [
+        {
+          "id": "job-sports-01",
+          "name": "몸을 움직이는 사람",
+          "layer": "B"
+        },
+        {
+          "id": "job-sports-04",
+          "name": "스포츠기록분석연구원",
+          "layer": "hidden"
+        },
+        {
+          "id": "job-sports-05",
+          "name": "스포츠트레이너",
+          "layer": "hidden"
+        },
+        {
+          "id": "job-sports-03",
+          "name": "운동경기심판",
+          "layer": "hidden"
+        },
+        {
+          "id": "job-sports-02",
+          "name": "야외활동지도사",
+          "layer": "hidden"
+        }
+      ],
+      "layerB_card": "job-sports-01"
+    },
+    "cooking": {
+      "name": "요리",
+      "experiences": [
+        {
+          "id": "tour-2390748",
+          "name": "전통주갤러리",
+          "type": "상설시설",
+          "score": 0.2211
+        },
+        {
+          "id": "tour-3002799",
+          "name": "한국전통음식박물관",
+          "type": "상설시설",
+          "score": 0.1968
+        },
+        {
+          "id": "tour-231964",
+          "name": "남도향토음식박물관",
+          "type": "상설시설",
+          "score": 0.1857
+        },
+        {
+          "id": "tour-130310",
+          "name": "안동소주전통음식박물관",
+          "type": "상설시설",
+          "score": 0.1763
+        },
+        {
+          "id": "tour-3440381",
+          "name": "한식문화공간 이음",
+          "type": "상설시설",
+          "score": 0.173
+        },
+        {
+          "id": "tourfes-604097",
+          "name": "광주김치축제",
+          "type": "행사",
+          "score": 0.182
+        }
+      ],
+      "books": [
+        {
+          "isbn": "9791192686103",
+          "title": "소원빵집 위시위시 베이커리",
+          "score": 0.172
+        },
+        {
+          "isbn": "9791162041376",
+          "title": "호랑이 빵집",
+          "score": 0.1597
+        },
+        {
+          "isbn": "9791190630016",
+          "title": "(백종원의) 도전 요리왕 :음식으로 맛보는 세계 역사 문화 체험",
+          "score": 0.1409
+        },
+        {
+          "isbn": "9788901290706",
+          "title": "동백 호빵 :백유연 그림책",
+          "score": 0.1356
+        },
+        {
+          "isbn": "9788901295428",
+          "title": "내 멋대로 빵빵빵빵 :김지안 그림책",
+          "score": 0.1292
+        }
+      ],
+      "person": {
+        "id": "person-cooking",
+        "name": "장계향",
+        "anti_stereotype": 1
+      },
+      "jobs": [
+        {
+          "id": "job-cooking-01",
+          "name": "음식을 만드는 사람",
+          "layer": "B"
+        },
+        {
+          "id": "job-cooking-05",
+          "name": "곤충 음식 개발자·조리사",
+          "layer": "hidden"
+        },
+        {
+          "id": "job-cooking-02",
+          "name": "환경위생검사원",
+          "layer": "hidden"
+        },
+        {
+          "id": "job-cooking-03",
+          "name": "전통식품제조원",
+          "layer": "hidden"
+        },
+        {
+          "id": "job-cooking-04",
+          "name": "제과사 및 제빵사",
+          "layer": "hidden"
+        }
+      ],
+      "layerB_card": "job-cooking-01"
+    },
+    "insect": {
+      "name": "곤충",
+      "experiences": [
+        {
+          "id": "tour-3011031",
+          "name": "곤충테마여행",
+          "type": "상설시설",
+          "score": 0.1585
+        },
+        {
+          "id": "tour-2513112",
+          "name": "와동 생태곤충 체험관",
+          "type": "상설시설",
+          "score": 0.144
+        },
+        {
+          "id": "tour-2550788",
+          "name": "여주곤충박물관",
+          "type": "상설시설",
+          "score": 0.1378
+        },
+        {
+          "id": "tour-2605321",
+          "name": "양평곤충박물관",
+          "type": "상설시설",
+          "score": 0.1373
+        },
+        {
+          "id": "tour-1181485",
+          "name": "상주박물관",
+          "type": "상설시설",
+          "score": 0.137
+        },
+        {
+          "id": "tour-130467",
+          "name": "영월곤충박물관",
+          "type": "상설시설",
+          "score": 0.1291
+        },
+        {
+          "id": "tour-3056827",
+          "name": "순천곤충박물관",
+          "type": "상설시설",
+          "score": 0.125
+        },
+        {
+          "id": "tour-2779301",
+          "name": "영암곤충박물관",
+          "type": "상설시설",
+          "score": 0.1248
+        }
+      ],
+      "books": [
+        {
+          "isbn": "9791159955624",
+          "title": "곤충 찜질방",
+          "score": 0.2262
+        },
+        {
+          "isbn": "9791193207406",
+          "title": "곤충 호텔",
+          "score": 0.1749
+        },
+        {
+          "isbn": "9788936414085",
+          "title": "나는 3학년 2반 7번 애벌레 :김원아 동화",
+          "score": 0.1494
+        },
+        {
+          "isbn": "9788936414191",
+          "title": "나는 3학년 2반 전설의 애벌레 :김원아 동화",
+          "score": 0.1481
+        },
+        {
+          "isbn": "9791141610623",
+          "title": "나비도감",
+          "score": 0.127
+        }
+      ],
+      "person": {
+        "id": "person-insect",
+        "name": "석주명",
+        "anti_stereotype": 0
+      },
+      "jobs": [
+        {
+          "id": "job-insect-01",
+          "name": "곤충을 살피는 사람",
+          "layer": "B"
+        },
+        {
+          "id": "job-insect-02",
+          "name": "곤충 음식 개발자·조리사",
+          "layer": "hidden"
+        },
+        {
+          "id": "job-insect-04",
+          "name": "곤충을(를) 살리는 일 2",
+          "layer": "hidden"
+        },
+        {
+          "id": "job-insect-03",
+          "name": "곤충을(를) 살리는 일 1",
+          "layer": "hidden"
+        }
+      ],
+      "layerB_card": "job-insect-01"
+    },
+    "music": {
+      "name": "음악",
+      "experiences": [
+        {
+          "id": "tour-596964",
+          "name": "세계자동차&피아노 박물관",
+          "type": "상설시설",
+          "score": 0.2462
+        },
+        {
+          "id": "tour-2557970",
+          "name": "남이섬 노래박물관",
+          "type": "상설시설",
+          "score": 0.1974
+        },
+        {
+          "id": "tour-2772315",
+          "name": "음악역 1939",
+          "type": "상설시설",
+          "score": 0.1893
+        },
+        {
+          "id": "tour-130124",
+          "name": "국립국악원",
+          "type": "상설시설",
+          "score": 0.1708
+        },
+        {
+          "id": "tour-129839",
+          "name": "서울대학교 박물관",
+          "type": "상설시설",
+          "score": 0.1674
+        },
+        {
+          "id": "tour-130881",
+          "name": "서울대학교 미술관",
+          "type": "상설시설",
+          "score": 0.1639
+        },
+        {
+          "id": "tour-3081147",
+          "name": "관악아트홀",
+          "type": "상설시설",
+          "score": 0.1617
+        },
+        {
+          "id": "tour-130212",
+          "name": "관악문화원",
+          "type": "상설시설",
+          "score": 0.1612
+        }
+      ],
+      "books": [
+        {
+          "isbn": "9791198960122",
+          "title": "귤이랑 노래해",
+          "score": 0.1527
+        },
+        {
+          "isbn": "9788949136028",
+          "title": "행운음원 :#소원을 들어주는 음악",
+          "score": 0.1522
+        },
+        {
+          "isbn": "9791159955266",
+          "title": "(마법을 부르는) 코인노래방",
+          "score": 0.0972
+        }
+      ],
+      "person": {
+        "id": "person-music",
+        "name": "루트비히 판 베토벤",
+        "anti_stereotype": 0
+      },
+      "jobs": [
+        {
+          "id": "job-music-01",
+          "name": "소리를 만드는 사람",
+          "layer": "B"
+        },
+        {
+          "id": "job-music-05",
+          "name": "음악강사",
+          "layer": "hidden"
+        },
+        {
+          "id": "job-music-02",
+          "name": "음악치료사",
+          "layer": "hidden"
+        },
+        {
+          "id": "job-music-03",
+          "name": "가수",
+          "layer": "hidden"
+        },
+        {
+          "id": "job-music-04",
+          "name": "국악인",
+          "layer": "hidden"
+        }
+      ],
+      "layerB_card": "job-music-01"
+    }
+  },
+  "adjacency": {
+    "art": [
+      {
+        "topic": "history",
+        "name": "역사와위인",
+        "score": 0.3136
+      },
+      {
+        "topic": "plant",
+        "name": "식물",
+        "score": 0.293
+      }
+    ],
+    "history": [
+      {
+        "topic": "animal",
+        "name": "동물",
+        "score": 0.3972
+      },
+      {
+        "topic": "insect",
+        "name": "곤충",
+        "score": 0.3879
+      }
+    ],
+    "science": [
+      {
+        "topic": "space",
+        "name": "우주",
+        "score": 0.3544
+      },
+      {
+        "topic": "animal",
+        "name": "동물",
+        "score": 0.241
+      }
+    ],
+    "animal": [
+      {
+        "topic": "sealife",
+        "name": "바다생물",
+        "score": 0.4381
+      },
+      {
+        "topic": "history",
+        "name": "역사와위인",
+        "score": 0.3972
+      }
+    ],
+    "body": [
+      {
+        "topic": "history",
+        "name": "역사와위인",
+        "score": 0.3068
+      },
+      {
+        "topic": "plant",
+        "name": "식물",
+        "score": 0.1795
+      }
+    ],
+    "space": [
+      {
+        "topic": "science",
+        "name": "과학실험",
+        "score": 0.3544
+      },
+      {
+        "topic": "history",
+        "name": "역사와위인",
+        "score": 0.1673
+      }
+    ],
+    "plant": [
+      {
+        "topic": "history",
+        "name": "역사와위인",
+        "score": 0.3289
+      },
+      {
+        "topic": "art",
+        "name": "그림",
+        "score": 0.293
+      }
+    ],
+    "sealife": [
+      {
+        "topic": "animal",
+        "name": "동물",
+        "score": 0.4381
+      },
+      {
+        "topic": "history",
+        "name": "역사와위인",
+        "score": 0.3003
+      }
+    ],
+    "sports": [
+      {
+        "topic": "history",
+        "name": "역사와위인",
+        "score": 0.3228
+      },
+      {
+        "topic": "art",
+        "name": "그림",
+        "score": 0.245
+      }
+    ],
+    "cooking": [
+      {
+        "topic": "history",
+        "name": "역사와위인",
+        "score": 0.2947
+      },
+      {
+        "topic": "art",
+        "name": "그림",
+        "score": 0.1908
+      }
+    ],
+    "insect": [
+      {
+        "topic": "history",
+        "name": "역사와위인",
+        "score": 0.3879
+      },
+      {
+        "topic": "animal",
+        "name": "동물",
+        "score": 0.3223
+      }
+    ],
+    "music": [
+      {
+        "topic": "history",
+        "name": "역사와위인",
+        "score": 0.3254
+      },
+      {
+        "topic": "art",
+        "name": "그림",
+        "score": 0.2529
+      }
+    ]
+  },
+  "adjacency_matrix": {
+    "art": {
+      "history": 0.3136,
+      "science": 0.1519,
+      "animal": 0.1662,
+      "body": 0.1645,
+      "space": 0.1587,
+      "plant": 0.293,
+      "sealife": 0.1225,
+      "sports": 0.245,
+      "cooking": 0.1908,
+      "insect": 0.1782,
+      "music": 0.2529
+    },
+    "history": {
+      "art": 0.3136,
+      "science": 0.1964,
+      "animal": 0.3972,
+      "body": 0.3068,
+      "space": 0.1673,
+      "plant": 0.3289,
+      "sealife": 0.3003,
+      "sports": 0.3228,
+      "cooking": 0.2947,
+      "insect": 0.3879,
+      "music": 0.3254
+    },
+    "science": {
+      "art": 0.1519,
+      "history": 0.1964,
+      "animal": 0.241,
+      "body": 0.1381,
+      "space": 0.3544,
+      "plant": 0.1739,
+      "sealife": 0.2261,
+      "sports": 0.105,
+      "cooking": 0.0685,
+      "insect": 0.1442,
+      "music": 0.1211
+    },
+    "animal": {
+      "art": 0.1662,
+      "history": 0.3972,
+      "science": 0.241,
+      "body": 0.1212,
+      "space": 0.1202,
+      "plant": 0.2158,
+      "sealife": 0.4381,
+      "sports": 0.1296,
+      "cooking": 0.0963,
+      "insect": 0.3223,
+      "music": 0.1299
+    },
+    "body": {
+      "art": 0.1645,
+      "history": 0.3068,
+      "science": 0.1381,
+      "animal": 0.1212,
+      "space": 0.0672,
+      "plant": 0.1795,
+      "sealife": 0.0937,
+      "sports": 0.1136,
+      "cooking": 0.0935,
+      "insect": 0.1146,
+      "music": 0.134
+    },
+    "space": {
+      "art": 0.1587,
+      "history": 0.1673,
+      "science": 0.3544,
+      "animal": 0.1202,
+      "body": 0.0672,
+      "plant": 0.124,
+      "sealife": 0.0959,
+      "sports": 0.1114,
+      "cooking": 0.0511,
+      "insect": 0.0974,
+      "music": 0.102
+    },
+    "plant": {
+      "art": 0.293,
+      "history": 0.3289,
+      "science": 0.1739,
+      "animal": 0.2158,
+      "body": 0.1795,
+      "space": 0.124,
+      "sealife": 0.1785,
+      "sports": 0.1831,
+      "cooking": 0.0983,
+      "insect": 0.1539,
+      "music": 0.1688
+    },
+    "sealife": {
+      "art": 0.1225,
+      "history": 0.3003,
+      "science": 0.2261,
+      "animal": 0.4381,
+      "body": 0.0937,
+      "space": 0.0959,
+      "plant": 0.1785,
+      "sports": 0.1362,
+      "cooking": 0.0755,
+      "insect": 0.1497,
+      "music": 0.1024
+    },
+    "sports": {
+      "art": 0.245,
+      "history": 0.3228,
+      "science": 0.105,
+      "animal": 0.1296,
+      "body": 0.1136,
+      "space": 0.1114,
+      "plant": 0.1831,
+      "sealife": 0.1362,
+      "cooking": 0.1183,
+      "insect": 0.14,
+      "music": 0.146
+    },
+    "cooking": {
+      "art": 0.1908,
+      "history": 0.2947,
+      "science": 0.0685,
+      "animal": 0.0963,
+      "body": 0.0935,
+      "space": 0.0511,
+      "plant": 0.0983,
+      "sealife": 0.0755,
+      "sports": 0.1183,
+      "insect": 0.108,
+      "music": 0.1085
+    },
+    "insect": {
+      "art": 0.1782,
+      "history": 0.3879,
+      "science": 0.1442,
+      "animal": 0.3223,
+      "body": 0.1146,
+      "space": 0.0974,
+      "plant": 0.1539,
+      "sealife": 0.1497,
+      "sports": 0.14,
+      "cooking": 0.108,
+      "music": 0.1318
+    },
+    "music": {
+      "art": 0.2529,
+      "history": 0.3254,
+      "science": 0.1211,
+      "animal": 0.1299,
+      "body": 0.134,
+      "space": 0.102,
+      "plant": 0.1688,
+      "sealife": 0.1024,
+      "sports": 0.146,
+      "cooking": 0.1085,
+      "insect": 0.1318
+    }
+  },
+  "discover_quota": {
+    "recent_topic": "art",
+    "near": {
+      "topic": "history",
+      "name": "역사와위인",
+      "sample_exp": {
+        "id": "tour-2606761",
+        "name": "이순신영상관",
+        "type": "상설시설",
+        "score": 0.2075
+      }
+    },
+    "far": {
+      "topic": "sealife",
+      "name": "바다생물",
+      "sample_exp": {
+        "id": "tour-2782914",
+        "name": "고래책방",
+        "type": "상설시설",
+        "score": 0.2351
+      }
+    },
+    "anti_stereotype_person": {
+      "id": "person-art",
+      "name": "신사임당"
+    },
+    "rule": "인기순 정렬 금지 - 쿼터 편성(인접1+먼주제1+반고정관념인물1)"
+  }
+}

@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% import "macros.html" as m %}
+{% block title %}발견 피드{% endblock %}
+{% block content %}
+<h1 class="section-title">발견 피드</h1>
+<div class="discover-note">🔀 인기순으로 줄 세우지 않아요. 가까운 세계 하나, 안 가본 먼 세계 하나, 그리고 한 사람의 이야기를 골고루 섞어요.</div>
+<form method="get" action="/discover" style="margin:12px 0"><button class="btn ghost" type="submit">🔀 다른 것 섞어보기</button></form>
+<h2 class="section-title">가까운 세계 — {{ topics_all[q.near.topic].emoji }} {{ q.near.name }}</h2>
+<div class="cards">{% if q.near.experience %}{{ m.exp_card(q.near.experience) }}{% else %}<p class="hint">운영 중 항목 준비 중이에요.</p>{% endif %}</div>
+<h2 class="section-title">안 가본 먼 세계 — {{ topics_all[q.far.topic].emoji }} {{ q.far.name }}</h2>
+<div class="cards">{% if q.far.experience %}{{ m.exp_card(q.far.experience) }}{% else %}<p class="hint">운영 중 항목 준비 중이에요.</p>{% endif %}</div>
+<h2 class="section-title">한 사람의 이야기</h2>
+{% if q.anti_stereotype_person %}
+<div class="person">
+<div class="who">{{ q.anti_stereotype_person.name }}{% if q.anti_stereotype_person.anti_stereotype %} <span class="anti">반고정관념</span>{% endif %}</div>
+<p class="trial">{{ q.anti_stereotype_person.story_trial }}</p>
+<p style="margin:6px 0"><b>하는 일:</b> {{ q.anti_stereotype_person.verb_desc }}</p>
+</div>
+{% endif %}
+<p class="hint" style="margin-top:20px">여기까지가 오늘의 발견이에요. 더 보고 싶으면 위 '다른 것 섞어보기'를 눌러요. (끝이 있는 화면)</p>
+{% endblock %}

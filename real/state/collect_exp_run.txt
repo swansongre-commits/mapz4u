@@ -1,0 +1,4 @@
+TourAPI 태깅: 상설 1501건, 행사 67건
+결측 보강 SEED: 0건
+총 체험 1568건 (실데이터 1568, SEED 0)
+주제별 상설: {'art': 480, 'history': 787, 'science': 76, 'animal': 54, 'body': 13, 'space': 54, 'plant': 57, 'sealife': 52, 'sports': 46, 'cooking': 5, 'insect': 32, 'music': 48}

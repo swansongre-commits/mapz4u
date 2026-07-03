@@ -1,0 +1,4 @@
+=== TourAPI KorService2 실데이터 수집 ===
+문화시설(14): 원본 2685 -> 좌표유효 2680건
+축제(15): 원본 478 -> 진행/예정 171건 (종료 307 제외)
+저장: real/data/raw/tourapi_facilities.json, tourapi_festivals.json

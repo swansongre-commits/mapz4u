@@ -1,0 +1,828 @@
+[
+  {
+    "id": "job-art-01",
+    "name": "그림 그리는 사람",
+    "verb_desc": "머릿속 상상을 색과 선으로 표현해요",
+    "layer": "B",
+    "topic_tags": [
+      "art"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "emoji": "🎨",
+    "source_asset": "generated"
+  },
+  {
+    "id": "job-art-02",
+    "name": "평론가",
+    "verb_desc": "평론가는 미술 전람회해요",
+    "layer": "hidden",
+    "topic_tags": [
+      "art"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "emoji": "🎬",
+    "source_asset": "maps_assets"
+  },
+  {
+    "id": "job-art-03",
+    "name": "다문화코디네이터",
+    "verb_desc": "다문화코디네이터는 다문화가정의 자녀가 교육을 받는 데 필요한 프로그램을 소개하고 지…해요",
+    "layer": "hidden",
+    "topic_tags": [
+      "art"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "emoji": "🖼️",
+    "source_asset": "maps_assets"
+  },
+  {
+    "id": "job-art-04",
+    "name": "만화가",
+    "verb_desc": "만화가는 풍자나 우스갯거리 등을 경쾌하고 익살스러운 그림으로 표현하거나 어떤 줄거리…해요",
+    "layer": "hidden",
+    "topic_tags": [
+      "art"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "emoji": "🖼️",
+    "source_asset": "maps_assets"
+  },
+  {
+    "id": "job-art-05",
+    "name": "철학연구원",
+    "verb_desc": "철학연구원은 인류 문화의 토대로서 동서양 사상 문화가 수행해 온 역할과 현대사회에서…해요",
+    "layer": "hidden",
+    "topic_tags": [
+      "art"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "emoji": "🔬",
+    "source_asset": "maps_assets"
+  },
+  {
+    "id": "job-history-01",
+    "name": "옛이야기를 밝히는 사람",
+    "verb_desc": "오래된 기록과 유물을 살펴 지난 일을 알아내요",
+    "layer": "B",
+    "topic_tags": [
+      "history"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "emoji": "🏯",
+    "source_asset": "generated"
+  },
+  {
+    "id": "job-history-02",
+    "name": "개인형 이동수단 개발자",
+    "verb_desc": "전기자동차해요",
+    "layer": "hidden",
+    "topic_tags": [
+      "history"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "emoji": "💻",
+    "source_asset": "maps_assets"
+  },
+  {
+    "id": "job-history-03",
+    "name": "태양광발전연구 및 개발자",
+    "verb_desc": "태양 빛을 이용하여 전기를 발생시키는 장치를 연구하고 태양광 발전에 필요한 각종 장…해요",
+    "layer": "hidden",
+    "topic_tags": [
+      "history"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "emoji": "💻",
+    "source_asset": "maps_assets"
+  },
+  {
+    "id": "job-history-04",
+    "name": "가스ㆍ수도ㆍ전기 계기 검침원 및 안전점검원",
+    "verb_desc": "가스·수도·전기 계기 검침원 및 안전점검원은 정기적으로 담당 가구나 업소에 방문해서…해요",
+    "layer": "hidden",
+    "topic_tags": [
+      "history"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "emoji": "⚡",
+    "source_asset": "maps_assets"
+  },
+  {
+    "id": "job-history-05",
+    "name": "트럭운전기사",
+    "verb_desc": "트럭운전기사는 각종 화물을 수송하기 위해 트럭을 운전하는 일을 담당해요",
+    "layer": "hidden",
+    "topic_tags": [
+      "history"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "emoji": "⚡",
+    "source_asset": "maps_assets"
+  },
+  {
+    "id": "job-science-01",
+    "name": "실험하는 사람",
+    "verb_desc": "궁금한 것을 이리저리 시험해 원리를 알아내요",
+    "layer": "B",
+    "topic_tags": [
+      "science"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "emoji": "🔬",
+    "source_asset": "generated"
+  },
+  {
+    "id": "job-science-02",
+    "name": "범죄과학수사관",
+    "verb_desc": "지문해요",
+    "layer": "hidden",
+    "topic_tags": [
+      "science"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "emoji": "🔬",
+    "source_asset": "maps_assets"
+  },
+  {
+    "id": "job-science-03",
+    "name": "언어학연구원",
+    "verb_desc": "언어학연구원은 언어를 과학적 연구 방법을 통해 특정 언어나 언어 집단의 구조해요",
+    "layer": "hidden",
+    "topic_tags": [
+      "science"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "emoji": "🔬",
+    "source_asset": "maps_assets"
+  },
+  {
+    "id": "job-science-04",
+    "name": "심리학연구원",
+    "verb_desc": "심리학연구원은 인간의 행동과 정신적 과정을 과학적으로 연구하고해요",
+    "layer": "hidden",
+    "topic_tags": [
+      "science"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "emoji": "🔬",
+    "source_asset": "maps_assets"
+  },
+  {
+    "id": "job-science-05",
+    "name": "발명가",
+    "verb_desc": "발명가는 지금까지 없던 기술이나 물건을 새로 생각하여 만들어 내는 일을 전문적으로…해요",
+    "layer": "hidden",
+    "topic_tags": [
+      "science"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "emoji": "🔬",
+    "source_asset": "maps_assets"
+  },
+  {
+    "id": "job-animal-01",
+    "name": "동물을 돌보는 사람",
+    "verb_desc": "아프거나 힘든 동물을 살펴보고 돌봐요",
+    "layer": "B",
+    "topic_tags": [
+      "animal"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "emoji": "🐾",
+    "source_asset": "generated"
+  },
+  {
+    "id": "job-animal-02",
+    "name": "애견테라피스트",
+    "verb_desc": "애견테라피스트는 반려동물의 질병이나 마음의 상처를 예방하고 건강을 유지하는 방법에…해요",
+    "layer": "hidden",
+    "topic_tags": [
+      "animal"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "emoji": "🐾",
+    "source_asset": "maps_assets"
+  },
+  {
+    "id": "job-animal-03",
+    "name": "동물랭글러",
+    "verb_desc": "동물랭글러는 영화나 드라마해요",
+    "layer": "hidden",
+    "topic_tags": [
+      "animal"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "emoji": "🐾",
+    "source_asset": "maps_assets"
+  },
+  {
+    "id": "job-animal-04",
+    "name": "해부학연구원",
+    "verb_desc": "해부학연구원은 사람과 동물의 해부학적 특성을 분석하여 의학과 관련 분야에 적용하기…해요",
+    "layer": "hidden",
+    "topic_tags": [
+      "animal"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "emoji": "🔬",
+    "source_asset": "maps_assets"
+  },
+  {
+    "id": "job-animal-05",
+    "name": "동물조련사",
+    "verb_desc": "동물조련사는 동물에 대한 지식을 바탕으로 동물원의 동물을 사육하고 관리하거나해요",
+    "layer": "hidden",
+    "topic_tags": [
+      "animal"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "emoji": "🐾",
+    "source_asset": "maps_assets"
+  },
+  {
+    "id": "job-body-01",
+    "name": "몸을 살피는 사람",
+    "verb_desc": "우리 몸이 어떻게 움직이는지 살피고 건강을 도와요",
+    "layer": "B",
+    "topic_tags": [
+      "body"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "emoji": "🫀",
+    "source_asset": "generated"
+  },
+  {
+    "id": "job-body-02",
+    "name": "애견테라피스트",
+    "verb_desc": "애견테라피스트는 반려동물의 질병이나 마음의 상처를 예방하고 건강을 유지하는 방법에…해요",
+    "layer": "hidden",
+    "topic_tags": [
+      "body"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "emoji": "🐾",
+    "source_asset": "maps_assets"
+  },
+  {
+    "id": "job-body-03",
+    "name": "스포츠트레이너",
+    "verb_desc": "스포츠트레이너는 운동선수들의 건강상태를 확인하고 선수들이 경기에서 최상의 컨디션을…해요",
+    "layer": "hidden",
+    "topic_tags": [
+      "body"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "emoji": "⚽",
+    "source_asset": "maps_assets"
+  },
+  {
+    "id": "job-body-04",
+    "name": "임상심리사",
+    "verb_desc": "임상심리사는 정신적인 어려움이 있는 사람에게 심리 평가를 실시하며 몸과 마음의 건강…해요",
+    "layer": "hidden",
+    "topic_tags": [
+      "body"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "emoji": "⚖️",
+    "source_asset": "maps_assets"
+  },
+  {
+    "id": "job-body-05",
+    "name": "개그맨",
+    "verb_desc": "개그맨은 주로 텔레비전이나 라디오 프로그램에 출연하여 말과 몸짓으로 사람들에게 웃음…해요",
+    "layer": "hidden",
+    "topic_tags": [
+      "body"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "emoji": "💼",
+    "source_asset": "maps_assets"
+  },
+  {
+    "id": "job-space-01",
+    "name": "별을 관측하는 사람",
+    "verb_desc": "밤하늘의 별과 행성을 지켜보며 기록해요",
+    "layer": "B",
+    "topic_tags": [
+      "space"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "emoji": "🔭",
+    "source_asset": "generated"
+  },
+  {
+    "id": "job-space-02",
+    "name": "우주전파예보관",
+    "verb_desc": "우주전파 예보관은 우주 전파환경을 변화시키는 가장 중요한 요인인 태양활동을 관측하여…해요",
+    "layer": "hidden",
+    "topic_tags": [
+      "space"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "emoji": "🚀",
+    "source_asset": "maps_assets"
+  },
+  {
+    "id": "job-space-03",
+    "name": "항공우주공학기술자",
+    "verb_desc": "항공우주공학기술자는 공기 중을 비행하는 물체 즉해요",
+    "layer": "hidden",
+    "topic_tags": [
+      "space"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "emoji": "🚀",
+    "source_asset": "maps_assets"
+  },
+  {
+    "id": "job-space-04",
+    "name": "천문학연구원",
+    "verb_desc": "천문학연구원은 천체를 관측하고해요",
+    "layer": "hidden",
+    "topic_tags": [
+      "space"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "emoji": "🚀",
+    "source_asset": "maps_assets"
+  },
+  {
+    "id": "job-space-05",
+    "name": "인공위성개발원",
+    "verb_desc": "인공위성개발원은 우주탐사해요",
+    "layer": "hidden",
+    "topic_tags": [
+      "space"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "emoji": "🚀",
+    "source_asset": "maps_assets"
+  },
+  {
+    "id": "job-plant-01",
+    "name": "식물을 기르는 사람",
+    "verb_desc": "씨앗을 심고 돌봐 잘 자라게 해요",
+    "layer": "B",
+    "topic_tags": [
+      "plant"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "emoji": "🌱",
+    "source_asset": "generated"
+  },
+  {
+    "id": "job-plant-02",
+    "name": "조림 영림 및 벌목원",
+    "verb_desc": "조림 영림 및 벌목원은 숲에 나무를 심어 가꾸며해요",
+    "layer": "hidden",
+    "topic_tags": [
+      "plant"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "emoji": "♻️",
+    "source_asset": "maps_assets"
+  },
+  {
+    "id": "job-plant-03",
+    "name": "펄프 및 종이 생산직",
+    "verb_desc": "펄프 및 종이 생산직은 각종 식물성 물질해요",
+    "layer": "hidden",
+    "topic_tags": [
+      "plant"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "emoji": "💼",
+    "source_asset": "maps_assets"
+  },
+  {
+    "id": "job-plant-04",
+    "name": "플로리스트",
+    "verb_desc": "플로리스트는 꽃해요",
+    "layer": "hidden",
+    "topic_tags": [
+      "plant"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "emoji": "🌱",
+    "source_asset": "maps_assets"
+  },
+  {
+    "id": "job-plant-05",
+    "name": "조경원",
+    "verb_desc": "조경원은 조경에 대한 지식을 바탕으로 가로나 정원에 나무를 심고 가꾸는 업무를 해요",
+    "layer": "hidden",
+    "topic_tags": [
+      "plant"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "emoji": "💼",
+    "source_asset": "maps_assets"
+  },
+  {
+    "id": "job-sealife-01",
+    "name": "바다생물을 연구하는 사람",
+    "verb_desc": "바닷속 생물이 어떻게 사는지 관찰해요",
+    "layer": "B",
+    "topic_tags": [
+      "sealife"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "emoji": "🐠",
+    "source_asset": "generated"
+  },
+  {
+    "id": "job-sealife-02",
+    "name": "원양어부",
+    "verb_desc": "원양어부는 먼바다로 나아가 참치해요",
+    "layer": "hidden",
+    "topic_tags": [
+      "sealife"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "emoji": "🌊",
+    "source_asset": "maps_assets"
+  },
+  {
+    "id": "job-sealife-03",
+    "name": "아쿠아리스트",
+    "verb_desc": "아쿠아리스트는 수중생물을 인공적인 환경인 수족관 내에서 기르고 관리하는 업무를 수행해요",
+    "layer": "hidden",
+    "topic_tags": [
+      "sealife"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "emoji": "💼",
+    "source_asset": "maps_assets"
+  },
+  {
+    "id": "job-sealife-04",
+    "name": "해양환경기사",
+    "verb_desc": "해양환경기사는 물리해요",
+    "layer": "hidden",
+    "topic_tags": [
+      "sealife"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "emoji": "🧪",
+    "source_asset": "maps_assets"
+  },
+  {
+    "id": "job-sealife-05",
+    "name": "해양학연구원",
+    "verb_desc": "해양학연구원은 해양기후해요",
+    "layer": "hidden",
+    "topic_tags": [
+      "sealife"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "emoji": "🔬",
+    "source_asset": "maps_assets"
+  },
+  {
+    "id": "job-sports-01",
+    "name": "몸을 움직이는 사람",
+    "verb_desc": "여러 방법으로 몸을 단련하고 함께 뛰어요",
+    "layer": "B",
+    "topic_tags": [
+      "sports"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "emoji": "⚽",
+    "source_asset": "generated"
+  },
+  {
+    "id": "job-sports-02",
+    "name": "야외활동지도사",
+    "verb_desc": "전문적인 장비와 기술이 필요한 레저스포츠를 안전하게 즐길 수 있도록 지도해요",
+    "layer": "hidden",
+    "topic_tags": [
+      "sports"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "emoji": "🏅",
+    "source_asset": "maps_assets"
+  },
+  {
+    "id": "job-sports-03",
+    "name": "운동경기심판",
+    "verb_desc": "운동경기심판은 각종 운동경기의 규칙을 적용하여 경기를 진행하는 일을 담당해요",
+    "layer": "hidden",
+    "topic_tags": [
+      "sports"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "emoji": "⚽",
+    "source_asset": "maps_assets"
+  },
+  {
+    "id": "job-sports-04",
+    "name": "스포츠기록분석연구원",
+    "verb_desc": "스포츠기록분석연구원은 각종 스포츠 경기의 모든 요소들을 수치적 데이터로 기록하고 이…해요",
+    "layer": "hidden",
+    "topic_tags": [
+      "sports"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "emoji": "🏅",
+    "source_asset": "maps_assets"
+  },
+  {
+    "id": "job-sports-05",
+    "name": "스포츠트레이너",
+    "verb_desc": "스포츠트레이너는 운동선수들의 건강상태를 확인하고 선수들이 경기에서 최상의 컨디션을…해요",
+    "layer": "hidden",
+    "topic_tags": [
+      "sports"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "emoji": "⚽",
+    "source_asset": "maps_assets"
+  },
+  {
+    "id": "job-cooking-01",
+    "name": "음식을 만드는 사람",
+    "verb_desc": "재료를 다듬어 맛있고 건강한 음식을 만들어요",
+    "layer": "B",
+    "topic_tags": [
+      "cooking"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "emoji": "🍳",
+    "source_asset": "generated"
+  },
+  {
+    "id": "job-cooking-02",
+    "name": "환경위생검사원",
+    "verb_desc": "환경위생검사원은 음식점해요",
+    "layer": "hidden",
+    "topic_tags": [
+      "cooking"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "emoji": "⚖️",
+    "source_asset": "maps_assets"
+  },
+  {
+    "id": "job-cooking-03",
+    "name": "전통식품제조원",
+    "verb_desc": "전통식품제조원은 우리나라의 고유 음식인 떡해요",
+    "layer": "hidden",
+    "topic_tags": [
+      "cooking"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "emoji": "🍽️",
+    "source_asset": "maps_assets"
+  },
+  {
+    "id": "job-cooking-04",
+    "name": "제과사 및 제빵사",
+    "verb_desc": "제과사 및 제빵사는 빵해요",
+    "layer": "hidden",
+    "topic_tags": [
+      "cooking"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "emoji": "🥐",
+    "source_asset": "maps_assets"
+  },
+  {
+    "id": "job-cooking-05",
+    "name": "곤충 음식 개발자·조리사",
+    "verb_desc": "곤충 음식 개발자는 곤충을 재료로 사람이 먹을 수 있는 식품을 연구하고 만드는 방법…해요",
+    "layer": "hidden",
+    "topic_tags": [
+      "cooking"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "emoji": "💻",
+    "source_asset": "maps_assets"
+  },
+  {
+    "id": "job-insect-01",
+    "name": "곤충을 살피는 사람",
+    "verb_desc": "작은 벌레들이 어떻게 사는지 자세히 들여다봐요",
+    "layer": "B",
+    "topic_tags": [
+      "insect"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "emoji": "🐛",
+    "source_asset": "generated"
+  },
+  {
+    "id": "job-insect-02",
+    "name": "곤충 음식 개발자·조리사",
+    "verb_desc": "곤충 음식 개발자는 곤충을 재료로 사람이 먹을 수 있는 식품을 연구하고 만드는 방법…해요",
+    "layer": "hidden",
+    "topic_tags": [
+      "insect"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "emoji": "💻",
+    "source_asset": "maps_assets"
+  },
+  {
+    "id": "job-insect-03",
+    "name": "곤충을(를) 살리는 일 1",
+    "verb_desc": "곤충과(와) 관련된 여러 가지 일을 해요",
+    "layer": "hidden",
+    "topic_tags": [
+      "insect"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "emoji": "🐛",
+    "source_asset": "generated"
+  },
+  {
+    "id": "job-insect-04",
+    "name": "곤충을(를) 살리는 일 2",
+    "verb_desc": "곤충과(와) 관련된 여러 가지 일을 해요",
+    "layer": "hidden",
+    "topic_tags": [
+      "insect"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "emoji": "🐛",
+    "source_asset": "generated"
+  },
+  {
+    "id": "job-music-01",
+    "name": "소리를 만드는 사람",
+    "verb_desc": "악기와 목소리로 마음을 담은 소리를 만들어요",
+    "layer": "B",
+    "topic_tags": [
+      "music"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "emoji": "🎵",
+    "source_asset": "generated"
+  },
+  {
+    "id": "job-music-02",
+    "name": "음악치료사",
+    "verb_desc": "음악치료사는 음악을 이용해 사람의 신체와 정신을 치료하는 일을 해요",
+    "layer": "hidden",
+    "topic_tags": [
+      "music"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "emoji": "🎵",
+    "source_asset": "maps_assets"
+  },
+  {
+    "id": "job-music-03",
+    "name": "가수",
+    "verb_desc": "가수는 악단이나 녹음된 반주에 맞추어 공연장이나 콘서트 무대에서 대중적인 노래나 고…해요",
+    "layer": "hidden",
+    "topic_tags": [
+      "music"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "emoji": "🎤",
+    "source_asset": "maps_assets"
+  },
+  {
+    "id": "job-music-04",
+    "name": "국악인",
+    "verb_desc": "국악인은 전통음악을 하는 사람으로해요",
+    "layer": "hidden",
+    "topic_tags": [
+      "music"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "emoji": "💼",
+    "source_asset": "maps_assets"
+  },
+  {
+    "id": "job-music-05",
+    "name": "음악강사",
+    "verb_desc": "피아노해요",
+    "layer": "hidden",
+    "topic_tags": [
+      "music"
+    ],
+    "verb_tags": [
+      "탐구하다"
+    ],
+    "emoji": "💪",
+    "source_asset": "maps_assets"
+  }
+]

@@ -1,0 +1,27 @@
+{
+  "track": "real (production)",
+  "started_at": "2026-07-04",
+  "status": "COMPLETE",
+  "data_mode": "REAL (TourAPI + 정보나루 파일), SEED 보강 0건",
+  "topics_count": 12,
+  "topics_source": "Phase 0.5 실데이터 추출 (정보나루 실대출 + TourAPI 실시설)",
+  "gates": {
+    "G0.5": "PASS", "G2": "PASS", "G3": "PASS", "G4": "PASS", "G7": "PASS", "G8": "PASS"
+  },
+  "counts": {"experience": 1568, "book": 76, "person": 12, "job": 59, "topic": 12, "edge": 295},
+  "apis": {
+    "tourapi_korservice2": "active (문화시설2680/축제171)",
+    "data4library": "inactive(vitalizationErr) -> file download",
+    "kcisa": "endpoint unresolved -> covered by tourapi",
+    "osm": "active(keyless)"
+  },
+  "infra": {
+    "refresh_batch": "scripts/refresh.py",
+    "freshness_monitor": "scripts/freshness.py (recheck_queue, expired-exposure=0)",
+    "deploy": "deploy/{Dockerfile,docker-compose.yml,nginx.conf}",
+    "auth": "app rate-limit + nginx rate-limit + admin Basic-auth",
+    "admin_console": "admin/admin_app.py (CRUD, port 8090)",
+    "legal": "docs/legal/PRIVACY_AND_SOURCES.md, docs/SECURITY.md"
+  },
+  "pending_human": ["위치기반서비스사업 신고 법무검토", "약관·개인정보처리방침", "상표·도메인 확인", "정보나루 API 활성화 시 파일->API 전환"]
+}

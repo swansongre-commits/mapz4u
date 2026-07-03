@@ -1,0 +1,1308 @@
+[
+  {
+    "isbn": "9791173572128",
+    "title": "Go go 카카오프렌즈 :세계 역사 문화 체험 학습만화",
+    "author": "글: 김미영 ;정보글: 최은하",
+    "publisher": "아울북(북이십일 아울북)",
+    "pub_year": "2018",
+    "kdc": "980.2",
+    "topic_tags": [
+      "art",
+      "history"
+    ],
+    "age_band": "8-9",
+    "loan_count": 33097,
+    "availability": "대출가능여부 조회 필요",
+    "source": "data4library:인기대출(실데이터)",
+    "is_seed": 0,
+    "last_verified": "2026-07-04"
+  },
+  {
+    "isbn": "9791168412637",
+    "title": "내일은 발명왕 :본격 대결 과학발명 만화",
+    "author": "글: 곰돌이 co. ;그림: 홍종현",
+    "publisher": "Mirae N 아이세움",
+    "pub_year": "2011",
+    "kdc": "507.5",
+    "topic_tags": [
+      "art",
+      "science"
+    ],
+    "age_band": "10-11",
+    "loan_count": 30151,
+    "availability": "대출가능여부 조회 필요",
+    "source": "data4library:인기대출(실데이터)",
+    "is_seed": 0,
+    "last_verified": "2026-07-04"
+  },
+  {
+    "isbn": "9791164135790",
+    "title": "내일은 실험왕 :본격 대결 과학실험 만화",
+    "author": "글: 곰돌이 co. ;그림: 홍종현",
+    "publisher": "대한교과서",
+    "pub_year": "2011",
+    "kdc": "400",
+    "topic_tags": [
+      "art",
+      "science"
+    ],
+    "age_band": "10-11",
+    "loan_count": 21736,
+    "availability": "대출가능여부 조회 필요",
+    "source": "data4library:인기대출(실데이터)",
+    "is_seed": 0,
+    "last_verified": "2026-07-04"
+  },
+  {
+    "isbn": "9791164384808",
+    "title": "(비마이펫) 멍냥연구소 :온 세상 반려가족 필수 반려동물 교양만화",
+    "author": "원작: 비마이펫 ;박지영",
+    "publisher": "서울문화사",
+    "pub_year": "2021",
+    "kdc": "527.386",
+    "topic_tags": [
+      "art",
+      "animal"
+    ],
+    "age_band": "8-9",
+    "loan_count": 8805,
+    "availability": "대출가능여부 조회 필요",
+    "source": "data4library:인기대출(실데이터)",
+    "is_seed": 0,
+    "last_verified": "2026-07-04"
+  },
+  {
+    "isbn": "9788950998363",
+    "title": "어쩔뚱땡! 고구마머리TV :호기심·상상력이 숙쑥 자라나는 과학학습만화",
+    "author": "글: 서동건 ;이정태",
+    "publisher": "아울북(북이십일 아울북)",
+    "pub_year": "2021",
+    "kdc": "400",
+    "topic_tags": [
+      "art",
+      "science"
+    ],
+    "age_band": "8-9",
+    "loan_count": 6804,
+    "availability": "대출가능여부 조회 필요",
+    "source": "data4library:인기대출(실데이터)",
+    "is_seed": 0,
+    "last_verified": "2026-07-04"
+  },
+  {
+    "isbn": "9791130698434",
+    "title": "만화 한국 신화 :어린이를 위한 우리 인문학",
+    "author": "글: 박정효 ;김기수",
+    "publisher": "다산북스",
+    "pub_year": "2023",
+    "kdc": "219",
+    "topic_tags": [
+      "art"
+    ],
+    "age_band": "8-9",
+    "loan_count": 6061,
+    "availability": "대출가능여부 조회 필요",
+    "source": "data4library:인기대출(실데이터)",
+    "is_seed": 0,
+    "last_verified": "2026-07-04"
+  },
+  {
+    "isbn": "9791168411784",
+    "title": "에그박사의 채집 일기 :스티커로 채집하는 자연 생물 관찰 만화",
+    "author": "원작: 에그박사 ;그림: 홍종현",
+    "publisher": "Mirae N 아이세움",
+    "pub_year": "2021",
+    "kdc": "472",
+    "topic_tags": [
+      "art"
+    ],
+    "age_band": "8-9",
+    "loan_count": 4656,
+    "availability": "대출가능여부 조회 필요",
+    "source": "data4library:인기대출(실데이터)",
+    "is_seed": 0,
+    "last_verified": "2026-07-04"
+  },
+  {
+    "isbn": "9791168440258",
+    "title": "곤충보다 작아진 정브르 :생물 학습 만화",
+    "author": "원작: 정브르 ;그림: 강신영",
+    "publisher": "겜툰",
+    "pub_year": "2022",
+    "kdc": "491",
+    "topic_tags": [
+      "art",
+      "animal",
+      "sealife",
+      "insect"
+    ],
+    "age_band": "8-9",
+    "loan_count": 4027,
+    "availability": "대출가능여부 조회 필요",
+    "source": "data4library:인기대출(실데이터)",
+    "is_seed": 0,
+    "last_verified": "2026-07-04"
+  },
+  {
+    "isbn": "9791194616030",
+    "title": "설민석의 한국사 대모험",
+    "author": "글: 설민석,그림: 정현희",
+    "publisher": "휴먼큐브",
+    "pub_year": "2022",
+    "kdc": "911",
+    "topic_tags": [
+      "history"
+    ],
+    "age_band": "10-11",
+    "loan_count": 55779,
+    "availability": "대출가능여부 조회 필요",
+    "source": "data4library:인기대출(실데이터)",
+    "is_seed": 0,
+    "last_verified": "2026-07-04"
+  },
+  {
+    "isbn": "9791193031902",
+    "title": "설민석의 세계사 대모험",
+    "author": "글: 설민석,그림: 박성일",
+    "publisher": "단꿈아이",
+    "pub_year": "2019",
+    "kdc": "909",
+    "topic_tags": [
+      "history"
+    ],
+    "age_band": "10-11",
+    "loan_count": 32385,
+    "availability": "대출가능여부 조회 필요",
+    "source": "data4library:인기대출(실데이터)",
+    "is_seed": 0,
+    "last_verified": "2026-07-04"
+  },
+  {
+    "isbn": "9788934941330",
+    "title": "(흔한 남매) 세계사 탐험대",
+    "author": "원작: 흔한남매,그림: 팀키즈",
+    "publisher": "김영사",
+    "pub_year": "2024",
+    "kdc": "909",
+    "topic_tags": [
+      "history"
+    ],
+    "age_band": "8-9",
+    "loan_count": 7571,
+    "availability": "대출가능여부 조회 필요",
+    "source": "data4library:인기대출(실데이터)",
+    "is_seed": 0,
+    "last_verified": "2026-07-04"
+  },
+  {
+    "isbn": "9791190630016",
+    "title": "(백종원의) 도전 요리왕 :음식으로 맛보는 세계 역사 문화 체험",
+    "author": "글: 백종원,그림: 이정태",
+    "publisher": "위즈덤하우스 미디어그룹",
+    "pub_year": "2019",
+    "kdc": "594",
+    "topic_tags": [
+      "history",
+      "cooking"
+    ],
+    "age_band": "10-11",
+    "loan_count": 7562,
+    "availability": "대출가능여부 조회 필요",
+    "source": "data4library:인기대출(실데이터)",
+    "is_seed": 0,
+    "last_verified": "2026-07-04"
+  },
+  {
+    "isbn": "9791173571442",
+    "title": "무적 이순신",
+    "author": "글: 박지연,그림: 정수영",
+    "publisher": "아울북(북이십일 아울북)",
+    "pub_year": "2023",
+    "kdc": "998.3",
+    "topic_tags": [
+      "history"
+    ],
+    "age_band": "10-11",
+    "loan_count": 6008,
+    "availability": "대출가능여부 조회 필요",
+    "source": "data4library:인기대출(실데이터)",
+    "is_seed": 0,
+    "last_verified": "2026-07-04"
+  },
+  {
+    "isbn": "9788950900830",
+    "title": "벌거벗은 세계사",
+    "author": "글: 이현희,최호정",
+    "publisher": "아울북(북이십일 아울북)",
+    "pub_year": "2022",
+    "kdc": "909",
+    "topic_tags": [
+      "history"
+    ],
+    "age_band": "12-13",
+    "loan_count": 2895,
+    "availability": "대출가능여부 조회 필요",
+    "source": "data4library:인기대출(실데이터)",
+    "is_seed": 0,
+    "last_verified": "2026-07-04"
+  },
+  {
+    "isbn": "9791130651446",
+    "title": "(최태성의) 한능검 한국사",
+    "author": "윤상석 글 ;이태영 그림",
+    "publisher": "다산북스",
+    "pub_year": "2024",
+    "kdc": "911",
+    "topic_tags": [
+      "history"
+    ],
+    "age_band": "10-11",
+    "loan_count": 2754,
+    "availability": "대출가능여부 조회 필요",
+    "source": "data4library:인기대출(실데이터)",
+    "is_seed": 0,
+    "last_verified": "2026-07-04"
+  },
+  {
+    "isbn": "9791168415409",
+    "title": "흔한남매의 흔한 호기심 :일상에서 만나는 과학 상식",
+    "author": "원작: 흔한남매 ;그림: 유난희",
+    "publisher": "미래엔",
+    "pub_year": "2020",
+    "kdc": "400",
+    "topic_tags": [
+      "science"
+    ],
+    "age_band": "8-9",
+    "loan_count": 41224,
+    "availability": "대출가능여부 조회 필요",
+    "source": "data4library:인기대출(실데이터)",
+    "is_seed": 0,
+    "last_verified": "2026-07-04"
+  },
+  {
+    "isbn": "9791173321610",
+    "title": "흔한남매 과학 탐험대",
+    "author": "원작: 흔한남매 ;임혜영",
+    "publisher": "김영사",
+    "pub_year": "2021",
+    "kdc": "400",
+    "topic_tags": [
+      "science"
+    ],
+    "age_band": "8-9",
+    "loan_count": 32678,
+    "availability": "대출가능여부 조회 필요",
+    "source": "data4library:인기대출(실데이터)",
+    "is_seed": 0,
+    "last_verified": "2026-07-04"
+  },
+  {
+    "isbn": "9791168415188",
+    "title": "슈뻘맨의 숨은 과학 찾기 :엉뚱 도전 속에 숨은 과학 상식",
+    "author": "슈뻘맨 원작 ;류수형 그림",
+    "publisher": "미래엔",
+    "pub_year": "2023",
+    "kdc": "400",
+    "topic_tags": [
+      "science"
+    ],
+    "age_band": "8-9",
+    "loan_count": 15374,
+    "availability": "대출가능여부 조회 필요",
+    "source": "data4library:인기대출(실데이터)",
+    "is_seed": 0,
+    "last_verified": "2026-07-04"
+  },
+  {
+    "isbn": "9791171171019",
+    "title": "물리박사 김상욱의 수상한 연구실 :어린이를 위한 세상의 모든 과학",
+    "author": "글: 김하연 ;그림: 정순규",
+    "publisher": "아울북(북이십일 아울북)",
+    "pub_year": "2023",
+    "kdc": "420",
+    "topic_tags": [
+      "science"
+    ],
+    "age_band": "10-11",
+    "loan_count": 7303,
+    "availability": "대출가능여부 조회 필요",
+    "source": "data4library:인기대출(실데이터)",
+    "is_seed": 0,
+    "last_verified": "2026-07-04"
+  },
+  {
+    "isbn": "9791171713417",
+    "title": "빨간내복야코 안 읽으면 완전 위험한 과학책",
+    "author": "빨간내복야코 원작 ;이영아 그림",
+    "publisher": "위즈덤하우스",
+    "pub_year": "2024",
+    "kdc": "400",
+    "topic_tags": [
+      "science"
+    ],
+    "age_band": "8-9",
+    "loan_count": 6594,
+    "availability": "대출가능여부 조회 필요",
+    "source": "data4library:인기대출(실데이터)",
+    "is_seed": 0,
+    "last_verified": "2026-07-04"
+  },
+  {
+    "isbn": "9788936447694",
+    "title": "고양이 해결사 깜냥",
+    "author": "홍민정 동화 ;김재희 그림",
+    "publisher": "창비",
+    "pub_year": "2020",
+    "kdc": "813.7",
+    "topic_tags": [
+      "animal"
+    ],
+    "age_band": "8-9",
+    "loan_count": 21894,
+    "availability": "대출가능여부 조회 필요",
+    "source": "data4library:인기대출(실데이터)",
+    "is_seed": 0,
+    "last_verified": "2026-07-04"
+  },
+  {
+    "isbn": "9791130679990",
+    "title": "낭만 강아지 봉봉",
+    "author": "홍민정 글 ;김무연 그림",
+    "publisher": "다산북스",
+    "pub_year": "2022",
+    "kdc": "813.7",
+    "topic_tags": [
+      "animal"
+    ],
+    "age_band": "8-9",
+    "loan_count": 14799,
+    "availability": "대출가능여부 조회 필요",
+    "source": "data4library:인기대출(실데이터)",
+    "is_seed": 0,
+    "last_verified": "2026-07-04"
+  },
+  {
+    "isbn": "9788957072394",
+    "title": "시간 고양이",
+    "author": "박미연 글 ;이소연 그림",
+    "publisher": "이지북",
+    "pub_year": "2022",
+    "kdc": "813.7",
+    "topic_tags": [
+      "animal"
+    ],
+    "age_band": "10-11",
+    "loan_count": 5846,
+    "availability": "대출가능여부 조회 필요",
+    "source": "data4library:인기대출(실데이터)",
+    "is_seed": 0,
+    "last_verified": "2026-07-04"
+  },
+  {
+    "isbn": "9791168412705",
+    "title": "에그박사의 이건 누구 똥?!",
+    "author": "원작: 에그박사 ;그림: 김덕영",
+    "publisher": "Mirae N 아이세움",
+    "pub_year": "2022",
+    "kdc": "491",
+    "topic_tags": [
+      "animal",
+      "sealife"
+    ],
+    "age_band": "6-7",
+    "loan_count": 1976,
+    "availability": "대출가능여부 조회 필요",
+    "source": "data4library:인기대출(실데이터)",
+    "is_seed": 0,
+    "last_verified": "2026-07-04"
+  },
+  {
+    "isbn": "9791168343146",
+    "title": "진실한 동물도감",
+    "author": "글쓴이: 최형선 ;그린이: 차야다",
+    "publisher": "인플루엔셜",
+    "pub_year": "2025",
+    "kdc": "491",
+    "topic_tags": [
+      "animal",
+      "sealife"
+    ],
+    "age_band": "10-11",
+    "loan_count": 1257,
+    "availability": "대출가능여부 조회 필요",
+    "source": "data4library:인기대출(실데이터)",
+    "is_seed": 0,
+    "last_verified": "2026-07-04"
+  },
+  {
+    "isbn": "9788934991991",
+    "title": "내 멋대로 반려동물 뽑기",
+    "author": "최은옥 글 ;김무연 그림",
+    "publisher": "김영사",
+    "pub_year": "2020",
+    "kdc": "813.7",
+    "topic_tags": [
+      "animal"
+    ],
+    "age_band": "8-9",
+    "loan_count": 1133,
+    "availability": "대출가능여부 조회 필요",
+    "source": "data4library:인기대출(실데이터)",
+    "is_seed": 0,
+    "last_verified": "2026-07-04"
+  },
+  {
+    "isbn": "9791168091535",
+    "title": "의사 어벤저스 :어린이 의학 동화",
+    "author": "글: 고희정 ;그림: 조승연",
+    "publisher": "가나문화콘텐츠",
+    "pub_year": "2021",
+    "kdc": "510",
+    "topic_tags": [
+      "body"
+    ],
+    "age_band": "10-11",
+    "loan_count": 33134,
+    "availability": "대출가능여부 조회 필요",
+    "source": "data4library:인기대출(실데이터)",
+    "is_seed": 0,
+    "last_verified": "2026-07-04"
+  },
+  {
+    "isbn": "9788950983499",
+    "title": "정재승의 인간 탐구 보고서",
+    "author": "글: 정재은,특대호 원고: 오경은",
+    "publisher": "아울북(북이십일 아울북)",
+    "pub_year": "2019",
+    "kdc": "511",
+    "topic_tags": [
+      "body"
+    ],
+    "age_band": "10-11",
+    "loan_count": 19873,
+    "availability": "대출가능여부 조회 필요",
+    "source": "data4library:인기대출(실데이터)",
+    "is_seed": 0,
+    "last_verified": "2026-07-04"
+  },
+  {
+    "isbn": "9791171712465",
+    "title": "소맥거핀의 인체 친구들",
+    "author": "소맥거핀 원작 ;김기수 그림",
+    "publisher": "위즈덤하우스",
+    "pub_year": "2024",
+    "kdc": "511",
+    "topic_tags": [
+      "body"
+    ],
+    "age_band": "10-11",
+    "loan_count": 5591,
+    "availability": "대출가능여부 조회 필요",
+    "source": "data4library:인기대출(실데이터)",
+    "is_seed": 0,
+    "last_verified": "2026-07-04"
+  },
+  {
+    "isbn": "9791162336069",
+    "title": "뼈뼈 사우루스",
+    "author": "글·그림: 암모나이트 ;김정화 옮김",
+    "publisher": "미래엔",
+    "pub_year": "2018",
+    "kdc": "833.6",
+    "topic_tags": [
+      "body"
+    ],
+    "age_band": "6-7",
+    "loan_count": 3158,
+    "availability": "대출가능여부 조회 필요",
+    "source": "data4library:인기대출(실데이터)",
+    "is_seed": 0,
+    "last_verified": "2026-07-04"
+  },
+  {
+    "isbn": "9791130677712",
+    "title": "(나의 몸과 마음을 이해하고 더 멋진 내가 되는) 우리들의 사춘기",
+    "author": "글: 배정원,그림: 소윤",
+    "publisher": "다산북스",
+    "pub_year": "2024",
+    "kdc": "598.5",
+    "topic_tags": [
+      "body",
+      "cooking"
+    ],
+    "age_band": "10-11",
+    "loan_count": 533,
+    "availability": "대출가능여부 조회 필요",
+    "source": "data4library:인기대출(실데이터)",
+    "is_seed": 0,
+    "last_verified": "2026-07-04"
+  },
+  {
+    "isbn": "9791192697369",
+    "title": "똥꼬 아저씨의 하루 :황지영 그림책",
+    "author": "글·그린이: 황지영",
+    "publisher": "한림출판사",
+    "pub_year": "2023",
+    "kdc": "511",
+    "topic_tags": [
+      "body"
+    ],
+    "age_band": "6-7",
+    "loan_count": 240,
+    "availability": "대출가능여부 조회 필요",
+    "source": "data4library:인기대출(실데이터)",
+    "is_seed": 0,
+    "last_verified": "2026-07-04"
+  },
+  {
+    "isbn": "9791193506332",
+    "title": "무례한 친구가 생겼어요 :건강한 우정을 위한 경계를 설정하는 방법",
+    "author": "크리스티나 퍼니발 글 ;이은경 옮김",
+    "publisher": "포레스트",
+    "pub_year": "2024",
+    "kdc": "189",
+    "topic_tags": [
+      "body"
+    ],
+    "age_band": "6-7",
+    "loan_count": 209,
+    "availability": "대출가능여부 조회 필요",
+    "source": "data4library:인기대출(실데이터)",
+    "is_seed": 0,
+    "last_verified": "2026-07-04"
+  },
+  {
+    "isbn": "9791193074626",
+    "title": "빠진 이 삽니다 :이빨 요정 주식회사",
+    "author": "안드레아 안티노리 지음 ;문주선 옮김",
+    "publisher": "노란상상",
+    "pub_year": "2025",
+    "kdc": "873",
+    "topic_tags": [
+      "body"
+    ],
+    "age_band": "6-7",
+    "loan_count": 199,
+    "availability": "대출가능여부 조회 필요",
+    "source": "data4library:인기대출(실데이터)",
+    "is_seed": 0,
+    "last_verified": "2026-07-04"
+  },
+  {
+    "isbn": "9791158682538",
+    "title": "(읽으면서 바로 써먹는) 어린이 맞춤법 행성",
+    "author": "글·그림: 한날",
+    "publisher": "파란정원",
+    "pub_year": "2023",
+    "kdc": "711",
+    "topic_tags": [
+      "space"
+    ],
+    "age_band": "8-9",
+    "loan_count": 19452,
+    "availability": "대출가능여부 조회 필요",
+    "source": "data4library:인기대출(실데이터)",
+    "is_seed": 0,
+    "last_verified": "2026-07-04"
+  },
+  {
+    "isbn": "9791160944518",
+    "title": "우주로 간 김땅콩 :윤지회 그림책",
+    "author": "글·그림: 윤지회",
+    "publisher": "사계절",
+    "pub_year": "2019",
+    "kdc": "813.7",
+    "topic_tags": [
+      "space"
+    ],
+    "age_band": "6-7",
+    "loan_count": 207,
+    "availability": "대출가능여부 조회 필요",
+    "source": "data4library:인기대출(실데이터)",
+    "is_seed": 0,
+    "last_verified": "2026-07-04"
+  },
+  {
+    "isbn": "9791165883607",
+    "title": "달과 지구가 다툰 날",
+    "author": "데이비드 더프 글 ;강미숙 옮김",
+    "publisher": "북극곰",
+    "pub_year": "2024",
+    "kdc": "443",
+    "topic_tags": [
+      "space"
+    ],
+    "age_band": "6-7",
+    "loan_count": 198,
+    "availability": "대출가능여부 조회 필요",
+    "source": "data4library:인기대출(실데이터)",
+    "is_seed": 0,
+    "last_verified": "2026-07-04"
+  },
+  {
+    "isbn": "9788962680942",
+    "title": "우주 호텔",
+    "author": "유순희 글 ;오승민 그림",
+    "publisher": "해와나무",
+    "pub_year": "2012",
+    "kdc": "813.7",
+    "topic_tags": [
+      "space"
+    ],
+    "age_band": "12-13",
+    "loan_count": 193,
+    "availability": "대출가능여부 조회 필요",
+    "source": "data4library:인기대출(실데이터)",
+    "is_seed": 0,
+    "last_verified": "2026-07-04"
+  },
+  {
+    "isbn": "9791159950391",
+    "title": "로켓아이 :김민우 그림책",
+    "author": "김민우 글·그림",
+    "publisher": "노란돼지",
+    "pub_year": "2023",
+    "kdc": "813.7",
+    "topic_tags": [
+      "space"
+    ],
+    "age_band": "6-7",
+    "loan_count": 187,
+    "availability": "대출가능여부 조회 필요",
+    "source": "data4library:인기대출(실데이터)",
+    "is_seed": 0,
+    "last_verified": "2026-07-04"
+  },
+  {
+    "isbn": "9788931341430",
+    "title": "수박 행성",
+    "author": "상자 글 ;이수현 그림",
+    "publisher": "이론과실천",
+    "pub_year": "2022",
+    "kdc": "813.7",
+    "topic_tags": [
+      "space"
+    ],
+    "age_band": "6-7",
+    "loan_count": 171,
+    "availability": "대출가능여부 조회 필요",
+    "source": "data4library:인기대출(실데이터)",
+    "is_seed": 0,
+    "last_verified": "2026-07-04"
+  },
+  {
+    "isbn": "9788965463108",
+    "title": "안녕, 우주",
+    "author": "글: 에린 엔트라다 켈리 ;옮김: 이원경",
+    "publisher": "밝은미래",
+    "pub_year": "2018",
+    "kdc": "843",
+    "topic_tags": [
+      "space"
+    ],
+    "age_band": "12-13",
+    "loan_count": 154,
+    "availability": "대출가능여부 조회 필요",
+    "source": "data4library:인기대출(실데이터)",
+    "is_seed": 0,
+    "last_verified": "2026-07-04"
+  },
+  {
+    "isbn": "9791130640280",
+    "title": "흔한남매 불꽃 튀는 우리말 :초등 국어 고수 되기 프로젝트",
+    "author": "원작: 흔한남매 ;그림: 유희석",
+    "publisher": "다산북스",
+    "pub_year": "2021",
+    "kdc": "710",
+    "topic_tags": [
+      "plant"
+    ],
+    "age_band": "8-9",
+    "loan_count": 5758,
+    "availability": "대출가능여부 조회 필요",
+    "source": "data4library:인기대출(실데이터)",
+    "is_seed": 0,
+    "last_verified": "2026-07-04"
+  },
+  {
+    "isbn": "9791168342491",
+    "title": "불꽃 수영 대회",
+    "author": "신현경 글 ;노예지 그림",
+    "publisher": "인플루엔셜",
+    "pub_year": "2025",
+    "kdc": "813.7",
+    "topic_tags": [
+      "plant",
+      "sports"
+    ],
+    "age_band": "8-9",
+    "loan_count": 2429,
+    "availability": "대출가능여부 조회 필요",
+    "source": "data4library:인기대출(실데이터)",
+    "is_seed": 0,
+    "last_verified": "2026-07-04"
+  },
+  {
+    "isbn": "9791168341753",
+    "title": "벚꽃 수영장",
+    "author": "신현경 글 ;노예지 그림",
+    "publisher": "인플루엔셜",
+    "pub_year": "2024",
+    "kdc": "813.7",
+    "topic_tags": [
+      "plant",
+      "sports"
+    ],
+    "age_band": "8-9",
+    "loan_count": 1686,
+    "availability": "대출가능여부 조회 필요",
+    "source": "data4library:인기대출(실데이터)",
+    "is_seed": 0,
+    "last_verified": "2026-07-04"
+  },
+  {
+    "isbn": "9791190337427",
+    "title": "햇빛초 대나무 숲에 새 글이 올라왔습니다",
+    "author": "황지영 글 ;백두리 그림",
+    "publisher": "우리학교",
+    "pub_year": "2020",
+    "kdc": "813.7",
+    "topic_tags": [
+      "plant"
+    ],
+    "age_band": "10-11",
+    "loan_count": 717,
+    "availability": "대출가능여부 조회 필요",
+    "source": "data4library:인기대출(실데이터)",
+    "is_seed": 0,
+    "last_verified": "2026-07-04"
+  },
+  {
+    "isbn": "9791167552006",
+    "title": "햇빛초 대나무 숲의 모든 글이 삭제되었습니다",
+    "author": "황지영 글 ;백두리 그림",
+    "publisher": "우리학교",
+    "pub_year": "2024",
+    "kdc": "813.7",
+    "topic_tags": [
+      "plant"
+    ],
+    "age_band": "10-11",
+    "loan_count": 717,
+    "availability": "대출가능여부 조회 필요",
+    "source": "data4library:인기대출(실데이터)",
+    "is_seed": 0,
+    "last_verified": "2026-07-04"
+  },
+  {
+    "isbn": "9791158360337",
+    "title": "꽃에서 나온 코끼리",
+    "author": "황K",
+    "publisher": "책읽는곰",
+    "pub_year": "2016",
+    "kdc": "813.7",
+    "topic_tags": [
+      "plant"
+    ],
+    "age_band": "6-7",
+    "loan_count": 527,
+    "availability": "대출가능여부 조회 필요",
+    "source": "data4library:인기대출(실데이터)",
+    "is_seed": 0,
+    "last_verified": "2026-07-04"
+  },
+  {
+    "isbn": "9788966351411",
+    "title": "숲속 100층짜리 집",
+    "author": "글·그림: 이와이 도시오 ;옮김: 김숙",
+    "publisher": "북뱅크",
+    "pub_year": "2021",
+    "kdc": "833.6",
+    "topic_tags": [
+      "plant"
+    ],
+    "age_band": "6-7",
+    "loan_count": 445,
+    "availability": "대출가능여부 조회 필요",
+    "source": "data4library:인기대출(실데이터)",
+    "is_seed": 0,
+    "last_verified": "2026-07-04"
+  },
+  {
+    "isbn": "9791165703639",
+    "title": "나무 이발사 :정네모 그림책",
+    "author": "지은이: 정네모",
+    "publisher": "창비교육",
+    "pub_year": "2025",
+    "kdc": "813.7",
+    "topic_tags": [
+      "plant"
+    ],
+    "age_band": "6-7",
+    "loan_count": 322,
+    "availability": "대출가능여부 조회 필요",
+    "source": "data4library:인기대출(실데이터)",
+    "is_seed": 0,
+    "last_verified": "2026-07-04"
+  },
+  {
+    "isbn": "9791169231503",
+    "title": "쪼꼬미 동물병원 :SBS TV 동물농장 X 애니멀봐 공식 동물 만화 백과",
+    "author": "원작: SBS TV 동물농장 X 애니멀봐 ;황정호",
+    "publisher": "서울문화사",
+    "pub_year": "2023",
+    "kdc": "491",
+    "topic_tags": [
+      "sealife"
+    ],
+    "age_band": "8-9",
+    "loan_count": 1010,
+    "availability": "대출가능여부 조회 필요",
+    "source": "data4library:인기대출(실데이터)",
+    "is_seed": 0,
+    "last_verified": "2026-07-04"
+  },
+  {
+    "isbn": "9791171715350",
+    "title": "제1회 안타까운 동물 자랑 대회",
+    "author": "감수: 이마이즈미 다다아키 ;도쿠나가 아키코",
+    "publisher": "위즈덤하우스",
+    "pub_year": "2025",
+    "kdc": "490",
+    "topic_tags": [
+      "sealife"
+    ],
+    "age_band": "10-11",
+    "loan_count": 987,
+    "availability": "대출가능여부 조회 필요",
+    "source": "data4library:인기대출(실데이터)",
+    "is_seed": 0,
+    "last_verified": "2026-07-04"
+  },
+  {
+    "isbn": "9788927748212",
+    "title": "에그박사의 어쩌면 사라질 사파리 :멸/종/위/기 생물도감",
+    "author": "에그박사 원작 ;유남영 그림",
+    "publisher": "다락원",
+    "pub_year": "2025",
+    "kdc": "491",
+    "topic_tags": [
+      "sealife"
+    ],
+    "age_band": "8-9",
+    "loan_count": 722,
+    "availability": "대출가능여부 조회 필요",
+    "source": "data4library:인기대출(실데이터)",
+    "is_seed": 0,
+    "last_verified": "2026-07-04"
+  },
+  {
+    "isbn": "9788927747987",
+    "title": "에그박사의 역대급 사파리 :충격 주의! 별/별/능/력 생물도감",
+    "author": "에그박사 원작 ;유남영 그림",
+    "publisher": "다락원",
+    "pub_year": "2024",
+    "kdc": "491",
+    "topic_tags": [
+      "sealife"
+    ],
+    "age_band": "8-9",
+    "loan_count": 619,
+    "availability": "대출가능여부 조회 필요",
+    "source": "data4library:인기대출(실데이터)",
+    "is_seed": 0,
+    "last_verified": "2026-07-04"
+  },
+  {
+    "isbn": "9788927747581",
+    "title": "에그박사의 닮은꼴 사파리 :전격비교관찰 생물도감",
+    "author": "에그박사 지음 ;유남영 그림",
+    "publisher": "다락원",
+    "pub_year": "2020",
+    "kdc": "491",
+    "topic_tags": [
+      "sealife"
+    ],
+    "age_band": "8-9",
+    "loan_count": 617,
+    "availability": "대출가능여부 조회 필요",
+    "source": "data4library:인기대출(실데이터)",
+    "is_seed": 0,
+    "last_verified": "2026-07-04"
+  },
+  {
+    "isbn": "9791168411692",
+    "title": "(흔한남매) 별난 방탈출 :탈출 미션 스토리북",
+    "author": "흔한남매 원작 ;차차 그림",
+    "publisher": "미래엔",
+    "pub_year": "2020",
+    "kdc": "691",
+    "topic_tags": [
+      "sports"
+    ],
+    "age_band": "8-9",
+    "loan_count": 11934,
+    "availability": "대출가능여부 조회 필요",
+    "source": "data4library:인기대출(실데이터)",
+    "is_seed": 0,
+    "last_verified": "2026-07-04"
+  },
+  {
+    "isbn": "9791168341180",
+    "title": "야옹이 수영 교실",
+    "author": "신현경 글 ;노예지 그림",
+    "publisher": "인플루엔셜",
+    "pub_year": "2023",
+    "kdc": "813.7",
+    "topic_tags": [
+      "sports"
+    ],
+    "age_band": "8-9",
+    "loan_count": 2291,
+    "availability": "대출가능여부 조회 필요",
+    "source": "data4library:인기대출(실데이터)",
+    "is_seed": 0,
+    "last_verified": "2026-07-04"
+  },
+  {
+    "isbn": "9791168343252",
+    "title": "모두의 수영장",
+    "author": "신현경 글 ;노예지 그림",
+    "publisher": "인플루엔셜",
+    "pub_year": "2025",
+    "kdc": "813.7",
+    "topic_tags": [
+      "sports"
+    ],
+    "age_band": "8-9",
+    "loan_count": 2171,
+    "availability": "대출가능여부 조회 필요",
+    "source": "data4library:인기대출(실데이터)",
+    "is_seed": 0,
+    "last_verified": "2026-07-04"
+  },
+  {
+    "isbn": "9788936446819",
+    "title": "수박 수영장 :안녕달 그림책",
+    "author": "지은이: 안녕달",
+    "publisher": "창비",
+    "pub_year": "2015",
+    "kdc": "813.7",
+    "topic_tags": [
+      "sports"
+    ],
+    "age_band": "6-7",
+    "loan_count": 1138,
+    "availability": "대출가능여부 조회 필요",
+    "source": "data4library:인기대출(실데이터)",
+    "is_seed": 0,
+    "last_verified": "2026-07-04"
+  },
+  {
+    "isbn": "9791158364595",
+    "title": "질투는 아웃, 야구 장갑! :유설화 그림책",
+    "author": "유설화",
+    "publisher": "책읽는곰",
+    "pub_year": "2024",
+    "kdc": "813.7",
+    "topic_tags": [
+      "sports"
+    ],
+    "age_band": "6-7",
+    "loan_count": 598,
+    "availability": "대출가능여부 조회 필요",
+    "source": "data4library:인기대출(실데이터)",
+    "is_seed": 0,
+    "last_verified": "2026-07-04"
+  },
+  {
+    "isbn": "9791159955051",
+    "title": "개구리 수영장 :이소라 그림책",
+    "author": "글·그림: 이소라",
+    "publisher": "노란돼지",
+    "pub_year": "2025",
+    "kdc": "813.7",
+    "topic_tags": [
+      "sports"
+    ],
+    "age_band": "6-7",
+    "loan_count": 287,
+    "availability": "대출가능여부 조회 필요",
+    "source": "data4library:인기대출(실데이터)",
+    "is_seed": 0,
+    "last_verified": "2026-07-04"
+  },
+  {
+    "isbn": "9791162041376",
+    "title": "호랑이 빵집",
+    "author": "글: 서지원 ;그림: 홍그림",
+    "publisher": "지학사",
+    "pub_year": "2023",
+    "kdc": "813.7",
+    "topic_tags": [
+      "cooking"
+    ],
+    "age_band": "8-9",
+    "loan_count": 9545,
+    "availability": "대출가능여부 조회 필요",
+    "source": "data4library:인기대출(실데이터)",
+    "is_seed": 0,
+    "last_verified": "2026-07-04"
+  },
+  {
+    "isbn": "9788936429515",
+    "title": "따끈따끈 붕어빵 대결 :김원훈 그림책",
+    "author": "지은이: 김원훈",
+    "publisher": "창비",
+    "pub_year": "2025",
+    "kdc": "813.7",
+    "topic_tags": [
+      "cooking"
+    ],
+    "age_band": "8-9",
+    "loan_count": 965,
+    "availability": "대출가능여부 조회 필요",
+    "source": "data4library:인기대출(실데이터)",
+    "is_seed": 0,
+    "last_verified": "2026-07-04"
+  },
+  {
+    "isbn": "9788901295428",
+    "title": "내 멋대로 빵빵빵빵 :김지안 그림책",
+    "author": "글·그림: 김지안",
+    "publisher": "웅진씽크빅",
+    "pub_year": "2025",
+    "kdc": "813.7",
+    "topic_tags": [
+      "cooking"
+    ],
+    "age_band": "8-9",
+    "loan_count": 678,
+    "availability": "대출가능여부 조회 필요",
+    "source": "data4library:인기대출(실데이터)",
+    "is_seed": 0,
+    "last_verified": "2026-07-04"
+  },
+  {
+    "isbn": "9791187113669",
+    "title": "위기 탈출 도감",
+    "author": "스즈키 노리타케 글·그림 ;권남희 옮김",
+    "publisher": "이아소",
+    "pub_year": "2024",
+    "kdc": "590",
+    "topic_tags": [
+      "cooking"
+    ],
+    "age_band": "8-9",
+    "loan_count": 607,
+    "availability": "대출가능여부 조회 필요",
+    "source": "data4library:인기대출(실데이터)",
+    "is_seed": 0,
+    "last_verified": "2026-07-04"
+  },
+  {
+    "isbn": "9791192686103",
+    "title": "소원빵집 위시위시 베이커리",
+    "author": "글: 안영은 ;최은선",
+    "publisher": "한솔수북",
+    "pub_year": "2022",
+    "kdc": "813.7",
+    "topic_tags": [
+      "cooking"
+    ],
+    "age_band": "8-9",
+    "loan_count": 591,
+    "availability": "대출가능여부 조회 필요",
+    "source": "data4library:인기대출(실데이터)",
+    "is_seed": 0,
+    "last_verified": "2026-07-04"
+  },
+  {
+    "isbn": "9788901290706",
+    "title": "동백 호빵 :백유연 그림책",
+    "author": "글·그림: 백유연",
+    "publisher": "웅진씽크빅",
+    "pub_year": "2024",
+    "kdc": "813.7",
+    "topic_tags": [
+      "cooking"
+    ],
+    "age_band": "6-7",
+    "loan_count": 474,
+    "availability": "대출가능여부 조회 필요",
+    "source": "data4library:인기대출(실데이터)",
+    "is_seed": 0,
+    "last_verified": "2026-07-04"
+  },
+  {
+    "isbn": "9788936414085",
+    "title": "나는 3학년 2반 7번 애벌레 :김원아 동화",
+    "author": "지은이: 김원아 ;그린이: 이주희",
+    "publisher": "창비",
+    "pub_year": "2016",
+    "kdc": "813.7",
+    "topic_tags": [
+      "insect"
+    ],
+    "age_band": "8-9",
+    "loan_count": 621,
+    "availability": "대출가능여부 조회 필요",
+    "source": "data4library:인기대출(실데이터)",
+    "is_seed": 0,
+    "last_verified": "2026-07-04"
+  },
+  {
+    "isbn": "9788936414191",
+    "title": "나는 3학년 2반 전설의 애벌레 :김원아 동화",
+    "author": "지은이: 김원아 ;그린이: 이주희",
+    "publisher": "창비",
+    "pub_year": "2025",
+    "kdc": "813.7",
+    "topic_tags": [
+      "insect"
+    ],
+    "age_band": "8-9",
+    "loan_count": 505,
+    "availability": "대출가능여부 조회 필요",
+    "source": "data4library:인기대출(실데이터)",
+    "is_seed": 0,
+    "last_verified": "2026-07-04"
+  },
+  {
+    "isbn": "9788964963371",
+    "title": "쉬는 시간에 똥 싸기 싫어 :김개미 동시집",
+    "author": "시: 김개미 ;그림: 최미란",
+    "publisher": "토토북",
+    "pub_year": "2017",
+    "kdc": "811.8",
+    "topic_tags": [
+      "insect"
+    ],
+    "age_band": "8-9",
+    "loan_count": 491,
+    "availability": "대출가능여부 조회 필요",
+    "source": "data4library:인기대출(실데이터)",
+    "is_seed": 0,
+    "last_verified": "2026-07-04"
+  },
+  {
+    "isbn": "9791193207406",
+    "title": "곤충 호텔",
+    "author": "한라경 글 ;무운 그림",
+    "publisher": "소원나무",
+    "pub_year": "2024",
+    "kdc": "813.7",
+    "topic_tags": [
+      "insect"
+    ],
+    "age_band": "6-7",
+    "loan_count": 365,
+    "availability": "대출가능여부 조회 필요",
+    "source": "data4library:인기대출(실데이터)",
+    "is_seed": 0,
+    "last_verified": "2026-07-04"
+  },
+  {
+    "isbn": "9791169235204",
+    "title": "(곤충 탐정) 정브르",
+    "author": "원작: 정브르 ;그림: 도니패밀리",
+    "publisher": "서울문화사",
+    "pub_year": "2022",
+    "kdc": "495",
+    "topic_tags": [
+      "insect"
+    ],
+    "age_band": "6-7",
+    "loan_count": 350,
+    "availability": "대출가능여부 조회 필요",
+    "source": "data4library:인기대출(실데이터)",
+    "is_seed": 0,
+    "last_verified": "2026-07-04"
+  },
+  {
+    "isbn": "9791159955624",
+    "title": "곤충 찜질방",
+    "author": "최이레 글·그림",
+    "publisher": "노란돼지",
+    "pub_year": "2026",
+    "kdc": "813.7",
+    "topic_tags": [
+      "insect"
+    ],
+    "age_band": "6-7",
+    "loan_count": 250,
+    "availability": "대출가능여부 조회 필요",
+    "source": "data4library:인기대출(실데이터)",
+    "is_seed": 0,
+    "last_verified": "2026-07-04"
+  },
+  {
+    "isbn": "9791141610623",
+    "title": "나비도감",
+    "author": "최현진 글 ;모루토리 그림",
+    "publisher": "문학동네",
+    "pub_year": "2025",
+    "kdc": "813.7",
+    "topic_tags": [
+      "insect"
+    ],
+    "age_band": "12-13",
+    "loan_count": 204,
+    "availability": "대출가능여부 조회 필요",
+    "source": "data4library:인기대출(실데이터)",
+    "is_seed": 0,
+    "last_verified": "2026-07-04"
+  },
+  {
+    "isbn": "9788949136028",
+    "title": "행운음원 :#소원을 들어주는 음악",
+    "author": "차삼동 글 ;김지인 그림",
+    "publisher": "비룡소",
+    "pub_year": "2025",
+    "kdc": "813.7",
+    "topic_tags": [
+      "music"
+    ],
+    "age_band": "10-11",
+    "loan_count": 1065,
+    "availability": "대출가능여부 조회 필요",
+    "source": "data4library:인기대출(실데이터)",
+    "is_seed": 0,
+    "last_verified": "2026-07-04"
+  },
+  {
+    "isbn": "9791159955266",
+    "title": "(마법을 부르는) 코인노래방",
+    "author": "류미정 글 ;오묘 그림",
+    "publisher": "노란돼지",
+    "pub_year": "2025",
+    "kdc": "813.7",
+    "topic_tags": [
+      "music"
+    ],
+    "age_band": "10-11",
+    "loan_count": 634,
+    "availability": "대출가능여부 조회 필요",
+    "source": "data4library:인기대출(실데이터)",
+    "is_seed": 0,
+    "last_verified": "2026-07-04"
+  },
+  {
+    "isbn": "9791198960122",
+    "title": "귤이랑 노래해",
+    "author": "김미희 글 ;백유연 그림",
+    "publisher": "키다리",
+    "pub_year": "2025",
+    "kdc": "813.7",
+    "topic_tags": [
+      "music"
+    ],
+    "age_band": "6-7",
+    "loan_count": 177,
+    "availability": "대출가능여부 조회 필요",
+    "source": "data4library:인기대출(실데이터)",
+    "is_seed": 0,
+    "last_verified": "2026-07-04"
+  }
+]

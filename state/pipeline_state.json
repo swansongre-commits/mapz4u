@@ -1,5 +1,5 @@
 {
-  "current_phase": 3,
+  "current_phase": 4,
   "started_at": "2026-07-04",
   "mode": "MIXED",
   "embed_tier": 3,
@@ -9,7 +9,7 @@
     "G1": "PASS",
     "G2": "PASS",
     "G3": "PASS",
-    "G4": null,
+    "G4": "PASS",
     "G5": null,
     "G6": null,
     "G7": null,
@@ -43,7 +43,7 @@
       "status": "done"
     },
     "4": {
-      "status": "pending"
+      "status": "done"
     },
     "5": {
       "status": "pending"

@@ -1,0 +1,8 @@
+experience: got=189 expect=189 ok=True
+book: got=50 expect=50 ok=True
+person: got=5 expect=5 ok=True
+job: got=25 expect=25 ok=True
+topic: got=5 expect=5 ok=True
+edges=125 orphan_exp=0 orphan_book=0
+faiss=False (폴백=sklearn NearestNeighbors)
+G4 PASS

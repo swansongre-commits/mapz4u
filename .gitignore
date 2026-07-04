@@ -9,3 +9,5 @@ node_modules/
 # large copied MAPS raw CSVs (reproducible via manifest cp)
 data/maps_assets/raw/*.csv
 data/maps_assets/tfidf_ref/*.json
+.env
+.env.*

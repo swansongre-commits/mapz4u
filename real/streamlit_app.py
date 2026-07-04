@@ -73,7 +73,7 @@ def badge(is_seed):
 
 # ── CSS (지금 FastAPI 디자인에 최대한 근접) ──
 st.markdown("""<style>
-.block-container{max-width:1000px;padding-top:1.2rem}
+.block-container{max-width:1000px;padding-top:3.5rem}
 .mapz-card{background:#fff;border:1px solid #E6E3DC;border-radius:14px;padding:14px 16px;margin-bottom:10px}
 .mapz-hero{border-radius:20px;padding:22px;color:#fff;margin-bottom:8px}
 .mapz-age{color:#8A9099;font-size:.82rem}

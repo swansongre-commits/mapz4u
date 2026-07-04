@@ -62,7 +62,15 @@ def exp_row(r):
             "period_end": r["period_end"], "hours": r["hours"], "age_note": r["age_note"], "cost": r["cost"],
             "indoor": r["indoor"], "reservation_url": r["reservation_url"], "tel": r["tel"], "image": r["image"],
             "source": r["source"], "is_seed": r["is_seed"], "last_verified": r["last_verified"], "status": r["status"],
-            "maplink": f'https://www.openstreetmap.org/?mlat={r["lat"]}&mlon={r["lng"]}#map=16/{r["lat"]}/{r["lng"]}'}
+            "maplink": naver_link(r["name"], r["region"])}
+
+import urllib.parse as _up
+def naver_link(name, region):
+    # 네이버 지도 장소 검색 (명칭+지역) — 주소가 있는 실시설이므로 검색으로 바로 연결
+    q = (name or "").strip()
+    if region and region not in q:
+        q = f"{q} {region}"
+    return "https://map.naver.com/p/search/" + _up.quote(q)
 def book_row(r):
     return {"isbn": r["isbn"], "title": r["title"], "author": r["author"], "publisher": r["publisher"],
             "age_band": r["age_band"], "topic_tags": jl(r["topic_tags"]), "loan_count": r["loan_count"],
@@ -98,6 +106,31 @@ def api_topic_detail(tid: str):
     adj = linkage()["adjacency"].get(tid, []); con.close()
     return {"today": TODAY, "topic": TOPICS[tid], "experiences": exps, "books": bks,
             "person": person, "jobs": jobs, "layerB_card": L.get("layerB_card"), "adjacency": adj}
+
+@app.get("/api/jobs/{jid}")
+def api_job_detail(jid: str):
+    con = db()
+    r = con.execute("SELECT * FROM job WHERE id=?", (jid,)).fetchone()
+    if not r:
+        con.close(); return JSONResponse({"error": "unknown job"}, status_code=404)
+    tags = jl(r["topic_tags"]); tid = tags[0] if tags else None
+    topic = TOPICS.get(tid, {})
+    # 이런 데서 볼 수 있어요: 해당 주제의 운영중 상설 체험 최대 3곳
+    places = []
+    if tid:
+        for x in con.execute(f"SELECT * FROM experience WHERE {FRESH} AND type='상설시설' AND topic_tags LIKE ? LIMIT 3",
+                             (TODAY, f'%"{tid}"%')):
+            places.append({"id": x["id"], "name": x["name"], "region": x["region"], "maplink": naver_link(x["name"], x["region"])})
+    # 이 세계의 어른: 같은 주제 인물
+    person = None
+    if tid:
+        pr = con.execute("SELECT * FROM person WHERE topic_tags LIKE ? LIMIT 1", (f'%"{tid}"%',)).fetchone()
+        if pr: person = {"name": pr["name"], "verb_desc": pr["verb_desc"]}
+    con.close()
+    return {"id": r["id"], "name": r["name"], "emoji": r["emoji"], "verb_desc": r["verb_desc"],
+            "topic": {"id": tid, "name": topic.get("name", ""), "emoji": topic.get("emoji", "")},
+            "places": places, "person": person,
+            "note": "직업 이름보다 '하는 일(동사)'로 만나요. 연봉·전망 같은 건 보여주지 않아요."}
 
 @app.get("/api/search")
 def api_search(q: str = "", indoor: int = 0, free: int = 0, region: str = ""):

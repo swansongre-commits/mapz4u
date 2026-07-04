@@ -78,3 +78,14 @@ footer.site{color:var(--ink-faint);font-size:.82rem;text-align:center;padding:24
 .avail{font-size:.82rem;color:var(--focus)}
 .book-row{display:flex;flex-direction:column;gap:2px}
 @media (max-width:480px){.wrap{padding:12px}.tiles{grid-template-columns:repeat(2,1fr)}}
+
+/* 직업 칩 + 상세 모달 (운영 추가) */
+.joblist{display:flex;flex-wrap:wrap;gap:8px;margin:8px 0 4px}
+.jobchip{display:inline-flex;align-items:center;min-height:44px;padding:0 14px;border-radius:var(--pill);
+  border:1.5px solid var(--line);background:var(--surface);color:var(--ink);cursor:pointer;font-size:.95rem;font-weight:600}
+.jobchip:hover{background:#F3F1EC}
+.jobmodal{position:fixed;inset:0;background:rgba(20,22,26,.5);display:flex;align-items:center;justify-content:center;z-index:50;padding:16px}
+.jobmodal-box{background:var(--surface);border-radius:var(--r-lg);padding:22px;max-width:440px;width:100%;position:relative;box-shadow:0 12px 40px rgba(0,0,0,.25)}
+.jobmodal-close{position:absolute;top:10px;right:10px;min-width:40px;min-height:40px;border:0;background:transparent;font-size:1.1rem;cursor:pointer;color:var(--ink-soft)}
+.joblist-places{margin:4px 0 0;padding-left:18px}
+.joblist-places li{margin:4px 0}

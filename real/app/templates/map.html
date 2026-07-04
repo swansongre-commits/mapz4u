@@ -16,7 +16,7 @@
 <article class="card"><h3>{{ x.name }}</h3>
 <div class="meta"><span>📍 {{ x.region }}</span><span>{{ x.type }}</span></div>
 <div class="meta"><span class="verified">최종 확인 {{ x.last_verified }}</span> {{ m.seed_badge(x.is_seed) }}</div>
-<div class="cta-row"><a class="btn" href="{{ x.maplink }}" target="_blank" rel="noopener">길찾기 →</a></div></article>
+<div class="cta-row"><a class="btn" href="{{ x.maplink }}" target="_blank" rel="noopener">🧭 네이버 지도 →</a></div></article>
 {% endfor %}
 </div>
 <script>
@@ -35,7 +35,7 @@ function draw(){layer.clearLayers();MARKERS.forEach(function(x){
  if(!x.topic_tags.some(function(t){return active[t];}))return;
  var c=COLORS[x.topic_tags[0]]||'#2C6E63';
  var mk=L.circleMarker([x.lat,x.lng],{radius:6,color:c,fillColor:c,fillOpacity:.8,weight:2});
- mk.bindPopup('<b>'+x.name+'</b><br>'+(x.region||'')+'<br><a href="'+x.maplink+'" target="_blank" rel="noopener">길찾기 →</a>');
+ mk.bindPopup('<b>'+x.name+'</b><br>'+(x.region||'')+'<br><a href="'+x.maplink+'" target="_blank" rel="noopener">네이버 지도 →</a>');
  layer.addLayer(mk);});}
 </script>
 {% endblock %}

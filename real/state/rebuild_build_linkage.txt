@@ -1,0 +1,2 @@
+G3 PASS empties= []
+인접 예시: art -> [{'topic': 'history', 'name': '역사와위인', 'score': 0.3137}, {'topic': 'plant', 'name': '식물', 'score': 0.2929}]

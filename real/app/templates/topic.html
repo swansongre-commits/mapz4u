@@ -40,4 +40,44 @@
 <p class="hint">직업 이름보다 '하는 일(동사)'로 만나요. 연봉·전망 같은 건 보여주지 않아요.</p>
 </div>
 {% endif %}{% endfor %}
+
+<h2 class="section-title">이 세계와 이어진 일들</h2>
+<p class="section-note">궁금한 걸 눌러보면 무슨 일을 하는지 알려줘요. (하나가 여럿으로 뻗어가요)</p>
+<div class="joblist">
+{% for j in d.jobs %}
+<button type="button" class="jobchip" data-job="{{ j.id }}" style="border-color:{{ topic.color }}">{{ j.emoji }} {{ j.name }}</button>
+{% endfor %}
+</div>
+
+<div id="jobModal" class="jobmodal" hidden>
+  <div class="jobmodal-box" role="dialog" aria-modal="true" aria-labelledby="jm-title">
+    <button type="button" class="jobmodal-close" aria-label="닫기" onclick="closeJob()">✕</button>
+    <div id="jm-body"><p class="hint">불러오는 중…</p></div>
+  </div>
+</div>
+<script>
+function closeJob(){document.getElementById('jobModal').hidden=true;}
+document.addEventListener('click',function(e){
+  var m=document.getElementById('jobModal');
+  if(e.target===m) m.hidden=true;
+});
+document.querySelectorAll('.jobchip').forEach(function(b){
+  b.addEventListener('click',function(){
+    var id=b.dataset.job;
+    var m=document.getElementById('jobModal'), body=document.getElementById('jm-body');
+    m.hidden=false; body.innerHTML='<p class="hint">불러오는 중…</p>';
+    fetch('/api/jobs/'+encodeURIComponent(id)).then(function(r){return r.json();}).then(function(j){
+      var places=(j.places||[]).map(function(p){
+        return '<li><a href="'+p.maplink+'" target="_blank" rel="noopener">'+p.name+'</a> <span class="hint">'+(p.region||'')+'</span></li>';
+      }).join('');
+      var person=j.person?('<p style="margin:8px 0 0"><b>이 세계의 어른</b> · '+j.person.name+' — '+j.person.verb_desc+'</p>'):'';
+      body.innerHTML='<div class="who" style="font-size:1.3rem">'+j.emoji+' '+j.name+'</div>'
+        +'<p class="trial" style="font-size:1.05rem">'+j.verb_desc+'</p>'
+        +(places?'<p style="margin:10px 0 4px"><b>이런 데서 볼 수 있어요</b></p><ul class="joblist-places">'+places+'</ul>':'')
+        +person
+        +'<p class="hint" style="margin-top:12px">'+j.note+'</p>';
+    }).catch(function(){body.innerHTML='<p class="hint">정보를 불러오지 못했어요.</p>';});
+  });
+});
+</script>
 {% endblock %}

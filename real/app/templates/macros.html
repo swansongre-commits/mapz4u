@@ -11,7 +11,7 @@
 <div class="meta"><span>{{ '예약/문의 확인' if not x.tel else '전화 문의 가능' }}</span>
 <span class="age">권장 {{ x.age_note or '전연령' }} (참고)</span></div>
 <div class="meta"><span class="verified">최종 확인 {{ x.last_verified }}</span> {{ seed_badge(x.is_seed) }}</div>
-<div class="cta-row"><a class="btn" href="{{ x.maplink }}" target="_blank" rel="noopener">길찾기 →</a>
+<div class="cta-row"><a class="btn" href="{{ x.maplink }}" target="_blank" rel="noopener">🧭 네이버 지도 →</a>
 <a class="btn ghost" href="/topic/{{ x.topic_tags[0] }}">주제 더보기</a></div>
 </article>
 {%- endmacro %}

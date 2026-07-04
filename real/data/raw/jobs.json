@@ -85,8 +85,8 @@
   },
   {
     "id": "job-history-02",
-    "name": "개인형 이동수단 개발자",
-    "verb_desc": "전기자동차해요",
+    "name": "역사학연구원",
+    "verb_desc": "역사학연구원은 선사시대부터 현대에 이르기까지 정치해요",
     "layer": "hidden",
     "topic_tags": [
       "history"
@@ -94,13 +94,13 @@
     "verb_tags": [
       "탐구하다"
     ],
-    "emoji": "💻",
+    "emoji": "🔬",
     "source_asset": "maps_assets"
   },
   {
     "id": "job-history-03",
-    "name": "태양광발전연구 및 개발자",
-    "verb_desc": "태양 빛을 이용하여 전기를 발생시키는 장치를 연구하고 태양광 발전에 필요한 각종 장…해요",
+    "name": "국제무역사무원",
+    "verb_desc": "국제무역사무원은 무역학해요",
     "layer": "hidden",
     "topic_tags": [
       "history"
@@ -108,13 +108,13 @@
     "verb_tags": [
       "탐구하다"
     ],
-    "emoji": "💻",
+    "emoji": "💼",
     "source_asset": "maps_assets"
   },
   {
     "id": "job-history-04",
-    "name": "가스ㆍ수도ㆍ전기 계기 검침원 및 안전점검원",
-    "verb_desc": "가스·수도·전기 계기 검침원 및 안전점검원은 정기적으로 담당 가구나 업소에 방문해서…해요",
+    "name": "역사와위인을(를) 살리는 일 1",
+    "verb_desc": "역사와위인과(와) 관련된 여러 가지 일을 해요",
     "layer": "hidden",
     "topic_tags": [
       "history"
@@ -122,22 +122,8 @@
     "verb_tags": [
       "탐구하다"
     ],
-    "emoji": "⚡",
-    "source_asset": "maps_assets"
-  },
-  {
-    "id": "job-history-05",
-    "name": "트럭운전기사",
-    "verb_desc": "트럭운전기사는 각종 화물을 수송하기 위해 트럭을 운전하는 일을 담당해요",
-    "layer": "hidden",
-    "topic_tags": [
-      "history"
-    ],
-    "verb_tags": [
-      "탐구하다"
-    ],
-    "emoji": "⚡",
-    "source_asset": "maps_assets"
+    "emoji": "🏯",
+    "source_asset": "generated"
   },
   {
     "id": "job-science-01",

@@ -60,6 +60,23 @@ def test_rate_limit_headers_ok():
     # 정상 요청은 429 아님
     assert client.get("/healthz").status_code == 200
 
+def test_job_detail_child_friendly():
+    tid = list(TOPICS)[0]
+    d = client.get(f"/api/topics/{tid}").json()
+    jid = d["jobs"][0]["id"]
+    jd = client.get(f"/api/jobs/{jid}").json()
+    assert jd["verb_desc"]  # 하는 일(동사)
+    assert "topic" in jd and "places" in jd
+    # 연봉·전망 데이터 필드 없음 (헌장 준수) — note 안내문 외 실데이터 키 없음
+    keys = set(jd.keys())
+    assert not (keys & {"salary", "wage", "prospect", "income", "연봉", "전망"})
+
+def test_naver_map_link():
+    tid = list(TOPICS)[0]
+    d = client.get(f"/api/topics/{tid}").json()
+    if d["experiences"]:
+        assert "map.naver.com" in d["experiences"][0]["maplink"]
+
 def test_book_realdata_loan_count():
     tid = list(TOPICS)[0]
     j = client.get(f"/api/topics/{tid}").json()

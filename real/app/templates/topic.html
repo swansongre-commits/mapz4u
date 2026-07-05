@@ -2,10 +2,10 @@
 {% import "macros.html" as m %}
 {% block title %}{{ topic.name }} 주제관{% endblock %}
 {% block content %}
-<div class="hero" style="background:{{ topic.color }}">
-<div style="font-size:2.6rem">{{ topic.emoji }}</div>
-<h1 style="margin:6px 0">{{ topic.name }} 세계</h1>
-<p style="margin:0;opacity:.95">전국의 {{ topic.name }} 체험처와 이야기를 모았어요.</p>
+<div class="hero" style="background:linear-gradient(140deg,{{ topic.color }},{{ topic.color }})">
+<div class="emoji-big">{{ topic.emoji }}</div>
+<h1>{{ topic.name }} 세계</h1>
+<p style="margin:0;opacity:.95;font-size:1.05rem">전국의 {{ topic.name }} 체험처와 이야기를 모았어요.</p>
 </div>
 <h2 class="section-title">옆으로 한 칸</h2>
 <p class="section-note">비슷한 다른 세계로 한 칸만 옮겨볼까요? (골라보는 건 아이 몫)</p>

@@ -17,7 +17,7 @@
 <p class="section-note">관심이 있으면 깊게 검색하고, 없으면 아래 그림에서 골라 둘러봐요. (실수요로 뽑은 {{ topics|length }}개 세계)</p>
 <div class="tiles">
 {% for t in topics %}
-<a class="tile" href="/topic/{{ t.id }}" style="border-color:{{ t.color }}"><span class="emoji">{{ t.emoji }}</span><span class="label">{{ t.name }}</span></a>
+<a class="tile" href="/topic/{{ t.id }}" style="--tc:{{ t.color }}"><span class="emoji">{{ t.emoji }}</span><span class="label">{{ t.name }}</span></a>
 {% endfor %}
 </div>
 {% if active_filter %}

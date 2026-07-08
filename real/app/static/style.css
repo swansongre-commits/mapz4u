@@ -81,7 +81,7 @@ nav.tabs a[aria-current="page"]{background:var(--primary);color:var(--primary-in
 
 /* ── 주제관 탭 (폴더/파일 탭) ── */
 .ttabs{display:flex;align-items:flex-end;gap:6px;flex-wrap:wrap;margin:28px 0 0;padding:0;
-  border-bottom:2px solid var(--line-strong)}
+  border-bottom:2px solid var(--tc,var(--line-strong))}
 .ttab{appearance:none;cursor:pointer;font:inherit;font-weight:700;font-size:1.02rem;letter-spacing:-.01em;
   color:var(--ink-soft);background:transparent;border:2px solid transparent;border-bottom:none;
   padding:12px 20px;margin-bottom:-2px;border-radius:10px 10px 0 0;
@@ -92,8 +92,8 @@ nav.tabs a[aria-current="page"]{background:var(--primary);color:var(--primary-in
   border-color:var(--tc,var(--primary));border-bottom:2px solid var(--paper,var(--bg))}
 .ttab[aria-selected="true"] .cnt{background:color-mix(in srgb,var(--tc,var(--primary)) 15%,var(--surface));color:var(--tc,var(--primary))}
 /* 탭 아래 내용을 감싸는 박스 (기준선=박스 상단, 좌·우·하 테두리로 사각형 완성) */
-.tbox{border-left:2px solid var(--line-strong);border-right:2px solid var(--line-strong);
-  border-bottom:2px solid var(--line-strong);border-radius:0 0 16px 16px;
+.tbox{border-left:2px solid var(--tc,var(--line-strong));border-right:2px solid var(--tc,var(--line-strong));
+  border-bottom:2px solid var(--tc,var(--line-strong));border-radius:0 0 16px 16px;
   padding:22px 22px 24px;margin-bottom:8px}
 .tpanel{animation:panelIn .28s var(--ease)}
 .tpanel[hidden]{display:none}

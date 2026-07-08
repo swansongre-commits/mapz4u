@@ -28,8 +28,12 @@ header.site{position:sticky;top:0;z-index:20;background:rgba(251,250,247,.82);
   backdrop-filter:saturate(180%) blur(12px);-webkit-backdrop-filter:saturate(180%) blur(12px);
   border-bottom:1px solid var(--line)}
 .site .wrap{display:flex;align-items:center;justify-content:space-between;gap:14px;padding:12px 18px;flex-wrap:wrap}
-.brand{font-weight:800;font-size:1.22rem;color:var(--ink);text-decoration:none;line-height:1.1;letter-spacing:-.02em}
-.brand small{display:block;font-weight:500;font-size:.7rem;color:var(--ink-soft);margin-top:2px;letter-spacing:0}
+.brand{display:flex;align-items:center;gap:10px;color:var(--ink);text-decoration:none}
+.brand-logo{display:block;flex:none}
+.brand-txt{display:flex;flex-direction:column;line-height:1.02}
+.brand-word{font-weight:800;font-size:1.32rem;letter-spacing:.01em}
+.brand-word b{color:var(--primary);font-weight:800}
+.brand-txt small{font-weight:500;font-size:.66rem;color:var(--ink-soft);margin-top:2px;letter-spacing:0}
 nav.tabs{display:flex;gap:6px;flex-wrap:wrap}
 nav.tabs a{display:inline-flex;align-items:center;min-height:42px;padding:0 15px;border-radius:var(--pill);
   text-decoration:none;color:var(--ink-soft);background:transparent;border:1px solid transparent;

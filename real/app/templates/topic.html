@@ -7,47 +7,59 @@
 <h1>{{ topic.name }} 세계</h1>
 <p style="margin:0;opacity:.95;font-size:1.05rem">전국의 {{ topic.name }} 체험처와 이야기를 모았어요.</p>
 </div>
-<h2 class="section-title">옆으로 한 칸</h2>
-<p class="section-note">비슷한 다른 세계로 한 칸만 옮겨볼까요? (골라보는 건 아이 몫)</p>
-<div class="sidestep">
-{% for a in d.adjacency %}<a href="/topic/{{ a.topic }}">{{ topics_all[a.topic].emoji }} {{ a.name }} 세계로</a>{% endfor %}
-</div>
-<h2 class="section-title">전국 상설·행사 체험처</h2>
-<div class="cards">
-{% for x in d.experiences %}{{ m.exp_card(x) }}{% endfor %}
-{% if d.experiences|length == 0 %}<p class="hint">지금 운영 중인 체험처를 준비 중이에요.</p>{% endif %}
-</div>
-<h2 class="section-title">더 깊이 — 이 세계를 더 볼 수 있는 책</h2>
-<p class="section-note">도서관에서 빌려 읽어요. 숙제가 아니라 이 세계를 더 볼 수 있는 책이에요. (전국 아이들이 실제로 많이 빌린 책)</p>
-<div class="cards">
-{% for b in d.books %}{{ m.book_card(b) }}{% endfor %}
-{% if d.books|length == 0 %}<p class="hint">이 세계의 추천 책을 모으고 있어요.</p>{% endif %}
-</div>
-<h2 class="section-title">이 세계의 어른들</h2>
-{% if d.person %}
-<div class="person" style="border-left-color:{{ topic.color }}">
-<div class="who">{{ d.person.name }}{% if d.person.anti_stereotype %} <span class="anti">반고정관념</span>{% endif %}<span class="age"> · {{ d.person.era }}</span></div>
-<p class="trial">{{ d.person.story_trial }}</p>
-<p style="margin:6px 0"><b>하는 일:</b> {{ d.person.verb_desc }}</p>
-<p style="margin:6px 0 4px" class="hint">이 이야기에서 뻗어나가는 일들 (하나가 여럿으로):</p>
-<div class="lineage">{% for n in d.person.job_lineage %}<span>{{ n }}</span>{% endfor %}</div>
-</div>
-{% endif %}
-{% for j in d.jobs %}{% if j.layer=='B' %}
-<div class="person" style="border-left-color:{{ topic.color }};margin-top:12px">
-<div class="who">{{ j.emoji }} {{ j.name }}</div>
-<p class="trial">{{ j.verb_desc }}</p>
-<p class="hint">직업 이름보다 '하는 일(동사)'로 만나요. 연봉·전망 같은 건 보여주지 않아요.</p>
-</div>
-{% endif %}{% endfor %}
 
-<h2 class="section-title">이 세계와 이어진 일들</h2>
-<p class="section-note">궁금한 걸 눌러보면 무슨 일을 하는지 알려줘요. (하나가 여럿으로 뻗어가요)</p>
-<div class="joblist">
-{% for j in d.jobs %}
-<button type="button" class="jobchip" data-job="{{ j.id }}" style="border-color:{{ topic.color }}">{{ j.emoji }} {{ j.name }}</button>
-{% endfor %}
+<div class="sidestep" style="margin-top:16px">
+{% for a in d.adjacency %}<a href="/topic/{{ a.topic }}">↔ {{ topics_all[a.topic].emoji }} {{ a.name }} 세계로</a>{% endfor %}
 </div>
+
+<div class="ttabs" role="tablist" aria-label="주제관 섹션" style="--tc:{{ topic.color }}">
+  <button class="ttab" role="tab" aria-selected="true"  aria-controls="tp-exp"   id="tab-exp"   data-panel="tp-exp">🏛️ 체험처 <span class="cnt">{{ d.experiences|length }}</span></button>
+  <button class="ttab" role="tab" aria-selected="false" aria-controls="tp-book"  id="tab-book"  data-panel="tp-book">📖 책 <span class="cnt">{{ d.books|length }}</span></button>
+  <button class="ttab" role="tab" aria-selected="false" aria-controls="tp-adult" id="tab-adult" data-panel="tp-adult">🧑 이 세계의 어른들</button>
+</div>
+
+<section class="tpanel" id="tp-exp" role="tabpanel" aria-labelledby="tab-exp" tabindex="0">
+  <p class="section-note">전국의 상설·행사 체험처예요. 운영 중인 곳만 보여줘요.</p>
+  <div class="cards">
+  {% for x in d.experiences %}{{ m.exp_card(x) }}{% endfor %}
+  {% if d.experiences|length == 0 %}<p class="hint">지금 운영 중인 체험처를 준비 중이에요.</p>{% endif %}
+  </div>
+</section>
+
+<section class="tpanel" id="tp-book" role="tabpanel" aria-labelledby="tab-book" tabindex="0" hidden>
+  <p class="section-note">도서관에서 빌려 읽어요. 숙제가 아니라 이 세계를 더 볼 수 있는 책이에요. (전국 아이들이 실제로 많이 빌린 책)</p>
+  <div class="cards">
+  {% for b in d.books %}{{ m.book_card(b) }}{% endfor %}
+  {% if d.books|length == 0 %}<p class="hint">이 세계의 추천 책을 모으고 있어요.</p>{% endif %}
+  </div>
+</section>
+
+<section class="tpanel" id="tp-adult" role="tabpanel" aria-labelledby="tab-adult" tabindex="0" hidden>
+  {% if d.person %}
+  <div class="person" style="border-left-color:{{ topic.color }}">
+  <div class="who">{{ d.person.name }}{% if d.person.anti_stereotype %} <span class="anti">반고정관념</span>{% endif %}<span class="age"> · {{ d.person.era }}</span></div>
+  <p class="trial">{{ d.person.story_trial }}</p>
+  <p style="margin:6px 0"><b>하는 일:</b> {{ d.person.verb_desc }}</p>
+  <p style="margin:6px 0 4px" class="hint">이 이야기에서 뻗어나가는 일들 (하나가 여럿으로):</p>
+  <div class="lineage">{% for n in d.person.job_lineage %}<span>{{ n }}</span>{% endfor %}</div>
+  </div>
+  {% endif %}
+  {% for j in d.jobs %}{% if j.layer=='B' %}
+  <div class="person" style="border-left-color:{{ topic.color }};margin-top:12px">
+  <div class="who">{{ j.emoji }} {{ j.name }}</div>
+  <p class="trial">{{ j.verb_desc }}</p>
+  <p class="hint">직업 이름보다 '하는 일(동사)'로 만나요. 연봉·전망 같은 건 보여주지 않아요.</p>
+  </div>
+  {% endif %}{% endfor %}
+
+  <h2 class="section-title" style="font-size:1.12rem">이 세계와 이어진 일들</h2>
+  <p class="section-note">궁금한 걸 눌러보면 무슨 일을 하는지 알려줘요. (하나가 여럿으로 뻗어가요)</p>
+  <div class="joblist">
+  {% for j in d.jobs %}
+  <button type="button" class="jobchip" data-job="{{ j.id }}" style="border-color:{{ topic.color }}">{{ j.emoji }} {{ j.name }}</button>
+  {% endfor %}
+  </div>
+</section>
 
 <div id="jobModal" class="jobmodal" hidden>
   <div class="jobmodal-box" role="dialog" aria-modal="true" aria-labelledby="jm-title">
@@ -56,6 +68,29 @@
   </div>
 </div>
 <script>
+// ── 탭 전환 ──
+(function(){
+  var tabs=[].slice.call(document.querySelectorAll('.ttab'));
+  function select(tab){
+    tabs.forEach(function(t){
+      var on=(t===tab);
+      t.setAttribute('aria-selected',on?'true':'false');
+      var p=document.getElementById(t.dataset.panel);
+      if(p) p.hidden=!on;
+    });
+  }
+  tabs.forEach(function(t,i){
+    t.addEventListener('click',function(){select(t);});
+    t.addEventListener('keydown',function(e){
+      if(e.key==='ArrowRight'||e.key==='ArrowLeft'){
+        e.preventDefault();
+        var n=(i+(e.key==='ArrowRight'?1:tabs.length-1))%tabs.length;
+        tabs[n].focus(); select(tabs[n]);
+      }
+    });
+  });
+})();
+// ── 직업 모달 ──
 function closeJob(){document.getElementById('jobModal').hidden=true;}
 document.addEventListener('click',function(e){
   var m=document.getElementById('jobModal');

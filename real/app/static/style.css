@@ -79,6 +79,19 @@ nav.tabs a[aria-current="page"]{background:var(--primary);color:var(--primary-in
 .tile .label{font-weight:700;font-size:1rem;position:relative;letter-spacing:-.01em}
 .tile:focus-visible,a:focus-visible,button:focus-visible,input:focus-visible{outline:3px solid var(--focus);outline-offset:3px}
 
+/* ── 주제관 탭 ── */
+.ttabs{display:flex;gap:2px;flex-wrap:wrap;border-bottom:2px solid var(--line);margin:26px 0 6px}
+.ttab{appearance:none;border:0;background:transparent;cursor:pointer;font:inherit;font-weight:700;color:var(--ink-soft);
+  padding:13px 18px;border-bottom:3px solid transparent;margin-bottom:-2px;display:inline-flex;align-items:center;gap:8px;
+  font-size:1.02rem;letter-spacing:-.01em;transition:color .15s var(--ease),border-color .15s var(--ease)}
+.ttab:hover{color:var(--ink)}
+.ttab .cnt{font-size:.76rem;font-weight:700;background:var(--line-soft);color:var(--ink-soft);border-radius:var(--pill);padding:2px 9px;min-width:24px;text-align:center}
+.ttab[aria-selected="true"]{color:var(--ink);border-bottom-color:var(--tc,var(--primary))}
+.ttab[aria-selected="true"] .cnt{background:color-mix(in srgb,var(--tc,var(--primary)) 16%,var(--surface));color:var(--tc,var(--primary))}
+.tpanel{animation:panelIn .28s var(--ease)}
+.tpanel[hidden]{display:none}
+@keyframes panelIn{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+
 /* ── 카드 ── */
 .cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(288px,1fr));gap:16px;margin:14px 0}
 .card{background:var(--surface);border:1px solid var(--line);border-radius:var(--r-md);padding:18px;

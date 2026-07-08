@@ -3,7 +3,7 @@
 
 :root{
   --bg:#F6F4EF; --bg2:#FBFAF7; --surface:#FFFFFF; --ink:#20242B; --ink-soft:#5A6169; --ink-faint:#949AA3;
-  --line:#ECE8DF; --line-soft:#F1EEE7; --primary:#2C6E63; --primary-ink:#FFFFFF; --focus:#1B5E55; --accent:#E8974A;
+  --line:#ECE8DF; --line-soft:#F1EEE7; --line-strong:#C6BCA8; --primary:#2C6E63; --primary-ink:#FFFFFF; --focus:#1B5E55; --accent:#E8974A;
   --seed-bg:#FFF3D6; --seed-ink:#8A6300; --live-bg:#E4F3E9; --live-ink:#2C6E4A;
   --r-sm:10px; --r-md:16px; --r-lg:22px; --r-xl:28px; --pill:999px;
   --shadow-sm:0 1px 2px rgba(30,34,42,.05), 0 1px 3px rgba(30,34,42,.04);
@@ -91,7 +91,11 @@ nav.tabs a[aria-current="page"]{background:var(--primary);color:var(--primary-in
 .ttab[aria-selected="true"]{color:var(--tc,var(--primary));background:var(--paper,var(--bg));
   border-color:var(--tc,var(--primary));border-bottom:2px solid var(--paper,var(--bg))}
 .ttab[aria-selected="true"] .cnt{background:color-mix(in srgb,var(--tc,var(--primary)) 15%,var(--surface));color:var(--tc,var(--primary))}
-.tpanel{animation:panelIn .28s var(--ease);padding-top:6px}
+/* 탭 아래 내용을 감싸는 박스 (기준선=박스 상단, 좌·우·하 테두리로 사각형 완성) */
+.tbox{border-left:2px solid var(--line-strong);border-right:2px solid var(--line-strong);
+  border-bottom:2px solid var(--line-strong);border-radius:0 0 16px 16px;
+  padding:22px 22px 24px;margin-bottom:8px}
+.tpanel{animation:panelIn .28s var(--ease)}
 .tpanel[hidden]{display:none}
 @keyframes panelIn{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
 

@@ -1,7 +1,7 @@
 """정보나루 인기대출 CSV 파서 (연령대별). 실데이터 수요 코퍼스 + 도서 노드 원천.
 CSV 구조: 메타행 여러 개 후 '순위,서명,저자,출판사,출판년도,권,ISBN,ISBN부가기호,KDC,대출건수' 헤더.
 """
-import os, csv, io, re
+import os, csv, io, re, json
 
 AGE_FILES = {
     "pre": "loan_age_6_7.csv",     # 유아 6~7
@@ -55,9 +55,16 @@ def parse_file(path):
     return rows
 
 def load_all(folder):
-    """{band: [rows]} 반환."""
+    """{band: [rows]} 반환.
+    API 자동 수집본(folder + "_api/{band}.json")이 있으면 우선 사용하고, 없으면 수동 다운로드 CSV를 읽는다."""
     out = {}
+    api_dir = folder.rstrip("/\\") + "_api"
     for band, fname in AGE_FILES.items():
+        api_fp = os.path.join(api_dir, band + ".json")
+        if os.path.exists(api_fp):
+            with open(api_fp, encoding="utf-8") as f:
+                out[band] = json.load(f).get("rows", [])
+            continue
         fp = os.path.join(folder, fname)
         out[band] = parse_file(fp) if os.path.exists(fp) else []
     return out

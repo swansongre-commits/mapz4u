@@ -4,7 +4,7 @@
 - 축제공연행사(contentTypeId=15): 축제 = 행사(기간 포함)
 KorService1은 폐기(500) -> KorService2 사용.
 """
-import sys, json, time, urllib.request, urllib.parse
+import sys, json, time, datetime, urllib.request, urllib.parse
 sys.path.insert(0, ".")
 from common import rp, write_json, load_env, in_kr, TODAY
 
@@ -74,21 +74,24 @@ def norm_festival(it):
 
 def main():
     if not env.get("DATA_GO_KR_KEY"):
-        print("DATA_GO_KR_KEY 없음"); return
+        print("DATA_GO_KR_KEY 없음"); sys.exit(2)
     print("=== TourAPI KorService2 실데이터 수집 ===")
     # 1) 문화시설 전국 (contentTypeId=14)
     fac_raw = fetch_paged("areaBasedList2", "contentTypeId=14&arrange=C", max_pages=30, rows=100)
     facilities = [f for f in (norm_facility(x) for x in fac_raw) if f]
     print(f"문화시설(14): 원본 {len(fac_raw)} -> 좌표유효 {len(facilities)}건")
-    write_json(rp("data", "raw", "tourapi_facilities.json"), facilities)
-    # 2) 축제 (contentTypeId=15), 실행일 이후 시작/진행 (신선도)
-    start = TODAY.strftime("%Y%m%d")
-    fes_raw = fetch_paged("searchFestival2", f"eventStartDate=20260101&arrange=C", max_pages=30, rows=100)
+    # 2) 축제 (contentTypeId=15). 장기 진행 행사를 놓치지 않도록 1년 전 시작분부터 조회
+    start = (TODAY - datetime.timedelta(days=365)).strftime("%Y%m%d")
+    fes_raw = fetch_paged("searchFestival2", f"eventStartDate={start}&arrange=C", max_pages=30, rows=100)
     festivals = [norm_festival(x) for x in fes_raw]
     # 진행/예정만 (종료일 >= 오늘) — 신선도
     today = TODAY.strftime("%Y%m%d")
     live_fes = [f for f in festivals if (f["eventenddate"] or "99999999") >= today]
     print(f"축제(15): 원본 {len(fes_raw)} -> 진행/예정 {len(live_fes)}건 (종료 {len(festivals)-len(live_fes)} 제외)")
+    # API 장애로 결과가 비정상적으로 적으면 기존 파일을 덮어쓰지 않고 중단 (기존 데이터로 서비스 유지)
+    if len(facilities) < 1500 or len(fes_raw) == 0:
+        print(f"수집량 비정상(문화시설 {len(facilities)}, 축제 {len(fes_raw)}) -> 저장 안 함"); sys.exit(2)
+    write_json(rp("data", "raw", "tourapi_facilities.json"), facilities)
     write_json(rp("data", "raw", "tourapi_festivals.json"), live_fes)
     open(rp("state", "tourapi_result.txt"), "w", encoding="utf-8").write(
         f"facilities={len(facilities)} festivals_live={len(live_fes)}")

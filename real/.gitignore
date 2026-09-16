@@ -10,3 +10,4 @@ data/raw/tourapi_*.json
 data/raw/data4library/*.csv
 data/maps_assets/*.json
 .env
+data/raw/data4library_api/

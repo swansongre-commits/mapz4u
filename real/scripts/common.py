@@ -6,7 +6,9 @@ import os, json, datetime, re, unicodedata
 REAL_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))  # mapz/real/
 def rp(*a): return os.path.join(REAL_ROOT, *a)
 
-RUN_DATE = os.environ.get("MAPZ_RUN_DATE", "2026-07-04")
+KST = datetime.timezone(datetime.timedelta(hours=9))
+# 기준일: 기본은 실행 시점의 실제 오늘(KST). MAPZ_RUN_DATE는 재현·테스트용 고정값으로만 사용.
+RUN_DATE = os.environ.get("MAPZ_RUN_DATE") or datetime.datetime.now(KST).date().isoformat()
 TODAY = datetime.date.fromisoformat(RUN_DATE)
 
 def load_topics():
@@ -36,6 +38,10 @@ def load_env():
             line = line.strip()
             if "=" in line and not line.startswith("#"):
                 k, v = line.split("=", 1); e[k.strip()] = v.strip()
+    # CI(GitHub Actions 등)에서는 .env 파일 없이 환경변수(시크릿)로 키를 받는다. 환경변수가 우선.
+    for k in ("DATA_GO_KR_KEY", "DATA4LIBRARY_KEY"):
+        if os.environ.get(k):
+            e[k] = os.environ[k]
     return e
 
 def read_json(path, default=None):

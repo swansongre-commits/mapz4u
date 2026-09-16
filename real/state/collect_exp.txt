@@ -1,2 +1,2 @@
-total=1568 real=1568 seed=0
-perm={'art': 480, 'history': 787, 'animal': 54, 'sealife': 52, 'sports': 46, 'cooking': 5, 'science': 76, 'space': 54, 'music': 48, 'body': 13, 'plant': 57, 'insect': 32}
+total=1614 real=1614 seed=0
+perm={'sealife': 56, 'history': 790, 'insect': 34, 'art': 487, 'plant': 57, 'science': 76, 'animal': 57, 'space': 55, 'music': 46, 'sports': 47, 'body': 12, 'cooking': 5}

@@ -12,7 +12,9 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DB = os.path.join(ROOT, "db", "mapz_real.db")
 ADMIN_USER = os.environ.get("MAPZ_ADMIN_USER", "admin")
 ADMIN_PW = os.environ.get("MAPZ_ADMIN_PW", "change-me")
-TODAY = os.environ.get("MAPZ_RUN_DATE", "2026-07-04")
+KST = datetime.timezone(datetime.timedelta(hours=9))
+def today():
+    return os.environ.get("MAPZ_RUN_DATE") or datetime.datetime.now(KST).date().isoformat()
 
 admin = FastAPI(title="MAPZ 제휴 콘솔")
 security = HTTPBasic()
@@ -60,7 +62,7 @@ def home(user: str = Depends(auth)):
 주제 <input name=topic placeholder="예: history" required><br><br>
 위도 <input name=lat required> 경도 <input name=lng required> 지역 <input name=region><br><br>
 <button class=btn>등록</button></form>"""
-    return PAGE.format(today=TODAY, body=body)
+    return PAGE.format(today=today(), body=body)
 
 @admin.post("/toggle")
 def toggle(user: str = Depends(auth), id: str = Form(...)):
@@ -68,7 +70,7 @@ def toggle(user: str = Depends(auth), id: str = Form(...)):
     r = con.execute("SELECT status FROM experience WHERE id=?", (id,)).fetchone()
     if r:
         new = "종료" if r["status"] == "운영중" else "운영중"
-        con.execute("UPDATE experience SET status=?, last_verified=? WHERE id=?", (new, TODAY, id))
+        con.execute("UPDATE experience SET status=?, last_verified=? WHERE id=?", (new, today(), id))
         con.commit()
     con.close()
     return RedirectResponse("/", status_code=303)
@@ -87,7 +89,7 @@ def add(user: str = Depends(auth), name: str = Form(...), type: str = Form(...),
         (id,name,type,topic_tags,verb_tags,lat,lng,region,indoor,cost,source,is_seed,last_verified,status)
         VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?)""",
         (eid, name, type, json.dumps([topic], ensure_ascii=False), "[]", lat, lng, region, 1,
-         "현장 확인", "admin:제휴콘솔", 0, TODAY, "운영중"))
+         "현장 확인", "admin:제휴콘솔", 0, today(), "운영중"))
     con.commit(); con.close()
     return RedirectResponse("/", status_code=303)
 

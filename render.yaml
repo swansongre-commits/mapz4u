@@ -21,7 +21,5 @@ services:
         value: "3.12.6"
       - key: MAPZ_RATE_LIMIT
         value: "180"
-      - key: MAPZ_RUN_DATE
-        value: "2026-07-04"
       - key: MAPZ_ADMIN_PW
         sync: false            # 대시보드에서 직접 입력 (제휴콘솔 별도 배포 시 사용)

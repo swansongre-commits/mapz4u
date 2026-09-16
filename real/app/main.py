@@ -9,8 +9,11 @@ from fastapi.templating import Jinja2Templates
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))  # real/
 DB = os.path.join(ROOT, "db", "mapz_real.db")
-RUN_DATE = os.environ.get("MAPZ_RUN_DATE", "2026-07-04")
-TODAY = RUN_DATE
+KST = datetime.timezone(datetime.timedelta(hours=9))
+def today():
+    """신선도 기준일. 요청 시점의 실제 오늘(KST). MAPZ_RUN_DATE는 재현·테스트용 고정값."""
+    return os.environ.get("MAPZ_RUN_DATE") or datetime.datetime.now(KST).date().isoformat()
+TODAY = today()  # 하위호환(테스트 import용). 런타임 판단은 today() 호출
 
 app = FastAPI(title="MAPZ 운영 — 어린이 체험지도")
 app.mount("/static", StaticFiles(directory=os.path.join(ROOT, "app", "static")), name="static")
@@ -54,7 +57,7 @@ def load_topics():
 load_topics()
 
 FRESH = "status='운영중' AND (period_end IS NULL OR period_end='' OR period_end >= ?)"
-def _plus_days(n): return (datetime.date.fromisoformat(TODAY) + datetime.timedelta(days=n)).isoformat()
+def _plus_days(n): return (datetime.date.fromisoformat(today()) + datetime.timedelta(days=n)).isoformat()
 
 def exp_row(r):
     return {"id": r["id"], "name": r["name"], "type": r["type"], "topic_tags": jl(r["topic_tags"]),
@@ -82,17 +85,17 @@ def person_row(r):
 def linkage(): return json.load(open(os.path.join(ROOT, "data", "clean", "linkage.json"), encoding="utf-8"))
 
 @app.get("/healthz")
-def healthz(): return {"status": "ok", "today": TODAY, "topics": len(TOPICS), "track": "real"}
+def healthz(): return {"status": "ok", "today": today(), "topics": len(TOPICS), "track": "real"}
 
 @app.get("/api/topics")
-def api_topics(): return {"today": TODAY, "topics": [TOPICS[t] for t in TOPICS]}
+def api_topics(): return {"today": today(), "topics": [TOPICS[t] for t in TOPICS]}
 
 @app.get("/api/topics/{tid}")
 def api_topic_detail(tid: str):
     if tid not in TOPICS: return JSONResponse({"error": "unknown topic"}, status_code=404)
     L = linkage()["topics"].get(tid, {}); con = db(); exps = []
     for e in L.get("experiences", []):
-        r = con.execute(f"SELECT * FROM experience WHERE id=? AND {FRESH}", (e["id"], TODAY)).fetchone()
+        r = con.execute(f"SELECT * FROM experience WHERE id=? AND {FRESH}", (e["id"], today())).fetchone()
         if r: exps.append(exp_row(r))
     bks = [book_row(con.execute("SELECT * FROM book WHERE isbn=?", (b["isbn"],)).fetchone()) for b in L.get("books", []) if con.execute("SELECT 1 FROM book WHERE isbn=?", (b["isbn"],)).fetchone()]
     person = None
@@ -104,7 +107,7 @@ def api_topic_detail(tid: str):
         r = con.execute("SELECT * FROM job WHERE id=?", (j["id"],)).fetchone()
         if r: jobs.append({"id": r["id"], "name": r["name"], "verb_desc": r["verb_desc"], "layer": r["layer"], "emoji": r["emoji"]})
     adj = linkage()["adjacency"].get(tid, []); con.close()
-    return {"today": TODAY, "topic": TOPICS[tid], "experiences": exps, "books": bks,
+    return {"today": today(), "topic": TOPICS[tid], "experiences": exps, "books": bks,
             "person": person, "jobs": jobs, "layerB_card": L.get("layerB_card"), "adjacency": adj}
 
 @app.get("/api/jobs/{jid}")
@@ -119,7 +122,7 @@ def api_job_detail(jid: str):
     places = []
     if tid:
         for x in con.execute(f"SELECT * FROM experience WHERE {FRESH} AND type='상설시설' AND topic_tags LIKE ? LIMIT 3",
-                             (TODAY, f'%"{tid}"%')):
+                             (today(), f'%"{tid}"%')):
             places.append({"id": x["id"], "name": x["name"], "region": x["region"], "maplink": naver_link(x["name"], x["region"])})
     # 이 세계의 어른: 같은 주제 인물
     person = None
@@ -134,7 +137,7 @@ def api_job_detail(jid: str):
 
 @app.get("/api/search")
 def api_search(q: str = "", indoor: int = 0, free: int = 0, region: str = ""):
-    con = db(); rows = [exp_row(r) for r in con.execute(f"SELECT * FROM experience WHERE {FRESH}", (TODAY,))]; con.close()
+    con = db(); rows = [exp_row(r) for r in con.execute(f"SELECT * FROM experience WHERE {FRESH}", (today(),))]; con.close()
     mt = [tid for tid, t in TOPICS.items() if q and (q in t["name"] or any(s in q or q in s for s in t["synonyms"]))] if q else []
     def ok(x):
         if q and not (any(t in mt for t in x["topic_tags"]) or q in x["name"] or q in (x["region"] or "")): return False
@@ -143,11 +146,11 @@ def api_search(q: str = "", indoor: int = 0, free: int = 0, region: str = ""):
         if region and region not in (x["region"] or ""): return False
         return True
     res = [x for x in rows if ok(x)]
-    return {"today": TODAY, "query": q, "matched_topics": mt, "count": len(res), "results": res[:60]}
+    return {"today": today(), "query": q, "matched_topics": mt, "count": len(res), "results": res[:60]}
 
 @app.get("/api/map")
 def api_map(bbox: str = "", topics: str = ""):
-    con = db(); rows = [exp_row(r) for r in con.execute(f"SELECT * FROM experience WHERE {FRESH}", (TODAY,))]; con.close()
+    con = db(); rows = [exp_row(r) for r in con.execute(f"SELECT * FROM experience WHERE {FRESH}", (today(),))]; con.close()
     want = [t for t in topics.split(",") if t] if topics else []; markers = []
     for x in rows:
         if want and not any(t in want for t in x["topic_tags"]): continue
@@ -158,20 +161,20 @@ def api_map(bbox: str = "", topics: str = ""):
             except Exception: pass
         markers.append({"id": x["id"], "name": x["name"], "lat": x["lat"], "lng": x["lng"], "topic_tags": x["topic_tags"],
                         "region": x["region"], "type": x["type"], "last_verified": x["last_verified"], "is_seed": x["is_seed"], "maplink": x["maplink"]})
-    return {"today": TODAY, "count": len(markers), "markers": markers}
+    return {"today": today(), "count": len(markers), "markers": markers}
 
 @app.get("/api/discover")
 def api_discover():
     L = linkage(); dq = L["discover_quota"]; con = db()
     def one(eid):
         if not eid: return None
-        r = con.execute(f"SELECT * FROM experience WHERE id=? AND {FRESH}", (eid, TODAY)).fetchone()
+        r = con.execute(f"SELECT * FROM experience WHERE id=? AND {FRESH}", (eid, today())).fetchone()
         return exp_row(r) if r else None
     near, far = dq["near"], dq["far"]
     ne = one(near["sample_exp"]["id"] if near.get("sample_exp") else None)
     fe = one(far["sample_exp"]["id"] if far.get("sample_exp") else None)
     pr = con.execute("SELECT * FROM person WHERE id=?", (dq["anti_stereotype_person"]["id"],)).fetchone(); con.close()
-    return {"today": TODAY, "sort": "quota(no-popularity)",
+    return {"today": today(), "sort": "quota(no-popularity)",
             "quota": {"near": {"topic": near["topic"], "name": near["name"], "experience": ne},
                       "far": {"topic": far["topic"], "name": far["name"], "experience": fe},
                       "anti_stereotype_person": person_row(pr) if pr else None}, "rule": dq["rule"]}
@@ -183,25 +186,25 @@ def page_search(request: Request, q: str = "", indoor: int = 0, free: int = 0, r
         d = api_search(q=q, indoor=indoor, free=free, region=region); results = d["results"]
         if week: results = [x for x in results if x["type"] == "상설시설" or (x["period_start"] and x["period_start"] <= _plus_days(7))]
     else: results = []
-    con = db(); preview = [exp_row(r) for r in con.execute(f"SELECT * FROM experience WHERE {FRESH} AND type='상설시설' LIMIT 6", (TODAY,))]; con.close()
+    con = db(); preview = [exp_row(r) for r in con.execute(f"SELECT * FROM experience WHERE {FRESH} AND type='상설시설' LIMIT 6", (today(),))]; con.close()
     return templates.TemplateResponse(request, "search.html", {"topics": [TOPICS[t] for t in TOPICS], "results": results,
         "query": q, "f": {"indoor": indoor, "free": free, "region": region, "week": week}, "active_filter": af,
-        "preview": preview, "today": TODAY, "active": "search"})
+        "preview": preview, "today": today(), "active": "search"})
 
 @app.get("/topic/{tid}", response_class=HTMLResponse)
 def page_topic(request: Request, tid: str):
     if tid not in TOPICS: return HTMLResponse("<h1>알 수 없는 주제</h1>", status_code=404)
     return templates.TemplateResponse(request, "topic.html", {"d": api_topic_detail(tid), "topic": TOPICS[tid],
-        "topics_all": TOPICS, "today": TODAY, "active": "topic"})
+        "topics_all": TOPICS, "today": today(), "active": "topic"})
 
 @app.get("/map", response_class=HTMLResponse)
 def page_map(request: Request):
     return templates.TemplateResponse(request, "map.html", {"markers": api_map()["markers"],
         "topics": [TOPICS[t] for t in TOPICS], "topic_colors": {t: TOPICS[t]["color"] for t in TOPICS},
-        "today": TODAY, "active": "map"})
+        "today": today(), "active": "map"})
 
 @app.get("/discover", response_class=HTMLResponse)
 def page_discover(request: Request):
     d = api_discover()
     return templates.TemplateResponse(request, "discover.html", {"q": d["quota"], "topics_all": TOPICS,
-        "rule": d["rule"], "today": TODAY, "active": "discover"})
+        "rule": d["rule"], "today": today(), "active": "discover"})

@@ -7,7 +7,7 @@ import streamlit as st
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 DB = os.path.join(ROOT, "db", "mapz_real.db")
-RUN_DATE = os.environ.get("MAPZ_RUN_DATE", "2026-07-04")
+RUN_DATE = os.environ.get("MAPZ_RUN_DATE") or datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=9))).date().isoformat()
 TODAY = RUN_DATE
 PALETTE = ["#5B8C5A","#3A5BA0","#C77D3E","#5A5AA0","#B0507A","#2C8C8C","#8C6D3A","#7A4FA0",
            "#3E8C6B","#A0503E","#6B8C3A","#8C3A6B"]

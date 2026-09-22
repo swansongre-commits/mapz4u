@@ -11,11 +11,11 @@
       "history"
     ],
     "age_band": "8-9",
-    "loan_count": 83944,
+    "loan_count": 82619,
     "availability": "대출가능여부 조회 필요",
     "source": "data4library:인기대출(실데이터)",
     "is_seed": 0,
-    "last_verified": "2026-09-22"
+    "last_verified": "2026-09-23"
   },
   {
     "isbn": "9791168412637",
@@ -29,11 +29,11 @@
       "science"
     ],
     "age_band": "10-11",
-    "loan_count": 70446,
+    "loan_count": 70107,
     "availability": "대출가능여부 조회 필요",
     "source": "data4library:인기대출(실데이터)",
     "is_seed": 0,
-    "last_verified": "2026-09-22"
+    "last_verified": "2026-09-23"
   },
   {
     "isbn": "9791164135790",
@@ -47,11 +47,11 @@
       "science"
     ],
     "age_band": "10-11",
-    "loan_count": 54334,
+    "loan_count": 54866,
     "availability": "대출가능여부 조회 필요",
     "source": "data4library:인기대출(실데이터)",
     "is_seed": 0,
-    "last_verified": "2026-09-22"
+    "last_verified": "2026-09-23"
   },
   {
     "isbn": "9788950994747",
@@ -65,11 +65,11 @@
       "science"
     ],
     "age_band": "8-9",
-    "loan_count": 17368,
+    "loan_count": 17730,
     "availability": "대출가능여부 조회 필요",
     "source": "data4library:인기대출(실데이터)",
     "is_seed": 0,
-    "last_verified": "2026-09-22"
+    "last_verified": "2026-09-23"
   },
   {
     "isbn": "9791164384808",
@@ -83,11 +83,11 @@
       "animal"
     ],
     "age_band": "8-9",
-    "loan_count": 16868,
+    "loan_count": 16814,
     "availability": "대출가능여부 조회 필요",
     "source": "data4library:인기대출(실데이터)",
     "is_seed": 0,
-    "last_verified": "2026-09-22"
+    "last_verified": "2026-09-23"
   },
   {
     "isbn": "9791130698441",
@@ -100,11 +100,11 @@
       "art"
     ],
     "age_band": "8-9",
-    "loan_count": 15624,
+    "loan_count": 15580,
     "availability": "대출가능여부 조회 필요",
     "source": "data4library:인기대출(실데이터)",
     "is_seed": 0,
-    "last_verified": "2026-09-22"
+    "last_verified": "2026-09-23"
   },
   {
     "isbn": "9791168440258",
@@ -120,11 +120,11 @@
       "insect"
     ],
     "age_band": "8-9",
-    "loan_count": 11217,
+    "loan_count": 11163,
     "availability": "대출가능여부 조회 필요",
     "source": "data4library:인기대출(실데이터)",
     "is_seed": 0,
-    "last_verified": "2026-09-22"
+    "last_verified": "2026-09-23"
   },
   {
     "isbn": "9791164137800",
@@ -137,11 +137,11 @@
       "art"
     ],
     "age_band": "8-9",
-    "loan_count": 10876,
+    "loan_count": 10822,
     "availability": "대출가능여부 조회 필요",
     "source": "data4library:인기대출(실데이터)",
     "is_seed": 0,
-    "last_verified": "2026-09-22"
+    "last_verified": "2026-09-23"
   },
   {
     "isbn": "9791194616016",
@@ -154,11 +154,11 @@
       "history"
     ],
     "age_band": "10-11",
-    "loan_count": 130862,
+    "loan_count": 130459,
     "availability": "대출가능여부 조회 필요",
     "source": "data4library:인기대출(실데이터)",
     "is_seed": 0,
-    "last_verified": "2026-09-22"
+    "last_verified": "2026-09-23"
   },
   {
     "isbn": "9791193031902",
@@ -171,11 +171,11 @@
       "history"
     ],
     "age_band": "10-11",
-    "loan_count": 73070,
+    "loan_count": 72881,
     "availability": "대출가능여부 조회 필요",
     "source": "data4library:인기대출(실데이터)",
     "is_seed": 0,
-    "last_verified": "2026-09-22"
+    "last_verified": "2026-09-23"
   },
   {
     "isbn": "9791190630016",
@@ -189,11 +189,11 @@
       "cooking"
     ],
     "age_band": "10-11",
-    "loan_count": 17464,
+    "loan_count": 17384,
     "availability": "대출가능여부 조회 필요",
     "source": "data4library:인기대출(실데이터)",
     "is_seed": 0,
-    "last_verified": "2026-09-22"
+    "last_verified": "2026-09-23"
   },
   {
     "isbn": "9788934941330",
@@ -206,11 +206,11 @@
       "history"
     ],
     "age_band": "8-9",
-    "loan_count": 16953,
+    "loan_count": 16914,
     "availability": "대출가능여부 조회 필요",
     "source": "data4library:인기대출(실데이터)",
     "is_seed": 0,
-    "last_verified": "2026-09-22"
+    "last_verified": "2026-09-23"
   },
   {
     "isbn": "9791173571442",
@@ -223,11 +223,11 @@
       "history"
     ],
     "age_band": "10-11",
-    "loan_count": 13162,
+    "loan_count": 13110,
     "availability": "대출가능여부 조회 필요",
     "source": "data4library:인기대출(실데이터)",
     "is_seed": 0,
-    "last_verified": "2026-09-22"
+    "last_verified": "2026-09-23"
   },
   {
     "isbn": "9788950900830",
@@ -240,11 +240,11 @@
       "history"
     ],
     "age_band": "12-13",
-    "loan_count": 7437,
+    "loan_count": 7416,
     "availability": "대출가능여부 조회 필요",
     "source": "data4library:인기대출(실데이터)",
     "is_seed": 0,
-    "last_verified": "2026-09-22"
+    "last_verified": "2026-09-23"
   },
   {
     "isbn": "9791130651446",
@@ -257,11 +257,11 @@
       "history"
     ],
     "age_band": "10-11",
-    "loan_count": 6964,
+    "loan_count": 6943,
     "availability": "대출가능여부 조회 필요",
     "source": "data4library:인기대출(실데이터)",
     "is_seed": 0,
-    "last_verified": "2026-09-22"
+    "last_verified": "2026-09-23"
   },
   {
     "isbn": "9791168415409",
@@ -274,11 +274,11 @@
       "science"
     ],
     "age_band": "8-9",
-    "loan_count": 93400,
+    "loan_count": 93053,
     "availability": "대출가능여부 조회 필요",
     "source": "data4library:인기대출(실데이터)",
     "is_seed": 0,
-    "last_verified": "2026-09-22"
+    "last_verified": "2026-09-23"
   },
   {
     "isbn": "9788934935193",
@@ -291,11 +291,11 @@
       "science"
     ],
     "age_band": "8-9",
-    "loan_count": 72934,
+    "loan_count": 72685,
     "availability": "대출가능여부 조회 필요",
     "source": "data4library:인기대출(실데이터)",
     "is_seed": 0,
-    "last_verified": "2026-09-22"
+    "last_verified": "2026-09-23"
   },
   {
     "isbn": "9791168415188",
@@ -308,11 +308,11 @@
       "science"
     ],
     "age_band": "8-9",
-    "loan_count": 34285,
+    "loan_count": 34185,
     "availability": "대출가능여부 조회 필요",
     "source": "data4library:인기대출(실데이터)",
     "is_seed": 0,
-    "last_verified": "2026-09-22"
+    "last_verified": "2026-09-23"
   },
   {
     "isbn": "9791171174805",
@@ -325,11 +325,11 @@
       "science"
     ],
     "age_band": "10-11",
-    "loan_count": 16849,
+    "loan_count": 16809,
     "availability": "대출가능여부 조회 필요",
     "source": "data4library:인기대출(실데이터)",
     "is_seed": 0,
-    "last_verified": "2026-09-22"
+    "last_verified": "2026-09-23"
   },
   {
     "isbn": "9791171713417",
@@ -342,11 +342,11 @@
       "science"
     ],
     "age_band": "8-9",
-    "loan_count": 15637,
+    "loan_count": 15619,
     "availability": "대출가능여부 조회 필요",
     "source": "data4library:인기대출(실데이터)",
     "is_seed": 0,
-    "last_verified": "2026-09-22"
+    "last_verified": "2026-09-23"
   },
   {
     "isbn": "9788936447694",
@@ -359,11 +359,11 @@
       "animal"
     ],
     "age_band": "8-9",
-    "loan_count": 47958,
+    "loan_count": 47786,
     "availability": "대출가능여부 조회 필요",
     "source": "data4library:인기대출(실데이터)",
     "is_seed": 0,
-    "last_verified": "2026-09-22"
+    "last_verified": "2026-09-23"
   },
   {
     "isbn": "9791130679990",
@@ -376,11 +376,11 @@
       "animal"
     ],
     "age_band": "8-9",
-    "loan_count": 32683,
+    "loan_count": 32560,
     "availability": "대출가능여부 조회 필요",
     "source": "data4library:인기대출(실데이터)",
     "is_seed": 0,
-    "last_verified": "2026-09-22"
+    "last_verified": "2026-09-23"
   },
   {
     "isbn": "9791193914717",
@@ -393,11 +393,11 @@
       "animal"
     ],
     "age_band": "10-11",
-    "loan_count": 13137,
+    "loan_count": 13108,
     "availability": "대출가능여부 조회 필요",
     "source": "data4library:인기대출(실데이터)",
     "is_seed": 0,
-    "last_verified": "2026-09-22"
+    "last_verified": "2026-09-23"
   },
   {
     "isbn": "9791168412705",
@@ -411,11 +411,11 @@
       "sealife"
     ],
     "age_band": "6-7",
-    "loan_count": 3959,
+    "loan_count": 3948,
     "availability": "대출가능여부 조회 필요",
     "source": "data4library:인기대출(실데이터)",
     "is_seed": 0,
-    "last_verified": "2026-09-22"
+    "last_verified": "2026-09-23"
   },
   {
     "isbn": "9788934991991",
@@ -428,11 +428,11 @@
       "animal"
     ],
     "age_band": "8-9",
-    "loan_count": 2965,
+    "loan_count": 2950,
     "availability": "대출가능여부 조회 필요",
     "source": "data4library:인기대출(실데이터)",
     "is_seed": 0,
-    "last_verified": "2026-09-22"
+    "last_verified": "2026-09-23"
   },
   {
     "isbn": "9791169231503",
@@ -446,11 +446,11 @@
       "sealife"
     ],
     "age_band": "8-9",
-    "loan_count": 2394,
+    "loan_count": 2391,
     "availability": "대출가능여부 조회 필요",
     "source": "data4library:인기대출(실데이터)",
     "is_seed": 0,
-    "last_verified": "2026-09-22"
+    "last_verified": "2026-09-23"
   },
   {
     "isbn": "9791168091535",
@@ -463,11 +463,11 @@
       "body"
     ],
     "age_band": "10-11",
-    "loan_count": 73287,
+    "loan_count": 73041,
     "availability": "대출가능여부 조회 필요",
     "source": "data4library:인기대출(실데이터)",
     "is_seed": 0,
-    "last_verified": "2026-09-22"
+    "last_verified": "2026-09-23"
   },
   {
     "isbn": "9788950983499",
@@ -480,11 +480,11 @@
       "body"
     ],
     "age_band": "10-11",
-    "loan_count": 46862,
+    "loan_count": 46678,
     "availability": "대출가능여부 조회 필요",
     "source": "data4library:인기대출(실데이터)",
     "is_seed": 0,
-    "last_verified": "2026-09-22"
+    "last_verified": "2026-09-23"
   },
   {
     "isbn": "9791171713684",
@@ -497,11 +497,11 @@
       "body"
     ],
     "age_band": "8-9",
-    "loan_count": 12934,
+    "loan_count": 12882,
     "availability": "대출가능여부 조회 필요",
     "source": "data4library:인기대출(실데이터)",
     "is_seed": 0,
-    "last_verified": "2026-09-22"
+    "last_verified": "2026-09-23"
   },
   {
     "isbn": "9791162336069",
@@ -514,11 +514,11 @@
       "body"
     ],
     "age_band": "6-7",
-    "loan_count": 7765,
+    "loan_count": 7299,
     "availability": "대출가능여부 조회 필요",
     "source": "data4library:인기대출(실데이터)",
     "is_seed": 0,
-    "last_verified": "2026-09-22"
+    "last_verified": "2026-09-23"
   },
   {
     "isbn": "9791130677712",
@@ -532,11 +532,11 @@
       "cooking"
     ],
     "age_band": "10-11",
-    "loan_count": 1148,
+    "loan_count": 1143,
     "availability": "대출가능여부 조회 필요",
     "source": "data4library:인기대출(실데이터)",
     "is_seed": 0,
-    "last_verified": "2026-09-22"
+    "last_verified": "2026-09-23"
   },
   {
     "isbn": "9791192697369",
@@ -549,11 +549,11 @@
       "body"
     ],
     "age_band": "6-7",
-    "loan_count": 506,
+    "loan_count": 503,
     "availability": "대출가능여부 조회 필요",
     "source": "data4library:인기대출(실데이터)",
     "is_seed": 0,
-    "last_verified": "2026-09-22"
+    "last_verified": "2026-09-23"
   },
   {
     "isbn": "9791193506332",
@@ -566,11 +566,11 @@
       "body"
     ],
     "age_band": "6-7",
-    "loan_count": 470,
+    "loan_count": 466,
     "availability": "대출가능여부 조회 필요",
     "source": "data4library:인기대출(실데이터)",
     "is_seed": 0,
-    "last_verified": "2026-09-22"
+    "last_verified": "2026-09-23"
   },
   {
     "isbn": "9791192655383",
@@ -583,11 +583,11 @@
       "body"
     ],
     "age_band": "12-13",
-    "loan_count": 370,
+    "loan_count": 371,
     "availability": "대출가능여부 조회 필요",
     "source": "data4library:인기대출(실데이터)",
     "is_seed": 0,
-    "last_verified": "2026-09-22"
+    "last_verified": "2026-09-23"
   },
   {
     "isbn": "9791165883607",
@@ -604,7 +604,7 @@
     "availability": "대출가능여부 조회 필요",
     "source": "data4library:인기대출(실데이터)",
     "is_seed": 0,
-    "last_verified": "2026-09-22"
+    "last_verified": "2026-09-23"
   },
   {
     "isbn": "9791160944518",
@@ -617,11 +617,45 @@
       "space"
     ],
     "age_band": "6-7",
-    "loan_count": 454,
+    "loan_count": 453,
     "availability": "대출가능여부 조회 필요",
     "source": "data4library:인기대출(실데이터)",
     "is_seed": 0,
-    "last_verified": "2026-09-22"
+    "last_verified": "2026-09-23"
+  },
+  {
+    "isbn": "9788931341430",
+    "title": "수박 행성",
+    "author": "상자 글 ;이수현 그림",
+    "publisher": "이론과실천",
+    "pub_year": "2022",
+    "kdc": "813.7",
+    "topic_tags": [
+      "space"
+    ],
+    "age_band": "6-7",
+    "loan_count": 428,
+    "availability": "대출가능여부 조회 필요",
+    "source": "data4library:인기대출(실데이터)",
+    "is_seed": 0,
+    "last_verified": "2026-09-23"
+  },
+  {
+    "isbn": "9788965463108",
+    "title": "안녕, 우주",
+    "author": "글: 에린 엔트라다 켈리 ;옮김: 이원경",
+    "publisher": "밝은미래",
+    "pub_year": "2018",
+    "kdc": "843",
+    "topic_tags": [
+      "space"
+    ],
+    "age_band": "12-13",
+    "loan_count": 300,
+    "availability": "대출가능여부 조회 필요",
+    "source": "data4library:인기대출(실데이터)",
+    "is_seed": 0,
+    "last_verified": "2026-09-23"
   },
   {
     "isbn": "9791130640280",
@@ -634,11 +668,11 @@
       "plant"
     ],
     "age_band": "8-9",
-    "loan_count": 13043,
+    "loan_count": 12961,
     "availability": "대출가능여부 조회 필요",
     "source": "data4library:인기대출(실데이터)",
     "is_seed": 0,
-    "last_verified": "2026-09-22"
+    "last_verified": "2026-09-23"
   },
   {
     "isbn": "9791168342491",
@@ -652,11 +686,11 @@
       "sports"
     ],
     "age_band": "8-9",
-    "loan_count": 4704,
+    "loan_count": 4680,
     "availability": "대출가능여부 조회 필요",
     "source": "data4library:인기대출(실데이터)",
     "is_seed": 0,
-    "last_verified": "2026-09-22"
+    "last_verified": "2026-09-23"
   },
   {
     "isbn": "9791168341753",
@@ -670,11 +704,11 @@
       "sports"
     ],
     "age_band": "8-9",
-    "loan_count": 3874,
+    "loan_count": 3859,
     "availability": "대출가능여부 조회 필요",
     "source": "data4library:인기대출(실데이터)",
     "is_seed": 0,
-    "last_verified": "2026-09-22"
+    "last_verified": "2026-09-23"
   },
   {
     "isbn": "9791167552006",
@@ -687,11 +721,11 @@
       "plant"
     ],
     "age_band": "10-11",
-    "loan_count": 1806,
+    "loan_count": 1802,
     "availability": "대출가능여부 조회 필요",
     "source": "data4library:인기대출(실데이터)",
     "is_seed": 0,
-    "last_verified": "2026-09-22"
+    "last_verified": "2026-09-23"
   },
   {
     "isbn": "9791190337427",
@@ -704,11 +738,11 @@
       "plant"
     ],
     "age_band": "10-11",
-    "loan_count": 1737,
+    "loan_count": 1731,
     "availability": "대출가능여부 조회 필요",
     "source": "data4library:인기대출(실데이터)",
     "is_seed": 0,
-    "last_verified": "2026-09-22"
+    "last_verified": "2026-09-23"
   },
   {
     "isbn": "9788966351411",
@@ -721,11 +755,11 @@
       "plant"
     ],
     "age_band": "6-7",
-    "loan_count": 1019,
+    "loan_count": 1012,
     "availability": "대출가능여부 조회 필요",
     "source": "data4library:인기대출(실데이터)",
     "is_seed": 0,
-    "last_verified": "2026-09-22"
+    "last_verified": "2026-09-23"
   },
   {
     "isbn": "9791164630295",
@@ -738,11 +772,11 @@
       "plant"
     ],
     "age_band": "6-7",
-    "loan_count": 649,
+    "loan_count": 647,
     "availability": "대출가능여부 조회 필요",
     "source": "data4library:인기대출(실데이터)",
     "is_seed": 0,
-    "last_verified": "2026-09-22"
+    "last_verified": "2026-09-23"
   },
   {
     "isbn": "9791158360337",
@@ -755,11 +789,11 @@
       "plant"
     ],
     "age_band": "6-7",
-    "loan_count": 637,
+    "loan_count": 636,
     "availability": "대출가능여부 조회 필요",
     "source": "data4library:인기대출(실데이터)",
     "is_seed": 0,
-    "last_verified": "2026-09-22"
+    "last_verified": "2026-09-23"
   },
   {
     "isbn": "9791168343146",
@@ -772,11 +806,11 @@
       "sealife"
     ],
     "age_band": "10-11",
-    "loan_count": 2274,
+    "loan_count": 2277,
     "availability": "대출가능여부 조회 필요",
     "source": "data4library:인기대출(실데이터)",
     "is_seed": 0,
-    "last_verified": "2026-09-22"
+    "last_verified": "2026-09-23"
   },
   {
     "isbn": "9791130694269",
@@ -789,11 +823,11 @@
       "sealife"
     ],
     "age_band": "8-9",
-    "loan_count": 1957,
+    "loan_count": 1949,
     "availability": "대출가능여부 조회 필요",
     "source": "data4library:인기대출(실데이터)",
     "is_seed": 0,
-    "last_verified": "2026-09-22"
+    "last_verified": "2026-09-23"
   },
   {
     "isbn": "9788927748212",
@@ -806,11 +840,11 @@
       "sealife"
     ],
     "age_band": "8-9",
-    "loan_count": 1772,
+    "loan_count": 1770,
     "availability": "대출가능여부 조회 필요",
     "source": "data4library:인기대출(실데이터)",
     "is_seed": 0,
-    "last_verified": "2026-09-22"
+    "last_verified": "2026-09-23"
   },
   {
     "isbn": "9791162331088",
@@ -823,11 +857,11 @@
       "sealife"
     ],
     "age_band": "10-11",
-    "loan_count": 1346,
+    "loan_count": 1341,
     "availability": "대출가능여부 조회 필요",
     "source": "data4library:인기대출(실데이터)",
     "is_seed": 0,
-    "last_verified": "2026-09-22"
+    "last_verified": "2026-09-23"
   },
   {
     "isbn": "9788958284482",
@@ -840,11 +874,11 @@
       "sealife"
     ],
     "age_band": "6-7",
-    "loan_count": 1146,
+    "loan_count": 1142,
     "availability": "대출가능여부 조회 필요",
     "source": "data4library:인기대출(실데이터)",
     "is_seed": 0,
-    "last_verified": "2026-09-22"
+    "last_verified": "2026-09-23"
   },
   {
     "isbn": "9791168410541",
@@ -857,11 +891,11 @@
       "sports"
     ],
     "age_band": "8-9",
-    "loan_count": 26408,
+    "loan_count": 26309,
     "availability": "대출가능여부 조회 필요",
     "source": "data4library:인기대출(실데이터)",
     "is_seed": 0,
-    "last_verified": "2026-09-22"
+    "last_verified": "2026-09-23"
   },
   {
     "isbn": "9791168341180",
@@ -874,11 +908,11 @@
       "sports"
     ],
     "age_band": "8-9",
-    "loan_count": 4925,
+    "loan_count": 4908,
     "availability": "대출가능여부 조회 필요",
     "source": "data4library:인기대출(실데이터)",
     "is_seed": 0,
-    "last_verified": "2026-09-22"
+    "last_verified": "2026-09-23"
   },
   {
     "isbn": "9788936446819",
@@ -891,11 +925,11 @@
       "sports"
     ],
     "age_band": "6-7",
-    "loan_count": 2479,
+    "loan_count": 2465,
     "availability": "대출가능여부 조회 필요",
     "source": "data4library:인기대출(실데이터)",
     "is_seed": 0,
-    "last_verified": "2026-09-22"
+    "last_verified": "2026-09-23"
   },
   {
     "isbn": "9791168343252",
@@ -912,7 +946,7 @@
     "availability": "대출가능여부 조회 필요",
     "source": "data4library:인기대출(실데이터)",
     "is_seed": 0,
-    "last_verified": "2026-09-22"
+    "last_verified": "2026-09-23"
   },
   {
     "isbn": "9791158364595",
@@ -925,11 +959,11 @@
       "sports"
     ],
     "age_band": "6-7",
-    "loan_count": 1398,
+    "loan_count": 1393,
     "availability": "대출가능여부 조회 필요",
     "source": "data4library:인기대출(실데이터)",
     "is_seed": 0,
-    "last_verified": "2026-09-22"
+    "last_verified": "2026-09-23"
   },
   {
     "isbn": "9791198381811",
@@ -942,11 +976,11 @@
       "sports"
     ],
     "age_band": "10-11",
-    "loan_count": 1227,
+    "loan_count": 1223,
     "availability": "대출가능여부 조회 필요",
     "source": "data4library:인기대출(실데이터)",
     "is_seed": 0,
-    "last_verified": "2026-09-22"
+    "last_verified": "2026-09-23"
   },
   {
     "isbn": "9791162041376",
@@ -959,11 +993,11 @@
       "cooking"
     ],
     "age_band": "8-9",
-    "loan_count": 21486,
+    "loan_count": 21432,
     "availability": "대출가능여부 조회 필요",
     "source": "data4library:인기대출(실데이터)",
     "is_seed": 0,
-    "last_verified": "2026-09-22"
+    "last_verified": "2026-09-23"
   },
   {
     "isbn": "9791192686103",
@@ -976,11 +1010,28 @@
       "cooking"
     ],
     "age_band": "6-7",
-    "loan_count": 1868,
+    "loan_count": 1864,
     "availability": "대출가능여부 조회 필요",
     "source": "data4library:인기대출(실데이터)",
     "is_seed": 0,
-    "last_verified": "2026-09-22"
+    "last_verified": "2026-09-23"
+  },
+  {
+    "isbn": "9788901295428",
+    "title": "내 멋대로 빵빵빵빵 :김지안 그림책",
+    "author": "글·그림: 김지안",
+    "publisher": "웅진씽크빅",
+    "pub_year": "2025",
+    "kdc": "813.7",
+    "topic_tags": [
+      "cooking"
+    ],
+    "age_band": "8-9",
+    "loan_count": 1602,
+    "availability": "대출가능여부 조회 필요",
+    "source": "data4library:인기대출(실데이터)",
+    "is_seed": 0,
+    "last_verified": "2026-09-23"
   },
   {
     "isbn": "9791198833228",
@@ -993,11 +1044,11 @@
       "cooking"
     ],
     "age_band": "6-7",
-    "loan_count": 898,
+    "loan_count": 897,
     "availability": "대출가능여부 조회 필요",
     "source": "data4library:인기대출(실데이터)",
     "is_seed": 0,
-    "last_verified": "2026-09-22"
+    "last_verified": "2026-09-23"
   },
   {
     "isbn": "9791165810184",
@@ -1010,28 +1061,11 @@
       "cooking"
     ],
     "age_band": "6-7",
-    "loan_count": 845,
+    "loan_count": 840,
     "availability": "대출가능여부 조회 필요",
     "source": "data4library:인기대출(실데이터)",
     "is_seed": 0,
-    "last_verified": "2026-09-22"
-  },
-  {
-    "isbn": "9788901295428",
-    "title": "내 멋대로 빵빵빵빵 :김지안 그림책",
-    "author": "글·그림: 김지안",
-    "publisher": "웅진씽크빅",
-    "pub_year": "2025",
-    "kdc": "813.7",
-    "topic_tags": [
-      "cooking"
-    ],
-    "age_band": "6-7",
-    "loan_count": 794,
-    "availability": "대출가능여부 조회 필요",
-    "source": "data4library:인기대출(실데이터)",
-    "is_seed": 0,
-    "last_verified": "2026-09-22"
+    "last_verified": "2026-09-23"
   },
   {
     "isbn": "9788936429515",
@@ -1044,11 +1078,11 @@
       "cooking"
     ],
     "age_band": "6-7",
-    "loan_count": 761,
+    "loan_count": 763,
     "availability": "대출가능여부 조회 필요",
     "source": "data4library:인기대출(실데이터)",
     "is_seed": 0,
-    "last_verified": "2026-09-22"
+    "last_verified": "2026-09-23"
   },
   {
     "isbn": "9791141610623",
@@ -1061,11 +1095,11 @@
       "insect"
     ],
     "age_band": "10-11",
-    "loan_count": 1247,
+    "loan_count": 1244,
     "availability": "대출가능여부 조회 필요",
     "source": "data4library:인기대출(실데이터)",
     "is_seed": 0,
-    "last_verified": "2026-09-22"
+    "last_verified": "2026-09-23"
   },
   {
     "isbn": "9788936414085",
@@ -1078,11 +1112,11 @@
       "insect"
     ],
     "age_band": "8-9",
-    "loan_count": 1239,
+    "loan_count": 1237,
     "availability": "대출가능여부 조회 필요",
     "source": "data4library:인기대출(실데이터)",
     "is_seed": 0,
-    "last_verified": "2026-09-22"
+    "last_verified": "2026-09-23"
   },
   {
     "isbn": "9791169235204",
@@ -1095,11 +1129,11 @@
       "insect"
     ],
     "age_band": "6-7",
-    "loan_count": 1006,
+    "loan_count": 1004,
     "availability": "대출가능여부 조회 필요",
     "source": "data4library:인기대출(실데이터)",
     "is_seed": 0,
-    "last_verified": "2026-09-22"
+    "last_verified": "2026-09-23"
   },
   {
     "isbn": "9788936414191",
@@ -1112,11 +1146,11 @@
       "insect"
     ],
     "age_band": "8-9",
-    "loan_count": 893,
+    "loan_count": 895,
     "availability": "대출가능여부 조회 필요",
     "source": "data4library:인기대출(실데이터)",
     "is_seed": 0,
-    "last_verified": "2026-09-22"
+    "last_verified": "2026-09-23"
   },
   {
     "isbn": "9788964963371",
@@ -1129,11 +1163,11 @@
       "insect"
     ],
     "age_band": "8-9",
-    "loan_count": 844,
+    "loan_count": 842,
     "availability": "대출가능여부 조회 필요",
     "source": "data4library:인기대출(실데이터)",
     "is_seed": 0,
-    "last_verified": "2026-09-22"
+    "last_verified": "2026-09-23"
   },
   {
     "isbn": "9791193207406",
@@ -1146,11 +1180,11 @@
       "insect"
     ],
     "age_band": "6-7",
-    "loan_count": 831,
+    "loan_count": 830,
     "availability": "대출가능여부 조회 필요",
     "source": "data4library:인기대출(실데이터)",
     "is_seed": 0,
-    "last_verified": "2026-09-22"
+    "last_verified": "2026-09-23"
   },
   {
     "isbn": "9791159955624",
@@ -1163,11 +1197,11 @@
       "insect"
     ],
     "age_band": "6-7",
-    "loan_count": 620,
+    "loan_count": 622,
     "availability": "대출가능여부 조회 필요",
     "source": "data4library:인기대출(실데이터)",
     "is_seed": 0,
-    "last_verified": "2026-09-22"
+    "last_verified": "2026-09-23"
   },
   {
     "isbn": "9788949136028",
@@ -1180,11 +1214,11 @@
       "music"
     ],
     "age_band": "10-11",
-    "loan_count": 2107,
+    "loan_count": 2108,
     "availability": "대출가능여부 조회 필요",
     "source": "data4library:인기대출(실데이터)",
     "is_seed": 0,
-    "last_verified": "2026-09-22"
+    "last_verified": "2026-09-23"
   },
   {
     "isbn": "9791159955266",
@@ -1197,10 +1231,10 @@
       "music"
     ],
     "age_band": "10-11",
-    "loan_count": 928,
+    "loan_count": 929,
     "availability": "대출가능여부 조회 필요",
     "source": "data4library:인기대출(실데이터)",
     "is_seed": 0,
-    "last_verified": "2026-09-22"
+    "last_verified": "2026-09-23"
   }
 ]

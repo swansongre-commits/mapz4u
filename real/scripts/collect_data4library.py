@@ -4,28 +4,41 @@
 산출: data/raw/data4library_api/{band}.json  (lib_corpus.load_all 이 CSV보다 우선해서 읽음)
 안전: 4개 구간이 모두 성공했을 때만 저장한다. 하나라도 실패하거나 수량이 비정상이면 기존 파일을 유지하고 종료코드 2.
 """
-import sys, json, time, datetime, urllib.request, urllib.parse
+import sys, json, time, datetime, urllib.request, urllib.parse, urllib.error
 sys.path.insert(0, "scripts"); sys.path.insert(0, ".")
 from common import rp, write_json, load_env, TODAY
 
 BANDS = {"pre": (6, 7), "low": (8, 9), "mid1": (10, 11), "mid2": (12, 13)}
 MIN_ROWS = 300
 API = "http://data4library.kr/api/loanItemSrch"
+RETRY_DELAYS = (15, 30, 60)
+TRANSIENT_HTTP = {408, 429, 500, 502, 503, 504}
+
+
+def failure_info(ex):
+    """요청 URL·키·서버 응답 본문을 포함하지 않는 오류 분류."""
+    if isinstance(ex, urllib.error.HTTPError):
+        return f"HTTP_{ex.code}", ex.code in TRANSIENT_HTTP
+    if isinstance(ex, (urllib.error.URLError, TimeoutError, ConnectionError)):
+        return type(ex).__name__, True
+    return type(ex).__name__, False
 
 
 def fetch_band(key, frm, to, start, end):
     params = {"authKey": key, "startDt": start, "endDt": end, "from_age": frm, "to_age": to,
               "addCode": 7, "pageNo": 1, "pageSize": 1000, "format": "json"}
     url = API + "?" + urllib.parse.urlencode(params)
-    last = None
-    for attempt in range(3):
+    attempts = len(RETRY_DELAYS) + 1
+    for attempt in range(1, attempts + 1):
+        started = time.monotonic()
         try:
             req = urllib.request.Request(url, headers={"User-Agent": "MAPZ/1.0"})
             with urllib.request.urlopen(req, timeout=90) as r:
                 data = json.loads(r.read().decode("utf-8"))
             resp = data.get("response", {})
             if resp.get("error") or resp.get("errCode"):
-                raise RuntimeError(resp.get("error") or resp.get("errCode"))
+                # 응답 본문에 키나 URL이 포함될 수 있으므로 그대로 로그에 남기지 않는다.
+                raise RuntimeError("API response error")
             rows = []
             for d in resp.get("docs", []):
                 doc = d.get("doc", {})
@@ -43,11 +56,20 @@ def fetch_band(key, frm, to, start, end):
                              "isbn": str(doc.get("isbn13") or ""),
                              "isbn_add": str(doc.get("addition_symbol") or ""),
                              "kdc": str(doc.get("class_no") or ""), "loan": loan})
+            print(f"[data4library] age={frm}-{to} attempt={attempt}/{attempts} "
+                  f"elapsed={time.monotonic() - started:.1f}s status=OK rows={len(rows)}",
+                  file=sys.stderr, flush=True)
             return rows
         except Exception as ex:
-            last = ex
-            time.sleep(4 * (attempt + 1))
-    raise RuntimeError(f"{frm}~{to}세 수집 실패: {str(last)[:120]}")
+            status, transient = failure_info(ex)
+            delay = RETRY_DELAYS[attempt - 1] if transient and attempt < attempts else 0
+            print(f"[data4library] age={frm}-{to} attempt={attempt}/{attempts} "
+                  f"elapsed={time.monotonic() - started:.1f}s status={status} retry_in={delay}s",
+                  file=sys.stderr, flush=True)
+            if not delay:
+                raise RuntimeError(f"{frm}~{to}세 수집 실패: {status} "
+                                   f"(시도 {attempt}/{attempts})") from None
+            time.sleep(delay)
 
 
 def main():

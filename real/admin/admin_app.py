@@ -14,7 +14,7 @@ ADMIN_USER = os.environ.get("MAPZ_ADMIN_USER", "admin")
 ADMIN_PW = os.environ.get("MAPZ_ADMIN_PW", "change-me")
 KST = datetime.timezone(datetime.timedelta(hours=9))
 def today():
-    return os.environ.get("MAPZ_RUN_DATE") or datetime.datetime.now(KST).date().isoformat()
+    return datetime.datetime.now(KST).date().isoformat()
 
 admin = FastAPI(title="MAPZ 제휴 콘솔")
 security = HTTPBasic()

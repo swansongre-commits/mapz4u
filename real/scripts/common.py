@@ -7,8 +7,8 @@ REAL_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))  # mapz/
 def rp(*a): return os.path.join(REAL_ROOT, *a)
 
 KST = datetime.timezone(datetime.timedelta(hours=9))
-# 기준일: 기본은 실행 시점의 실제 오늘(KST). MAPZ_RUN_DATE는 재현·테스트용 고정값으로만 사용.
-RUN_DATE = os.environ.get("MAPZ_RUN_DATE") or datetime.datetime.now(KST).date().isoformat()
+# 운영 배치 기준일은 실제 오늘(KST). 재현 테스트에서는 시계를 주입한다.
+RUN_DATE = datetime.datetime.now(KST).date().isoformat()
 TODAY = datetime.date.fromisoformat(RUN_DATE)
 
 def load_topics():

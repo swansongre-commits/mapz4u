@@ -43,9 +43,17 @@ def main():
         status = "OK" if ok else f"FAIL({r.returncode})"
         log.append(f"- [{status}] {name}: {tail}")
         print(log[-1], flush=True)
+        # 수집기의 안전한 진단은 재시도 후 성공한 경우에도 Actions와 아티팩트에 보관.
+        stderr_lines = r.stderr.strip().splitlines()
+        for line in stderr_lines:
+            if line.startswith("[data4library] "):
+                log.append("    " + line)
+                print(log[-1], flush=True)
         if not ok:
-            if r.stderr.strip():
-                log.append("    stderr: " + r.stderr.strip()[-400:])
+            other_stderr = "\n".join(line for line in stderr_lines
+                                     if not line.startswith("[data4library] "))
+            if other_stderr:
+                log.append("    stderr: " + other_stderr[-400:])
                 print(log[-1])
             code = 1
             break

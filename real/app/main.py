@@ -11,8 +11,8 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))  # real/
 DB = os.path.join(ROOT, "db", "mapz_real.db")
 KST = datetime.timezone(datetime.timedelta(hours=9))
 def today():
-    """신선도 기준일. 요청 시점의 실제 오늘(KST). MAPZ_RUN_DATE는 재현·테스트용 고정값."""
-    return os.environ.get("MAPZ_RUN_DATE") or datetime.datetime.now(KST).date().isoformat()
+    """신선도 기준일. 운영에서는 환경변수와 무관하게 요청 시점의 실제 오늘(KST)."""
+    return datetime.datetime.now(KST).date().isoformat()
 TODAY = today()  # 하위호환(테스트 import용). 런타임 판단은 today() 호출
 
 app = FastAPI(title="MAPZ 운영 — 어린이 체험지도")

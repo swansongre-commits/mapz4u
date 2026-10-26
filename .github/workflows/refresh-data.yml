@@ -40,6 +40,9 @@ jobs:
       - name: 의존성 설치
         run: pip install -r deploy/requirements.txt pytest httpx beautifulsoup4
 
+      - name: 수집 재시도 회귀 테스트 (외부 API 호출 없음)
+        run: python -m pytest tests/test_refresh.py -q
+
       - name: 키 확인
         run: |
           test -n "$DATA_GO_KR_KEY" || { echo "::error::DATA_GO_KR_KEY 시크릿이 없습니다"; exit 1; }

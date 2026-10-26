@@ -19,6 +19,10 @@ def failure_info(ex):
     """요청 URL·키·서버 응답 본문을 포함하지 않는 오류 분류."""
     if isinstance(ex, urllib.error.HTTPError):
         return f"HTTP_{ex.code}", ex.code in TRANSIENT_HTTP
+    # 일시적인 빈 응답·HTML·잘린 JSON도 기존 횟수/대기 한도 안에서만 재시도.
+    # 유효한 JSON의 API 오류나 스키마 오류까지 재시도하지는 않는다.
+    if isinstance(ex, json.JSONDecodeError):
+        return "JSONDecodeError", True
     if isinstance(ex, (urllib.error.URLError, TimeoutError, ConnectionError)):
         return type(ex).__name__, True
     return type(ex).__name__, False

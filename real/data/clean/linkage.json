@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-07",
+  "generated": "2026-11-08",
   "embed": "tfidf-char24",
   "topics": {
     "art": {
@@ -21,7 +21,7 @@
           "id": "tour-2798046",
           "name": "김택화 미술관",
           "type": "상설시설",
-          "score": 0.1324
+          "score": 0.1323
         },
         {
           "id": "tour-129937",
@@ -33,7 +33,7 @@
           "id": "tour-4135413",
           "name": "김창열 화가의 집",
           "type": "상설시설",
-          "score": 0.1128
+          "score": 0.1127
         },
         {
           "id": "tour-130692",
@@ -63,7 +63,7 @@
         {
           "isbn": "9791164135790",
           "title": "내일은 실험왕 :본격 대결 과학실험 만화",
-          "score": 0.1016
+          "score": 0.1015
         },
         {
           "isbn": "9791168412637",
@@ -122,7 +122,7 @@
           "id": "tour-2606761",
           "name": "이순신영상관",
           "type": "상설시설",
-          "score": 0.1897
+          "score": 0.1896
         },
         {
           "id": "tour-2778041",
@@ -171,7 +171,7 @@
         {
           "isbn": "9791173571442",
           "title": "무적 이순신",
-          "score": 0.2037
+          "score": 0.2036
         },
         {
           "isbn": "9788950900830",
@@ -230,19 +230,19 @@
           "id": "tour-4114555",
           "name": "과학책방 갈다",
           "type": "상설시설",
-          "score": 0.2534
+          "score": 0.2533
         },
         {
           "id": "tour-3080852",
           "name": "한생연 실험누리과학관",
           "type": "상설시설",
-          "score": 0.2486
+          "score": 0.2485
         },
         {
           "id": "tour-3369859",
           "name": "의정부 과학도서관",
           "type": "상설시설",
-          "score": 0.247
+          "score": 0.2469
         },
         {
           "id": "tour-2736727",
@@ -260,7 +260,7 @@
           "id": "tour-130712",
           "name": "농업과학관",
           "type": "상설시설",
-          "score": 0.2287
+          "score": 0.2286
         },
         {
           "id": "tour-1838602",
@@ -355,13 +355,13 @@
           "id": "tour-130256",
           "name": "고성자연사박물관",
           "type": "상설시설",
-          "score": 0.1613
+          "score": 0.1614
         },
         {
           "id": "tour-3075394",
           "name": "자연생태박물관",
           "type": "상설시설",
-          "score": 0.1594
+          "score": 0.1595
         },
         {
           "id": "tour-2751843",
@@ -385,7 +385,7 @@
           "id": "tour-130560",
           "name": "한국자연사박물관",
           "type": "상설시설",
-          "score": 0.1497
+          "score": 0.1498
         }
       ],
       "books": [
@@ -397,7 +397,7 @@
         {
           "isbn": "9791199398122",
           "title": "시간 고양이",
-          "score": 0.2511
+          "score": 0.2509
         },
         {
           "isbn": "9791130679990",
@@ -456,7 +456,7 @@
           "id": "tour-1186650",
           "name": "대나무 건강나라",
           "type": "상설시설",
-          "score": 0.2655
+          "score": 0.2654
         },
         {
           "id": "tour-130853",
@@ -486,7 +486,7 @@
           "id": "tour-1279232",
           "name": "축제극장몸짓",
           "type": "상설시설",
-          "score": 0.2174
+          "score": 0.2172
         },
         {
           "id": "tour-774640",
@@ -520,12 +520,12 @@
         {
           "isbn": "9791168091535",
           "title": "의사 어벤저스 :어린이 의학 동화",
-          "score": 0.1499
+          "score": 0.1498
         },
         {
           "isbn": "9791130677712",
           "title": "(나의 몸과 마음을 이해하고 더 멋진 내가 되는) 우리들의 사춘기",
-          "score": 0.1426
+          "score": 0.1425
         }
       ],
       "person": {
@@ -581,13 +581,13 @@
           "id": "tour-129708",
           "name": "이천문화원",
           "type": "상설시설",
-          "score": 0.1768
+          "score": 0.1767
         },
         {
           "id": "tour-129857",
           "name": "부천문화원",
           "type": "상설시설",
-          "score": 0.1742
+          "score": 0.1741
         },
         {
           "id": "tour-129866",
@@ -605,7 +605,7 @@
           "id": "tour-129879",
           "name": "연천문화원",
           "type": "상설시설",
-          "score": 0.1691
+          "score": 0.169
         },
         {
           "id": "tour-130377",
@@ -672,76 +672,76 @@
           "id": "tour-2609320",
           "name": "지혜의 숲",
           "type": "상설시설",
-          "score": 0.3008
+          "score": 0.3014
         },
         {
           "id": "tour-3056730",
           "name": "민병갈 식물도서관",
           "type": "상설시설",
-          "score": 0.1947
-        },
-        {
-          "id": "tour-2613675",
-          "name": "미술관 자작나무숲",
-          "type": "상설시설",
-          "score": 0.1881
+          "score": 0.1957
         },
         {
           "id": "tour-3072018",
           "name": "숲속책방",
           "type": "상설시설",
-          "score": 0.1881
+          "score": 0.1889
+        },
+        {
+          "id": "tour-2613675",
+          "name": "미술관 자작나무숲",
+          "type": "상설시설",
+          "score": 0.1887
         },
         {
           "id": "tour-1186650",
           "name": "대나무 건강나라",
           "type": "상설시설",
-          "score": 0.1854
+          "score": 0.1859
         },
         {
           "id": "tour-1799099",
           "name": "순천시립 뿌리깊은나무 박물관",
           "type": "상설시설",
-          "score": 0.1709
+          "score": 0.1714
         },
         {
           "id": "tour-2953078",
           "name": "호랑가시나무 아트폴리곤",
           "type": "상설시설",
-          "score": 0.1656
+          "score": 0.1661
         },
         {
           "id": "tour-2362581",
           "name": "숲속작은책방",
           "type": "상설시설",
-          "score": 0.1632
+          "score": 0.1639
         }
       ],
       "books": [
         {
           "isbn": "9791158360337",
           "title": "꽃에서 나온 코끼리",
-          "score": 0.1614
+          "score": 0.162
         },
         {
           "isbn": "9791190337427",
           "title": "햇빛초 대나무 숲에 새 글이 올라왔습니다",
-          "score": 0.1389
+          "score": 0.1393
         },
         {
           "isbn": "9791168341753",
           "title": "벚꽃 수영장",
-          "score": 0.1342
+          "score": 0.1347
         },
         {
           "isbn": "9791167552006",
           "title": "햇빛초 대나무 숲의 모든 글이 삭제되었습니다",
-          "score": 0.1338
+          "score": 0.1341
         },
         {
           "isbn": "9791168342491",
           "title": "불꽃 수영 대회",
-          "score": 0.1322
+          "score": 0.1326
         }
       ],
       "person": {
@@ -785,7 +785,7 @@
           "id": "tour-2782914",
           "name": "고래책방",
           "type": "상설시설",
-          "score": 0.2317
+          "score": 0.2316
         },
         {
           "id": "tour-1687039",
@@ -815,7 +815,7 @@
           "id": "tour-2784201",
           "name": "해양생물테마파크",
           "type": "상설시설",
-          "score": 0.1813
+          "score": 0.1812
         },
         {
           "id": "tour-3569581",
@@ -839,7 +839,7 @@
         {
           "isbn": "9791168440258",
           "title": "곤충보다 작아진 정브르 :생물 학습 만화",
-          "score": 0.0924
+          "score": 0.0923
         },
         {
           "isbn": "9791162331088",
@@ -898,76 +898,76 @@
           "id": "tour-1904335",
           "name": "태권도원",
           "type": "상설시설",
-          "score": 0.3629
+          "score": 0.3636
         },
         {
           "id": "tour-2825248",
           "name": "이스포츠 명예의 전당",
           "type": "상설시설",
-          "score": 0.2765
+          "score": 0.2771
         },
         {
           "id": "tour-3351028",
           "name": "수원 월드컵경기장 축구박물관",
           "type": "상설시설",
-          "score": 0.1992
+          "score": 0.1997
         },
         {
           "id": "tour-130203",
           "name": "수영민속예술관",
           "type": "상설시설",
-          "score": 0.1989
+          "score": 0.1996
         },
         {
           "id": "tour-130568",
           "name": "갤러리 미즈",
           "type": "상설시설",
-          "score": 0.1806
+          "score": 0.1817
         },
         {
           "id": "tour-3057862",
           "name": "김수영문학관",
           "type": "상설시설",
-          "score": 0.1767
+          "score": 0.1776
         },
         {
           "id": "tour-596511",
           "name": "국기원(세계태권도본부)",
           "type": "상설시설",
-          "score": 0.1717
+          "score": 0.1722
         },
         {
           "id": "tour-3416331",
           "name": "도모헌",
           "type": "상설시설",
-          "score": 0.171
+          "score": 0.1719
         }
       ],
       "books": [
         {
           "isbn": "9791168341180",
           "title": "야옹이 수영 교실",
-          "score": 0.2303
+          "score": 0.2309
         },
         {
           "isbn": "9791168342491",
           "title": "불꽃 수영 대회",
-          "score": 0.2197
+          "score": 0.2201
         },
         {
           "isbn": "9791158364595",
           "title": "질투는 아웃, 야구 장갑! :유설화 그림책",
-          "score": 0.1803
+          "score": 0.1807
         },
         {
           "isbn": "9791198381811",
           "title": "대충 봐도 머리에 남는 어린이 야구 상식 :야구의 재미를 제대로 알게 하는 알쏭달쏭 야구의 모든 것",
-          "score": 0.164
+          "score": 0.1643
         },
         {
           "isbn": "9791168341753",
           "title": "벚꽃 수영장",
-          "score": 0.1584
+          "score": 0.159
         }
       ],
       "person": {
@@ -1011,7 +1011,7 @@
           "id": "tour-3002799",
           "name": "한국전통음식박물관",
           "type": "상설시설",
-          "score": 0.1971
+          "score": 0.197
         },
         {
           "id": "tour-231964",
@@ -1041,7 +1041,7 @@
           "id": "tourfes-3367339",
           "name": "2026 우리쌀 우리술 K-라이스페스타",
           "type": "행사",
-          "score": 0.1236
+          "score": 0.1234
         }
       ],
       "books": [
@@ -1112,76 +1112,76 @@
           "id": "tour-3011031",
           "name": "곤충테마여행",
           "type": "상설시설",
-          "score": 0.1684
+          "score": 0.1695
         },
         {
           "id": "tour-2513112",
           "name": "와동 생태곤충 체험관",
           "type": "상설시설",
-          "score": 0.1525
+          "score": 0.1535
         },
         {
           "id": "tour-2550788",
           "name": "여주곤충박물관",
           "type": "상설시설",
-          "score": 0.1465
+          "score": 0.1475
         },
         {
           "id": "tour-1181485",
           "name": "상주박물관",
           "type": "상설시설",
-          "score": 0.1458
+          "score": 0.1467
         },
         {
           "id": "tour-2605321",
           "name": "양평곤충박물관",
           "type": "상설시설",
-          "score": 0.1456
+          "score": 0.1465
         },
         {
           "id": "tour-130467",
           "name": "영월곤충박물관",
           "type": "상설시설",
-          "score": 0.1372
+          "score": 0.1381
         },
         {
           "id": "tour-3056827",
           "name": "순천곤충박물관",
           "type": "상설시설",
-          "score": 0.133
+          "score": 0.134
         },
         {
           "id": "tour-2779301",
           "name": "영암곤충박물관",
           "type": "상설시설",
-          "score": 0.1329
+          "score": 0.1338
         }
       ],
       "books": [
         {
           "isbn": "9791159955624",
           "title": "곤충 찜질방",
-          "score": 0.2329
+          "score": 0.234
         },
         {
           "isbn": "9791193207406",
           "title": "곤충 호텔",
-          "score": 0.184
+          "score": 0.1851
         },
         {
           "isbn": "9788936414085",
           "title": "나는 3학년 2반 7번 애벌레 :김원아 동화",
-          "score": 0.1518
+          "score": 0.1521
         },
         {
           "isbn": "9788936414191",
           "title": "나는 3학년 2반 전설의 애벌레 :김원아 동화",
-          "score": 0.1505
+          "score": 0.1509
         },
         {
           "isbn": "9791141610623",
           "title": "나비도감",
-          "score": 0.1313
+          "score": 0.1319
         }
       ],
       "person": {
@@ -1317,24 +1317,24 @@
       {
         "topic": "history",
         "name": "역사와위인",
-        "score": 0.31
+        "score": 0.3102
       },
       {
         "topic": "plant",
         "name": "식물",
-        "score": 0.2956
+        "score": 0.2951
       }
     ],
     "history": [
       {
         "topic": "animal",
         "name": "동물",
-        "score": 0.4102
+        "score": 0.4101
       },
       {
         "topic": "insect",
         "name": "곤충",
-        "score": 0.3729
+        "score": 0.372
       }
     ],
     "science": [
@@ -1346,31 +1346,31 @@
       {
         "topic": "animal",
         "name": "동물",
-        "score": 0.2411
+        "score": 0.2412
       }
     ],
     "animal": [
       {
         "topic": "history",
         "name": "역사와위인",
-        "score": 0.4102
+        "score": 0.4101
       },
       {
         "topic": "sealife",
         "name": "바다생물",
-        "score": 0.3993
+        "score": 0.3994
       }
     ],
     "body": [
       {
         "topic": "history",
         "name": "역사와위인",
-        "score": 0.3144
+        "score": 0.3143
       },
       {
         "topic": "plant",
         "name": "식물",
-        "score": 0.1746
+        "score": 0.1743
       }
     ],
     "space": [
@@ -1382,26 +1382,26 @@
       {
         "topic": "history",
         "name": "역사와위인",
-        "score": 0.1674
+        "score": 0.1675
       }
     ],
     "plant": [
       {
         "topic": "history",
         "name": "역사와위인",
-        "score": 0.3257
+        "score": 0.3252
       },
       {
         "topic": "art",
         "name": "그림",
-        "score": 0.2956
+        "score": 0.2951
       }
     ],
     "sealife": [
       {
         "topic": "animal",
         "name": "동물",
-        "score": 0.3993
+        "score": 0.3994
       },
       {
         "topic": "history",
@@ -1413,19 +1413,19 @@
       {
         "topic": "history",
         "name": "역사와위인",
-        "score": 0.3242
+        "score": 0.3236
       },
       {
         "topic": "art",
         "name": "그림",
-        "score": 0.2576
+        "score": 0.2571
       }
     ],
     "cooking": [
       {
         "topic": "history",
         "name": "역사와위인",
-        "score": 0.251
+        "score": 0.2509
       },
       {
         "topic": "art",
@@ -1437,19 +1437,19 @@
       {
         "topic": "history",
         "name": "역사와위인",
-        "score": 0.3729
+        "score": 0.372
       },
       {
         "topic": "animal",
         "name": "동물",
-        "score": 0.3159
+        "score": 0.3156
       }
     ],
     "music": [
       {
         "topic": "history",
         "name": "역사와위인",
-        "score": 0.3227
+        "score": 0.3228
       },
       {
         "topic": "art",
@@ -1460,160 +1460,160 @@
   },
   "adjacency_matrix": {
     "art": {
-      "history": 0.31,
-      "science": 0.1581,
+      "history": 0.3102,
+      "science": 0.1582,
       "animal": 0.167,
       "body": 0.1685,
-      "space": 0.1593,
-      "plant": 0.2956,
-      "sealife": 0.1306,
-      "sports": 0.2576,
+      "space": 0.1594,
+      "plant": 0.2951,
+      "sealife": 0.1307,
+      "sports": 0.2571,
       "cooking": 0.1125,
-      "insect": 0.1754,
+      "insect": 0.175,
       "music": 0.2537
     },
     "history": {
-      "art": 0.31,
-      "science": 0.1983,
-      "animal": 0.4102,
-      "body": 0.3144,
-      "space": 0.1674,
-      "plant": 0.3257,
+      "art": 0.3102,
+      "science": 0.1984,
+      "animal": 0.4101,
+      "body": 0.3143,
+      "space": 0.1675,
+      "plant": 0.3252,
       "sealife": 0.2873,
-      "sports": 0.3242,
-      "cooking": 0.251,
-      "insect": 0.3729,
-      "music": 0.3227
+      "sports": 0.3236,
+      "cooking": 0.2509,
+      "insect": 0.372,
+      "music": 0.3228
     },
     "science": {
-      "art": 0.1581,
-      "history": 0.1983,
-      "animal": 0.2411,
+      "art": 0.1582,
+      "history": 0.1984,
+      "animal": 0.2412,
       "body": 0.1411,
       "space": 0.3941,
-      "plant": 0.1457,
+      "plant": 0.1455,
       "sealife": 0.2165,
-      "sports": 0.1085,
+      "sports": 0.1083,
       "cooking": 0.0627,
-      "insect": 0.1406,
+      "insect": 0.1403,
       "music": 0.122
     },
     "animal": {
       "art": 0.167,
-      "history": 0.4102,
-      "science": 0.2411,
+      "history": 0.4101,
+      "science": 0.2412,
       "body": 0.1245,
-      "space": 0.124,
-      "plant": 0.2094,
-      "sealife": 0.3993,
-      "sports": 0.1323,
+      "space": 0.1241,
+      "plant": 0.2092,
+      "sealife": 0.3994,
+      "sports": 0.132,
       "cooking": 0.0931,
-      "insect": 0.3159,
+      "insect": 0.3156,
       "music": 0.1288
     },
     "body": {
       "art": 0.1685,
-      "history": 0.3144,
+      "history": 0.3143,
       "science": 0.1411,
       "animal": 0.1245,
       "space": 0.0696,
-      "plant": 0.1746,
-      "sealife": 0.0901,
-      "sports": 0.1145,
+      "plant": 0.1743,
+      "sealife": 0.09,
+      "sports": 0.1142,
       "cooking": 0.08,
-      "insect": 0.1107,
-      "music": 0.1374
+      "insect": 0.1103,
+      "music": 0.1373
     },
     "space": {
-      "art": 0.1593,
-      "history": 0.1674,
+      "art": 0.1594,
+      "history": 0.1675,
       "science": 0.3941,
-      "animal": 0.124,
+      "animal": 0.1241,
       "body": 0.0696,
-      "plant": 0.119,
+      "plant": 0.1188,
       "sealife": 0.0973,
-      "sports": 0.1061,
+      "sports": 0.1059,
       "cooking": 0.0467,
-      "insect": 0.0953,
+      "insect": 0.0951,
       "music": 0.1003
     },
     "plant": {
-      "art": 0.2956,
-      "history": 0.3257,
-      "science": 0.1457,
-      "animal": 0.2094,
-      "body": 0.1746,
-      "space": 0.119,
-      "sealife": 0.1678,
-      "sports": 0.184,
-      "cooking": 0.0711,
-      "insect": 0.1492,
-      "music": 0.1635
+      "art": 0.2951,
+      "history": 0.3252,
+      "science": 0.1455,
+      "animal": 0.2092,
+      "body": 0.1743,
+      "space": 0.1188,
+      "sealife": 0.1676,
+      "sports": 0.1834,
+      "cooking": 0.0709,
+      "insect": 0.1486,
+      "music": 0.1632
     },
     "sealife": {
-      "art": 0.1306,
+      "art": 0.1307,
       "history": 0.2873,
       "science": 0.2165,
-      "animal": 0.3993,
-      "body": 0.0901,
+      "animal": 0.3994,
+      "body": 0.09,
       "space": 0.0973,
-      "plant": 0.1678,
-      "sports": 0.1411,
+      "plant": 0.1676,
+      "sports": 0.1409,
       "cooking": 0.0693,
-      "insect": 0.1383,
+      "insect": 0.138,
       "music": 0.0958
     },
     "sports": {
-      "art": 0.2576,
-      "history": 0.3242,
-      "science": 0.1085,
-      "animal": 0.1323,
-      "body": 0.1145,
-      "space": 0.1061,
-      "plant": 0.184,
-      "sealife": 0.1411,
-      "cooking": 0.0932,
-      "insect": 0.1399,
-      "music": 0.145
+      "art": 0.2571,
+      "history": 0.3236,
+      "science": 0.1083,
+      "animal": 0.132,
+      "body": 0.1142,
+      "space": 0.1059,
+      "plant": 0.1834,
+      "sealife": 0.1409,
+      "cooking": 0.0929,
+      "insect": 0.1393,
+      "music": 0.1446
     },
     "cooking": {
       "art": 0.1125,
-      "history": 0.251,
+      "history": 0.2509,
       "science": 0.0627,
       "animal": 0.0931,
       "body": 0.08,
       "space": 0.0467,
-      "plant": 0.0711,
+      "plant": 0.0709,
       "sealife": 0.0693,
-      "sports": 0.0932,
-      "insect": 0.0929,
+      "sports": 0.0929,
+      "insect": 0.0926,
       "music": 0.0875
     },
     "insect": {
-      "art": 0.1754,
-      "history": 0.3729,
-      "science": 0.1406,
-      "animal": 0.3159,
-      "body": 0.1107,
-      "space": 0.0953,
-      "plant": 0.1492,
-      "sealife": 0.1383,
-      "sports": 0.1399,
-      "cooking": 0.0929,
-      "music": 0.1286
+      "art": 0.175,
+      "history": 0.372,
+      "science": 0.1403,
+      "animal": 0.3156,
+      "body": 0.1103,
+      "space": 0.0951,
+      "plant": 0.1486,
+      "sealife": 0.138,
+      "sports": 0.1393,
+      "cooking": 0.0926,
+      "music": 0.1283
     },
     "music": {
       "art": 0.2537,
-      "history": 0.3227,
+      "history": 0.3228,
       "science": 0.122,
       "animal": 0.1288,
-      "body": 0.1374,
+      "body": 0.1373,
       "space": 0.1003,
-      "plant": 0.1635,
+      "plant": 0.1632,
       "sealife": 0.0958,
-      "sports": 0.145,
+      "sports": 0.1446,
       "cooking": 0.0875,
-      "insect": 0.1286
+      "insect": 0.1283
     }
   },
   "discover_quota": {
@@ -1625,7 +1625,7 @@
         "id": "tour-2606761",
         "name": "이순신영상관",
         "type": "상설시설",
-        "score": 0.1897
+        "score": 0.1896
       }
     },
     "far": {
@@ -1635,7 +1635,7 @@
         "id": "tour-3002799",
         "name": "한국전통음식박물관",
         "type": "상설시설",
-        "score": 0.1971
+        "score": 0.197
       }
     },
     "anti_stereotype_person": {

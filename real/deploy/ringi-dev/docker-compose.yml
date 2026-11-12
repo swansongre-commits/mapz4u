@@ -1,0 +1,15 @@
+# 사내 개발서버 배포용 compose. 서버 폴더 ~/mapz 에서 실행한다.
+# 화면은 FastAPI가 서버에서 렌더링하고 결과 HTML만 보낸다(정적 데이터 덤프 아님).
+services:
+  web:
+    build:
+      context: ./app
+      dockerfile: deploy/ringi-dev/Dockerfile
+    image: mapz-web:latest
+    container_name: mapz-web
+    restart: unless-stopped
+    environment:
+      - MAPZ_RATE_LIMIT=180
+      - TZ=Asia/Seoul
+    ports:
+      - "33105:8000"

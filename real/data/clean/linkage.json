@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-21",
+  "generated": "2026-11-22",
   "embed": "tfidf-char24",
   "topics": {
     "art": {
@@ -21,13 +21,13 @@
           "id": "tour-2798046",
           "name": "김택화 미술관",
           "type": "상설시설",
-          "score": 0.1333
+          "score": 0.1332
         },
         {
           "id": "tour-129937",
           "name": "미술관 솔",
           "type": "상설시설",
-          "score": 0.1152
+          "score": 0.1151
         },
         {
           "id": "tour-4135413",
@@ -191,7 +191,7 @@
         {
           "isbn": "9788934941330",
           "title": "(흔한 남매) 세계사 탐험대",
-          "score": 0.1514
+          "score": 0.1515
         }
       ],
       "person": {
@@ -260,7 +260,7 @@
           "id": "tour-130712",
           "name": "농업과학관",
           "type": "상설시설",
-          "score": 0.2304
+          "score": 0.2302
         },
         {
           "id": "tour-2778182",
@@ -272,7 +272,7 @@
           "id": "tour-1838602",
           "name": "최무선과학관",
           "type": "상설시설",
-          "score": 0.2195
+          "score": 0.2194
         }
       ],
       "books": [
@@ -294,7 +294,7 @@
         {
           "isbn": "9791168415188",
           "title": "슈뻘맨의 숨은 과학 찾기 :엉뚱 도전 속에 숨은 과학 상식",
-          "score": 0.2139
+          "score": 0.2138
         },
         {
           "isbn": "9791173321610",
@@ -373,7 +373,7 @@
           "id": "tour-2663316",
           "name": "고성생태학습관",
           "type": "상설시설",
-          "score": 0.1517
+          "score": 0.1516
         },
         {
           "id": "tour-130743",
@@ -385,7 +385,7 @@
           "id": "tour-130560",
           "name": "한국자연사박물관",
           "type": "상설시설",
-          "score": 0.1497
+          "score": 0.1496
         }
       ],
       "books": [
@@ -623,7 +623,7 @@
         {
           "isbn": "9791165883607",
           "title": "달과 지구가 다툰 날",
-          "score": 0.0712
+          "score": 0.0711
         }
       ],
       "person": {
@@ -685,13 +685,13 @@
           "id": "tour-3072018",
           "name": "숲속책방",
           "type": "상설시설",
-          "score": 0.1901
+          "score": 0.19
         },
         {
           "id": "tour-1186650",
           "name": "대나무 건강나라",
           "type": "상설시설",
-          "score": 0.1877
+          "score": 0.1876
         },
         {
           "id": "tour-1799099",
@@ -709,7 +709,7 @@
           "id": "tour-2362581",
           "name": "숲속작은책방",
           "type": "상설시설",
-          "score": 0.1651
+          "score": 0.165
         }
       ],
       "books": [
@@ -780,7 +780,7 @@
           "id": "tour-2782914",
           "name": "고래책방",
           "type": "상설시설",
-          "score": 0.2307
+          "score": 0.2306
         },
         {
           "id": "tour-1687039",
@@ -829,7 +829,7 @@
         {
           "isbn": "9791158362287",
           "title": "우당탕탕 야옹이와 바다 끝 괴물",
-          "score": 0.1533
+          "score": 0.1532
         },
         {
           "isbn": "9791168343146",
@@ -893,7 +893,7 @@
           "id": "tour-1904335",
           "name": "태권도원",
           "type": "상설시설",
-          "score": 0.3623
+          "score": 0.3621
         },
         {
           "id": "tour-2825248",
@@ -1131,7 +1131,7 @@
           "id": "tour-130467",
           "name": "영월곤충박물관",
           "type": "상설시설",
-          "score": 0.1377
+          "score": 0.1376
         },
         {
           "id": "tour-3056827",
@@ -1150,12 +1150,12 @@
         {
           "isbn": "9791159955624",
           "title": "곤충 찜질방",
-          "score": 0.2366
+          "score": 0.2365
         },
         {
           "isbn": "9791193207406",
           "title": "곤충 호텔",
-          "score": 0.1845
+          "score": 0.1844
         },
         {
           "isbn": "9788936414085",
@@ -1209,7 +1209,7 @@
           "id": "tour-596964",
           "name": "세계자동차&피아노 박물관",
           "type": "상설시설",
-          "score": 0.2515
+          "score": 0.2514
         },
         {
           "id": "tour-2557970",
@@ -1221,13 +1221,13 @@
           "id": "tour-2772315",
           "name": "음악역 1939",
           "type": "상설시설",
-          "score": 0.2015
+          "score": 0.2014
         },
         {
           "id": "tour-130124",
           "name": "국립국악원",
           "type": "상설시설",
-          "score": 0.1815
+          "score": 0.1814
         },
         {
           "id": "tour-129839",
@@ -1245,7 +1245,7 @@
           "id": "tour-3081147",
           "name": "관악아트홀",
           "type": "상설시설",
-          "score": 0.1713
+          "score": 0.1712
         },
         {
           "id": "tour-2865130",
@@ -1311,7 +1311,7 @@
       {
         "topic": "plant",
         "name": "식물",
-        "score": 0.2941
+        "score": 0.2942
       }
     ],
     "history": [
@@ -1323,7 +1323,7 @@
       {
         "topic": "insect",
         "name": "곤충",
-        "score": 0.3725
+        "score": 0.3726
       }
     ],
     "science": [
@@ -1383,7 +1383,7 @@
       {
         "topic": "art",
         "name": "그림",
-        "score": 0.2941
+        "score": 0.2942
       }
     ],
     "sealife": [
@@ -1402,7 +1402,7 @@
       {
         "topic": "history",
         "name": "역사와위인",
-        "score": 0.3287
+        "score": 0.3288
       },
       {
         "topic": "art",
@@ -1426,19 +1426,19 @@
       {
         "topic": "history",
         "name": "역사와위인",
-        "score": 0.3725
+        "score": 0.3726
       },
       {
         "topic": "animal",
         "name": "동물",
-        "score": 0.314
+        "score": 0.3141
       }
     ],
     "music": [
       {
         "topic": "history",
         "name": "역사와위인",
-        "score": 0.3225
+        "score": 0.3226
       },
       {
         "topic": "art",
@@ -1450,15 +1450,15 @@
   "adjacency_matrix": {
     "art": {
       "history": 0.3092,
-      "science": 0.1575,
+      "science": 0.1576,
       "animal": 0.1669,
       "body": 0.1684,
       "space": 0.1588,
-      "plant": 0.2941,
+      "plant": 0.2942,
       "sealife": 0.1339,
       "sports": 0.256,
       "cooking": 0.1337,
-      "insect": 0.175,
+      "insect": 0.1751,
       "music": 0.2546
     },
     "history": {
@@ -1469,49 +1469,49 @@
       "space": 0.1675,
       "plant": 0.324,
       "sealife": 0.2848,
-      "sports": 0.3287,
+      "sports": 0.3288,
       "cooking": 0.3074,
-      "insect": 0.3725,
-      "music": 0.3225
+      "insect": 0.3726,
+      "music": 0.3226
     },
     "science": {
-      "art": 0.1575,
+      "art": 0.1576,
       "history": 0.1977,
       "animal": 0.2393,
       "body": 0.1409,
       "space": 0.3917,
-      "plant": 0.1448,
+      "plant": 0.1449,
       "sealife": 0.2139,
       "sports": 0.1084,
       "cooking": 0.0765,
       "insect": 0.1398,
-      "music": 0.1218
+      "music": 0.1219
     },
     "animal": {
       "art": 0.1669,
       "history": 0.4072,
       "science": 0.2393,
-      "body": 0.1229,
+      "body": 0.123,
       "space": 0.1249,
       "plant": 0.2084,
       "sealife": 0.4121,
-      "sports": 0.132,
+      "sports": 0.1321,
       "cooking": 0.1165,
-      "insect": 0.314,
+      "insect": 0.3141,
       "music": 0.1287
     },
     "body": {
       "art": 0.1684,
       "history": 0.3137,
       "science": 0.1409,
-      "animal": 0.1229,
+      "animal": 0.123,
       "space": 0.0692,
       "plant": 0.1741,
-      "sealife": 0.0898,
-      "sports": 0.1131,
+      "sealife": 0.0899,
+      "sports": 0.1132,
       "cooking": 0.0995,
-      "insect": 0.1102,
-      "music": 0.1379
+      "insect": 0.1103,
+      "music": 0.138
     },
     "space": {
       "art": 0.1588,
@@ -1519,51 +1519,51 @@
       "science": 0.3917,
       "animal": 0.1249,
       "body": 0.0692,
-      "plant": 0.1187,
+      "plant": 0.1188,
       "sealife": 0.0972,
-      "sports": 0.1035,
+      "sports": 0.1036,
       "cooking": 0.0608,
       "insect": 0.0949,
       "music": 0.0998
     },
     "plant": {
-      "art": 0.2941,
+      "art": 0.2942,
       "history": 0.324,
-      "science": 0.1448,
+      "science": 0.1449,
       "animal": 0.2084,
       "body": 0.1741,
-      "space": 0.1187,
-      "sealife": 0.1678,
-      "sports": 0.1804,
-      "cooking": 0.0883,
+      "space": 0.1188,
+      "sealife": 0.1679,
+      "sports": 0.1805,
+      "cooking": 0.0884,
       "insect": 0.1482,
-      "music": 0.1593
+      "music": 0.1594
     },
     "sealife": {
       "art": 0.1339,
       "history": 0.2848,
       "science": 0.2139,
       "animal": 0.4121,
-      "body": 0.0898,
+      "body": 0.0899,
       "space": 0.0972,
-      "plant": 0.1678,
+      "plant": 0.1679,
       "sports": 0.1421,
       "cooking": 0.0934,
       "insect": 0.1375,
-      "music": 0.097
+      "music": 0.0971
     },
     "sports": {
       "art": 0.256,
-      "history": 0.3287,
+      "history": 0.3288,
       "science": 0.1084,
-      "animal": 0.132,
-      "body": 0.1131,
-      "space": 0.1035,
-      "plant": 0.1804,
+      "animal": 0.1321,
+      "body": 0.1132,
+      "space": 0.1036,
+      "plant": 0.1805,
       "sealife": 0.1421,
       "cooking": 0.1285,
       "insect": 0.1441,
-      "music": 0.1442
+      "music": 0.1443
     },
     "cooking": {
       "art": 0.1337,
@@ -1572,36 +1572,36 @@
       "animal": 0.1165,
       "body": 0.0995,
       "space": 0.0608,
-      "plant": 0.0883,
+      "plant": 0.0884,
       "sealife": 0.0934,
       "sports": 0.1285,
-      "insect": 0.1213,
-      "music": 0.1076
+      "insect": 0.1214,
+      "music": 0.1077
     },
     "insect": {
-      "art": 0.175,
-      "history": 0.3725,
+      "art": 0.1751,
+      "history": 0.3726,
       "science": 0.1398,
-      "animal": 0.314,
-      "body": 0.1102,
+      "animal": 0.3141,
+      "body": 0.1103,
       "space": 0.0949,
       "plant": 0.1482,
       "sealife": 0.1375,
       "sports": 0.1441,
-      "cooking": 0.1213,
+      "cooking": 0.1214,
       "music": 0.1286
     },
     "music": {
       "art": 0.2546,
-      "history": 0.3225,
-      "science": 0.1218,
+      "history": 0.3226,
+      "science": 0.1219,
       "animal": 0.1287,
-      "body": 0.1379,
+      "body": 0.138,
       "space": 0.0998,
-      "plant": 0.1593,
-      "sealife": 0.097,
-      "sports": 0.1442,
-      "cooking": 0.1076,
+      "plant": 0.1594,
+      "sealife": 0.0971,
+      "sports": 0.1443,
+      "cooking": 0.1077,
       "insect": 0.1286
     }
   },

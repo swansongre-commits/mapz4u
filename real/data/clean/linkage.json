@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-27",
+  "generated": "2026-11-28",
   "embed": "tfidf-char24",
   "topics": {
     "art": {
@@ -1359,7 +1359,7 @@
       {
         "topic": "history",
         "name": "역사와위인",
-        "score": 0.3134
+        "score": 0.3133
       },
       {
         "topic": "plant",
@@ -1419,7 +1419,7 @@
       {
         "topic": "history",
         "name": "역사와위인",
-        "score": 0.3071
+        "score": 0.307
       },
       {
         "topic": "art",
@@ -1470,12 +1470,12 @@
       "art": 0.3091,
       "science": 0.1975,
       "animal": 0.4068,
-      "body": 0.3134,
+      "body": 0.3133,
       "space": 0.1677,
       "plant": 0.3244,
       "sealife": 0.2845,
       "sports": 0.3283,
-      "cooking": 0.3071,
+      "cooking": 0.307,
       "insect": 0.3722,
       "music": 0.3224
     },
@@ -1507,7 +1507,7 @@
     },
     "body": {
       "art": 0.1682,
-      "history": 0.3134,
+      "history": 0.3133,
       "science": 0.1408,
       "animal": 0.1228,
       "space": 0.0693,
@@ -1572,7 +1572,7 @@
     },
     "cooking": {
       "art": 0.1337,
-      "history": 0.3071,
+      "history": 0.307,
       "science": 0.0766,
       "animal": 0.1165,
       "body": 0.0995,
